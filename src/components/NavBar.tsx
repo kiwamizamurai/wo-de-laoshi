@@ -4,6 +4,7 @@ interface NavBarProps {
 }
 
 const TABS = [
+  { path: '/home', label: 'ホーム', icon: '家' },
   { path: '/flashcards', label: '単語帳', icon: '卡' },
   { path: '/search', label: '検索', icon: '找' },
   { path: '/translate', label: '翻訳', icon: '译' },

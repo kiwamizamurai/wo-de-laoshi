@@ -1,5 +1,6 @@
 import { useHashRoute } from './router/useHashRoute';
 import { Layout } from './components/Layout';
+import { HomePage } from './features/home/HomePage';
 import { FlashcardsPage } from './features/flashcards/FlashcardsPage';
 import { TranslatePage } from './features/translate/TranslatePage';
 import { ScenarioSelect } from './features/chat/ScenarioSelect';
@@ -10,7 +11,9 @@ export function App() {
   const [path, navigate] = useHashRoute();
 
   let content: JSX.Element;
-  if (path.startsWith('/translate')) {
+  if (path.startsWith('/flashcards')) {
+    content = <FlashcardsPage />;
+  } else if (path.startsWith('/translate')) {
     content = <TranslatePage />;
   } else if (path.startsWith('/search')) {
     content = <SearchPage onSelectScenario={(id) => navigate(`/chat/${id}`)} />;
@@ -20,7 +23,7 @@ export function App() {
   } else if (path.startsWith('/chat')) {
     content = <ScenarioSelect onSelect={(id) => navigate(`/chat/${id}`)} />;
   } else {
-    content = <FlashcardsPage />;
+    content = <HomePage />;
   }
 
   return (

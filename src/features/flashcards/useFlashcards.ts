@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'hono/jsx/dom';
 import type { VocabItem } from '../../data/types';
+import { recordActivity } from './activityLog';
 import { loadBookmarks, saveBookmarks } from './bookmarks';
 import { createInitialProgress, loadProgress, saveProgress, type CardProgress } from './storage';
 import { isDue, schedule, type Grade } from './srs';
@@ -61,6 +62,7 @@ export function useFlashcards(items: VocabItem[], bookmarkOnly = false) {
     });
     setRevealed(false);
     setCompletedCount((c) => c + 1);
+    recordActivity();
   }
 
   function toggleBookmark(itemId: string): void {

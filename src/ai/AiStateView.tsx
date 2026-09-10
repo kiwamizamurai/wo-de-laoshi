@@ -1,22 +1,24 @@
+import { isMobileDevice } from '../lib/device';
 import type { AiState } from './useAiAvailability';
 
 interface AiStateViewProps<T> {
   state: AiState<T>;
   onRetry: () => void;
   featureLabel: string;
+  unsupportedMessage?: string;
+  unavailableMessage?: string;
   children: (instance: T) => JSX.Element;
 }
 
-function isMobileDevice(): boolean {
-  return /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-}
-
-function unsupportedMessage(): string {
+function defaultUnsupportedMessage(): string {
   if (isMobileDevice()) {
     return 'スマートフォンのブラウザでは利用できません。Chrome Built-in AIは現時点でPC版Chrome(バージョン138以降)専用の機能です。';
   }
   return 'Chrome(バージョン138以降)でアクセスしてください。Edgeの一部バージョンでも開発者向けプレビューとして利用できます。';
 }
+
+const DEFAULT_UNAVAILABLE_MESSAGE =
+  '端末のハードウェア要件(空き容量22GB以上、GPU 4GB VRAM以上またはCPU 16GB RAM+4コア以上)を満たしていない可能性があります。chrome://on-device-internals で状態を確認できます。';
 
 function ProgressBar({ ratio }: { ratio: number }) {
   const pct = Math.round(Math.min(1, Math.max(0, ratio)) * 100);
@@ -56,20 +58,27 @@ function Notice({ title, body }: { title: string; body: string }) {
  * AiState<T>のすべての分岐を網羅的にレンダリングするゲートコンポーネント。
  * 'ready' のときだけ children(instance) を描画する。
  */
-export function AiStateView<T>({ state, onRetry, featureLabel, children }: AiStateViewProps<T>): JSX.Element {
+export function AiStateView<T>({
+  state,
+  onRetry,
+  featureLabel,
+  unsupportedMessage,
+  unavailableMessage,
+  children,
+}: AiStateViewProps<T>): JSX.Element {
   switch (state.status) {
     case 'checking':
       return <p className="muted">{featureLabel}を確認しています...</p>;
     case 'unsupported':
       return (
-        <Notice title={`${featureLabel}はこのブラウザでは使えません`} body={unsupportedMessage()} />
+        <Notice
+          title={`${featureLabel}はこのブラウザでは使えません`}
+          body={unsupportedMessage ?? defaultUnsupportedMessage()}
+        />
       );
     case 'unavailable':
       return (
-        <Notice
-          title={`${featureLabel}を利用できません`}
-          body="端末のハードウェア要件(空き容量22GB以上、GPU 4GB VRAM以上またはCPU 16GB RAM+4コア以上)を満たしていない可能性があります。chrome://on-device-internals で状態を確認できます。"
-        />
+        <Notice title={`${featureLabel}を利用できません`} body={unavailableMessage ?? DEFAULT_UNAVAILABLE_MESSAGE} />
       );
     case 'downloading':
       return (

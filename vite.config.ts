@@ -21,7 +21,7 @@ export default defineConfig({
         theme_color: '#c0392b',
         background_color: '#faf7f2',
         display: 'standalone',
-        start_url: '/wo-de-laoshi/#/flashcards',
+        start_url: '/wo-de-laoshi/#/home',
         scope: '/wo-de-laoshi/',
         id: '/wo-de-laoshi/',
         icons: [
@@ -33,8 +33,18 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,ico,woff2}'],
+        globIgnores: ['**/webllm-*.js'],
         cleanupOutdatedCaches: true,
       },
     }),
   ],
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: (id) => {
+          if (id.includes('@mlc-ai/web-llm')) return 'webllm-vendor';
+        },
+      },
+    },
+  },
 });

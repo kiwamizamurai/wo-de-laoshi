@@ -2,7 +2,7 @@ import { useEffect, useState } from 'hono/jsx/dom';
 
 function readHash(): string {
   const hash = globalThis.location.hash.replace(/^#/, '');
-  return hash || '/flashcards';
+  return hash || '/home';
 }
 
 export function useHashRoute(): [string, (path: string) => void] {

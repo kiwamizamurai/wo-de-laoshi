@@ -10,7 +10,10 @@ export type VocabCategory =
   | 'phrase'
   | 'daily-conversation'
   | 'friend-chat'
-  | 'reading-notes';
+  | 'reading-notes'
+  | 'workplace'
+  | 'mealtime'
+  | 'small-talk';
 
 export interface VocabItem {
   id: string;
@@ -47,4 +50,7 @@ export const CATEGORY_LABELS: Record<VocabCategory, string> = {
   'daily-conversation': '日常会話',
   'friend-chat': '友達との会話',
   'reading-notes': '読解メモ',
+  workplace: '職場での会話',
+  mealtime: '食事中の会話',
+  'small-talk': '雑談',
 };

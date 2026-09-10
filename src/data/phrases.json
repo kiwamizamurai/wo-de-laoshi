@@ -1,194 +1,1898 @@
 [
-  { "id": "phrase-001", "hanzi": "你好,我要点菜。", "pinyin": "Nǐ hǎo, wǒ yào diǎn cài.", "meaning": "こんにちは、注文したいです。", "category": "phrase", "hskLevel": 1 },
-  { "id": "phrase-002", "hanzi": "我要一杯咖啡。", "pinyin": "Wǒ yào yì bēi kāfēi.", "meaning": "コーヒーを一杯ください。", "category": "phrase", "hskLevel": 1 },
-  { "id": "phrase-003", "hanzi": "多少钱?", "pinyin": "Duōshao qián?", "meaning": "いくらですか?", "category": "phrase", "hskLevel": 1 },
-  { "id": "phrase-004", "hanzi": "太贵了,便宜一点吧。", "pinyin": "Tài guì le, piányi yìdiǎn ba.", "meaning": "高すぎます、少し安くしてください。", "category": "phrase", "hskLevel": 2 },
-  { "id": "phrase-005", "hanzi": "请问洗手间在哪里?", "pinyin": "Qǐngwèn xǐshǒujiān zài nǎlǐ?", "meaning": "お手洗いはどこですか?", "category": "phrase", "hskLevel": 1 },
-  { "id": "phrase-006", "hanzi": "我可以刷卡吗?", "pinyin": "Wǒ kěyǐ shuākǎ ma?", "meaning": "カードは使えますか?", "category": "phrase", "hskLevel": 2 },
-  { "id": "phrase-007", "hanzi": "请给我看看菜单。", "pinyin": "Qǐng gěi wǒ kànkan càidān.", "meaning": "メニューを見せてください。", "category": "phrase", "hskLevel": 2 },
-  { "id": "phrase-008", "hanzi": "我要这个。", "pinyin": "Wǒ yào zhège.", "meaning": "これをください。", "category": "phrase", "hskLevel": 1 },
-  { "id": "phrase-009", "hanzi": "我叫田中,请多关照。", "pinyin": "Wǒ jiào Tiánzhōng, qǐng duō guānzhào.", "meaning": "田中と申します、よろしくお願いします。", "category": "phrase", "hskLevel": 1 },
-  { "id": "phrase-010", "hanzi": "很高兴认识你。", "pinyin": "Hěn gāoxìng rènshi nǐ.", "meaning": "お会いできて嬉しいです。", "category": "phrase", "hskLevel": 2 },
-  { "id": "phrase-011", "hanzi": "我是从日本来的。", "pinyin": "Wǒ shì cóng Rìběn lái de.", "meaning": "私は日本から来ました。", "category": "phrase", "hskLevel": 2 },
-  { "id": "phrase-012", "hanzi": "请问,到机场怎么走?", "pinyin": "Qǐngwèn, dào jīchǎng zěnme zǒu?", "meaning": "空港へはどう行きますか?", "category": "phrase", "hskLevel": 2 },
-  { "id": "phrase-013", "hanzi": "请到这个地址。", "pinyin": "Qǐng dào zhège dìzhǐ.", "meaning": "この住所までお願いします。", "category": "phrase", "hskLevel": 2 },
-  { "id": "phrase-014", "hanzi": "请开一下空调。", "pinyin": "Qǐng kāi yíxià kōngtiáo.", "meaning": "エアコンをつけてください。", "category": "phrase", "hskLevel": 2 },
-  { "id": "phrase-015", "hanzi": "到了请告诉我。", "pinyin": "Dào le qǐng gàosu wǒ.", "meaning": "着いたら教えてください。", "category": "phrase", "hskLevel": 2 },
-  { "id": "phrase-016", "hanzi": "我想预订一个房间。", "pinyin": "Wǒ xiǎng yùdìng yí ge fángjiān.", "meaning": "部屋を予約したいです。", "category": "phrase", "hskLevel": 3 },
-  { "id": "phrase-017", "hanzi": "我想办理入住。", "pinyin": "Wǒ xiǎng bànlǐ rùzhù.", "meaning": "チェックインしたいです。", "category": "phrase", "hskLevel": 3 },
-  { "id": "phrase-018", "hanzi": "我的房间号是多少?", "pinyin": "Wǒ de fángjiān hào shì duōshao?", "meaning": "私の部屋番号は何番ですか?", "category": "phrase", "hskLevel": 2 },
-  { "id": "phrase-019", "hanzi": "几点可以退房?", "pinyin": "Jǐ diǎn kěyǐ tuìfáng?", "meaning": "何時にチェックアウトできますか?", "category": "phrase", "hskLevel": 3 },
-  { "id": "phrase-020", "hanzi": "可以再便宜一点吗?", "pinyin": "Kěyǐ zài piányi yìdiǎn ma?", "meaning": "もう少し安くできますか?", "category": "phrase", "hskLevel": 2 },
-  { "id": "phrase-021", "hanzi": "太贵了。", "pinyin": "Tài guì le.", "meaning": "高すぎます。", "category": "phrase", "hskLevel": 1 },
-  { "id": "phrase-022", "hanzi": "我再考虑一下。", "pinyin": "Wǒ zài kǎolǜ yíxià.", "meaning": "もう少し考えます。", "category": "phrase", "hskLevel": 3 },
-  { "id": "phrase-023", "hanzi": "这个周末你有空吗?", "pinyin": "Zhège zhōumò nǐ yǒu kòng ma?", "meaning": "今週末、時間はありますか?", "category": "phrase", "hskLevel": 2 },
-  { "id": "phrase-024", "hanzi": "我们一起去看电影吧。", "pinyin": "Wǒmen yìqǐ qù kàn diànyǐng ba.", "meaning": "一緒に映画を見に行きましょう。", "category": "phrase", "hskLevel": 2 },
-  { "id": "phrase-025", "hanzi": "你周末想做什么?", "pinyin": "Nǐ zhōumò xiǎng zuò shénme?", "meaning": "週末は何をしたいですか?", "category": "phrase", "hskLevel": 2 },
-  { "id": "phrase-026", "hanzi": "听起来不错。", "pinyin": "Tīng qǐlai búcuò.", "meaning": "良さそうですね。", "category": "phrase", "hskLevel": 3 },
-  { "id": "phrase-027", "hanzi": "我们几点见面?", "pinyin": "Wǒmen jǐ diǎn jiànmiàn?", "meaning": "何時に会いましょうか?", "category": "phrase", "hskLevel": 2 },
-  { "id": "phrase-028", "hanzi": "请出示您的护照。", "pinyin": "Qǐng chūshì nín de hùzhào.", "meaning": "パスポートを提示してください。", "category": "phrase", "hskLevel": 3 },
-  { "id": "phrase-029", "hanzi": "您来中国的目的是什么?", "pinyin": "Nín lái Zhōngguó de mùdì shì shénme?", "meaning": "中国に来た目的は何ですか?", "category": "phrase", "hskLevel": 3 },
-  { "id": "phrase-030", "hanzi": "我是来旅游的。", "pinyin": "Wǒ shì lái lǚyóu de.", "meaning": "観光で来ました。", "category": "phrase", "hskLevel": 2 },
-  { "id": "phrase-031", "hanzi": "我打算住五天。", "pinyin": "Wǒ dǎsuàn zhù wǔ tiān.", "meaning": "5日間滞在する予定です。", "category": "phrase", "hskLevel": 3 },
-  { "id": "phrase-032", "hanzi": "祝您旅途愉快。", "pinyin": "Zhù nín lǚtú yúkuài.", "meaning": "良い旅を。", "category": "phrase", "hskLevel": 3 },
-  { "id": "phrase-033", "hanzi": "我要结账。", "pinyin": "Wǒ yào jiézhàng.", "meaning": "会計をお願いします。", "category": "phrase", "hskLevel": 2 },
-  { "id": "phrase-034", "hanzi": "这个能便宜点吗?", "pinyin": "Zhège néng piányi diǎn ma?", "meaning": "これ、安くなりますか?", "category": "phrase", "hskLevel": 2 },
-  { "id": "phrase-035", "hanzi": "我想买这件衣服。", "pinyin": "Wǒ xiǎng mǎi zhè jiàn yīfu.", "meaning": "この服を買いたいです。", "category": "phrase", "hskLevel": 2 },
-  { "id": "phrase-036", "hanzi": "可以试穿吗?", "pinyin": "Kěyǐ shìchuān ma?", "meaning": "試着できますか?", "category": "phrase", "hskLevel": 2 },
-  { "id": "phrase-037", "hanzi": "有大一点的吗?", "pinyin": "Yǒu dà yìdiǎn de ma?", "meaning": "もう少し大きいのはありますか?", "category": "phrase", "hskLevel": 3 },
-  { "id": "phrase-038", "hanzi": "我在找洗手间。", "pinyin": "Wǒ zài zhǎo xǐshǒujiān.", "meaning": "お手洗いを探しています。", "category": "phrase", "hskLevel": 2 },
-  { "id": "phrase-039", "hanzi": "你会说英语吗?", "pinyin": "Nǐ huì shuō Yīngyǔ ma?", "meaning": "英語は話せますか?", "category": "phrase", "hskLevel": 2 },
-  { "id": "phrase-040", "hanzi": "我不太会说汉语。", "pinyin": "Wǒ bú tài huì shuō Hànyǔ.", "meaning": "中国語はあまり話せません。", "category": "phrase", "hskLevel": 2 },
-  { "id": "phrase-041", "hanzi": "请再说一遍。", "pinyin": "Qǐng zài shuō yí biàn.", "meaning": "もう一度言ってください。", "category": "phrase", "hskLevel": 2 },
-  { "id": "phrase-042", "hanzi": "请说慢一点。", "pinyin": "Qǐng shuō màn yìdiǎn.", "meaning": "もう少しゆっくり話してください。", "category": "phrase", "hskLevel": 2 },
-  { "id": "phrase-043", "hanzi": "我听不懂。", "pinyin": "Wǒ tīng bu dǒng.", "meaning": "聞き取れません。", "category": "phrase", "hskLevel": 2 },
-  { "id": "phrase-044", "hanzi": "没关系,慢慢来。", "pinyin": "Méi guānxi, mànmàn lái.", "meaning": "大丈夫です、ゆっくりどうぞ。", "category": "phrase", "hskLevel": 2 },
-  { "id": "phrase-045", "hanzi": "祝你周末愉快。", "pinyin": "Zhù nǐ zhōumò yúkuài.", "meaning": "良い週末を。", "category": "phrase", "hskLevel": 2 },
-
-  { "id": "phrase-046", "hanzi": "下雨了,我先走了。", "pinyin": "Xià yǔ le, wǒ xiān zǒu le.", "meaning": "雨が降ってきたので、お先に失礼します。", "category": "daily-conversation", "hskLevel": 3 },
-  { "id": "phrase-047", "hanzi": "外面在下雨,你带伞了吗?", "pinyin": "Wàimiàn zài xià yǔ, nǐ dài sǎn le ma?", "meaning": "外は雨が降っています、傘を持っていますか?", "category": "daily-conversation", "hskLevel": 3 },
-  { "id": "phrase-048", "hanzi": "今天天气真好。", "pinyin": "Jīntiān tiānqì zhēn hǎo.", "meaning": "今日は本当にいい天気ですね。", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-049", "hanzi": "明天会下雪吗?", "pinyin": "Míngtiān huì xià xuě ma?", "meaning": "明日は雪が降りますか?", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-050", "hanzi": "天气预报说明天有台风。", "pinyin": "Tiānqì yùbào shuō míngtiān yǒu táifēng.", "meaning": "天気予報によると明日は台風だそうです。", "category": "daily-conversation", "hskLevel": 3 },
-  { "id": "phrase-051", "hanzi": "因为下雨,我们改天再去吧。", "pinyin": "Yīnwèi xià yǔ, wǒmen gǎitiān zài qù ba.", "meaning": "雨だから、また別の日に行きましょう。", "category": "daily-conversation", "hskLevel": 3 },
-  { "id": "phrase-052", "hanzi": "刮风了,有点冷。", "pinyin": "Guā fēng le, yǒudiǎn lěng.", "meaning": "風が吹いてきて、少し寒いです。", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-053", "hanzi": "今天很晴朗。", "pinyin": "Jīntiān hěn qínglǎng.", "meaning": "今日はとても晴れています。", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-054", "hanzi": "出门前看看天气吧。", "pinyin": "Chūmén qián kànkan tiānqì ba.", "meaning": "出かける前に天気を見ましょう。", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-055", "hanzi": "雨停了,我们走吧。", "pinyin": "Yǔ tíng le, wǒmen zǒu ba.", "meaning": "雨が止んだので、行きましょう。", "category": "daily-conversation", "hskLevel": 2 },
-
-  { "id": "phrase-056", "hanzi": "我吃饱了,谢谢招待。", "pinyin": "Wǒ chībǎo le, xièxie zhāodài.", "meaning": "お腹いっぱいです、ごちそうさまでした。", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-057", "hanzi": "我有点不舒服。", "pinyin": "Wǒ yǒudiǎn bù shūfu.", "meaning": "少し体調が悪いです。", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-058", "hanzi": "我感冒了。", "pinyin": "Wǒ gǎnmào le.", "meaning": "風邪をひきました。", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-059", "hanzi": "我今天很累,想早点休息。", "pinyin": "Wǒ jīntiān hěn lèi, xiǎng zǎodiǎn xiūxi.", "meaning": "今日はとても疲れたので、早めに休みたいです。", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-060", "hanzi": "我肚子疼。", "pinyin": "Wǒ dùzi téng.", "meaning": "お腹が痛いです。", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-061", "hanzi": "我很开心。", "pinyin": "Wǒ hěn kāixīn.", "meaning": "とても嬉しいです。", "category": "daily-conversation", "hskLevel": 1 },
-  { "id": "phrase-062", "hanzi": "别担心,我没事。", "pinyin": "Bié dānxīn, wǒ méishì.", "meaning": "心配しないで、大丈夫です。", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-063", "hanzi": "我有点紧张。", "pinyin": "Wǒ yǒudiǎn jǐnzhāng.", "meaning": "少し緊張しています。", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-064", "hanzi": "我饿了,想吃点东西。", "pinyin": "Wǒ è le, xiǎng chī diǎn dōngxi.", "meaning": "お腹が空いたので、何か食べたいです。", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-065", "hanzi": "今天太热了,我想喝点冷饮。", "pinyin": "Jīntiān tài rè le, wǒ xiǎng hē diǎn lěngyǐn.", "meaning": "今日は暑すぎるので、冷たい飲み物が飲みたいです。", "category": "daily-conversation", "hskLevel": 2 },
-
-  { "id": "phrase-066", "hanzi": "下次一起去吧。", "pinyin": "Xià cì yìqǐ qù ba.", "meaning": "今度一緒に行きましょう。", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-067", "hanzi": "今天不太方便,改天可以吗?", "pinyin": "Jīntiān bú tài fāngbiàn, gǎitiān kěyǐ ma?", "meaning": "今日はあまり都合が良くないので、また別の日でもいいですか?", "category": "daily-conversation", "hskLevel": 3 },
-  { "id": "phrase-068", "hanzi": "我们一起吃饭吧。", "pinyin": "Wǒmen yìqǐ chīfàn ba.", "meaning": "一緒にご飯を食べましょう。", "category": "daily-conversation", "hskLevel": 1 },
-  { "id": "phrase-069", "hanzi": "要不要一起去看电影?", "pinyin": "Yào bu yào yìqǐ qù kàn diànyǐng?", "meaning": "一緒に映画を見に行きませんか?", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-070", "hanzi": "不好意思,我今天有事。", "pinyin": "Bù hǎoyìsi, wǒ jīntiān yǒu shì.", "meaning": "すみません、今日は用事があります。", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-071", "hanzi": "好啊,几点见面?", "pinyin": "Hǎo a, jǐ diǎn jiànmiàn?", "meaning": "いいですね、何時に会いましょうか?", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-072", "hanzi": "谢谢邀请,不过我不去了。", "pinyin": "Xièxie yāoqǐng, búguò wǒ bú qù le.", "meaning": "お誘いありがとうございます、でも今回はやめておきます。", "category": "daily-conversation", "hskLevel": 3 },
-  { "id": "phrase-073", "hanzi": "我们下周再约吧。", "pinyin": "Wǒmen xiàzhōu zài yuē ba.", "meaning": "また来週約束しましょう。", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-074", "hanzi": "一起去逛街怎么样?", "pinyin": "Yìqǐ qù guàngjiē zěnmeyàng?", "meaning": "一緒に買い物に行くのはどうですか?", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-075", "hanzi": "真可惜,下次一定要一起去。", "pinyin": "Zhēn kěxī, xiàcì yídìng yào yìqǐ qù.", "meaning": "残念です、今度は必ず一緒に行きましょう。", "category": "daily-conversation", "hskLevel": 3 },
-
-  { "id": "phrase-076", "hanzi": "真的吗?", "pinyin": "Zhēn de ma?", "meaning": "本当ですか?", "category": "daily-conversation", "hskLevel": 1 },
-  { "id": "phrase-077", "hanzi": "太好了!", "pinyin": "Tài hǎo le!", "meaning": "良かったです!", "category": "daily-conversation", "hskLevel": 1 },
-  { "id": "phrase-078", "hanzi": "真厉害!", "pinyin": "Zhēn lìhài!", "meaning": "すごいですね!", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-079", "hanzi": "我也这么觉得。", "pinyin": "Wǒ yě zhème juéde.", "meaning": "私もそう思います。", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-080", "hanzi": "原来如此。", "pinyin": "Yuánlái rúcǐ.", "meaning": "なるほど。", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-081", "hanzi": "太辛苦了。", "pinyin": "Tài xīnkǔ le.", "meaning": "大変でしたね。", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-082", "hanzi": "不会吧?", "pinyin": "Bú huì ba?", "meaning": "まさか?", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-083", "hanzi": "我明白了。", "pinyin": "Wǒ míngbai le.", "meaning": "わかりました。", "category": "daily-conversation", "hskLevel": 1 },
-  { "id": "phrase-084", "hanzi": "怎么了?", "pinyin": "Zěnme le?", "meaning": "どうしたの?", "category": "daily-conversation", "hskLevel": 1 },
-  { "id": "phrase-085", "hanzi": "没事的。", "pinyin": "Méishì de.", "meaning": "大丈夫ですよ。", "category": "daily-conversation", "hskLevel": 1 },
-
-  { "id": "phrase-086", "hanzi": "可以帮我一个忙吗?", "pinyin": "Kěyǐ bāng wǒ yí ge máng ma?", "meaning": "ちょっと手伝ってもらえますか?", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-087", "hanzi": "可以借用一下你的手机吗?", "pinyin": "Kěyǐ jièyòng yíxià nǐ de shǒujī ma?", "meaning": "あなたの携帯を少し借りてもいいですか?", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-088", "hanzi": "我可以坐这里吗?", "pinyin": "Wǒ kěyǐ zuò zhèlǐ ma?", "meaning": "ここに座ってもいいですか?", "category": "daily-conversation", "hskLevel": 1 },
-  { "id": "phrase-089", "hanzi": "可以拍照吗?", "pinyin": "Kěyǐ pāizhào ma?", "meaning": "写真を撮ってもいいですか?", "category": "daily-conversation", "hskLevel": 1 },
-  { "id": "phrase-090", "hanzi": "请等一下。", "pinyin": "Qǐng děng yíxià.", "meaning": "少々お待ちください。", "category": "daily-conversation", "hskLevel": 1 },
-  { "id": "phrase-091", "hanzi": "可以帮我拿一下吗?", "pinyin": "Kěyǐ bāng wǒ ná yíxià ma?", "meaning": "ちょっと持ってもらえますか?", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-092", "hanzi": "不好意思,可以让一下吗?", "pinyin": "Bù hǎoyìsi, kěyǐ ràng yíxià ma?", "meaning": "すみません、少し通してもらえますか?", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-093", "hanzi": "可以给我一份吗?", "pinyin": "Kěyǐ gěi wǒ yí fèn ma?", "meaning": "一つもらえますか?", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-094", "hanzi": "这个可以用吗?", "pinyin": "Zhège kěyǐ yòng ma?", "meaning": "これは使ってもいいですか?", "category": "daily-conversation", "hskLevel": 1 },
-  { "id": "phrase-095", "hanzi": "麻烦让一下,谢谢。", "pinyin": "Máfan ràng yíxià, xièxie.", "meaning": "すみません、通してください、ありがとう。", "category": "daily-conversation", "hskLevel": 2 },
-
-  { "id": "phrase-096", "hanzi": "你什么时候有空?", "pinyin": "Nǐ shénme shíhou yǒu kòng?", "meaning": "いつ時間がありますか?", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-097", "hanzi": "我们几点集合?", "pinyin": "Wǒmen jǐ diǎn jíhé?", "meaning": "何時に集合しましょうか?", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-098", "hanzi": "明天可以吗?", "pinyin": "Míngtiān kěyǐ ma?", "meaning": "明日でもいいですか?", "category": "daily-conversation", "hskLevel": 1 },
-  { "id": "phrase-099", "hanzi": "我可能会晚一点到。", "pinyin": "Wǒ kěnéng huì wǎn yìdiǎn dào.", "meaning": "少し遅れて着くかもしれません。", "category": "daily-conversation", "hskLevel": 3 },
-  { "id": "phrase-100", "hanzi": "时间来得及吗?", "pinyin": "Shíjiān láidejí ma?", "meaning": "時間に間に合いますか?", "category": "daily-conversation", "hskLevel": 3 },
-  { "id": "phrase-101", "hanzi": "我们改成下午三点吧。", "pinyin": "Wǒmen gǎichéng xiàwǔ sān diǎn ba.", "meaning": "午後3時に変更しましょう。", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-102", "hanzi": "你先走吧,我随后就到。", "pinyin": "Nǐ xiān zǒu ba, wǒ suíhòu jiù dào.", "meaning": "先に行ってください、後から着きます。", "category": "daily-conversation", "hskLevel": 3 },
-  { "id": "phrase-103", "hanzi": "差不多该走了。", "pinyin": "Chàbuduō gāi zǒu le.", "meaning": "そろそろ行かないと。", "category": "daily-conversation", "hskLevel": 3 },
-  { "id": "phrase-104", "hanzi": "我们还有多少时间?", "pinyin": "Wǒmen hái yǒu duōshao shíjiān?", "meaning": "あとどのくらい時間がありますか?", "category": "daily-conversation", "hskLevel": 2 },
-  { "id": "phrase-105", "hanzi": "抱歉,让你久等了。", "pinyin": "Bàoqiàn, ràng nǐ jiǔ děng le.", "meaning": "すみません、お待たせしました。", "category": "daily-conversation", "hskLevel": 2 },
-
-  { "id": "phrase-106", "hanzi": "最近怎么样?", "pinyin": "Zuìjìn zěnmeyàng?", "meaning": "最近どう?", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-107", "hanzi": "好久不见!", "pinyin": "Hǎojiǔ bújiàn!", "meaning": "久しぶり!", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-108", "hanzi": "你最近在忙什么?", "pinyin": "Nǐ zuìjìn zài máng shénme?", "meaning": "最近何で忙しいの?", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-109", "hanzi": "一切都好吗?", "pinyin": "Yíqiè dōu hǎo ma?", "meaning": "全部順調?", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-110", "hanzi": "没什么变化。", "pinyin": "Méi shénme biànhuà.", "meaning": "特に変わりないよ。", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-111", "hanzi": "你吃了吗?", "pinyin": "Nǐ chī le ma?", "meaning": "ご飯食べた?(定番のあいさつ)", "category": "friend-chat", "hskLevel": 1 },
-  { "id": "phrase-112", "hanzi": "最近工作顺利吗?", "pinyin": "Zuìjìn gōngzuò shùnlì ma?", "meaning": "最近仕事は順調?", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-113", "hanzi": "你看起来气色不错。", "pinyin": "Nǐ kànqǐlai qìsè búcuò.", "meaning": "顔色良さそうだね。", "category": "friend-chat", "hskLevel": 3 },
-  { "id": "phrase-114", "hanzi": "我们好久没聚了。", "pinyin": "Wǒmen hǎojiǔ méi jù le.", "meaning": "しばらく集まってなかったね。", "category": "friend-chat", "hskLevel": 3 },
-  { "id": "phrase-115", "hanzi": "改天一起吃饭吧。", "pinyin": "Gǎitiān yìqǐ chīfàn ba.", "meaning": "今度一緒にご飯食べようね。", "category": "friend-chat", "hskLevel": 2 },
-
-  { "id": "phrase-116", "hanzi": "加个微信吧。", "pinyin": "Jiā ge wēixìn ba.", "meaning": "WeChat交換しよう。", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-117", "hanzi": "我给你发消息。", "pinyin": "Wǒ gěi nǐ fā xiāoxi.", "meaning": "メッセージ送るね。", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-118", "hanzi": "你看到我的消息了吗?", "pinyin": "Nǐ kàndào wǒ de xiāoxi le ma?", "meaning": "私のメッセージ見た?", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-119", "hanzi": "我等下回复你。", "pinyin": "Wǒ děng xià huífù nǐ.", "meaning": "後で返信するね。", "category": "friend-chat", "hskLevel": 3 },
-  { "id": "phrase-120", "hanzi": "手机没电了。", "pinyin": "Shǒujī méi diàn le.", "meaning": "スマホの充電が切れた。", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-121", "hanzi": "我给你打个电话。", "pinyin": "Wǒ gěi nǐ dǎ ge diànhuà.", "meaning": "電話するね。", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-122", "hanzi": "我发个定位给你。", "pinyin": "Wǒ fā ge dìngwèi gěi nǐ.", "meaning": "位置情報を送るね。", "category": "friend-chat", "hskLevel": 3 },
-  { "id": "phrase-123", "hanzi": "视频通话方便吗?", "pinyin": "Shìpín tōnghuà fāngbiàn ma?", "meaning": "ビデオ通話は都合いい?", "category": "friend-chat", "hskLevel": 3 },
-
-  { "id": "phrase-124", "hanzi": "太搞笑了!", "pinyin": "Tài gǎoxiào le!", "meaning": "めっちゃ面白い!", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-125", "hanzi": "笑死我了。", "pinyin": "Xiào sǐ wǒ le.", "meaning": "笑い死にそう。", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-126", "hanzi": "我服了。", "pinyin": "Wǒ fú le.", "meaning": "参ったよ、すごいな。", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-127", "hanzi": "太离谱了吧。", "pinyin": "Tài lípǔ le ba.", "meaning": "さすがにありえないでしょ。", "category": "friend-chat", "hskLevel": 3 },
-  { "id": "phrase-128", "hanzi": "有点尴尬。", "pinyin": "Yǒudiǎn gāngà.", "meaning": "ちょっと気まずいね。", "category": "friend-chat", "hskLevel": 3 },
-  { "id": "phrase-129", "hanzi": "我太激动了!", "pinyin": "Wǒ tài jīdòng le!", "meaning": "すごく興奮した!", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-130", "hanzi": "我太感动了。", "pinyin": "Wǒ tài gǎndòng le.", "meaning": "すごく感動した。", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-131", "hanzi": "真的很无语。", "pinyin": "Zhēnde hěn wúyǔ.", "meaning": "本当に呆れた。", "category": "friend-chat", "hskLevel": 3 },
-  { "id": "phrase-132", "hanzi": "我快崩溃了。", "pinyin": "Wǒ kuài bēngkuì le.", "meaning": "もう限界だよ。", "category": "friend-chat", "hskLevel": 3 },
-  { "id": "phrase-133", "hanzi": "太可爱了吧!", "pinyin": "Tài kě'ài le ba!", "meaning": "めっちゃ可愛い!", "category": "friend-chat", "hskLevel": 2 },
-
-  { "id": "phrase-134", "hanzi": "走,一起去!", "pinyin": "Zǒu, yìqǐ qù!", "meaning": "行こう、一緒に!", "category": "friend-chat", "hskLevel": 1 },
-  { "id": "phrase-135", "hanzi": "有空一起玩吧。", "pinyin": "Yǒu kòng yìqǐ wán ba.", "meaning": "時間あったら一緒に遊ぼう。", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-136", "hanzi": "要不要来我家?", "pinyin": "Yào bu yào lái wǒ jiā?", "meaning": "うちに来ない?", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-137", "hanzi": "今晚一起吃火锅怎么样?", "pinyin": "Jīnwǎn yìqǐ chī huǒguō zěnmeyàng?", "meaning": "今夜一緒に火鍋食べるのどう?", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-138", "hanzi": "我请你吃饭。", "pinyin": "Wǒ qǐng nǐ chīfàn.", "meaning": "私がご飯おごるよ。", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-139", "hanzi": "AA制吧。", "pinyin": "AA zhì ba.", "meaning": "割り勘にしよう。", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-140", "hanzi": "下次算我的。", "pinyin": "Xiàcì suàn wǒ de.", "meaning": "次は私が払うね。", "category": "friend-chat", "hskLevel": 3 },
-  { "id": "phrase-141", "hanzi": "一起去唱歌吧。", "pinyin": "Yìqǐ qù chànggē ba.", "meaning": "一緒にカラオケ行こう。", "category": "friend-chat", "hskLevel": 2 },
-
-  { "id": "phrase-142", "hanzi": "是嘛?", "pinyin": "Shì ma?", "meaning": "そうなの?", "category": "friend-chat", "hskLevel": 1 },
-  { "id": "phrase-143", "hanzi": "真的假的?", "pinyin": "Zhēn de jiǎ de?", "meaning": "マジで?", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-144", "hanzi": "牛啊!", "pinyin": "Niú a!", "meaning": "すごいな!", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-145", "hanzi": "厉害了!", "pinyin": "Lìhài le!", "meaning": "すごいじゃん!", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-146", "hanzi": "随便你。", "pinyin": "Suíbiàn nǐ.", "meaning": "あなた次第だよ、どっちでもいいよ。", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-147", "hanzi": "无所谓。", "pinyin": "Wúsuǒwèi.", "meaning": "どっちでもいい。", "category": "friend-chat", "hskLevel": 3 },
-  { "id": "phrase-148", "hanzi": "说得对。", "pinyin": "Shuō de duì.", "meaning": "その通りだね。", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-149", "hanzi": "你说了算。", "pinyin": "Nǐ shuō le suàn.", "meaning": "あなたが決めていいよ。", "category": "friend-chat", "hskLevel": 3 },
-
-  { "id": "phrase-150", "hanzi": "你真厉害!", "pinyin": "Nǐ zhēn lìhài!", "meaning": "すごいね!", "category": "friend-chat", "hskLevel": 1 },
-  { "id": "phrase-151", "hanzi": "你今天很好看。", "pinyin": "Nǐ jīntiān hěn hǎokàn.", "meaning": "今日素敵だね。", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-152", "hanzi": "别闹了。", "pinyin": "Bié nào le.", "meaning": "からかわないで。", "category": "friend-chat", "hskLevel": 3 },
-  { "id": "phrase-153", "hanzi": "我开玩笑的。", "pinyin": "Wǒ kāi wánxiào de.", "meaning": "冗談だよ。", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-154", "hanzi": "你又胖了?", "pinyin": "Nǐ yòu pàng le?", "meaning": "また太った?(親しい間柄の冗談)", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-155", "hanzi": "你少来了。", "pinyin": "Nǐ shǎo lái le.", "meaning": "またまた、冗談やめてよ。", "category": "friend-chat", "hskLevel": 3 },
-  { "id": "phrase-156", "hanzi": "别不好意思。", "pinyin": "Bié bù hǎoyìsi.", "meaning": "遠慮しないで。", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-157", "hanzi": "你太客气了。", "pinyin": "Nǐ tài kèqi le.", "meaning": "気を使いすぎだよ。", "category": "friend-chat", "hskLevel": 2 },
-
-  { "id": "phrase-158", "hanzi": "帮我个忙呗。", "pinyin": "Bāng wǒ ge máng bei.", "meaning": "ちょっと手伝ってよ。", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-159", "hanzi": "能不能借我用一下?", "pinyin": "Néng bu néng jiè wǒ yòng yíxià?", "meaning": "ちょっと貸してくれる?", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-160", "hanzi": "顺便帮我买一个。", "pinyin": "Shùnbiàn bāng wǒ mǎi yí ge.", "meaning": "ついでに一つ買ってきて。", "category": "friend-chat", "hskLevel": 3 },
-  { "id": "phrase-161", "hanzi": "拜托你了。", "pinyin": "Bàituō nǐ le.", "meaning": "お願いね。", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-162", "hanzi": "你能陪我去吗?", "pinyin": "Nǐ néng péi wǒ qù ma?", "meaning": "一緒に付き合ってくれる?", "category": "friend-chat", "hskLevel": 3 },
-  { "id": "phrase-163", "hanzi": "到时候叫我一声。", "pinyin": "Dào shíhou jiào wǒ yì shēng.", "meaning": "その時になったら声かけてね。", "category": "friend-chat", "hskLevel": 3 },
-
-  { "id": "phrase-164", "hanzi": "你平时喜欢做什么?", "pinyin": "Nǐ píngshí xǐhuan zuò shénme?", "meaning": "普段何するのが好き?", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-165", "hanzi": "我喜欢打游戏。", "pinyin": "Wǒ xǐhuan dǎ yóuxì.", "meaning": "ゲームするのが好き。", "category": "friend-chat", "hskLevel": 1 },
-  { "id": "phrase-166", "hanzi": "最近在追什么剧?", "pinyin": "Zuìjìn zài zhuī shénme jù?", "meaning": "最近何のドラマ見てる?", "category": "friend-chat", "hskLevel": 3 },
-  { "id": "phrase-167", "hanzi": "我们一起看电影吧。", "pinyin": "Wǒmen yìqǐ kàn diànyǐng ba.", "meaning": "一緒に映画見よう。", "category": "friend-chat", "hskLevel": 1 },
-  { "id": "phrase-168", "hanzi": "你会做饭吗?", "pinyin": "Nǐ huì zuòfàn ma?", "meaning": "料理できる?", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-169", "hanzi": "周末有什么安排?", "pinyin": "Zhōumò yǒu shénme ānpái?", "meaning": "週末何か予定ある?", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-170", "hanzi": "我最近迷上了一部剧。", "pinyin": "Wǒ zuìjìn míshàng le yí bù jù.", "meaning": "最近あるドラマにハマってる。", "category": "friend-chat", "hskLevel": 3 },
-  { "id": "phrase-171", "hanzi": "你喜欢什么类型的音乐?", "pinyin": "Nǐ xǐhuan shénme lèixíng de yīnyuè?", "meaning": "どんなジャンルの音楽が好き?", "category": "friend-chat", "hskLevel": 2 },
-
-  { "id": "phrase-172", "hanzi": "我先走了。", "pinyin": "Wǒ xiān zǒu le.", "meaning": "先に行くね。", "category": "friend-chat", "hskLevel": 1 },
-  { "id": "phrase-173", "hanzi": "到家发个消息。", "pinyin": "Dào jiā fā ge xiāoxi.", "meaning": "家に着いたらメッセージ送ってね。", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-174", "hanzi": "路上小心。", "pinyin": "Lùshang xiǎoxīn.", "meaning": "気をつけてね。", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-175", "hanzi": "下次再聊。", "pinyin": "Xiàcì zài liáo.", "meaning": "また今度話そう。", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-176", "hanzi": "保持联系。", "pinyin": "Bǎochí liánxì.", "meaning": "連絡取り合おうね。", "category": "friend-chat", "hskLevel": 2 },
-  { "id": "phrase-177", "hanzi": "有空常联系。", "pinyin": "Yǒu kòng cháng liánxì.", "meaning": "時間あったら連絡してね。", "category": "friend-chat", "hskLevel": 3 }
+  {
+    "id": "phrase-001",
+    "hanzi": "你好,我要点菜。",
+    "pinyin": "Nǐ hǎo, wǒ yào diǎn cài.",
+    "meaning": "こんにちは、注文したいです。",
+    "category": "phrase",
+    "hskLevel": 1
+  },
+  {
+    "id": "phrase-002",
+    "hanzi": "我要一杯咖啡。",
+    "pinyin": "Wǒ yào yì bēi kāfēi.",
+    "meaning": "コーヒーを一杯ください。",
+    "category": "phrase",
+    "hskLevel": 1
+  },
+  {
+    "id": "phrase-003",
+    "hanzi": "多少钱?",
+    "pinyin": "Duōshao qián?",
+    "meaning": "いくらですか?",
+    "category": "phrase",
+    "hskLevel": 1
+  },
+  {
+    "id": "phrase-004",
+    "hanzi": "太贵了,便宜一点吧。",
+    "pinyin": "Tài guì le, piányi yìdiǎn ba.",
+    "meaning": "高すぎます、少し安くしてください。",
+    "category": "phrase",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-005",
+    "hanzi": "请问洗手间在哪里?",
+    "pinyin": "Qǐngwèn xǐshǒujiān zài nǎlǐ?",
+    "meaning": "お手洗いはどこですか?",
+    "category": "phrase",
+    "hskLevel": 1
+  },
+  {
+    "id": "phrase-006",
+    "hanzi": "我可以刷卡吗?",
+    "pinyin": "Wǒ kěyǐ shuākǎ ma?",
+    "meaning": "カードは使えますか?",
+    "category": "phrase",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-007",
+    "hanzi": "请给我看看菜单。",
+    "pinyin": "Qǐng gěi wǒ kànkan càidān.",
+    "meaning": "メニューを見せてください。",
+    "category": "phrase",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-008",
+    "hanzi": "我要这个。",
+    "pinyin": "Wǒ yào zhège.",
+    "meaning": "これをください。",
+    "category": "phrase",
+    "hskLevel": 1
+  },
+  {
+    "id": "phrase-009",
+    "hanzi": "我叫田中,请多关照。",
+    "pinyin": "Wǒ jiào Tiánzhōng, qǐng duō guānzhào.",
+    "meaning": "田中と申します、よろしくお願いします。",
+    "category": "phrase",
+    "hskLevel": 1
+  },
+  {
+    "id": "phrase-010",
+    "hanzi": "很高兴认识你。",
+    "pinyin": "Hěn gāoxìng rènshi nǐ.",
+    "meaning": "お会いできて嬉しいです。",
+    "category": "phrase",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-011",
+    "hanzi": "我是从日本来的。",
+    "pinyin": "Wǒ shì cóng Rìběn lái de.",
+    "meaning": "私は日本から来ました。",
+    "category": "phrase",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-012",
+    "hanzi": "请问,到机场怎么走?",
+    "pinyin": "Qǐngwèn, dào jīchǎng zěnme zǒu?",
+    "meaning": "空港へはどう行きますか?",
+    "category": "phrase",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-013",
+    "hanzi": "请到这个地址。",
+    "pinyin": "Qǐng dào zhège dìzhǐ.",
+    "meaning": "この住所までお願いします。",
+    "category": "phrase",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-014",
+    "hanzi": "请开一下空调。",
+    "pinyin": "Qǐng kāi yíxià kōngtiáo.",
+    "meaning": "エアコンをつけてください。",
+    "category": "phrase",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-015",
+    "hanzi": "到了请告诉我。",
+    "pinyin": "Dào le qǐng gàosu wǒ.",
+    "meaning": "着いたら教えてください。",
+    "category": "phrase",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-016",
+    "hanzi": "我想预订一个房间。",
+    "pinyin": "Wǒ xiǎng yùdìng yí ge fángjiān.",
+    "meaning": "部屋を予約したいです。",
+    "category": "phrase",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-017",
+    "hanzi": "我想办理入住。",
+    "pinyin": "Wǒ xiǎng bànlǐ rùzhù.",
+    "meaning": "チェックインしたいです。",
+    "category": "phrase",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-018",
+    "hanzi": "我的房间号是多少?",
+    "pinyin": "Wǒ de fángjiān hào shì duōshao?",
+    "meaning": "私の部屋番号は何番ですか?",
+    "category": "phrase",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-019",
+    "hanzi": "几点可以退房?",
+    "pinyin": "Jǐ diǎn kěyǐ tuìfáng?",
+    "meaning": "何時にチェックアウトできますか?",
+    "category": "phrase",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-020",
+    "hanzi": "可以再便宜一点吗?",
+    "pinyin": "Kěyǐ zài piányi yìdiǎn ma?",
+    "meaning": "もう少し安くできますか?",
+    "category": "phrase",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-021",
+    "hanzi": "太贵了。",
+    "pinyin": "Tài guì le.",
+    "meaning": "高すぎます。",
+    "category": "phrase",
+    "hskLevel": 1
+  },
+  {
+    "id": "phrase-022",
+    "hanzi": "我再考虑一下。",
+    "pinyin": "Wǒ zài kǎolǜ yíxià.",
+    "meaning": "もう少し考えます。",
+    "category": "phrase",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-023",
+    "hanzi": "这个周末你有空吗?",
+    "pinyin": "Zhège zhōumò nǐ yǒu kòng ma?",
+    "meaning": "今週末、時間はありますか?",
+    "category": "phrase",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-024",
+    "hanzi": "我们一起去看电影吧。",
+    "pinyin": "Wǒmen yìqǐ qù kàn diànyǐng ba.",
+    "meaning": "一緒に映画を見に行きましょう。",
+    "category": "phrase",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-025",
+    "hanzi": "你周末想做什么?",
+    "pinyin": "Nǐ zhōumò xiǎng zuò shénme?",
+    "meaning": "週末は何をしたいですか?",
+    "category": "phrase",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-026",
+    "hanzi": "听起来不错。",
+    "pinyin": "Tīng qǐlai búcuò.",
+    "meaning": "良さそうですね。",
+    "category": "phrase",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-027",
+    "hanzi": "我们几点见面?",
+    "pinyin": "Wǒmen jǐ diǎn jiànmiàn?",
+    "meaning": "何時に会いましょうか?",
+    "category": "phrase",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-028",
+    "hanzi": "请出示您的护照。",
+    "pinyin": "Qǐng chūshì nín de hùzhào.",
+    "meaning": "パスポートを提示してください。",
+    "category": "phrase",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-029",
+    "hanzi": "您来中国的目的是什么?",
+    "pinyin": "Nín lái Zhōngguó de mùdì shì shénme?",
+    "meaning": "中国に来た目的は何ですか?",
+    "category": "phrase",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-030",
+    "hanzi": "我是来旅游的。",
+    "pinyin": "Wǒ shì lái lǚyóu de.",
+    "meaning": "観光で来ました。",
+    "category": "phrase",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-031",
+    "hanzi": "我打算住五天。",
+    "pinyin": "Wǒ dǎsuàn zhù wǔ tiān.",
+    "meaning": "5日間滞在する予定です。",
+    "category": "phrase",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-032",
+    "hanzi": "祝您旅途愉快。",
+    "pinyin": "Zhù nín lǚtú yúkuài.",
+    "meaning": "良い旅を。",
+    "category": "phrase",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-033",
+    "hanzi": "我要结账。",
+    "pinyin": "Wǒ yào jiézhàng.",
+    "meaning": "会計をお願いします。",
+    "category": "phrase",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-034",
+    "hanzi": "这个能便宜点吗?",
+    "pinyin": "Zhège néng piányi diǎn ma?",
+    "meaning": "これ、安くなりますか?",
+    "category": "phrase",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-035",
+    "hanzi": "我想买这件衣服。",
+    "pinyin": "Wǒ xiǎng mǎi zhè jiàn yīfu.",
+    "meaning": "この服を買いたいです。",
+    "category": "phrase",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-036",
+    "hanzi": "可以试穿吗?",
+    "pinyin": "Kěyǐ shìchuān ma?",
+    "meaning": "試着できますか?",
+    "category": "phrase",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-037",
+    "hanzi": "有大一点的吗?",
+    "pinyin": "Yǒu dà yìdiǎn de ma?",
+    "meaning": "もう少し大きいのはありますか?",
+    "category": "phrase",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-038",
+    "hanzi": "我在找洗手间。",
+    "pinyin": "Wǒ zài zhǎo xǐshǒujiān.",
+    "meaning": "お手洗いを探しています。",
+    "category": "phrase",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-039",
+    "hanzi": "你会说英语吗?",
+    "pinyin": "Nǐ huì shuō Yīngyǔ ma?",
+    "meaning": "英語は話せますか?",
+    "category": "phrase",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-040",
+    "hanzi": "我不太会说汉语。",
+    "pinyin": "Wǒ bú tài huì shuō Hànyǔ.",
+    "meaning": "中国語はあまり話せません。",
+    "category": "phrase",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-041",
+    "hanzi": "请再说一遍。",
+    "pinyin": "Qǐng zài shuō yí biàn.",
+    "meaning": "もう一度言ってください。",
+    "category": "phrase",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-042",
+    "hanzi": "请说慢一点。",
+    "pinyin": "Qǐng shuō màn yìdiǎn.",
+    "meaning": "もう少しゆっくり話してください。",
+    "category": "phrase",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-043",
+    "hanzi": "我听不懂。",
+    "pinyin": "Wǒ tīng bu dǒng.",
+    "meaning": "聞き取れません。",
+    "category": "phrase",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-044",
+    "hanzi": "没关系,慢慢来。",
+    "pinyin": "Méi guānxi, mànmàn lái.",
+    "meaning": "大丈夫です、ゆっくりどうぞ。",
+    "category": "phrase",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-045",
+    "hanzi": "祝你周末愉快。",
+    "pinyin": "Zhù nǐ zhōumò yúkuài.",
+    "meaning": "良い週末を。",
+    "category": "phrase",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-046",
+    "hanzi": "下雨了,我先走了。",
+    "pinyin": "Xià yǔ le, wǒ xiān zǒu le.",
+    "meaning": "雨が降ってきたので、お先に失礼します。",
+    "category": "daily-conversation",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-047",
+    "hanzi": "外面在下雨,你带伞了吗?",
+    "pinyin": "Wàimiàn zài xià yǔ, nǐ dài sǎn le ma?",
+    "meaning": "外は雨が降っています、傘を持っていますか?",
+    "category": "daily-conversation",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-048",
+    "hanzi": "今天天气真好。",
+    "pinyin": "Jīntiān tiānqì zhēn hǎo.",
+    "meaning": "今日は本当にいい天気ですね。",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-049",
+    "hanzi": "明天会下雪吗?",
+    "pinyin": "Míngtiān huì xià xuě ma?",
+    "meaning": "明日は雪が降りますか?",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-050",
+    "hanzi": "天气预报说明天有台风。",
+    "pinyin": "Tiānqì yùbào shuō míngtiān yǒu táifēng.",
+    "meaning": "天気予報によると明日は台風だそうです。",
+    "category": "daily-conversation",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-051",
+    "hanzi": "因为下雨,我们改天再去吧。",
+    "pinyin": "Yīnwèi xià yǔ, wǒmen gǎitiān zài qù ba.",
+    "meaning": "雨だから、また別の日に行きましょう。",
+    "category": "daily-conversation",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-052",
+    "hanzi": "刮风了,有点冷。",
+    "pinyin": "Guā fēng le, yǒudiǎn lěng.",
+    "meaning": "風が吹いてきて、少し寒いです。",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-053",
+    "hanzi": "今天很晴朗。",
+    "pinyin": "Jīntiān hěn qínglǎng.",
+    "meaning": "今日はとても晴れています。",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-054",
+    "hanzi": "出门前看看天气吧。",
+    "pinyin": "Chūmén qián kànkan tiānqì ba.",
+    "meaning": "出かける前に天気を見ましょう。",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-055",
+    "hanzi": "雨停了,我们走吧。",
+    "pinyin": "Yǔ tíng le, wǒmen zǒu ba.",
+    "meaning": "雨が止んだので、行きましょう。",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-056",
+    "hanzi": "我吃饱了,谢谢招待。",
+    "pinyin": "Wǒ chībǎo le, xièxie zhāodài.",
+    "meaning": "お腹いっぱいです、ごちそうさまでした。",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-057",
+    "hanzi": "我有点不舒服。",
+    "pinyin": "Wǒ yǒudiǎn bù shūfu.",
+    "meaning": "少し体調が悪いです。",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-058",
+    "hanzi": "我感冒了。",
+    "pinyin": "Wǒ gǎnmào le.",
+    "meaning": "風邪をひきました。",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-059",
+    "hanzi": "我今天很累,想早点休息。",
+    "pinyin": "Wǒ jīntiān hěn lèi, xiǎng zǎodiǎn xiūxi.",
+    "meaning": "今日はとても疲れたので、早めに休みたいです。",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-060",
+    "hanzi": "我肚子疼。",
+    "pinyin": "Wǒ dùzi téng.",
+    "meaning": "お腹が痛いです。",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-061",
+    "hanzi": "我很开心。",
+    "pinyin": "Wǒ hěn kāixīn.",
+    "meaning": "とても嬉しいです。",
+    "category": "daily-conversation",
+    "hskLevel": 1
+  },
+  {
+    "id": "phrase-062",
+    "hanzi": "别担心,我没事。",
+    "pinyin": "Bié dānxīn, wǒ méishì.",
+    "meaning": "心配しないで、大丈夫です。",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-063",
+    "hanzi": "我有点紧张。",
+    "pinyin": "Wǒ yǒudiǎn jǐnzhāng.",
+    "meaning": "少し緊張しています。",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-064",
+    "hanzi": "我饿了,想吃点东西。",
+    "pinyin": "Wǒ è le, xiǎng chī diǎn dōngxi.",
+    "meaning": "お腹が空いたので、何か食べたいです。",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-065",
+    "hanzi": "今天太热了,我想喝点冷饮。",
+    "pinyin": "Jīntiān tài rè le, wǒ xiǎng hē diǎn lěngyǐn.",
+    "meaning": "今日は暑すぎるので、冷たい飲み物が飲みたいです。",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-066",
+    "hanzi": "下次一起去吧。",
+    "pinyin": "Xià cì yìqǐ qù ba.",
+    "meaning": "今度一緒に行きましょう。",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-067",
+    "hanzi": "今天不太方便,改天可以吗?",
+    "pinyin": "Jīntiān bú tài fāngbiàn, gǎitiān kěyǐ ma?",
+    "meaning": "今日はあまり都合が良くないので、また別の日でもいいですか?",
+    "category": "daily-conversation",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-068",
+    "hanzi": "我们一起吃饭吧。",
+    "pinyin": "Wǒmen yìqǐ chīfàn ba.",
+    "meaning": "一緒にご飯を食べましょう。",
+    "category": "daily-conversation",
+    "hskLevel": 1
+  },
+  {
+    "id": "phrase-069",
+    "hanzi": "要不要一起去看电影?",
+    "pinyin": "Yào bu yào yìqǐ qù kàn diànyǐng?",
+    "meaning": "一緒に映画を見に行きませんか?",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-070",
+    "hanzi": "不好意思,我今天有事。",
+    "pinyin": "Bù hǎoyìsi, wǒ jīntiān yǒu shì.",
+    "meaning": "すみません、今日は用事があります。",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-071",
+    "hanzi": "好啊,几点见面?",
+    "pinyin": "Hǎo a, jǐ diǎn jiànmiàn?",
+    "meaning": "いいですね、何時に会いましょうか?",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-072",
+    "hanzi": "谢谢邀请,不过我不去了。",
+    "pinyin": "Xièxie yāoqǐng, búguò wǒ bú qù le.",
+    "meaning": "お誘いありがとうございます、でも今回はやめておきます。",
+    "category": "daily-conversation",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-073",
+    "hanzi": "我们下周再约吧。",
+    "pinyin": "Wǒmen xiàzhōu zài yuē ba.",
+    "meaning": "また来週約束しましょう。",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-074",
+    "hanzi": "一起去逛街怎么样?",
+    "pinyin": "Yìqǐ qù guàngjiē zěnmeyàng?",
+    "meaning": "一緒に買い物に行くのはどうですか?",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-075",
+    "hanzi": "真可惜,下次一定要一起去。",
+    "pinyin": "Zhēn kěxī, xiàcì yídìng yào yìqǐ qù.",
+    "meaning": "残念です、今度は必ず一緒に行きましょう。",
+    "category": "daily-conversation",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-076",
+    "hanzi": "真的吗?",
+    "pinyin": "Zhēn de ma?",
+    "meaning": "本当ですか?",
+    "category": "daily-conversation",
+    "hskLevel": 1
+  },
+  {
+    "id": "phrase-077",
+    "hanzi": "太好了!",
+    "pinyin": "Tài hǎo le!",
+    "meaning": "良かったです!",
+    "category": "daily-conversation",
+    "hskLevel": 1
+  },
+  {
+    "id": "phrase-078",
+    "hanzi": "真厉害!",
+    "pinyin": "Zhēn lìhài!",
+    "meaning": "すごいですね!",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-079",
+    "hanzi": "我也这么觉得。",
+    "pinyin": "Wǒ yě zhème juéde.",
+    "meaning": "私もそう思います。",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-080",
+    "hanzi": "原来如此。",
+    "pinyin": "Yuánlái rúcǐ.",
+    "meaning": "なるほど。",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-081",
+    "hanzi": "太辛苦了。",
+    "pinyin": "Tài xīnkǔ le.",
+    "meaning": "大変でしたね。",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-082",
+    "hanzi": "不会吧?",
+    "pinyin": "Bú huì ba?",
+    "meaning": "まさか?",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-083",
+    "hanzi": "我明白了。",
+    "pinyin": "Wǒ míngbai le.",
+    "meaning": "わかりました。",
+    "category": "daily-conversation",
+    "hskLevel": 1
+  },
+  {
+    "id": "phrase-084",
+    "hanzi": "怎么了?",
+    "pinyin": "Zěnme le?",
+    "meaning": "どうしたの?",
+    "category": "daily-conversation",
+    "hskLevel": 1
+  },
+  {
+    "id": "phrase-085",
+    "hanzi": "没事的。",
+    "pinyin": "Méishì de.",
+    "meaning": "大丈夫ですよ。",
+    "category": "daily-conversation",
+    "hskLevel": 1
+  },
+  {
+    "id": "phrase-086",
+    "hanzi": "可以帮我一个忙吗?",
+    "pinyin": "Kěyǐ bāng wǒ yí ge máng ma?",
+    "meaning": "ちょっと手伝ってもらえますか?",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-087",
+    "hanzi": "可以借用一下你的手机吗?",
+    "pinyin": "Kěyǐ jièyòng yíxià nǐ de shǒujī ma?",
+    "meaning": "あなたの携帯を少し借りてもいいですか?",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-088",
+    "hanzi": "我可以坐这里吗?",
+    "pinyin": "Wǒ kěyǐ zuò zhèlǐ ma?",
+    "meaning": "ここに座ってもいいですか?",
+    "category": "daily-conversation",
+    "hskLevel": 1
+  },
+  {
+    "id": "phrase-089",
+    "hanzi": "可以拍照吗?",
+    "pinyin": "Kěyǐ pāizhào ma?",
+    "meaning": "写真を撮ってもいいですか?",
+    "category": "daily-conversation",
+    "hskLevel": 1
+  },
+  {
+    "id": "phrase-090",
+    "hanzi": "请等一下。",
+    "pinyin": "Qǐng děng yíxià.",
+    "meaning": "少々お待ちください。",
+    "category": "daily-conversation",
+    "hskLevel": 1
+  },
+  {
+    "id": "phrase-091",
+    "hanzi": "可以帮我拿一下吗?",
+    "pinyin": "Kěyǐ bāng wǒ ná yíxià ma?",
+    "meaning": "ちょっと持ってもらえますか?",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-092",
+    "hanzi": "不好意思,可以让一下吗?",
+    "pinyin": "Bù hǎoyìsi, kěyǐ ràng yíxià ma?",
+    "meaning": "すみません、少し通してもらえますか?",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-093",
+    "hanzi": "可以给我一份吗?",
+    "pinyin": "Kěyǐ gěi wǒ yí fèn ma?",
+    "meaning": "一つもらえますか?",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-094",
+    "hanzi": "这个可以用吗?",
+    "pinyin": "Zhège kěyǐ yòng ma?",
+    "meaning": "これは使ってもいいですか?",
+    "category": "daily-conversation",
+    "hskLevel": 1
+  },
+  {
+    "id": "phrase-095",
+    "hanzi": "麻烦让一下,谢谢。",
+    "pinyin": "Máfan ràng yíxià, xièxie.",
+    "meaning": "すみません、通してください、ありがとう。",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-096",
+    "hanzi": "你什么时候有空?",
+    "pinyin": "Nǐ shénme shíhou yǒu kòng?",
+    "meaning": "いつ時間がありますか?",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-097",
+    "hanzi": "我们几点集合?",
+    "pinyin": "Wǒmen jǐ diǎn jíhé?",
+    "meaning": "何時に集合しましょうか?",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-098",
+    "hanzi": "明天可以吗?",
+    "pinyin": "Míngtiān kěyǐ ma?",
+    "meaning": "明日でもいいですか?",
+    "category": "daily-conversation",
+    "hskLevel": 1
+  },
+  {
+    "id": "phrase-099",
+    "hanzi": "我可能会晚一点到。",
+    "pinyin": "Wǒ kěnéng huì wǎn yìdiǎn dào.",
+    "meaning": "少し遅れて着くかもしれません。",
+    "category": "daily-conversation",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-100",
+    "hanzi": "时间来得及吗?",
+    "pinyin": "Shíjiān láidejí ma?",
+    "meaning": "時間に間に合いますか?",
+    "category": "daily-conversation",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-101",
+    "hanzi": "我们改成下午三点吧。",
+    "pinyin": "Wǒmen gǎichéng xiàwǔ sān diǎn ba.",
+    "meaning": "午後3時に変更しましょう。",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-102",
+    "hanzi": "你先走吧,我随后就到。",
+    "pinyin": "Nǐ xiān zǒu ba, wǒ suíhòu jiù dào.",
+    "meaning": "先に行ってください、後から着きます。",
+    "category": "daily-conversation",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-103",
+    "hanzi": "差不多该走了。",
+    "pinyin": "Chàbuduō gāi zǒu le.",
+    "meaning": "そろそろ行かないと。",
+    "category": "daily-conversation",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-104",
+    "hanzi": "我们还有多少时间?",
+    "pinyin": "Wǒmen hái yǒu duōshao shíjiān?",
+    "meaning": "あとどのくらい時間がありますか?",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-105",
+    "hanzi": "抱歉,让你久等了。",
+    "pinyin": "Bàoqiàn, ràng nǐ jiǔ děng le.",
+    "meaning": "すみません、お待たせしました。",
+    "category": "daily-conversation",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-106",
+    "hanzi": "最近怎么样?",
+    "pinyin": "Zuìjìn zěnmeyàng?",
+    "meaning": "最近どう?",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-107",
+    "hanzi": "好久不见!",
+    "pinyin": "Hǎojiǔ bújiàn!",
+    "meaning": "久しぶり!",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-108",
+    "hanzi": "你最近在忙什么?",
+    "pinyin": "Nǐ zuìjìn zài máng shénme?",
+    "meaning": "最近何で忙しいの?",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-109",
+    "hanzi": "一切都好吗?",
+    "pinyin": "Yíqiè dōu hǎo ma?",
+    "meaning": "全部順調?",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-110",
+    "hanzi": "没什么变化。",
+    "pinyin": "Méi shénme biànhuà.",
+    "meaning": "特に変わりないよ。",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-111",
+    "hanzi": "你吃了吗?",
+    "pinyin": "Nǐ chī le ma?",
+    "meaning": "ご飯食べた?(定番のあいさつ)",
+    "category": "friend-chat",
+    "hskLevel": 1
+  },
+  {
+    "id": "phrase-112",
+    "hanzi": "最近工作顺利吗?",
+    "pinyin": "Zuìjìn gōngzuò shùnlì ma?",
+    "meaning": "最近仕事は順調?",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-113",
+    "hanzi": "你看起来气色不错。",
+    "pinyin": "Nǐ kànqǐlai qìsè búcuò.",
+    "meaning": "顔色良さそうだね。",
+    "category": "friend-chat",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-114",
+    "hanzi": "我们好久没聚了。",
+    "pinyin": "Wǒmen hǎojiǔ méi jù le.",
+    "meaning": "しばらく集まってなかったね。",
+    "category": "friend-chat",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-115",
+    "hanzi": "改天一起吃饭吧。",
+    "pinyin": "Gǎitiān yìqǐ chīfàn ba.",
+    "meaning": "今度一緒にご飯食べようね。",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-116",
+    "hanzi": "加个微信吧。",
+    "pinyin": "Jiā ge wēixìn ba.",
+    "meaning": "WeChat交換しよう。",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-117",
+    "hanzi": "我给你发消息。",
+    "pinyin": "Wǒ gěi nǐ fā xiāoxi.",
+    "meaning": "メッセージ送るね。",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-118",
+    "hanzi": "你看到我的消息了吗?",
+    "pinyin": "Nǐ kàndào wǒ de xiāoxi le ma?",
+    "meaning": "私のメッセージ見た?",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-119",
+    "hanzi": "我等下回复你。",
+    "pinyin": "Wǒ děng xià huífù nǐ.",
+    "meaning": "後で返信するね。",
+    "category": "friend-chat",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-120",
+    "hanzi": "手机没电了。",
+    "pinyin": "Shǒujī méi diàn le.",
+    "meaning": "スマホの充電が切れた。",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-121",
+    "hanzi": "我给你打个电话。",
+    "pinyin": "Wǒ gěi nǐ dǎ ge diànhuà.",
+    "meaning": "電話するね。",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-122",
+    "hanzi": "我发个定位给你。",
+    "pinyin": "Wǒ fā ge dìngwèi gěi nǐ.",
+    "meaning": "位置情報を送るね。",
+    "category": "friend-chat",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-123",
+    "hanzi": "视频通话方便吗?",
+    "pinyin": "Shìpín tōnghuà fāngbiàn ma?",
+    "meaning": "ビデオ通話は都合いい?",
+    "category": "friend-chat",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-124",
+    "hanzi": "太搞笑了!",
+    "pinyin": "Tài gǎoxiào le!",
+    "meaning": "めっちゃ面白い!",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-125",
+    "hanzi": "笑死我了。",
+    "pinyin": "Xiào sǐ wǒ le.",
+    "meaning": "笑い死にそう。",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-126",
+    "hanzi": "我服了。",
+    "pinyin": "Wǒ fú le.",
+    "meaning": "参ったよ、すごいな。",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-127",
+    "hanzi": "太离谱了吧。",
+    "pinyin": "Tài lípǔ le ba.",
+    "meaning": "さすがにありえないでしょ。",
+    "category": "friend-chat",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-128",
+    "hanzi": "有点尴尬。",
+    "pinyin": "Yǒudiǎn gāngà.",
+    "meaning": "ちょっと気まずいね。",
+    "category": "friend-chat",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-129",
+    "hanzi": "我太激动了!",
+    "pinyin": "Wǒ tài jīdòng le!",
+    "meaning": "すごく興奮した!",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-130",
+    "hanzi": "我太感动了。",
+    "pinyin": "Wǒ tài gǎndòng le.",
+    "meaning": "すごく感動した。",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-131",
+    "hanzi": "真的很无语。",
+    "pinyin": "Zhēnde hěn wúyǔ.",
+    "meaning": "本当に呆れた。",
+    "category": "friend-chat",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-132",
+    "hanzi": "我快崩溃了。",
+    "pinyin": "Wǒ kuài bēngkuì le.",
+    "meaning": "もう限界だよ。",
+    "category": "friend-chat",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-133",
+    "hanzi": "太可爱了吧!",
+    "pinyin": "Tài kě'ài le ba!",
+    "meaning": "めっちゃ可愛い!",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-134",
+    "hanzi": "走,一起去!",
+    "pinyin": "Zǒu, yìqǐ qù!",
+    "meaning": "行こう、一緒に!",
+    "category": "friend-chat",
+    "hskLevel": 1
+  },
+  {
+    "id": "phrase-135",
+    "hanzi": "有空一起玩吧。",
+    "pinyin": "Yǒu kòng yìqǐ wán ba.",
+    "meaning": "時間あったら一緒に遊ぼう。",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-136",
+    "hanzi": "要不要来我家?",
+    "pinyin": "Yào bu yào lái wǒ jiā?",
+    "meaning": "うちに来ない?",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-137",
+    "hanzi": "今晚一起吃火锅怎么样?",
+    "pinyin": "Jīnwǎn yìqǐ chī huǒguō zěnmeyàng?",
+    "meaning": "今夜一緒に火鍋食べるのどう?",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-138",
+    "hanzi": "我请你吃饭。",
+    "pinyin": "Wǒ qǐng nǐ chīfàn.",
+    "meaning": "私がご飯おごるよ。",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-139",
+    "hanzi": "AA制吧。",
+    "pinyin": "AA zhì ba.",
+    "meaning": "割り勘にしよう。",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-140",
+    "hanzi": "下次算我的。",
+    "pinyin": "Xiàcì suàn wǒ de.",
+    "meaning": "次は私が払うね。",
+    "category": "friend-chat",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-141",
+    "hanzi": "一起去唱歌吧。",
+    "pinyin": "Yìqǐ qù chànggē ba.",
+    "meaning": "一緒にカラオケ行こう。",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-142",
+    "hanzi": "是嘛?",
+    "pinyin": "Shì ma?",
+    "meaning": "そうなの?",
+    "category": "friend-chat",
+    "hskLevel": 1
+  },
+  {
+    "id": "phrase-143",
+    "hanzi": "真的假的?",
+    "pinyin": "Zhēn de jiǎ de?",
+    "meaning": "マジで?",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-144",
+    "hanzi": "牛啊!",
+    "pinyin": "Niú a!",
+    "meaning": "すごいな!",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-145",
+    "hanzi": "厉害了!",
+    "pinyin": "Lìhài le!",
+    "meaning": "すごいじゃん!",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-146",
+    "hanzi": "随便你。",
+    "pinyin": "Suíbiàn nǐ.",
+    "meaning": "あなた次第だよ、どっちでもいいよ。",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-147",
+    "hanzi": "无所谓。",
+    "pinyin": "Wúsuǒwèi.",
+    "meaning": "どっちでもいい。",
+    "category": "friend-chat",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-148",
+    "hanzi": "说得对。",
+    "pinyin": "Shuō de duì.",
+    "meaning": "その通りだね。",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-149",
+    "hanzi": "你说了算。",
+    "pinyin": "Nǐ shuō le suàn.",
+    "meaning": "あなたが決めていいよ。",
+    "category": "friend-chat",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-150",
+    "hanzi": "你真厉害!",
+    "pinyin": "Nǐ zhēn lìhài!",
+    "meaning": "すごいね!",
+    "category": "friend-chat",
+    "hskLevel": 1
+  },
+  {
+    "id": "phrase-151",
+    "hanzi": "你今天很好看。",
+    "pinyin": "Nǐ jīntiān hěn hǎokàn.",
+    "meaning": "今日素敵だね。",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-152",
+    "hanzi": "别闹了。",
+    "pinyin": "Bié nào le.",
+    "meaning": "からかわないで。",
+    "category": "friend-chat",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-153",
+    "hanzi": "我开玩笑的。",
+    "pinyin": "Wǒ kāi wánxiào de.",
+    "meaning": "冗談だよ。",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-154",
+    "hanzi": "你又胖了?",
+    "pinyin": "Nǐ yòu pàng le?",
+    "meaning": "また太った?(親しい間柄の冗談)",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-155",
+    "hanzi": "你少来了。",
+    "pinyin": "Nǐ shǎo lái le.",
+    "meaning": "またまた、冗談やめてよ。",
+    "category": "friend-chat",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-156",
+    "hanzi": "别不好意思。",
+    "pinyin": "Bié bù hǎoyìsi.",
+    "meaning": "遠慮しないで。",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-157",
+    "hanzi": "你太客气了。",
+    "pinyin": "Nǐ tài kèqi le.",
+    "meaning": "気を使いすぎだよ。",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-158",
+    "hanzi": "帮我个忙呗。",
+    "pinyin": "Bāng wǒ ge máng bei.",
+    "meaning": "ちょっと手伝ってよ。",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-159",
+    "hanzi": "能不能借我用一下?",
+    "pinyin": "Néng bu néng jiè wǒ yòng yíxià?",
+    "meaning": "ちょっと貸してくれる?",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-160",
+    "hanzi": "顺便帮我买一个。",
+    "pinyin": "Shùnbiàn bāng wǒ mǎi yí ge.",
+    "meaning": "ついでに一つ買ってきて。",
+    "category": "friend-chat",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-161",
+    "hanzi": "拜托你了。",
+    "pinyin": "Bàituō nǐ le.",
+    "meaning": "お願いね。",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-162",
+    "hanzi": "你能陪我去吗?",
+    "pinyin": "Nǐ néng péi wǒ qù ma?",
+    "meaning": "一緒に付き合ってくれる?",
+    "category": "friend-chat",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-163",
+    "hanzi": "到时候叫我一声。",
+    "pinyin": "Dào shíhou jiào wǒ yì shēng.",
+    "meaning": "その時になったら声かけてね。",
+    "category": "friend-chat",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-164",
+    "hanzi": "你平时喜欢做什么?",
+    "pinyin": "Nǐ píngshí xǐhuan zuò shénme?",
+    "meaning": "普段何するのが好き?",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-165",
+    "hanzi": "我喜欢打游戏。",
+    "pinyin": "Wǒ xǐhuan dǎ yóuxì.",
+    "meaning": "ゲームするのが好き。",
+    "category": "friend-chat",
+    "hskLevel": 1
+  },
+  {
+    "id": "phrase-166",
+    "hanzi": "最近在追什么剧?",
+    "pinyin": "Zuìjìn zài zhuī shénme jù?",
+    "meaning": "最近何のドラマ見てる?",
+    "category": "friend-chat",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-167",
+    "hanzi": "我们一起看电影吧。",
+    "pinyin": "Wǒmen yìqǐ kàn diànyǐng ba.",
+    "meaning": "一緒に映画見よう。",
+    "category": "friend-chat",
+    "hskLevel": 1
+  },
+  {
+    "id": "phrase-168",
+    "hanzi": "你会做饭吗?",
+    "pinyin": "Nǐ huì zuòfàn ma?",
+    "meaning": "料理できる?",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-169",
+    "hanzi": "周末有什么安排?",
+    "pinyin": "Zhōumò yǒu shénme ānpái?",
+    "meaning": "週末何か予定ある?",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-170",
+    "hanzi": "我最近迷上了一部剧。",
+    "pinyin": "Wǒ zuìjìn míshàng le yí bù jù.",
+    "meaning": "最近あるドラマにハマってる。",
+    "category": "friend-chat",
+    "hskLevel": 3
+  },
+  {
+    "id": "phrase-171",
+    "hanzi": "你喜欢什么类型的音乐?",
+    "pinyin": "Nǐ xǐhuan shénme lèixíng de yīnyuè?",
+    "meaning": "どんなジャンルの音楽が好き?",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-172",
+    "hanzi": "我先走了。",
+    "pinyin": "Wǒ xiān zǒu le.",
+    "meaning": "先に行くね。",
+    "category": "friend-chat",
+    "hskLevel": 1
+  },
+  {
+    "id": "phrase-173",
+    "hanzi": "到家发个消息。",
+    "pinyin": "Dào jiā fā ge xiāoxi.",
+    "meaning": "家に着いたらメッセージ送ってね。",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-174",
+    "hanzi": "路上小心。",
+    "pinyin": "Lùshang xiǎoxīn.",
+    "meaning": "気をつけてね。",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-175",
+    "hanzi": "下次再聊。",
+    "pinyin": "Xiàcì zài liáo.",
+    "meaning": "また今度話そう。",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-176",
+    "hanzi": "保持联系。",
+    "pinyin": "Bǎochí liánxì.",
+    "meaning": "連絡取り合おうね。",
+    "category": "friend-chat",
+    "hskLevel": 2
+  },
+  {
+    "id": "phrase-177",
+    "hanzi": "有空常联系。",
+    "pinyin": "Yǒu kòng cháng liánxì.",
+    "meaning": "時間あったら連絡してね。",
+    "category": "friend-chat",
+    "hskLevel": 3
+  },
+  {
+    "id": "workplace-phrase-001",
+    "hanzi": "今天开会吗?",
+    "pinyin": "Jīntiān kāihuì ma?",
+    "meaning": "今日は会議がありますか?",
+    "category": "workplace",
+    "hskLevel": 2
+  },
+  {
+    "id": "workplace-phrase-002",
+    "hanzi": "会议几点开始?",
+    "pinyin": "Huìyì jǐ diǎn kāishǐ?",
+    "meaning": "会議は何時から始まりますか?",
+    "category": "workplace",
+    "hskLevel": 2
+  },
+  {
+    "id": "workplace-phrase-003",
+    "hanzi": "我今天要加班。",
+    "pinyin": "Wǒ jīntiān yào jiābān.",
+    "meaning": "今日は残業しなければなりません。",
+    "category": "workplace",
+    "hskLevel": 2
+  },
+  {
+    "id": "workplace-phrase-004",
+    "hanzi": "你什么时候下班?",
+    "pinyin": "Nǐ shénme shíhou xiàbān?",
+    "meaning": "いつ退勤しますか?",
+    "category": "workplace",
+    "hskLevel": 1
+  },
+  {
+    "id": "workplace-phrase-005",
+    "hanzi": "这个项目什么时候截止?",
+    "pinyin": "Zhège xiàngmù shénme shíhou jiézhǐ?",
+    "meaning": "このプロジェクトの締め切りはいつですか?",
+    "category": "workplace",
+    "hskLevel": 3
+  },
+  {
+    "id": "workplace-phrase-006",
+    "hanzi": "我把邮件发给你了。",
+    "pinyin": "Wǒ bǎ yóujiàn fā gěi nǐ le.",
+    "meaning": "メールを送りました。",
+    "category": "workplace",
+    "hskLevel": 3
+  },
+  {
+    "id": "workplace-phrase-007",
+    "hanzi": "麻烦你帮我看一下这份报告。",
+    "pinyin": "Máfan nǐ bāng wǒ kàn yíxià zhè fèn bàogào.",
+    "meaning": "この報告書を見ていただけますか。",
+    "category": "workplace",
+    "hskLevel": 3
+  },
+  {
+    "id": "workplace-phrase-008",
+    "hanzi": "我可以请假吗?",
+    "pinyin": "Wǒ kěyǐ qǐngjià ma?",
+    "meaning": "休暇を取ってもいいですか?",
+    "category": "workplace",
+    "hskLevel": 2
+  },
+  {
+    "id": "workplace-phrase-009",
+    "hanzi": "老板叫你去他办公室。",
+    "pinyin": "Lǎobǎn jiào nǐ qù tā bàngōngshì.",
+    "meaning": "上司があなたを呼んでいます。",
+    "category": "workplace",
+    "hskLevel": 2
+  },
+  {
+    "id": "workplace-phrase-010",
+    "hanzi": "我们先休息十分钟吧。",
+    "pinyin": "Wǒmen xiān xiūxi shí fēnzhōng ba.",
+    "meaning": "まず10分休憩しましょう。",
+    "category": "workplace",
+    "hskLevel": 1
+  },
+  {
+    "id": "workplace-phrase-011",
+    "hanzi": "这周我要出差。",
+    "pinyin": "Zhè zhōu wǒ yào chūchāi.",
+    "meaning": "今週は出張します。",
+    "category": "workplace",
+    "hskLevel": 3
+  },
+  {
+    "id": "workplace-phrase-012",
+    "hanzi": "辛苦了!",
+    "pinyin": "Xīnkǔ le!",
+    "meaning": "お疲れ様でした!",
+    "category": "workplace",
+    "hskLevel": 2
+  },
+  {
+    "id": "workplace-phrase-013",
+    "hanzi": "明天几点上班?",
+    "pinyin": "Míngtiān jǐ diǎn shàngbān?",
+    "meaning": "明日は何時に出勤ですか?",
+    "category": "workplace",
+    "hskLevel": 1
+  },
+  {
+    "id": "workplace-phrase-014",
+    "hanzi": "客户什么时候来?",
+    "pinyin": "Kèhù shénme shíhou lái?",
+    "meaning": "顧客はいつ来ますか?",
+    "category": "workplace",
+    "hskLevel": 3
+  },
+  {
+    "id": "workplace-phrase-015",
+    "hanzi": "我先走了,明天见。",
+    "pinyin": "Wǒ xiān zǒu le, míngtiān jiàn.",
+    "meaning": "お先に失礼します、また明日。",
+    "category": "workplace",
+    "hskLevel": 1
+  },
+  {
+    "id": "workplace-phrase-016",
+    "hanzi": "这份工作交给我吧。",
+    "pinyin": "Zhè fèn gōngzuò jiāo gěi wǒ ba.",
+    "meaning": "この仕事は私に任せてください。",
+    "category": "workplace",
+    "hskLevel": 3
+  },
+  {
+    "id": "workplace-phrase-017",
+    "hanzi": "有什么需要帮忙的吗?",
+    "pinyin": "Yǒu shénme xūyào bāngmáng de ma?",
+    "meaning": "何か手伝うことはありますか?",
+    "category": "workplace",
+    "hskLevel": 2
+  },
+  {
+    "id": "workplace-phrase-018",
+    "hanzi": "我今天身体不舒服,想请假。",
+    "pinyin": "Wǒ jīntiān shēntǐ bù shūfu, xiǎng qǐngjià.",
+    "meaning": "今日は体調が悪いので、休みたいです。",
+    "category": "workplace",
+    "hskLevel": 2
+  },
+  {
+    "id": "workplace-phrase-019",
+    "hanzi": "项目进展得怎么样了?",
+    "pinyin": "Xiàngmù jìnzhǎn de zěnmeyàng le?",
+    "meaning": "プロジェクトの進捗はどうですか?",
+    "category": "workplace",
+    "hskLevel": 3
+  },
+  {
+    "id": "workplace-phrase-020",
+    "hanzi": "下班后一起吃饭吧。",
+    "pinyin": "Xiàbān hòu yìqǐ chīfàn ba.",
+    "meaning": "退勤後、一緒にご飯を食べましょう。",
+    "category": "workplace",
+    "hskLevel": 2
+  },
+  {
+    "id": "mealtime-phrase-001",
+    "hanzi": "你吃了什么?",
+    "pinyin": "Nǐ chī le shénme?",
+    "meaning": "何を食べましたか?",
+    "category": "mealtime",
+    "hskLevel": 1
+  },
+  {
+    "id": "mealtime-phrase-002",
+    "hanzi": "我什么都没吃。",
+    "pinyin": "Wǒ shénme dōu méi chī.",
+    "meaning": "何も食べていません。",
+    "category": "mealtime",
+    "hskLevel": 2
+  },
+  {
+    "id": "mealtime-phrase-003",
+    "hanzi": "真的吗?",
+    "pinyin": "Zhēn de ma?",
+    "meaning": "本当ですか?",
+    "category": "mealtime",
+    "hskLevel": 1
+  },
+  {
+    "id": "mealtime-phrase-004",
+    "hanzi": "我们在哪儿吃?",
+    "pinyin": "Wǒmen zài nǎr chī?",
+    "meaning": "どこで食べますか?",
+    "category": "mealtime",
+    "hskLevel": 1
+  },
+  {
+    "id": "mealtime-phrase-005",
+    "hanzi": "今天有点冷,想吃点热的。",
+    "pinyin": "Jīntiān yǒudiǎn lěng, xiǎng chī diǎn rè de.",
+    "meaning": "今日は少し寒いので、温かいものが食べたいです。",
+    "category": "mealtime",
+    "hskLevel": 2
+  },
+  {
+    "id": "mealtime-phrase-006",
+    "hanzi": "这个菜真好吃!",
+    "pinyin": "Zhège cài zhēn hǎochī!",
+    "meaning": "この料理は本当においしいです!",
+    "category": "mealtime",
+    "hskLevel": 1
+  },
+  {
+    "id": "mealtime-phrase-007",
+    "hanzi": "你尝尝这个。",
+    "pinyin": "Nǐ chángchang zhège.",
+    "meaning": "これを味見してみてください。",
+    "category": "mealtime",
+    "hskLevel": 2
+  },
+  {
+    "id": "mealtime-phrase-008",
+    "hanzi": "我吃饱了。",
+    "pinyin": "Wǒ chībǎo le.",
+    "meaning": "お腹いっぱいになりました。",
+    "category": "mealtime",
+    "hskLevel": 1
+  },
+  {
+    "id": "mealtime-phrase-009",
+    "hanzi": "还想吃点什么吗?",
+    "pinyin": "Hái xiǎng chī diǎn shénme ma?",
+    "meaning": "他に何か食べたいものはありますか?",
+    "category": "mealtime",
+    "hskLevel": 2
+  },
+  {
+    "id": "mealtime-phrase-010",
+    "hanzi": "有点辣,不过很好吃。",
+    "pinyin": "Yǒudiǎn là, búguò hěn hǎochī.",
+    "meaning": "少し辛いですが、とてもおいしいです。",
+    "category": "mealtime",
+    "hskLevel": 2
+  },
+  {
+    "id": "mealtime-phrase-011",
+    "hanzi": "这个味道有点咸。",
+    "pinyin": "Zhège wèidao yǒudiǎn xián.",
+    "meaning": "この味は少ししょっぱいです。",
+    "category": "mealtime",
+    "hskLevel": 2
+  },
+  {
+    "id": "mealtime-phrase-012",
+    "hanzi": "再来一碗米饭。",
+    "pinyin": "Zài lái yì wǎn mǐfàn.",
+    "meaning": "ご飯をもう一杯ください。",
+    "category": "mealtime",
+    "hskLevel": 1
+  },
+  {
+    "id": "mealtime-phrase-013",
+    "hanzi": "干杯!",
+    "pinyin": "Gānbēi!",
+    "meaning": "乾杯!",
+    "category": "mealtime",
+    "hskLevel": 1
+  },
+  {
+    "id": "mealtime-phrase-014",
+    "hanzi": "你喜欢吃辣的吗?",
+    "pinyin": "Nǐ xǐhuan chī là de ma?",
+    "meaning": "辛いものは好きですか?",
+    "category": "mealtime",
+    "hskLevel": 2
+  },
+  {
+    "id": "mealtime-phrase-015",
+    "hanzi": "我不太能吃辣。",
+    "pinyin": "Wǒ bú tài néng chī là.",
+    "meaning": "私はあまり辛いものが得意ではありません。",
+    "category": "mealtime",
+    "hskLevel": 2
+  },
+  {
+    "id": "mealtime-phrase-016",
+    "hanzi": "慢慢吃,别着急。",
+    "pinyin": "Mànmàn chī, bié zháojí.",
+    "meaning": "ゆっくり食べて、急がなくていいですよ。",
+    "category": "mealtime",
+    "hskLevel": 2
+  },
+  {
+    "id": "mealtime-phrase-017",
+    "hanzi": "我们AA制吧。",
+    "pinyin": "Wǒmen AA zhì ba.",
+    "meaning": "割り勘にしましょう。",
+    "category": "mealtime",
+    "hskLevel": 3
+  },
+  {
+    "id": "mealtime-phrase-018",
+    "hanzi": "今天我请客。",
+    "pinyin": "Jīntiān wǒ qǐngkè.",
+    "meaning": "今日は私がおごります。",
+    "category": "mealtime",
+    "hskLevel": 2
+  },
+  {
+    "id": "mealtime-phrase-019",
+    "hanzi": "你会用筷子吗?",
+    "pinyin": "Nǐ huì yòng kuàizi ma?",
+    "meaning": "箸は使えますか?",
+    "category": "mealtime",
+    "hskLevel": 1
+  },
+  {
+    "id": "mealtime-phrase-020",
+    "hanzi": "味道怎么样?",
+    "pinyin": "Wèidao zěnmeyàng?",
+    "meaning": "味はどうですか?",
+    "category": "mealtime",
+    "hskLevel": 1
+  },
+  {
+    "id": "small-talk-phrase-001",
+    "hanzi": "你平时有什么爱好?",
+    "pinyin": "Nǐ píngshí yǒu shénme àihào?",
+    "meaning": "普段どんな趣味がありますか?",
+    "category": "small-talk",
+    "hskLevel": 2
+  },
+  {
+    "id": "small-talk-phrase-002",
+    "hanzi": "周末打算做什么?",
+    "pinyin": "Zhōumò dǎsuàn zuò shénme?",
+    "meaning": "週末は何をする予定ですか?",
+    "category": "small-talk",
+    "hskLevel": 2
+  },
+  {
+    "id": "small-talk-phrase-003",
+    "hanzi": "你看新闻了吗?",
+    "pinyin": "Nǐ kàn xīnwén le ma?",
+    "meaning": "ニュースを見ましたか?",
+    "category": "small-talk",
+    "hskLevel": 2
+  },
+  {
+    "id": "small-talk-phrase-004",
+    "hanzi": "最近有什么好看的电影吗?",
+    "pinyin": "Zuìjìn yǒu shénme hǎokàn de diànyǐng ma?",
+    "meaning": "最近何かいい映画はありますか?",
+    "category": "small-talk",
+    "hskLevel": 2
+  },
+  {
+    "id": "small-talk-phrase-005",
+    "hanzi": "你喜欢什么运动?",
+    "pinyin": "Nǐ xǐhuan shénme yùndòng?",
+    "meaning": "どんなスポーツが好きですか?",
+    "category": "small-talk",
+    "hskLevel": 2
+  },
+  {
+    "id": "small-talk-phrase-006",
+    "hanzi": "你养宠物吗?",
+    "pinyin": "Nǐ yǎng chǒngwù ma?",
+    "meaning": "ペットを飼っていますか?",
+    "category": "small-talk",
+    "hskLevel": 2
+  },
+  {
+    "id": "small-talk-phrase-007",
+    "hanzi": "这部电视剧很有意思。",
+    "pinyin": "Zhè bù diànshìjù hěn yǒuyìsi.",
+    "meaning": "このドラマはとても面白いです。",
+    "category": "small-talk",
+    "hskLevel": 2
+  },
+  {
+    "id": "small-talk-phrase-008",
+    "hanzi": "我最近迷上了一部剧。",
+    "pinyin": "Wǒ zuìjìn míshàng le yí bù jù.",
+    "meaning": "最近あるドラマにはまっています。",
+    "category": "small-talk",
+    "hskLevel": 3
+  },
+  {
+    "id": "small-talk-phrase-009",
+    "hanzi": "你听说了吗?",
+    "pinyin": "Nǐ tīngshuō le ma?",
+    "meaning": "聞きましたか?",
+    "category": "small-talk",
+    "hskLevel": 2
+  },
+  {
+    "id": "small-talk-phrase-010",
+    "hanzi": "真的假的?",
+    "pinyin": "Zhēn de jiǎ de?",
+    "meaning": "本当?嘘でしょ?",
+    "category": "small-talk",
+    "hskLevel": 2
+  },
+  {
+    "id": "small-talk-phrase-011",
+    "hanzi": "说起来,你最近怎么样?",
+    "pinyin": "Shuō qǐlai, nǐ zuìjìn zěnmeyàng?",
+    "meaning": "そういえば、最近どうですか?",
+    "category": "small-talk",
+    "hskLevel": 2
+  },
+  {
+    "id": "small-talk-phrase-012",
+    "hanzi": "我今天有点无聊。",
+    "pinyin": "Wǒ jīntiān yǒudiǎn wúliáo.",
+    "meaning": "今日はちょっと退屈です。",
+    "category": "small-talk",
+    "hskLevel": 2
+  },
+  {
+    "id": "small-talk-phrase-013",
+    "hanzi": "你平时几点睡觉?",
+    "pinyin": "Nǐ píngshí jǐ diǎn shuìjiào?",
+    "meaning": "普段何時に寝ますか?",
+    "category": "small-talk",
+    "hskLevel": 1
+  },
+  {
+    "id": "small-talk-phrase-014",
+    "hanzi": "养成一个好习惯不容易。",
+    "pinyin": "Yǎngchéng yí ge hǎo xíguàn bù róngyì.",
+    "meaning": "良い習慣を身につけるのは簡単ではありません。",
+    "category": "small-talk",
+    "hskLevel": 3
+  },
+  {
+    "id": "small-talk-phrase-015",
+    "hanzi": "你打算什么时候放假?",
+    "pinyin": "Nǐ dǎsuàn shénme shíhou fàngjià?",
+    "meaning": "いつ休みを取る予定ですか?",
+    "category": "small-talk",
+    "hskLevel": 2
+  },
+  {
+    "id": "small-talk-phrase-016",
+    "hanzi": "假期你有什么计划?",
+    "pinyin": "Jiàqī nǐ yǒu shénme jìhuà?",
+    "meaning": "休暇中に何か計画はありますか?",
+    "category": "small-talk",
+    "hskLevel": 2
+  },
+  {
+    "id": "small-talk-phrase-017",
+    "hanzi": "我们好久没聊天了。",
+    "pinyin": "Wǒmen hǎojiǔ méi liáotiān le.",
+    "meaning": "久しくおしゃべりしていませんね。",
+    "category": "small-talk",
+    "hskLevel": 2
+  },
+  {
+    "id": "small-talk-phrase-018",
+    "hanzi": "你喜欢听什么音乐?",
+    "pinyin": "Nǐ xǐhuan tīng shénme yīnyuè?",
+    "meaning": "どんな音楽を聴くのが好きですか?",
+    "category": "small-talk",
+    "hskLevel": 1
+  },
+  {
+    "id": "small-talk-phrase-019",
+    "hanzi": "你去过日本以外的地方旅游吗?",
+    "pinyin": "Nǐ qùguo Rìběn yǐwài de dìfang lǚyóu ma?",
+    "meaning": "日本以外の場所へ旅行したことはありますか?",
+    "category": "small-talk",
+    "hskLevel": 3
+  },
+  {
+    "id": "small-talk-phrase-020",
+    "hanzi": "说到这个,我想起一件事。",
+    "pinyin": "Shuō dào zhège, wǒ xiǎngqǐ yí jiàn shì.",
+    "meaning": "それで思い出したことがあります。",
+    "category": "small-talk",
+    "hskLevel": 3
+  }
 ]

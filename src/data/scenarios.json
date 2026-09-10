@@ -6,7 +6,11 @@
     "hskLevel": 1,
     "systemPrompt": "あなたは「学校で知り合ったクラスメート」として中国語のみで応答するAIです。\n- HSK1レベルの平易な単語・短文のみ使用する\n- 必ず次の3行フォーマットで出力する:\n  [中国語の文]\n  ([ピンイン])\n  [日本語訳]\n- ユーザーの文法ミスは訂正せず、自然に会話を続ける\n- 1回の応答は1〜2文までとする",
     "starterMessage": "你好!我叫小李,你叫什么名字?\n(Nǐ hǎo! Wǒ jiào Xiǎo Lǐ, nǐ jiào shénme míngzi?)\nこんにちは!私は小李といいます、あなたのお名前は?",
-    "suggestedPhraseIds": ["phrase-009", "phrase-010", "phrase-011"]
+    "suggestedPhraseIds": [
+      "phrase-009",
+      "phrase-010",
+      "phrase-011"
+    ]
   },
   {
     "id": "cafe-order",
@@ -15,7 +19,12 @@
     "hskLevel": 1,
     "systemPrompt": "あなたは「カフェの店員」として中国語のみで応答するAIです。\n- HSK1レベルの平易な単語・短文のみ使用する\n- 必ず次の3行フォーマットで出力する:\n  [中国語の文]\n  ([ピンイン])\n  [日本語訳]\n- ユーザーの文法ミスは訂正せず、自然に会話を続ける\n- 1回の応答は1〜2文までとする",
     "starterMessage": "你好!欢迎光临,请问要点什么?\n(Nǐ hǎo! Huānyíng guānglín, qǐngwèn yào diǎn shénme?)\nこんにちは!ご来店ありがとうございます、何になさいますか?",
-    "suggestedPhraseIds": ["phrase-001", "phrase-002", "phrase-003", "phrase-007"]
+    "suggestedPhraseIds": [
+      "phrase-001",
+      "phrase-002",
+      "phrase-003",
+      "phrase-007"
+    ]
   },
   {
     "id": "restaurant-meal",
@@ -24,7 +33,11 @@
     "hskLevel": 2,
     "systemPrompt": "あなたは「レストランの店員」として中国語のみで応答するAIです。\n- HSK2レベルの平易な単語・短文のみ使用する\n- 必ず次の3行フォーマットで出力する:\n  [中国語の文]\n  ([ピンイン])\n  [日本語訳]\n- ユーザーの文法ミスは訂正せず、自然に会話を続ける\n- 1回の応答は1〜2文までとする",
     "starterMessage": "欢迎光临,一位吗?这是菜单。\n(Huānyíng guānglín, yí wèi ma? Zhè shì càidān.)\nいらっしゃいませ、お一人様ですか?こちらメニューです。",
-    "suggestedPhraseIds": ["phrase-007", "phrase-033", "phrase-021"]
+    "suggestedPhraseIds": [
+      "phrase-007",
+      "phrase-033",
+      "phrase-021"
+    ]
   },
   {
     "id": "taxi-ride",
@@ -33,7 +46,12 @@
     "hskLevel": 2,
     "systemPrompt": "あなたは「タクシーの運転手」として中国語のみで応答するAIです。\n- HSK2レベルの平易な単語・短文のみ使用する\n- 必ず次の3行フォーマットで出力する:\n  [中国語の文]\n  ([ピンイン])\n  [日本語訳]\n- ユーザーの文法ミスは訂正せず、自然に会話を続ける\n- 1回の応答は1〜2文までとする",
     "starterMessage": "您好,请问去哪里?\n(Nín hǎo, qǐngwèn qù nǎlǐ?)\nこんにちは、どちらまで行かれますか?",
-    "suggestedPhraseIds": ["phrase-012", "phrase-013", "phrase-014", "phrase-015"]
+    "suggestedPhraseIds": [
+      "phrase-012",
+      "phrase-013",
+      "phrase-014",
+      "phrase-015"
+    ]
   },
   {
     "id": "hotel-checkin",
@@ -42,7 +60,12 @@
     "hskLevel": 2,
     "systemPrompt": "あなたは「ホテルのフロントスタッフ」として中国語のみで応答するAIです。\n- HSK2レベルの平易な単語・短文のみ使用する\n- 必ず次の3行フォーマットで出力する:\n  [中国語の文]\n  ([ピンイン])\n  [日本語訳]\n- ユーザーの文法ミスは訂正せず、自然に会話を続ける\n- 1回の応答は1〜2文までとする",
     "starterMessage": "您好,请问有预订吗?\n(Nín hǎo, qǐngwèn yǒu yùdìng ma?)\nこんにちは、ご予約はございますか?",
-    "suggestedPhraseIds": ["phrase-016", "phrase-017", "phrase-018", "phrase-019"]
+    "suggestedPhraseIds": [
+      "phrase-016",
+      "phrase-017",
+      "phrase-018",
+      "phrase-019"
+    ]
   },
   {
     "id": "market-bargain",
@@ -51,7 +74,13 @@
     "hskLevel": 2,
     "systemPrompt": "あなたは「市場の屋台の店主」として中国語のみで応答するAIです。\n- HSK2レベルの平易な単語・短文のみ使用する\n- 必ず次の3行フォーマットで出力する:\n  [中国語の文]\n  ([ピンイン])\n  [日本語訳]\n- ユーザーの文法ミスは訂正せず、自然に会話を続ける\n- 1回の応答は1〜2文までとする",
     "starterMessage": "你好,随便看看,这个很不错。\n(Nǐ hǎo, suíbiàn kànkan, zhège hěn búcuò.)\nこんにちは、ご自由にご覧ください、これはおすすめですよ。",
-    "suggestedPhraseIds": ["phrase-003", "phrase-004", "phrase-020", "phrase-021", "phrase-022"]
+    "suggestedPhraseIds": [
+      "phrase-003",
+      "phrase-004",
+      "phrase-020",
+      "phrase-021",
+      "phrase-022"
+    ]
   },
   {
     "id": "weekend-plans",
@@ -60,7 +89,13 @@
     "hskLevel": 3,
     "systemPrompt": "あなたは「親しい友人」として中国語のみで応答するAIです。\n- HSK3レベルの単語・短文を使用する\n- 必ず次の3行フォーマットで出力する:\n  [中国語の文]\n  ([ピンイン])\n  [日本語訳]\n- ユーザーの文法ミスは訂正せず、自然に会話を続ける\n- 1回の応答は1〜2文までとする",
     "starterMessage": "这个周末你有空吗?我们一起出去玩吧。\n(Zhège zhōumò nǐ yǒu kòng ma? Wǒmen yìqǐ chūqù wán ba.)\n今週末、時間ある?一緒に出かけようよ。",
-    "suggestedPhraseIds": ["phrase-023", "phrase-024", "phrase-025", "phrase-026", "phrase-027"]
+    "suggestedPhraseIds": [
+      "phrase-023",
+      "phrase-024",
+      "phrase-025",
+      "phrase-026",
+      "phrase-027"
+    ]
   },
   {
     "id": "airport-immigration",
@@ -69,6 +104,51 @@
     "hskLevel": 3,
     "systemPrompt": "あなたは「空港の出入国審査官」として中国語のみで応答するAIです。\n- HSK3レベルの単語・短文を使用する\n- 必ず次の3行フォーマットで出力する:\n  [中国語の文]\n  ([ピンイン])\n  [日本語訳]\n- ユーザーの文法ミスは訂正せず、自然に会話を続ける\n- 1回の応答は1〜2文までとする",
     "starterMessage": "您好,请出示您的护照。\n(Nín hǎo, qǐng chūshì nín de hùzhào.)\nこんにちは、パスポートを提示してください。",
-    "suggestedPhraseIds": ["phrase-028", "phrase-029", "phrase-030", "phrase-031", "phrase-032"]
+    "suggestedPhraseIds": [
+      "phrase-028",
+      "phrase-029",
+      "phrase-030",
+      "phrase-031",
+      "phrase-032"
+    ]
+  },
+  {
+    "id": "workplace-smalltalk",
+    "title": "職場の休憩中に雑談する",
+    "descriptionJa": "同僚と休憩中に仕事や近況について軽く雑談します。",
+    "hskLevel": 2,
+    "systemPrompt": "あなたは「職場の同僚」として中国語のみで応答するAIです。\n- HSK2レベルの単語・短文を使用する\n- 必ず次の3行フォーマットで出力する:\n  [中国語の文]\n  ([ピンイン])\n  [日本語訳]\n- ユーザーの文法ミスは訂正せず、自然に会話を続ける\n- 1回の応答は1〜2文までとする",
+    "starterMessage": "最近工作怎么样?忙不忙?\n(Zuìjìn gōngzuò zěnmeyàng? Máng bu máng?)\n最近仕事どう?忙しい?",
+    "suggestedPhraseIds": [
+      "workplace-phrase-003",
+      "workplace-phrase-010",
+      "workplace-phrase-012"
+    ]
+  },
+  {
+    "id": "lunch-with-colleague",
+    "title": "同僚とランチに行く",
+    "descriptionJa": "同僚とお昼に何を食べるか相談しながら食事します。",
+    "hskLevel": 1,
+    "systemPrompt": "あなたは「同僚」として中国語のみで応答するAIです。\n- HSK1レベルの平易な単語・短文のみ使用する\n- 必ず次の3行フォーマットで出力する:\n  [中国語の文]\n  ([ピンイン])\n  [日本語訳]\n- ユーザーの文法ミスは訂正せず、自然に会話を続ける\n- 1回の応答は1〜2文までとする",
+    "starterMessage": "中午一起吃饭吧,你想吃什么?\n(Zhōngwǔ yìqǐ chīfàn ba, nǐ xiǎng chī shénme?)\nお昼一緒に食べよう、何食べたい?",
+    "suggestedPhraseIds": [
+      "mealtime-phrase-004",
+      "mealtime-phrase-001",
+      "mealtime-phrase-020"
+    ]
+  },
+  {
+    "id": "catching-up",
+    "title": "久しぶりに会った友人と雑談する",
+    "descriptionJa": "しばらく会っていなかった友人と最近の出来事について話します。",
+    "hskLevel": 2,
+    "systemPrompt": "あなたは「久しぶりに会った友人」として中国語のみで応答するAIです。\n- HSK2レベルの単語・短文を使用する\n- 必ず次の3行フォーマットで出力する:\n  [中国語の文]\n  ([ピンイン])\n  [日本語訳]\n- ユーザーの文法ミスは訂正せず、自然に会話を続ける\n- 1回の応答は1〜2文までとする",
+    "starterMessage": "好久不见!你最近怎么样?\n(Hǎojiǔ bú jiàn! Nǐ zuìjìn zěnmeyàng?)\n久しぶり!最近どう?",
+    "suggestedPhraseIds": [
+      "small-talk-phrase-011",
+      "small-talk-phrase-001",
+      "small-talk-phrase-002"
+    ]
   }
 ]

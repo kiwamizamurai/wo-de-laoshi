@@ -1,12 +1,14 @@
-import { useMemo, useState } from 'hono/jsx/dom';
+import { useEffect, useMemo, useState } from 'hono/jsx/dom';
 import { loadBookmarks, saveBookmarks } from '../flashcards/bookmarks';
 import { ALL_VOCAB_ITEMS } from '../../data/vocab';
 import scenariosData from '../../data/scenarios.json';
 import type { ChatScenario } from '../../data/types';
 import { search } from './search';
+import { addSearchHistory, clearSearchHistory, loadSearchHistory, removeSearchHistory } from './searchHistory';
 import { SearchResultRow } from './SearchResultRow';
 
 const SCENARIOS = scenariosData as ChatScenario[];
+const HISTORY_RECORD_DELAY_MS = 600;
 
 interface SearchPageProps {
   onSelectScenario: (id: string) => void;
@@ -15,8 +17,26 @@ interface SearchPageProps {
 export function SearchPage({ onSelectScenario }: SearchPageProps) {
   const [query, setQuery] = useState('');
   const [bookmarks, setBookmarks] = useState<Set<string>>(() => loadBookmarks());
+  const [history, setHistory] = useState<string[]>(() => loadSearchHistory());
 
   const results = useMemo(() => search(ALL_VOCAB_ITEMS, SCENARIOS, query), [query]);
+
+  useEffect(() => {
+    const trimmed = query.trim();
+    if (!trimmed) return;
+    const timer = setTimeout(() => {
+      setHistory(addSearchHistory(trimmed));
+    }, HISTORY_RECORD_DELAY_MS);
+    return () => clearTimeout(timer);
+  }, [query]);
+
+  function removeHistoryItem(item: string): void {
+    setHistory(removeSearchHistory(item));
+  }
+
+  function clearHistory(): void {
+    setHistory(clearSearchHistory());
+  }
 
   function toggleBookmark(itemId: string): void {
     setBookmarks((prev) => {
@@ -51,7 +71,57 @@ export function SearchPage({ onSelectScenario }: SearchPageProps) {
         }}
       />
 
-      {!trimmedQuery ? null : results.vocab.length === 0 && results.scenarios.length === 0 ? (
+      {!trimmedQuery ? (
+        history.length > 0 ? (
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
+              <strong style={{ fontSize: '0.85rem' }}>最近の検索</strong>
+              <button
+                onClick={clearHistory}
+                style={{ background: 'transparent', border: 'none', cursor: 'pointer', color: 'var(--color-text-muted)', fontSize: '0.75rem' }}
+              >
+                すべて消去
+              </button>
+            </div>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
+              {history.map((item) => (
+                <div
+                  key={item}
+                  className="card"
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '0.4rem',
+                    padding: '0.4rem 0.7rem',
+                    cursor: 'pointer',
+                  }}
+                  onClick={() => setQuery(item)}
+                >
+                  <span style={{ fontSize: '0.85rem' }}>{item}</span>
+                  <button
+                    onClick={(event: any) => {
+                      event.stopPropagation();
+                      removeHistoryItem(item);
+                    }}
+                    aria-label={`「${item}」を履歴から削除`}
+                    style={{
+                      background: 'transparent',
+                      border: 'none',
+                      cursor: 'pointer',
+                      color: 'var(--color-text-muted)',
+                      fontSize: '0.9rem',
+                      lineHeight: 1,
+                      padding: 0,
+                    }}
+                  >
+                    ×
+                  </button>
+                </div>
+              ))}
+            </div>
+          </div>
+        ) : null
+      ) : results.vocab.length === 0 && results.scenarios.length === 0 ? (
         <p className="muted">「{trimmedQuery}」に一致する結果が見つかりませんでした。</p>
       ) : (
         <>

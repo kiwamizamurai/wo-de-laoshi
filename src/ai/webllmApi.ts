@@ -32,14 +32,20 @@ export function getSharedWebLLMEngine(onProgress?: ProgressHandler): Promise<MLC
   return sharedEnginePromise;
 }
 
+function stripThinkBlock(text: string): string {
+  return text.replace(/<think>[\s\S]*?<\/think>/gi, '').trim();
+}
+
 export async function webllmChatComplete(engine: MLCEngine, systemPrompt: string, userText: string): Promise<string> {
   const reply = await engine.chat.completions.create({
     messages: [
       { role: 'system', content: systemPrompt },
       { role: 'user', content: userText },
     ],
+    extra_body: { enable_thinking: false },
   });
-  return reply.choices[0]?.message?.content?.trim() ?? '';
+  const content = reply.choices[0]?.message?.content ?? '';
+  return stripThinkBlock(content);
 }
 
 export function destroyWebLLMEngine(engine: MLCEngine): void {

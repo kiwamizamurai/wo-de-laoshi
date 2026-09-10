@@ -13,7 +13,10 @@ export class TranslatorSessionPool {
     const key = poolKey(pair);
     const cached = this.#cache.get(key);
     if (cached) return cached;
-    const created = createTranslator(pair, onProgress);
+    const created = createTranslator(pair, onProgress).catch((error) => {
+      if (this.#cache.get(key) === created) this.#cache.delete(key);
+      throw error;
+    });
     this.#cache.set(key, created);
     return created;
   }

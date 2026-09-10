@@ -27,7 +27,11 @@ let sharedEnginePromise: Promise<MLCEngine> | null = null;
 
 export function getSharedWebLLMEngine(onProgress?: ProgressHandler): Promise<MLCEngine> {
   if (!sharedEnginePromise) {
-    sharedEnginePromise = createWebLLMEngine(onProgress);
+    const created = createWebLLMEngine(onProgress).catch((error) => {
+      if (sharedEnginePromise === created) sharedEnginePromise = null;
+      throw error;
+    });
+    sharedEnginePromise = created;
   }
   return sharedEnginePromise;
 }

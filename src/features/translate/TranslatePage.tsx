@@ -1,0 +1,138 @@
+import { useState } from 'hono/jsx/dom';
+import { AiStateView } from '../../ai/AiStateView';
+import { createLanguageDetector, detectLanguage, isLanguageDetectorApiSupported } from '../../ai/languageDetectorApi';
+import { createSummarizer, isSummarizerApiSupported, summarizeText } from '../../ai/summarizerApi';
+import { translateText } from '../../ai/translatorApi';
+import { LanguagePicker } from './LanguagePicker';
+import { SummaryPanel } from './SummaryPanel';
+import { useTranslatorSession } from './useTranslatorSession';
+
+type TranslationState =
+  | { status: 'idle' }
+  | { status: 'translating' }
+  | { status: 'done'; text: string }
+  | { status: 'error' };
+
+type SummaryState =
+  | { status: 'idle' }
+  | { status: 'summarizing' }
+  | { status: 'done'; text: string }
+  | { status: 'error' };
+
+const SUMMARY_THRESHOLD = 400;
+
+export function TranslatePage() {
+  const [inputText, setInputText] = useState('');
+  const [sourceLanguage, setSourceLanguage] = useState('zh');
+  const [targetLanguage, setTargetLanguage] = useState('ja');
+  const [translation, setTranslation] = useState<TranslationState>({ status: 'idle' });
+  const [summary, setSummary] = useState<SummaryState>({ status: 'idle' });
+  const [detectedLabel, setDetectedLabel] = useState<string | null>(null);
+
+  const { state, retry } = useTranslatorSession(sourceLanguage, targetLanguage);
+
+  function swapLanguages(): void {
+    setSourceLanguage(targetLanguage);
+    setTargetLanguage(sourceLanguage);
+    setTranslation({ status: 'idle' });
+    setSummary({ status: 'idle' });
+  }
+
+  async function handleDetect(): Promise<void> {
+    if (!isLanguageDetectorApiSupported() || !inputText.trim()) return;
+    try {
+      const detector = await createLanguageDetector();
+      const results = await detectLanguage(detector, inputText);
+      const top = results[0];
+      if (!top) return;
+      setDetectedLabel(`${top.detectedLanguage} (${Math.round(top.confidence * 100)}%)`);
+      if (top.detectedLanguage.startsWith('zh')) {
+        setSourceLanguage('zh');
+        setTargetLanguage('ja');
+      } else if (top.detectedLanguage.startsWith('ja')) {
+        setSourceLanguage('ja');
+        setTargetLanguage('zh');
+      }
+    } catch {
+      setDetectedLabel(null);
+    }
+  }
+
+  async function handleTranslate(translator: any): Promise<void> {
+    if (!inputText.trim()) return;
+    setTranslation({ status: 'translating' });
+    setSummary({ status: 'idle' });
+    try {
+      const result = await translateText(translator, inputText);
+      setTranslation({ status: 'done', text: result });
+      if (result.length >= SUMMARY_THRESHOLD && isSummarizerApiSupported()) {
+        setSummary({ status: 'summarizing' });
+        try {
+          const summarizer = await createSummarizer();
+          const summarized = await summarizeText(summarizer, result);
+          setSummary({ status: 'done', text: summarized });
+        } catch {
+          setSummary({ status: 'error' });
+        }
+      }
+    } catch {
+      setTranslation({ status: 'error' });
+    }
+  }
+
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+      <LanguagePicker
+        sourceLanguage={sourceLanguage}
+        targetLanguage={targetLanguage}
+        onChangeSource={setSourceLanguage}
+        onChangeTarget={setTargetLanguage}
+        onSwap={swapLanguages}
+      />
+      <textarea
+        value={inputText}
+        onInput={(event: any) => setInputText(event.target.value)}
+        onBlur={handleDetect}
+        placeholder="翻訳したいテキストを入力..."
+        rows={5}
+        style={{
+          padding: '0.7rem',
+          borderRadius: 'var(--radius-md)',
+          border: '1px solid var(--color-border)',
+          background: 'var(--color-surface)',
+          color: 'var(--color-text)',
+          fontFamily: 'inherit',
+          resize: 'vertical',
+        }}
+      />
+      {detectedLabel ? (
+        <span className="muted" style={{ fontSize: '0.8rem' }}>
+          検出: {detectedLabel}
+        </span>
+      ) : null}
+
+      <AiStateView state={state} onRetry={retry} featureLabel="翻訳機能">
+        {(translator) => (
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+            <button
+              className="btn btn-primary"
+              onClick={() => handleTranslate(translator)}
+              disabled={translation.status === 'translating' || !inputText.trim()}
+            >
+              {translation.status === 'translating' ? '翻訳中...' : '翻訳する'}
+            </button>
+            {translation.status === 'done' ? (
+              <div className="card" style={{ padding: '1rem' }}>
+                <p style={{ margin: 0, whiteSpace: 'pre-wrap' }}>{translation.text}</p>
+              </div>
+            ) : null}
+            {translation.status === 'error' ? <p className="muted">翻訳に失敗しました。もう一度お試しください。</p> : null}
+            {summary.status === 'summarizing' || summary.status === 'done' ? (
+              <SummaryPanel summary={summary.status === 'done' ? summary.text : null} loading={summary.status === 'summarizing'} />
+            ) : null}
+          </div>
+        )}
+      </AiStateView>
+    </div>
+  );
+}

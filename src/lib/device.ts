@@ -9,14 +9,3 @@ export function isMobileDevice(nav: NavigatorLike = navigator): boolean {
   if (nav.platform === 'MacIntel' && (nav.maxTouchPoints ?? 0) > 1) return true;
   return false;
 }
-
-export async function isWebGPUAvailable(): Promise<boolean> {
-  const gpu = (navigator as any).gpu;
-  if (!gpu) return false;
-  try {
-    const adapter = await gpu.requestAdapter();
-    return adapter != null;
-  } catch {
-    return false;
-  }
-}

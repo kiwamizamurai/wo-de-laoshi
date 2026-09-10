@@ -6,7 +6,6 @@ import { createSummarizer, isSummarizerApiSupported, summarizeText } from '../..
 import { translateText } from '../../ai/translatorApi';
 import { CopyButton } from '../../components/CopyButton';
 import { SpeakButton } from '../../components/SpeakButton';
-import { isMobileDevice } from '../../lib/device';
 import { LanguagePicker } from './LanguagePicker';
 import { PinyinLine } from './PinyinLine';
 import { fetchPinyin } from './pinyinAnnotator';
@@ -137,21 +136,7 @@ export function TranslatePage() {
         </span>
       ) : null}
 
-      <AiStateView
-        state={state}
-        onRetry={retry}
-        featureLabel="翻訳機能"
-        unsupportedMessage={
-          isMobileDevice()
-            ? 'お使いの端末はWebGPUに対応していないため、オンデバイス翻訳(WebLLM)を利用できません。'
-            : undefined
-        }
-        unavailableMessage={
-          isMobileDevice()
-            ? 'オンデバイス翻訳(WebLLM)を初期化できませんでした。端末のGPU/メモリが不足している可能性があります。'
-            : undefined
-        }
-      >
+      <AiStateView state={state} onRetry={retry} featureLabel="翻訳機能">
         {(translator) => (
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
             <button

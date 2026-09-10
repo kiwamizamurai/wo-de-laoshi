@@ -31,3 +31,6 @@ On first use, each API downloads its model/language pack (the Prompt API model i
 The flashcards and search features do not depend on Chrome Built-in AI, so they work in any browser without any of the above setup — and fully offline once the app has been loaded once (installable as a PWA).
 
 Mobile note: Chrome Built-in AI is effectively a desktop-Chrome-only feature today. iOS browsers (including Chrome, which is required by Apple to use WebKit) can't support it at all, and only a handful of high-end Android devices meet the hardware requirements. The app detects this and shows a fallback message for the translate/chat tabs, while flashcards and search remain fully usable on any device, online or offline.
+
+> [!NOTE]
+> **Roadmap**: Falling back to an in-browser LLM (e.g. [WebLLM](https://github.com/mlc-ai/web-llm)) on mobile so translation works without Chrome Built-in AI was attempted and reverted — model download reliability and WebGPU support were too inconsistent across phones. This remains a candidate for a future revisit once the underlying tooling matures.

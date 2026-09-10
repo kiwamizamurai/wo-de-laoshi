@@ -33,18 +33,8 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,ico,woff2}'],
-        globIgnores: ['**/webllm-*.js'],
         cleanupOutdatedCaches: true,
       },
     }),
   ],
-  build: {
-    rollupOptions: {
-      output: {
-        manualChunks: (id) => {
-          if (id.includes('@mlc-ai/web-llm')) return 'webllm-vendor';
-        },
-      },
-    },
-  },
 });

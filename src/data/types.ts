@@ -8,6 +8,8 @@ export type VocabCategory =
   | 'daily-life'
   | 'directions'
   | 'phrase'
+  | 'daily-conversation'
+  | 'friend-chat'
   | 'reading-notes';
 
 export interface VocabItem {
@@ -42,5 +44,7 @@ export const CATEGORY_LABELS: Record<VocabCategory, string> = {
   'daily-life': '日常生活',
   directions: '方向・場所',
   phrase: '実用フレーズ',
+  'daily-conversation': '日常会話',
+  'friend-chat': '友達との会話',
   'reading-notes': '読解メモ',
 };

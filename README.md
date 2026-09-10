@@ -1,66 +1,70 @@
-# 我的老师(wo-de-laoshi)
+# wo-de-laoshi (我的老师)
 
-Chrome Built-in AI(Gemini Nano)を使った、ブラウザだけで動く中国語学習アプリです。バックエンドは無く、GitHub Pages で配信する単一ページアプリ(SPA)として動作します。
+A Chinese learning app that runs entirely in the browser using Chrome's Built-in AI (Gemini Nano). No backend — it's a static single-page app deployed to GitHub Pages.
 
-## 機能
+## Features
 
-- **単語帳(フラッシュカード)**: HSK1〜3相当の単語・フレーズ175+45語を、SM-2アルゴリズムによる間隔反復で学習します。Chrome Built-in AI非依存なので、どのブラウザでも利用できます。
-- **翻訳・読解補助**: Chrome の Translator API / Language Detector API / Summarizer API を使い、中国語⇄日本語の翻訳、入力言語の自動判定、長文の要約を行います。
-- **AI会話練習**: Chrome の Prompt API を使い、8つのシナリオ(カフェでの注文、タクシー、ホテル、空港審査など)でAIとロールプレイ形式の中国語会話練習ができます。発話ごとにAIによる添削(構造化出力)も表示されます。
+- **Flashcards**: ~175 words + 177 phrases at HSK1–3 level, reviewed with an SM-2 spaced-repetition algorithm. Works in any browser since it does not depend on Chrome Built-in AI.
+- **Translate & reading assist**: Uses Chrome's Translator API / Language Detector API / Summarizer API for Chinese⇄Japanese translation, automatic input-language detection, and long-text summarization.
+- **AI conversation practice**: Uses Chrome's Prompt API for roleplay-style Chinese conversation practice across 8 scenarios (ordering at a cafe, taking a taxi, checking into a hotel, immigration at the airport, etc.), with per-turn AI feedback (structured output).
+- **Pronunciation**: Flashcards include a speaker button using the standard Web Speech API (`speechSynthesis`) to read Chinese text aloud — independent of Chrome Built-in AI, so it works on any browser/OS with a Chinese voice installed.
 
-## 必要な環境
+## Requirements
 
-翻訳・会話練習機能は Chrome の Built-in AI API に依存します。
+The translate and conversation-practice features depend on Chrome's Built-in AI APIs.
 
-- Chrome バージョン 138 以降(Edge の一部バージョンでも開発者向けプレビューとして利用可)
-- ハードウェア要件: 空き容量 22GB 以上、GPU 4GB VRAM 以上、または CPU 16GB RAM + 4コア以上
+- Chrome 138+ (Edge has a developer-preview version of some APIs)
+- Hardware requirements: 22GB+ free disk space, 4GB+ VRAM GPU, or 16GB+ RAM with 4+ CPU cores
 
-要件を満たしていても機能が有効にならない場合は、以下を試してください。
+If the hardware requirements are met but the feature still isn't available, try:
 
-1. `chrome://flags/#optimization-guide-on-device-model` を `Enabled BypassPerfRequirement` に設定
-2. 必要であれば `chrome://flags/#prompt-api-for-gemini-nano` を `Enabled` に設定
-3. Chrome を再起動
-4. `chrome://components` で「Optimization Guide On Device Model」の状態を確認(モデル本体はここでダウンロードされます)
-5. 詳細な状態確認は `chrome://on-device-internals`
+1. Set `chrome://flags/#optimization-guide-on-device-model` to `Enabled BypassPerfRequirement`
+2. If needed, set `chrome://flags/#prompt-api-for-gemini-nano` to `Enabled`
+3. Restart Chrome
+4. Check `chrome://components` for the "Optimization Guide On Device Model" status (this is where the model itself is downloaded)
+5. For detailed status, check `chrome://on-device-internals`
 
-初回利用時は各APIのモデル・言語パックのダウンロードが発生します(Prompt API は数GBあり、数分かかることがあります)。
+On first use, each API downloads its model/language pack (the Prompt API model is several GB and can take a few minutes).
 
-単語帳機能は Chrome Built-in AI 非依存のため、上記の準備なしに全ブラウザで利用できます。
+The flashcards feature does not depend on Chrome Built-in AI, so it works in any browser without any of the above setup.
 
-## 開発
+Mobile note: Chrome Built-in AI is effectively a desktop-Chrome-only feature today. iOS browsers (including Chrome, which is required by Apple to use WebKit) can't support it at all, and only a handful of high-end Android devices meet the hardware requirements. The app detects this and shows a fallback message for the translate/chat tabs, while flashcards remain fully usable on any device.
+
+## Development
 
 ```bash
 npm install
 npm run dev       # http://localhost:5173/wo-de-laoshi/
-npm run test      # SRSアルゴリズムのユニットテスト
+npm run test      # unit tests for the SRS algorithm
 npm run typecheck
-npm run build      # dist/ に静的ファイルを出力
-npm run preview    # ビルド結果をローカルで確認
+npm run build      # outputs static files to dist/
+npm run preview    # preview the production build locally
 ```
 
-## デプロイ
+## Deployment
 
-`main` ブランチへの push で GitHub Actions(`.github/workflows/deploy.yml`)が自動的に GitHub Pages へデプロイします。事前にリポジトリの Settings → Pages → Source を「GitHub Actions」に設定してください。
+Pushing to `main` triggers GitHub Actions (`.github/workflows/deploy.yml`) to deploy to GitHub Pages automatically. Before the first deploy, set the repository's Settings → Pages → Source to "GitHub Actions". Note that GitHub Pages requires a public repository unless you're on a paid plan.
 
-`vite.config.ts` の `base` はリポジトリ名に合わせて `/wo-de-laoshi/` としています。リポジトリ名を変更した場合はここも変更してください。
+`vite.config.ts`'s `base` is set to `/wo-de-laoshi/` to match the repository name — update it if you rename the repo.
 
-## 技術スタック
+## Tech stack
 
 - Vite + TypeScript
-- [Hono](https://hono.dev/) の `hono/jsx/dom`(クライアントサイドJSXランタイム、React 互換フック)
-- 状態管理は独自の hash ルーター(`src/router/useHashRoute.ts`)とローカルの React 風フックのみ、外部の状態管理ライブラリは不使用
-- データ永続化は `localStorage`(学習進捗のみ)
+- [Hono](https://hono.dev/)'s `hono/jsx/dom` (client-side JSX runtime with React-compatible hooks)
+- No external state-management library — just a small hash-based router (`src/router/useHashRoute.ts`) and local hooks
+- Persistence via `localStorage` (flashcard progress only)
 
-## ディレクトリ構成
+## Directory structure
 
 ```
 src/
-  ai/              Chrome Built-in AI の呼び出しをラップする層(依存をここに閉じ込める)
-  data/            単語・フレーズ・シナリオの静的データ(JSON)
+  ai/              Wrappers around Chrome Built-in AI (all AI-specific dependencies live here)
+  data/            Static word/phrase/scenario data (JSON)
   features/
-    flashcards/    単語帳機能(SRSアルゴリズム、UI)
-    translate/     翻訳・読解補助機能
-    chat/          AI会話練習機能
-  components/      共通レイアウト・ナビゲーション
-  router/          hashベースの自前ルーター
+    flashcards/    Flashcard feature (SRS algorithm, UI)
+    translate/     Translate & reading-assist feature
+    chat/          AI conversation-practice feature
+  lib/             Browser APIs independent of Chrome Built-in AI (e.g. speech synthesis)
+  components/      Shared layout & navigation
+  router/          Custom hash-based router
 ```

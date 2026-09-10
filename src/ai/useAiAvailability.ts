@@ -5,6 +5,7 @@ export type AiState<T> =
   | { status: 'checking' }
   | { status: 'unsupported' }
   | { status: 'unavailable' }
+  | { status: 'needs-download'; start: () => void }
   | { status: 'downloading'; progress: number }
   | { status: 'ready'; instance: T }
   | { status: 'error'; error: unknown };
@@ -35,8 +36,25 @@ export function useAiAvailability<T>(
     let createdInstance: T | null = null;
     setState({ status: 'checking' });
 
+    async function startCreate() {
+      if (!cancelled) setState({ status: 'downloading', progress: 0 });
+      try {
+        const instance = await optsRef.current.createInstance((progress) => {
+          if (!cancelled) setState({ status: 'downloading', progress });
+        });
+        createdInstance = instance;
+        if (cancelled) {
+          optsRef.current.disposeInstance?.(instance);
+          return;
+        }
+        setState({ status: 'ready', instance });
+      } catch (error) {
+        if (!cancelled) setState({ status: 'error', error });
+      }
+    }
+
     async function run() {
-      const { isSupported, checkAvailability, createInstance } = optsRef.current;
+      const { isSupported, checkAvailability } = optsRef.current;
       if (!isSupported()) {
         if (!cancelled) setState({ status: 'unsupported' });
         return;
@@ -47,16 +65,19 @@ export function useAiAvailability<T>(
           if (!cancelled) setState({ status: 'unavailable' });
           return;
         }
-        if (!cancelled) setState({ status: 'downloading', progress: 0 });
-        const instance = await createInstance((progress) => {
-          if (!cancelled) setState({ status: 'downloading', progress });
-        });
-        createdInstance = instance;
-        if (cancelled) {
-          optsRef.current.disposeInstance?.(instance);
+        if (availability === 'available') {
+          await startCreate();
           return;
         }
-        setState({ status: 'ready', instance });
+        // 'downloadable' | 'downloading': Chrome側の仕様でモデル取得の開始にはユーザー操作が必要
+        if (!cancelled) {
+          setState({
+            status: 'needs-download',
+            start: () => {
+              void startCreate();
+            },
+          });
+        }
       } catch (error) {
         if (!cancelled) setState({ status: 'error', error });
       }

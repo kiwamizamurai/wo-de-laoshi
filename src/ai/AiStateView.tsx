@@ -80,6 +80,18 @@ export function AiStateView<T>({
       return (
         <Notice title={`${featureLabel}を利用できません`} body={unavailableMessage ?? DEFAULT_UNAVAILABLE_MESSAGE} />
       );
+    case 'needs-download':
+      return (
+        <div className="card" style={{ padding: '1rem', display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>
+          <strong>{featureLabel}を利用するにはモデルのダウンロードが必要です</strong>
+          <span className="muted" style={{ fontSize: '0.85rem' }}>
+            初回のみダウンロードが発生します。ボタンを押すと開始します。
+          </span>
+          <button className="btn btn-primary" onClick={state.start}>
+            ダウンロードして開始
+          </button>
+        </div>
+      );
     case 'downloading':
       return (
         <div className="card" style={{ padding: '1rem', display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>

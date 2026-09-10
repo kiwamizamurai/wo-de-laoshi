@@ -1,3 +1,4 @@
+import { CopyButton } from '../../components/CopyButton';
 import { SpeakButton } from '../../components/SpeakButton';
 import type { VocabItem } from '../../data/types';
 
@@ -16,6 +17,7 @@ export function SearchResultRow({ item, bookmarked, onToggleBookmark }: SearchRe
             {item.hanzi}
           </span>
           <SpeakButton text={item.hanzi} />
+          <CopyButton text={item.hanzi} />
         </div>
         <button
           onClick={(event: any) => {

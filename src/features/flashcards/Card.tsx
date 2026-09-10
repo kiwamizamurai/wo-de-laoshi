@@ -1,3 +1,4 @@
+import { CopyButton } from '../../components/CopyButton';
 import { SpeakButton } from '../../components/SpeakButton';
 import type { VocabItem } from '../../data/types';
 
@@ -53,6 +54,7 @@ export function Card({ item, revealed, onReveal, bookmarked, onToggleBookmark }:
           {item.hanzi}
         </span>
         <SpeakButton text={item.hanzi} />
+        <CopyButton text={item.hanzi} />
       </div>
       <span className="muted" style={{ fontSize: '1.1rem' }}>
         {item.pinyin}
@@ -65,6 +67,7 @@ export function Card({ item, revealed, onReveal, bookmarked, onToggleBookmark }:
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.4rem' }}>
                 <span className="hanzi">{item.exampleSentence}</span>
                 <SpeakButton text={item.exampleSentence} />
+                <CopyButton text={item.exampleSentence} />
               </div>
               <div className="muted">{item.exampleSentencePinyin}</div>
               <div className="muted">{item.exampleSentenceMeaning}</div>

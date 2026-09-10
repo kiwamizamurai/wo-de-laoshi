@@ -4,6 +4,7 @@ import { createLanguageDetector, detectLanguage, isLanguageDetectorApiSupported 
 import { isPromptApiSupported } from '../../ai/promptApi';
 import { createSummarizer, isSummarizerApiSupported, summarizeText } from '../../ai/summarizerApi';
 import { translateText } from '../../ai/translatorApi';
+import { CopyButton } from '../../components/CopyButton';
 import { SpeakButton } from '../../components/SpeakButton';
 import { isMobileDevice } from '../../lib/device';
 import { LanguagePicker } from './LanguagePicker';
@@ -168,6 +169,7 @@ export function TranslatePage() {
                 <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem' }}>
                   <p style={{ margin: 0, whiteSpace: 'pre-wrap', flex: 1 }}>{translation.text}</p>
                   <SpeakButton text={translation.text} lang={SPEECH_LANG[targetLanguage]} />
+                  <CopyButton text={translation.text} />
                 </div>
               </div>
             ) : null}

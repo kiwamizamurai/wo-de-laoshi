@@ -4,6 +4,7 @@ import { FlashcardsPage } from './features/flashcards/FlashcardsPage';
 import { TranslatePage } from './features/translate/TranslatePage';
 import { ScenarioSelect } from './features/chat/ScenarioSelect';
 import { ChatPage } from './features/chat/ChatPage';
+import { SearchPage } from './features/search/SearchPage';
 
 export function App() {
   const [path, navigate] = useHashRoute();
@@ -11,6 +12,8 @@ export function App() {
   let content: JSX.Element;
   if (path.startsWith('/translate')) {
     content = <TranslatePage />;
+  } else if (path.startsWith('/search')) {
+    content = <SearchPage onSelectScenario={(id) => navigate(`/chat/${id}`)} />;
   } else if (path.startsWith('/chat/')) {
     const scenarioId = path.slice('/chat/'.length);
     content = <ChatPage scenarioId={scenarioId} onExit={() => navigate('/chat')} />;

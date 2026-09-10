@@ -1,13 +1,12 @@
 import { useMemo, useState } from 'hono/jsx/dom';
-import phrasesData from '../../data/phrases.json';
-import wordsData from '../../data/words.json';
-import { CATEGORY_LABELS, type VocabCategory, type VocabItem } from '../../data/types';
+import { ALL_VOCAB_ITEMS } from '../../data/vocab';
+import { CATEGORY_LABELS, type VocabCategory } from '../../data/types';
 import { Card } from './Card';
 import { DeckStats } from './DeckStats';
 import { ReviewControls } from './ReviewControls';
 import { useFlashcards } from './useFlashcards';
 
-const ALL_ITEMS: VocabItem[] = [...(wordsData as VocabItem[]), ...(phrasesData as VocabItem[])];
+const ALL_ITEMS = ALL_VOCAB_ITEMS;
 const CATEGORIES = Array.from(new Set(ALL_ITEMS.map((item) => item.category))) as VocabCategory[];
 
 type Mode = 'srs' | 'bookmarks';

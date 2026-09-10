@@ -1,11 +1,17 @@
 import { useState } from 'hono/jsx/dom';
 import { AiStateView } from '../../ai/AiStateView';
 import { createLanguageDetector, detectLanguage, isLanguageDetectorApiSupported } from '../../ai/languageDetectorApi';
+import { isPromptApiSupported } from '../../ai/promptApi';
 import { createSummarizer, isSummarizerApiSupported, summarizeText } from '../../ai/summarizerApi';
 import { translateText } from '../../ai/translatorApi';
+import { SpeakButton } from '../../components/SpeakButton';
 import { LanguagePicker } from './LanguagePicker';
+import { PinyinLine } from './PinyinLine';
+import { fetchPinyin } from './pinyinAnnotator';
 import { SummaryPanel } from './SummaryPanel';
 import { useTranslatorSession } from './useTranslatorSession';
+
+const SPEECH_LANG: Record<string, string> = { zh: 'zh-CN', ja: 'ja-JP' };
 
 type TranslationState =
   | { status: 'idle' }
@@ -19,14 +25,21 @@ type SummaryState =
   | { status: 'done'; text: string }
   | { status: 'error' };
 
+type PinyinState =
+  | { status: 'idle' }
+  | { status: 'loading' }
+  | { status: 'done'; text: string }
+  | { status: 'error' };
+
 const SUMMARY_THRESHOLD = 400;
 
 export function TranslatePage() {
   const [inputText, setInputText] = useState('');
-  const [sourceLanguage, setSourceLanguage] = useState('zh');
-  const [targetLanguage, setTargetLanguage] = useState('ja');
+  const [sourceLanguage, setSourceLanguage] = useState('ja');
+  const [targetLanguage, setTargetLanguage] = useState('zh');
   const [translation, setTranslation] = useState<TranslationState>({ status: 'idle' });
   const [summary, setSummary] = useState<SummaryState>({ status: 'idle' });
+  const [pinyin, setPinyin] = useState<PinyinState>({ status: 'idle' });
   const [detectedLabel, setDetectedLabel] = useState<string | null>(null);
 
   const { state, retry } = useTranslatorSession(sourceLanguage, targetLanguage);
@@ -36,6 +49,7 @@ export function TranslatePage() {
     setTargetLanguage(sourceLanguage);
     setTranslation({ status: 'idle' });
     setSummary({ status: 'idle' });
+    setPinyin({ status: 'idle' });
   }
 
   async function handleDetect(): Promise<void> {
@@ -62,6 +76,7 @@ export function TranslatePage() {
     if (!inputText.trim()) return;
     setTranslation({ status: 'translating' });
     setSummary({ status: 'idle' });
+    setPinyin({ status: 'idle' });
     try {
       const result = await translateText(translator, inputText);
       setTranslation({ status: 'done', text: result });
@@ -73,6 +88,15 @@ export function TranslatePage() {
           setSummary({ status: 'done', text: summarized });
         } catch {
           setSummary({ status: 'error' });
+        }
+      }
+      if (targetLanguage === 'zh' && isPromptApiSupported() && result.trim()) {
+        setPinyin({ status: 'loading' });
+        try {
+          const pinyinText = await fetchPinyin(result);
+          setPinyin({ status: 'done', text: pinyinText });
+        } catch {
+          setPinyin({ status: 'error' });
         }
       }
     } catch {
@@ -122,8 +146,14 @@ export function TranslatePage() {
               {translation.status === 'translating' ? '翻訳中...' : '翻訳する'}
             </button>
             {translation.status === 'done' ? (
-              <div className="card" style={{ padding: '1rem' }}>
-                <p style={{ margin: 0, whiteSpace: 'pre-wrap' }}>{translation.text}</p>
+              <div className="card" style={{ padding: '1rem', display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
+                {targetLanguage === 'zh' ? (
+                  <PinyinLine pinyin={pinyin.status === 'done' ? pinyin.text : null} loading={pinyin.status === 'loading'} />
+                ) : null}
+                <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem' }}>
+                  <p style={{ margin: 0, whiteSpace: 'pre-wrap', flex: 1 }}>{translation.text}</p>
+                  <SpeakButton text={translation.text} lang={SPEECH_LANG[targetLanguage]} />
+                </div>
               </div>
             ) : null}
             {translation.status === 'error' ? <p className="muted">翻訳に失敗しました。もう一度お試しください。</p> : null}

@@ -1,4 +1,4 @@
-import { speak } from '../../lib/speech';
+import { SpeakButton } from '../../components/SpeakButton';
 import type { VocabItem } from '../../data/types';
 
 interface CardProps {
@@ -7,22 +7,6 @@ interface CardProps {
   onReveal: () => void;
   bookmarked: boolean;
   onToggleBookmark: () => void;
-}
-
-function SpeakButton({ text }: { text: string }) {
-  return (
-    <button
-      className="btn"
-      onClick={(event: any) => {
-        event.stopPropagation();
-        speak(text);
-      }}
-      aria-label="発音を聞く"
-      style={{ padding: '0.3em 0.55em', fontSize: '1rem', lineHeight: 1 }}
-    >
-      🔊
-    </button>
-  );
 }
 
 export function Card({ item, revealed, onReveal, bookmarked, onToggleBookmark }: CardProps) {

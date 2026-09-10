@@ -5,6 +5,7 @@ interface NavBarProps {
 
 const TABS = [
   { path: '/flashcards', label: '単語帳', icon: '卡' },
+  { path: '/search', label: '検索', icon: '找' },
   { path: '/translate', label: '翻訳', icon: '译' },
   { path: '/chat', label: '会話', icon: '话' },
 ];

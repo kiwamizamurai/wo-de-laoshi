@@ -5,6 +5,8 @@ interface CardProps {
   item: VocabItem;
   revealed: boolean;
   onReveal: () => void;
+  bookmarked: boolean;
+  onToggleBookmark: () => void;
 }
 
 function SpeakButton({ text }: { text: string }) {
@@ -23,12 +25,13 @@ function SpeakButton({ text }: { text: string }) {
   );
 }
 
-export function Card({ item, revealed, onReveal }: CardProps) {
+export function Card({ item, revealed, onReveal, bookmarked, onToggleBookmark }: CardProps) {
   return (
     <div
       className="card"
       onClick={revealed ? undefined : onReveal}
       style={{
+        position: 'relative',
         padding: 'clamp(1.5rem, 6vw, 2.5rem) 1.25rem',
         minHeight: '220px',
         display: 'flex',
@@ -40,6 +43,27 @@ export function Card({ item, revealed, onReveal }: CardProps) {
         cursor: revealed ? 'default' : 'pointer',
       }}
     >
+      <button
+        onClick={(event: any) => {
+          event.stopPropagation();
+          onToggleBookmark();
+        }}
+        aria-label={bookmarked ? 'ブックマークを解除' : 'ブックマークに追加'}
+        style={{
+          position: 'absolute',
+          top: '0.6rem',
+          right: '0.6rem',
+          background: 'transparent',
+          border: 'none',
+          cursor: 'pointer',
+          fontSize: '1.4rem',
+          lineHeight: 1,
+          padding: '0.3rem',
+          color: bookmarked ? 'var(--color-warning)' : 'var(--color-text-muted)',
+        }}
+      >
+        {bookmarked ? '★' : '☆'}
+      </button>
       <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
         <span className="hanzi" style={{ fontSize: 'clamp(1.8rem, 9vw, 2.4rem)', fontWeight: 700 }}>
           {item.hanzi}

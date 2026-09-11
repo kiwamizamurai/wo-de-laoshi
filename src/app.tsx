@@ -2,6 +2,7 @@ import { useHashRoute } from './router/useHashRoute';
 import { Layout } from './components/Layout';
 import { HomePage } from './features/home/HomePage';
 import { FlashcardsPage } from './features/flashcards/FlashcardsPage';
+import { GrammarPage } from './features/grammar/GrammarPage';
 import { TranslatePage } from './features/translate/TranslatePage';
 import { ScenarioSelect } from './features/chat/ScenarioSelect';
 import { ChatPage } from './features/chat/ChatPage';
@@ -13,6 +14,8 @@ export function App() {
   let content: JSX.Element;
   if (path.startsWith('/flashcards')) {
     content = <FlashcardsPage />;
+  } else if (path.startsWith('/grammar')) {
+    content = <GrammarPage />;
   } else if (path.startsWith('/translate')) {
     content = <TranslatePage />;
   } else if (path.startsWith('/search')) {

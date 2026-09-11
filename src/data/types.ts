@@ -89,3 +89,42 @@ export const CATEGORY_LABELS: Record<VocabCategory, string> = {
   mealtime: '食事中の会話',
   'small-talk': '雑談',
 };
+
+export interface GrammarExample {
+  hanzi: string;
+  pinyin: string;
+  meaning: string;
+}
+
+export type GrammarCategory =
+  | 'word-order'
+  | 'tense-aspect'
+  | 'negation'
+  | 'question'
+  | 'exclamation'
+  | 'comparison'
+  | 'modal'
+  | 'complement'
+  | 'particle';
+
+export interface GrammarPoint {
+  id: string;
+  title: string;
+  englishGrammarRef: string;
+  category: GrammarCategory;
+  pattern: string;
+  explanationJa: string;
+  examples: GrammarExample[];
+}
+
+export const GRAMMAR_CATEGORY_LABELS: Record<GrammarCategory, string> = {
+  'word-order': '語順(SVO)',
+  'tense-aspect': '時制・アスペクト',
+  negation: '否定文',
+  question: '疑問文',
+  exclamation: '感嘆文',
+  comparison: '比較級',
+  modal: '助動詞',
+  complement: '補語・不定詞',
+  particle: '助詞(的/地/得/被)',
+};

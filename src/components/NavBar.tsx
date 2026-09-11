@@ -14,6 +14,7 @@ interface TabSpec {
 const TABS: TabSpec[] = [
   { path: '/home', label: 'ホーム', icon: '家' },
   { path: '/flashcards', label: '単語帳', icon: '卡' },
+  { path: '/grammar', label: '文法', icon: '语' },
   { path: '/search', label: '検索', icon: '找' },
   { path: '/translate', label: '翻訳', icon: '译' },
   { path: '/chat', label: '会話', icon: '话' },

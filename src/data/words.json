@@ -5099,5 +5099,123 @@
         "n"
       ]
     ]
+  },
+  {
+    "id": "daily-life-026",
+    "hanzi": "没",
+    "pinyin": "méi",
+    "meaning": "〜していない／〜しなかった(過去の否定)",
+    "category": "daily-life",
+    "example": {
+      "sentence": "什么都没吃。",
+      "pinyin": "Shénme dōu méi chī.",
+      "meaning": "何も食べていません。"
+    },
+    "typing": [
+      [
+        "m",
+        "e",
+        "i"
+      ]
+    ]
+  },
+  {
+    "id": "daily-life-027",
+    "hanzi": "不",
+    "pinyin": "bù",
+    "meaning": "〜ない(現在・未来・習慣・意志の否定)",
+    "category": "daily-life",
+    "example": {
+      "sentence": "什么都不吃。",
+      "pinyin": "Shénme dōu bù chī.",
+      "meaning": "何も食べません。"
+    },
+    "typing": [
+      [
+        "b",
+        "u"
+      ]
+    ]
+  },
+  {
+    "id": "daily-life-028",
+    "hanzi": "了",
+    "pinyin": "le",
+    "meaning": "〜した(動作の完了を表す助詞)",
+    "category": "daily-life",
+    "example": {
+      "sentence": "你吃了什么?",
+      "pinyin": "Nǐ chī le shénme?",
+      "meaning": "何を食べましたか?"
+    },
+    "typing": [
+      [
+        "l",
+        "e"
+      ]
+    ]
+  },
+  {
+    "id": "daily-life-029",
+    "hanzi": "都",
+    "pinyin": "dōu",
+    "meaning": "すべて・全部(疑問詞と組み合わせて使う)",
+    "category": "daily-life",
+    "example": {
+      "sentence": "什么都不吃。",
+      "pinyin": "Shénme dōu bù chī.",
+      "meaning": "何も食べません。"
+    },
+    "typing": [
+      [
+        "d",
+        "o",
+        "u"
+      ]
+    ]
+  },
+  {
+    "id": "daily-life-030",
+    "hanzi": "吗",
+    "pinyin": "ma",
+    "meaning": "〜か(文末に置く疑問の助詞)",
+    "category": "daily-life",
+    "example": {
+      "sentence": "你吃了吗?",
+      "pinyin": "Nǐ chī le ma?",
+      "meaning": "食べましたか?"
+    },
+    "typing": [
+      [
+        "m",
+        "a"
+      ]
+    ]
+  },
+  {
+    "id": "daily-life-031",
+    "hanzi": "有点儿",
+    "pinyin": "yǒudiǎnr",
+    "meaning": "ちょっと・少し",
+    "category": "daily-life",
+    "example": {
+      "sentence": "有点儿热。",
+      "pinyin": "Yǒudiǎnr rè.",
+      "meaning": "ちょっと暑いです。"
+    },
+    "typing": [
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n",
+        "r"
+      ]
+    ]
   }
 ]

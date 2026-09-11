@@ -9376,5 +9376,372 @@
         "i"
       ]
     ]
+  },
+  {
+    "id": "phrase-178",
+    "hanzi": "你看到了我。",
+    "pinyin": "Nǐ kàndào le wǒ.",
+    "meaning": "あなたは私を見かけました。",
+    "category": "friend-chat",
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "k",
+        "a",
+        "n"
+      ],
+      [
+        "d",
+        "a",
+        "o"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "w",
+        "o"
+      ]
+    ]
+  },
+  {
+    "id": "phrase-179",
+    "hanzi": "但是你没认出来这是我。",
+    "pinyin": "Dànshì nǐ méi rènchūlái zhè shì wǒ.",
+    "meaning": "でも、あなたはそれが私だと気づきませんでしたね。",
+    "category": "friend-chat",
+    "typing": [
+      [
+        "d",
+        "a",
+        "n"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "n",
+        "i"
+      ],
+      [
+        "m",
+        "e",
+        "i"
+      ],
+      [
+        "r",
+        "e",
+        "n"
+      ],
+      [
+        "c",
+        "h",
+        "u"
+      ],
+      [
+        "l",
+        "a",
+        "i"
+      ],
+      [
+        "z",
+        "h",
+        "e"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "w",
+        "o"
+      ]
+    ]
+  },
+  {
+    "id": "phrase-180",
+    "hanzi": "哈哈哈。",
+    "pinyin": "Hā hā hā.",
+    "meaning": "あははは。",
+    "category": "friend-chat",
+    "typing": [
+      [
+        "h",
+        "a"
+      ],
+      [
+        "h",
+        "a"
+      ],
+      [
+        "h",
+        "a"
+      ]
+    ]
+  },
+  {
+    "id": "phrase-181",
+    "hanzi": "回家吧。",
+    "pinyin": "Huí jiā ba.",
+    "meaning": "家に帰ろう。",
+    "category": "friend-chat",
+    "typing": [
+      [
+        "h",
+        "u",
+        "i"
+      ],
+      [
+        "j",
+        "i",
+        "a"
+      ],
+      [
+        "b",
+        "a"
+      ]
+    ]
+  },
+  {
+    "id": "phrase-182",
+    "hanzi": "不早了。",
+    "pinyin": "Bù zǎo le.",
+    "meaning": "もう遅いですね。",
+    "category": "daily-conversation",
+    "typing": [
+      [
+        "b",
+        "u"
+      ],
+      [
+        "z",
+        "a",
+        "o"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
+  },
+  {
+    "id": "phrase-183",
+    "hanzi": "现在还早。",
+    "pinyin": "Xiànzài hái zǎo.",
+    "meaning": "今はまだ早いです。",
+    "category": "daily-conversation",
+    "typing": [
+      [
+        "x",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "z",
+        "a",
+        "i"
+      ],
+      [
+        "h",
+        "a",
+        "i"
+      ],
+      [
+        "z",
+        "a",
+        "o"
+      ]
+    ]
+  },
+  {
+    "id": "mealtime-phrase-021",
+    "hanzi": "什么都不吃。",
+    "pinyin": "Shénme dōu bù chī.",
+    "meaning": "何も食べません。",
+    "category": "mealtime",
+    "typing": [
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "d",
+        "o",
+        "u"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "c",
+        "h",
+        "i"
+      ]
+    ]
+  },
+  {
+    "id": "mealtime-phrase-022",
+    "hanzi": "吃什么?",
+    "pinyin": "Chī shénme?",
+    "meaning": "何を食べる?",
+    "category": "mealtime",
+    "typing": [
+      [
+        "c",
+        "h",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ]
+    ]
+  },
+  {
+    "id": "mealtime-phrase-023",
+    "hanzi": "吃什么了?",
+    "pinyin": "Chī shénme le?",
+    "meaning": "何を食べた?",
+    "category": "mealtime",
+    "typing": [
+      [
+        "c",
+        "h",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
+  },
+  {
+    "id": "mealtime-phrase-024",
+    "hanzi": "你今天吃什么了?",
+    "pinyin": "Nǐ jīntiān chī shénme le?",
+    "meaning": "今日何を食べましたか?",
+    "category": "mealtime",
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "c",
+        "h",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
+  },
+  {
+    "id": "small-talk-phrase-021",
+    "hanzi": "热吗?",
+    "pinyin": "Rè ma?",
+    "meaning": "暑いですか?",
+    "category": "small-talk",
+    "typing": [
+      [
+        "r",
+        "e"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
+  },
+  {
+    "id": "small-talk-phrase-022",
+    "hanzi": "冷吗?",
+    "pinyin": "Lěng ma?",
+    "meaning": "寒いですか?",
+    "category": "small-talk",
+    "typing": [
+      [
+        "l",
+        "e",
+        "n",
+        "g"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
+  },
+  {
+    "id": "small-talk-phrase-023",
+    "hanzi": "不冷。",
+    "pinyin": "Bù lěng.",
+    "meaning": "寒くないです。",
+    "category": "small-talk",
+    "typing": [
+      [
+        "b",
+        "u"
+      ],
+      [
+        "l",
+        "e",
+        "n",
+        "g"
+      ]
+    ]
   }
 ]

@@ -1,6 +1,8 @@
 import { CopyButton } from '../../components/CopyButton';
 import { SpeakButton } from '../../components/SpeakButton';
+import { pickLocalized } from '../../data/localized';
 import type { VocabItem } from '../../data/types';
+import { useLocale, useT } from '../../i18n/LocaleContext';
 
 interface SearchResultRowProps {
   item: VocabItem;
@@ -10,6 +12,8 @@ interface SearchResultRowProps {
 }
 
 export function SearchResultRow({ item, bookmarked, onToggleBookmark, index = 0 }: SearchResultRowProps) {
+  const t = useT();
+  const { locale } = useLocale();
   return (
     <div
       className="card anim-slide-up-in"
@@ -35,7 +39,7 @@ export function SearchResultRow({ item, bookmarked, onToggleBookmark, index = 0 
             event.stopPropagation();
             onToggleBookmark();
           }}
-          aria-label={bookmarked ? 'ブックマークを解除' : 'ブックマークに追加'}
+          aria-label={bookmarked ? t.flashcards.bookmarkRemove : t.flashcards.bookmarkAdd}
           style={{
             background: 'transparent',
             border: 'none',
@@ -51,12 +55,12 @@ export function SearchResultRow({ item, bookmarked, onToggleBookmark, index = 0 
       <span className="muted" style={{ fontSize: '0.9rem' }}>
         {item.pinyin}
       </span>
-      <strong style={{ fontSize: '1rem' }}>{item.meaning}</strong>
+      <strong style={{ fontSize: '1rem' }}>{pickLocalized(item.meaning, locale)}</strong>
       {item.example ? (
         <div style={{ marginTop: '0.3rem', fontSize: '0.85rem' }}>
           <span className="hanzi">{item.example.sentence}</span>
           <div className="muted">{item.example.pinyin}</div>
-          <div className="muted">{item.example.meaning}</div>
+          <div className="muted">{pickLocalized(item.example.meaning, locale)}</div>
         </div>
       ) : null}
     </div>

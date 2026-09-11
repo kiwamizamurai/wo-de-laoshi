@@ -6,6 +6,7 @@ import { createSummarizer, isSummarizerApiSupported, summarizeText } from '../..
 import { translateText } from '../../ai/translatorApi';
 import { CopyButton } from '../../components/CopyButton';
 import { SpeakButton } from '../../components/SpeakButton';
+import { useT } from '../../i18n/LocaleContext';
 import { LanguagePicker } from './LanguagePicker';
 import { PinyinLine } from './PinyinLine';
 import { fetchPinyin } from './pinyinAnnotator';
@@ -35,6 +36,7 @@ type PinyinState =
 const SUMMARY_THRESHOLD = 400;
 
 export function TranslatePage() {
+  const t = useT();
   const [inputText, setInputText] = useState('');
   const [sourceLanguage, setSourceLanguage] = useState('ja');
   const [targetLanguage, setTargetLanguage] = useState('zh');
@@ -118,7 +120,7 @@ export function TranslatePage() {
         value={inputText}
         onInput={(event: any) => setInputText(event.target.value)}
         onBlur={handleDetect}
-        placeholder="翻訳したいテキストを入力..."
+        placeholder={t.translate.inputPlaceholder}
         rows={5}
         style={{
           padding: '0.7rem',
@@ -132,11 +134,11 @@ export function TranslatePage() {
       />
       {detectedLabel ? (
         <span className="muted" style={{ fontSize: '0.8rem' }}>
-          検出: {detectedLabel}
+          {t.translate.detectedLabel(detectedLabel)}
         </span>
       ) : null}
 
-      <AiStateView state={state} onRetry={retry} featureLabel="翻訳機能">
+      <AiStateView state={state} onRetry={retry} featureLabel={t.translate.featureLabel}>
         {(translator) => (
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
             <button
@@ -144,7 +146,7 @@ export function TranslatePage() {
               onClick={() => handleTranslate(translator)}
               disabled={translation.status === 'translating' || !inputText.trim()}
             >
-              {translation.status === 'translating' ? '翻訳中...' : '翻訳する'}
+              {translation.status === 'translating' ? t.translate.translating : t.translate.translateAction}
             </button>
             {translation.status === 'done' ? (
               <div
@@ -161,7 +163,7 @@ export function TranslatePage() {
                 </div>
               </div>
             ) : null}
-            {translation.status === 'error' ? <p className="muted">翻訳に失敗しました。もう一度お試しください。</p> : null}
+            {translation.status === 'error' ? <p className="muted">{t.translate.translateError}</p> : null}
             {summary.status === 'summarizing' || summary.status === 'done' ? (
               <SummaryPanel summary={summary.status === 'done' ? summary.text : null} loading={summary.status === 'summarizing'} />
             ) : null}

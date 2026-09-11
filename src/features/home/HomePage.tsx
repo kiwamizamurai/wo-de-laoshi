@@ -1,20 +1,23 @@
 import { useMemo } from 'hono/jsx/dom';
 import { Mascot } from '../../components/Mascot';
+import { useT } from '../../i18n/LocaleContext';
 import { loadActivityLog, toDateKey } from '../flashcards/activityLog';
 import { ActivityHeatmap } from './ActivityHeatmap';
-import { timeGreeting } from './greeting';
+import { timeGreetingSlot } from './greeting';
 
 export function HomePage() {
-  const { greeting, todayCount } = useMemo(() => {
+  const t = useT();
+  const { slot, todayCount } = useMemo(() => {
     const now = new Date();
     const log = loadActivityLog();
     return {
-      greeting: timeGreeting(now.getHours()),
+      slot: timeGreetingSlot(now.getHours()),
       todayCount: log[toDateKey(now)] ?? 0,
     };
   }, []);
 
-  const subtext = todayCount > 0 ? `今日はもう${todayCount}件学習したよ、えらい!` : '今日も一緒に少しずつ頑張ろう';
+  const greeting = t.home.greeting[slot];
+  const subtext = todayCount > 0 ? t.home.subtitleWithCount(todayCount) : t.home.subtitleIdle;
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>

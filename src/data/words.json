@@ -3,12 +3,18 @@
     "id": "greetings-001",
     "hanzi": "你好",
     "pinyin": "nǐ hǎo",
-    "meaning": "こんにちは",
+    "meaning": {
+      "ja": "こんにちは",
+      "en": "Hello"
+    },
     "category": "greetings",
     "example": {
       "sentence": "你好,我是日本人。",
       "pinyin": "Nǐ hǎo, wǒ shì Rìběnrén.",
-      "meaning": "こんにちは、私は日本人です。"
+      "meaning": {
+        "ja": "こんにちは、私は日本人です。",
+        "en": "Hello, I am Japanese."
+      }
     },
     "typing": [
       [
@@ -26,12 +32,18 @@
     "id": "greetings-002",
     "hanzi": "你们好",
     "pinyin": "nǐmen hǎo",
-    "meaning": "皆さんこんにちは",
+    "meaning": {
+      "ja": "皆さんこんにちは",
+      "en": "Hello, everyone"
+    },
     "category": "greetings",
     "example": {
       "sentence": "老师,你们好!",
       "pinyin": "Lǎoshī, nǐmen hǎo!",
-      "meaning": "先生方、こんにちは!"
+      "meaning": {
+        "ja": "先生方、こんにちは!",
+        "en": "Hello, teachers!"
+      }
     },
     "typing": [
       [
@@ -54,12 +66,18 @@
     "id": "greetings-003",
     "hanzi": "早上好",
     "pinyin": "zǎoshang hǎo",
-    "meaning": "おはようございます",
+    "meaning": {
+      "ja": "おはようございます",
+      "en": "Good morning"
+    },
     "category": "greetings",
     "example": {
       "sentence": "早上好,你吃饭了吗?",
       "pinyin": "Zǎoshang hǎo, nǐ chīfàn le ma?",
-      "meaning": "おはようございます、朝ごはんは食べましたか?"
+      "meaning": {
+        "ja": "おはようございます、朝ごはんは食べましたか?",
+        "en": "Good morning, have you had breakfast?"
+      }
     },
     "typing": [
       [
@@ -85,12 +103,18 @@
     "id": "greetings-004",
     "hanzi": "晚上好",
     "pinyin": "wǎnshang hǎo",
-    "meaning": "こんばんは",
+    "meaning": {
+      "ja": "こんばんは",
+      "en": "Good evening"
+    },
     "category": "greetings",
     "example": {
       "sentence": "晚上好,大家辛苦了。",
       "pinyin": "Wǎnshang hǎo, dàjiā xīnkǔ le.",
-      "meaning": "こんばんは、皆さんお疲れ様です。"
+      "meaning": {
+        "ja": "こんばんは、皆さんお疲れ様です。",
+        "en": "Good evening, everyone. Thanks for all your hard work."
+      }
     },
     "typing": [
       [
@@ -116,12 +140,18 @@
     "id": "greetings-005",
     "hanzi": "再见",
     "pinyin": "zàijiàn",
-    "meaning": "さようなら",
+    "meaning": {
+      "ja": "さようなら",
+      "en": "Goodbye"
+    },
     "category": "greetings",
     "example": {
       "sentence": "明天见,再见!",
       "pinyin": "Míngtiān jiàn, zàijiàn!",
-      "meaning": "また明日、さようなら!"
+      "meaning": {
+        "ja": "また明日、さようなら!",
+        "en": "See you tomorrow, goodbye!"
+      }
     },
     "typing": [
       [
@@ -141,12 +171,18 @@
     "id": "greetings-006",
     "hanzi": "谢谢",
     "pinyin": "xièxie",
-    "meaning": "ありがとう",
+    "meaning": {
+      "ja": "ありがとう",
+      "en": "Thank you"
+    },
     "category": "greetings",
     "example": {
       "sentence": "谢谢你的帮助。",
       "pinyin": "Xièxie nǐ de bāngzhù.",
-      "meaning": "手伝ってくれてありがとう。"
+      "meaning": {
+        "ja": "手伝ってくれてありがとう。",
+        "en": "Thank you for helping me."
+      }
     },
     "typing": [
       [
@@ -165,12 +201,18 @@
     "id": "greetings-007",
     "hanzi": "不客气",
     "pinyin": "bú kèqi",
-    "meaning": "どういたしまして",
+    "meaning": {
+      "ja": "どういたしまして",
+      "en": "You're welcome"
+    },
     "category": "greetings",
     "example": {
       "sentence": "不客气,应该的。",
       "pinyin": "Bú kèqi, yīnggāi de.",
-      "meaning": "どういたしまして、当然のことです。"
+      "meaning": {
+        "ja": "どういたしまして、当然のことです。",
+        "en": "You're welcome, it was nothing."
+      }
     },
     "typing": [
       [
@@ -191,12 +233,18 @@
     "id": "greetings-008",
     "hanzi": "对不起",
     "pinyin": "duìbuqǐ",
-    "meaning": "ごめんなさい",
+    "meaning": {
+      "ja": "ごめんなさい",
+      "en": "Sorry / I'm sorry"
+    },
     "category": "greetings",
     "example": {
       "sentence": "对不起,我迟到了。",
       "pinyin": "Duìbuqǐ, wǒ chídào le.",
-      "meaning": "すみません、遅刻しました。"
+      "meaning": {
+        "ja": "すみません、遅刻しました。",
+        "en": "Sorry, I'm late."
+      }
     },
     "typing": [
       [
@@ -218,12 +266,18 @@
     "id": "greetings-009",
     "hanzi": "没关系",
     "pinyin": "méi guānxi",
-    "meaning": "大丈夫です",
+    "meaning": {
+      "ja": "大丈夫です",
+      "en": "It's okay / No problem"
+    },
     "category": "greetings",
     "example": {
       "sentence": "没关系,不用担心。",
       "pinyin": "Méi guānxi, búyòng dānxīn.",
-      "meaning": "大丈夫です、心配しないでください。"
+      "meaning": {
+        "ja": "大丈夫です、心配しないでください。",
+        "en": "It's okay, please don't worry."
+      }
     },
     "typing": [
       [
@@ -247,12 +301,18 @@
     "id": "greetings-010",
     "hanzi": "请",
     "pinyin": "qǐng",
-    "meaning": "どうぞ",
+    "meaning": {
+      "ja": "どうぞ",
+      "en": "Please / Here you go"
+    },
     "category": "greetings",
     "example": {
       "sentence": "请坐。",
       "pinyin": "Qǐng zuò.",
-      "meaning": "どうぞお座りください。"
+      "meaning": {
+        "ja": "どうぞお座りください。",
+        "en": "Please, have a seat."
+      }
     },
     "typing": [
       [
@@ -267,12 +327,18 @@
     "id": "greetings-011",
     "hanzi": "请问",
     "pinyin": "qǐngwèn",
-    "meaning": "お尋ねしますが",
+    "meaning": {
+      "ja": "お尋ねしますが",
+      "en": "Excuse me, may I ask..."
+    },
     "category": "greetings",
     "example": {
       "sentence": "请问,洗手间在哪里?",
       "pinyin": "Qǐngwèn, xǐshǒujiān zài nǎlǐ?",
-      "meaning": "お尋ねしますが、お手洗いはどこですか?"
+      "meaning": {
+        "ja": "お尋ねしますが、お手洗いはどこですか?",
+        "en": "Excuse me, where is the restroom?"
+      }
     },
     "typing": [
       [
@@ -292,12 +358,18 @@
     "id": "greetings-012",
     "hanzi": "麻烦你",
     "pinyin": "máfan nǐ",
-    "meaning": "お手数ですが",
+    "meaning": {
+      "ja": "お手数ですが",
+      "en": "Sorry to trouble you, but..."
+    },
     "category": "greetings",
     "example": {
       "sentence": "麻烦你帮我一下。",
       "pinyin": "Máfan nǐ bāng wǒ yíxià.",
-      "meaning": "お手数ですが、少し手伝ってください。"
+      "meaning": {
+        "ja": "お手数ですが、少し手伝ってください。",
+        "en": "Sorry to trouble you, but could you give me a hand?"
+      }
     },
     "typing": [
       [
@@ -319,12 +391,18 @@
     "id": "greetings-013",
     "hanzi": "欢迎",
     "pinyin": "huānyíng",
-    "meaning": "ようこそ",
+    "meaning": {
+      "ja": "ようこそ",
+      "en": "Welcome"
+    },
     "category": "greetings",
     "example": {
       "sentence": "欢迎光临。",
       "pinyin": "Huānyíng guānglín.",
-      "meaning": "いらっしゃいませ。"
+      "meaning": {
+        "ja": "いらっしゃいませ。",
+        "en": "Welcome!"
+      }
     },
     "typing": [
       [
@@ -345,12 +423,18 @@
     "id": "greetings-014",
     "hanzi": "慢走",
     "pinyin": "màn zǒu",
-    "meaning": "お気をつけて(見送り)",
+    "meaning": {
+      "ja": "お気をつけて(見送り)",
+      "en": "Take care (said when seeing someone off)"
+    },
     "category": "greetings",
     "example": {
       "sentence": "您慢走。",
       "pinyin": "Nín màn zǒu.",
-      "meaning": "お気をつけてお帰りください。"
+      "meaning": {
+        "ja": "お気をつけてお帰りください。",
+        "en": "Take care on your way home."
+      }
     },
     "typing": [
       [
@@ -369,12 +453,18 @@
     "id": "greetings-015",
     "hanzi": "晚安",
     "pinyin": "wǎn'ān",
-    "meaning": "おやすみなさい",
+    "meaning": {
+      "ja": "おやすみなさい",
+      "en": "Good night"
+    },
     "category": "greetings",
     "example": {
       "sentence": "晚安,做个好梦。",
       "pinyin": "Wǎn'ān, zuò ge hǎo mèng.",
-      "meaning": "おやすみなさい、いい夢を。"
+      "meaning": {
+        "ja": "おやすみなさい、いい夢を。",
+        "en": "Good night, sweet dreams."
+      }
     },
     "typing": [
       [
@@ -392,12 +482,18 @@
     "id": "greetings-016",
     "hanzi": "是",
     "pinyin": "shì",
-    "meaning": "はい/そうです",
+    "meaning": {
+      "ja": "はい/そうです",
+      "en": "Yes / That's right"
+    },
     "category": "greetings",
     "example": {
       "sentence": "是,我知道了。",
       "pinyin": "Shì, wǒ zhīdào le.",
-      "meaning": "はい、分かりました。"
+      "meaning": {
+        "ja": "はい、分かりました。",
+        "en": "Yes, I understand."
+      }
     },
     "typing": [
       [
@@ -411,12 +507,18 @@
     "id": "greetings-017",
     "hanzi": "不是",
     "pinyin": "bú shì",
-    "meaning": "いいえ/違います",
+    "meaning": {
+      "ja": "いいえ/違います",
+      "en": "No / That's not right"
+    },
     "category": "greetings",
     "example": {
       "sentence": "不是,我不是学生。",
       "pinyin": "Bú shì, wǒ bú shì xuésheng.",
-      "meaning": "いいえ、私は学生ではありません。"
+      "meaning": {
+        "ja": "いいえ、私は学生ではありません。",
+        "en": "No, I am not a student."
+      }
     },
     "typing": [
       [
@@ -434,12 +536,18 @@
     "id": "greetings-018",
     "hanzi": "好的",
     "pinyin": "hǎo de",
-    "meaning": "分かりました/OK",
+    "meaning": {
+      "ja": "分かりました/OK",
+      "en": "Got it / OK"
+    },
     "category": "greetings",
     "example": {
       "sentence": "好的,没问题。",
       "pinyin": "Hǎo de, méi wèntí.",
-      "meaning": "分かりました、問題ありません。"
+      "meaning": {
+        "ja": "分かりました、問題ありません。",
+        "en": "Got it, no problem."
+      }
     },
     "typing": [
       [
@@ -457,12 +565,18 @@
     "id": "greetings-019",
     "hanzi": "没问题",
     "pinyin": "méi wèntí",
-    "meaning": "問題ありません",
+    "meaning": {
+      "ja": "問題ありません",
+      "en": "No problem"
+    },
     "category": "greetings",
     "example": {
       "sentence": "这个没问题。",
       "pinyin": "Zhège méi wèntí.",
-      "meaning": "これは問題ありません。"
+      "meaning": {
+        "ja": "これは問題ありません。",
+        "en": "This isn't a problem."
+      }
     },
     "typing": [
       [
@@ -485,12 +599,18 @@
     "id": "greetings-020",
     "hanzi": "辛苦了",
     "pinyin": "xīnkǔ le",
-    "meaning": "お疲れ様でした",
+    "meaning": {
+      "ja": "お疲れ様でした",
+      "en": "Thank you for your hard work"
+    },
     "category": "greetings",
     "example": {
       "sentence": "今天辛苦了。",
       "pinyin": "Jīntiān xīnkǔ le.",
-      "meaning": "今日はお疲れ様でした。"
+      "meaning": {
+        "ja": "今日はお疲れ様でした。",
+        "en": "Thank you for your hard work today."
+      }
     },
     "typing": [
       [
@@ -512,12 +632,18 @@
     "id": "self-intro-001",
     "hanzi": "我",
     "pinyin": "wǒ",
-    "meaning": "私",
+    "meaning": {
+      "ja": "私",
+      "en": "I / me"
+    },
     "category": "self-intro",
     "example": {
       "sentence": "我是学生。",
       "pinyin": "Wǒ shì xuésheng.",
-      "meaning": "私は学生です。"
+      "meaning": {
+        "ja": "私は学生です。",
+        "en": "I am a student."
+      }
     },
     "typing": [
       [
@@ -530,12 +656,18 @@
     "id": "self-intro-002",
     "hanzi": "你",
     "pinyin": "nǐ",
-    "meaning": "あなた",
+    "meaning": {
+      "ja": "あなた",
+      "en": "you"
+    },
     "category": "self-intro",
     "example": {
       "sentence": "你叫什么名字?",
       "pinyin": "Nǐ jiào shénme míngzi?",
-      "meaning": "あなたの名前は何ですか?"
+      "meaning": {
+        "ja": "あなたの名前は何ですか?",
+        "en": "What is your name?"
+      }
     },
     "typing": [
       [
@@ -548,12 +680,18 @@
     "id": "self-intro-003",
     "hanzi": "他",
     "pinyin": "tā",
-    "meaning": "彼",
+    "meaning": {
+      "ja": "彼",
+      "en": "he / him"
+    },
     "category": "self-intro",
     "example": {
       "sentence": "他是我的朋友。",
       "pinyin": "Tā shì wǒ de péngyou.",
-      "meaning": "彼は私の友達です。"
+      "meaning": {
+        "ja": "彼は私の友達です。",
+        "en": "He is my friend."
+      }
     },
     "typing": [
       [
@@ -566,12 +704,18 @@
     "id": "self-intro-004",
     "hanzi": "她",
     "pinyin": "tā",
-    "meaning": "彼女",
+    "meaning": {
+      "ja": "彼女",
+      "en": "she / her"
+    },
     "category": "self-intro",
     "example": {
       "sentence": "她是老师。",
       "pinyin": "Tā shì lǎoshī.",
-      "meaning": "彼女は先生です。"
+      "meaning": {
+        "ja": "彼女は先生です。",
+        "en": "She is a teacher."
+      }
     },
     "typing": [
       [
@@ -584,12 +728,18 @@
     "id": "self-intro-005",
     "hanzi": "名字",
     "pinyin": "míngzi",
-    "meaning": "名前",
+    "meaning": {
+      "ja": "名前",
+      "en": "name"
+    },
     "category": "self-intro",
     "example": {
       "sentence": "我的名字是田中。",
       "pinyin": "Wǒ de míngzi shì Tiánzhōng.",
-      "meaning": "私の名前は田中です。"
+      "meaning": {
+        "ja": "私の名前は田中です。",
+        "en": "My name is Tanaka."
+      }
     },
     "typing": [
       [
@@ -608,12 +758,18 @@
     "id": "self-intro-006",
     "hanzi": "叫",
     "pinyin": "jiào",
-    "meaning": "〜という(名前)",
+    "meaning": {
+      "ja": "〜という(名前)",
+      "en": "to be called / named ..."
+    },
     "category": "self-intro",
     "example": {
       "sentence": "我叫田中。",
       "pinyin": "Wǒ jiào Tiánzhōng.",
-      "meaning": "私は田中といいます。"
+      "meaning": {
+        "ja": "私は田中といいます。",
+        "en": "My name is Tanaka."
+      }
     },
     "typing": [
       [
@@ -628,12 +784,18 @@
     "id": "self-intro-007",
     "hanzi": "姓",
     "pinyin": "xìng",
-    "meaning": "苗字",
+    "meaning": {
+      "ja": "苗字",
+      "en": "surname / family name"
+    },
     "category": "self-intro",
     "example": {
       "sentence": "我姓田中。",
       "pinyin": "Wǒ xìng Tiánzhōng.",
-      "meaning": "私は田中と申します。"
+      "meaning": {
+        "ja": "私は田中と申します。",
+        "en": "My surname is Tanaka."
+      }
     },
     "typing": [
       [
@@ -648,12 +810,18 @@
     "id": "self-intro-008",
     "hanzi": "日本人",
     "pinyin": "Rìběnrén",
-    "meaning": "日本人",
+    "meaning": {
+      "ja": "日本人",
+      "en": "Japanese (person)"
+    },
     "category": "self-intro",
     "example": {
       "sentence": "我是日本人。",
       "pinyin": "Wǒ shì Rìběnrén.",
-      "meaning": "私は日本人です。"
+      "meaning": {
+        "ja": "私は日本人です。",
+        "en": "I am Japanese."
+      }
     },
     "typing": [
       [
@@ -676,12 +844,18 @@
     "id": "self-intro-009",
     "hanzi": "中国人",
     "pinyin": "Zhōngguórén",
-    "meaning": "中国人",
+    "meaning": {
+      "ja": "中国人",
+      "en": "Chinese (person)"
+    },
     "category": "self-intro",
     "example": {
       "sentence": "他是中国人。",
       "pinyin": "Tā shì Zhōngguórén.",
-      "meaning": "彼は中国人です。"
+      "meaning": {
+        "ja": "彼は中国人です。",
+        "en": "He is Chinese."
+      }
     },
     "typing": [
       [
@@ -707,12 +881,18 @@
     "id": "self-intro-010",
     "hanzi": "学生",
     "pinyin": "xuésheng",
-    "meaning": "学生",
+    "meaning": {
+      "ja": "学生",
+      "en": "student"
+    },
     "category": "self-intro",
     "example": {
       "sentence": "我是大学生。",
       "pinyin": "Wǒ shì dàxuéshēng.",
-      "meaning": "私は大学生です。"
+      "meaning": {
+        "ja": "私は大学生です。",
+        "en": "I am a university student."
+      }
     },
     "typing": [
       [
@@ -733,12 +913,18 @@
     "id": "self-intro-011",
     "hanzi": "老师",
     "pinyin": "lǎoshī",
-    "meaning": "先生",
+    "meaning": {
+      "ja": "先生",
+      "en": "teacher"
+    },
     "category": "self-intro",
     "example": {
       "sentence": "她是汉语老师。",
       "pinyin": "Tā shì Hànyǔ lǎoshī.",
-      "meaning": "彼女は中国語の先生です。"
+      "meaning": {
+        "ja": "彼女は中国語の先生です。",
+        "en": "She is a Chinese teacher."
+      }
     },
     "typing": [
       [
@@ -757,12 +943,18 @@
     "id": "self-intro-012",
     "hanzi": "工作",
     "pinyin": "gōngzuò",
-    "meaning": "仕事/働く",
+    "meaning": {
+      "ja": "仕事/働く",
+      "en": "job / to work"
+    },
     "category": "self-intro",
     "example": {
       "sentence": "我在东京工作。",
       "pinyin": "Wǒ zài Dōngjīng gōngzuò.",
-      "meaning": "私は東京で働いています。"
+      "meaning": {
+        "ja": "私は東京で働いています。",
+        "en": "I work in Tokyo."
+      }
     },
     "typing": [
       [
@@ -782,12 +974,18 @@
     "id": "self-intro-013",
     "hanzi": "公司",
     "pinyin": "gōngsī",
-    "meaning": "会社",
+    "meaning": {
+      "ja": "会社",
+      "en": "company"
+    },
     "category": "self-intro",
     "example": {
       "sentence": "我在一家公司工作。",
       "pinyin": "Wǒ zài yì jiā gōngsī gōngzuò.",
-      "meaning": "私はある会社で働いています。"
+      "meaning": {
+        "ja": "私はある会社で働いています。",
+        "en": "I work at a company."
+      }
     },
     "typing": [
       [
@@ -806,12 +1004,18 @@
     "id": "self-intro-014",
     "hanzi": "家",
     "pinyin": "jiā",
-    "meaning": "家/家族",
+    "meaning": {
+      "ja": "家/家族",
+      "en": "home / family"
+    },
     "category": "self-intro",
     "example": {
       "sentence": "我家有三个人。",
       "pinyin": "Wǒ jiā yǒu sān ge rén.",
-      "meaning": "私の家族は3人です。"
+      "meaning": {
+        "ja": "私の家族は3人です。",
+        "en": "There are three people in my family."
+      }
     },
     "typing": [
       [
@@ -825,12 +1029,18 @@
     "id": "self-intro-015",
     "hanzi": "朋友",
     "pinyin": "péngyou",
-    "meaning": "友達",
+    "meaning": {
+      "ja": "友達",
+      "en": "friend"
+    },
     "category": "self-intro",
     "example": {
       "sentence": "他是我的好朋友。",
       "pinyin": "Tā shì wǒ de hǎo péngyou.",
-      "meaning": "彼は私の親友です。"
+      "meaning": {
+        "ja": "彼は私の親友です。",
+        "en": "He is my close friend."
+      }
     },
     "typing": [
       [
@@ -850,12 +1060,18 @@
     "id": "self-intro-016",
     "hanzi": "岁",
     "pinyin": "suì",
-    "meaning": "〜歳",
+    "meaning": {
+      "ja": "〜歳",
+      "en": "... years old"
+    },
     "category": "self-intro",
     "example": {
       "sentence": "我二十岁了。",
       "pinyin": "Wǒ èrshí suì le.",
-      "meaning": "私は20歳になりました。"
+      "meaning": {
+        "ja": "私は20歳になりました。",
+        "en": "I just turned 20."
+      }
     },
     "typing": [
       [
@@ -869,12 +1085,18 @@
     "id": "self-intro-017",
     "hanzi": "多大",
     "pinyin": "duō dà",
-    "meaning": "(年齢が)どのくらい",
+    "meaning": {
+      "ja": "(年齢が)どのくらい",
+      "en": "how old (asking someone's age)"
+    },
     "category": "self-intro",
     "example": {
       "sentence": "你多大了?",
       "pinyin": "Nǐ duō dà le?",
-      "meaning": "あなたは何歳ですか?"
+      "meaning": {
+        "ja": "あなたは何歳ですか?",
+        "en": "How old are you?"
+      }
     },
     "typing": [
       [
@@ -892,12 +1114,18 @@
     "id": "self-intro-018",
     "hanzi": "从",
     "pinyin": "cóng",
-    "meaning": "〜から",
+    "meaning": {
+      "ja": "〜から",
+      "en": "from ..."
+    },
     "category": "self-intro",
     "example": {
       "sentence": "我从日本来。",
       "pinyin": "Wǒ cóng Rìběn lái.",
-      "meaning": "私は日本から来ました。"
+      "meaning": {
+        "ja": "私は日本から来ました。",
+        "en": "I'm from Japan."
+      }
     },
     "typing": [
       [
@@ -912,12 +1140,18 @@
     "id": "self-intro-019",
     "hanzi": "来",
     "pinyin": "lái",
-    "meaning": "来る",
+    "meaning": {
+      "ja": "来る",
+      "en": "to come"
+    },
     "category": "self-intro",
     "example": {
       "sentence": "他明天来。",
       "pinyin": "Tā míngtiān lái.",
-      "meaning": "彼は明日来ます。"
+      "meaning": {
+        "ja": "彼は明日来ます。",
+        "en": "He is coming tomorrow."
+      }
     },
     "typing": [
       [
@@ -931,12 +1165,18 @@
     "id": "self-intro-020",
     "hanzi": "认识",
     "pinyin": "rènshi",
-    "meaning": "知り合う",
+    "meaning": {
+      "ja": "知り合う",
+      "en": "to get to know someone / to meet"
+    },
     "category": "self-intro",
     "example": {
       "sentence": "很高兴认识你。",
       "pinyin": "Hěn gāoxìng rènshi nǐ.",
-      "meaning": "お会いできて嬉しいです。"
+      "meaning": {
+        "ja": "お会いできて嬉しいです。",
+        "en": "Nice to meet you."
+      }
     },
     "typing": [
       [
@@ -955,12 +1195,18 @@
     "id": "numbers-time-001",
     "hanzi": "一",
     "pinyin": "yī",
-    "meaning": "1",
+    "meaning": {
+      "ja": "1",
+      "en": "One"
+    },
     "category": "numbers-time",
     "example": {
       "sentence": "一个人。",
       "pinyin": "Yí ge rén.",
-      "meaning": "一人。"
+      "meaning": {
+        "ja": "一人。",
+        "en": "One person."
+      }
     },
     "typing": [
       [
@@ -973,12 +1219,18 @@
     "id": "numbers-time-002",
     "hanzi": "二",
     "pinyin": "èr",
-    "meaning": "2",
+    "meaning": {
+      "ja": "2",
+      "en": "Two"
+    },
     "category": "numbers-time",
     "example": {
       "sentence": "两点两分。",
       "pinyin": "Liǎng diǎn liǎng fēn.",
-      "meaning": "2時2分。"
+      "meaning": {
+        "ja": "2時2分。",
+        "en": "2:02."
+      }
     },
     "typing": [
       [
@@ -991,12 +1243,18 @@
     "id": "numbers-time-003",
     "hanzi": "三",
     "pinyin": "sān",
-    "meaning": "3",
+    "meaning": {
+      "ja": "3",
+      "en": "Three"
+    },
     "category": "numbers-time",
     "example": {
       "sentence": "三个苹果。",
       "pinyin": "Sān ge píngguǒ.",
-      "meaning": "りんご3つ。"
+      "meaning": {
+        "ja": "りんご3つ。",
+        "en": "Three apples."
+      }
     },
     "typing": [
       [
@@ -1010,12 +1268,18 @@
     "id": "numbers-time-004",
     "hanzi": "四",
     "pinyin": "sì",
-    "meaning": "4",
+    "meaning": {
+      "ja": "4",
+      "en": "Four"
+    },
     "category": "numbers-time",
     "example": {
       "sentence": "四点见面。",
       "pinyin": "Sì diǎn jiànmiàn.",
-      "meaning": "4時に会いましょう。"
+      "meaning": {
+        "ja": "4時に会いましょう。",
+        "en": "Let's meet at 4 o'clock."
+      }
     },
     "typing": [
       [
@@ -1028,12 +1292,18 @@
     "id": "numbers-time-005",
     "hanzi": "五",
     "pinyin": "wǔ",
-    "meaning": "5",
+    "meaning": {
+      "ja": "5",
+      "en": "Five"
+    },
     "category": "numbers-time",
     "example": {
       "sentence": "五分钟后。",
       "pinyin": "Wǔ fēnzhōng hòu.",
-      "meaning": "5分後。"
+      "meaning": {
+        "ja": "5分後。",
+        "en": "Five minutes later."
+      }
     },
     "typing": [
       [
@@ -1046,12 +1316,18 @@
     "id": "numbers-time-006",
     "hanzi": "六",
     "pinyin": "liù",
-    "meaning": "6",
+    "meaning": {
+      "ja": "6",
+      "en": "Six"
+    },
     "category": "numbers-time",
     "example": {
       "sentence": "六个月。",
       "pinyin": "Liù ge yuè.",
-      "meaning": "6ヶ月。"
+      "meaning": {
+        "ja": "6ヶ月。",
+        "en": "Six months."
+      }
     },
     "typing": [
       [
@@ -1065,12 +1341,18 @@
     "id": "numbers-time-007",
     "hanzi": "七",
     "pinyin": "qī",
-    "meaning": "7",
+    "meaning": {
+      "ja": "7",
+      "en": "Seven"
+    },
     "category": "numbers-time",
     "example": {
       "sentence": "七点起床。",
       "pinyin": "Qī diǎn qǐchuáng.",
-      "meaning": "7時に起きます。"
+      "meaning": {
+        "ja": "7時に起きます。",
+        "en": "I get up at 7 o'clock."
+      }
     },
     "typing": [
       [
@@ -1083,12 +1365,18 @@
     "id": "numbers-time-008",
     "hanzi": "八",
     "pinyin": "bā",
-    "meaning": "8",
+    "meaning": {
+      "ja": "8",
+      "en": "Eight"
+    },
     "category": "numbers-time",
     "example": {
       "sentence": "八点上班。",
       "pinyin": "Bā diǎn shàngbān.",
-      "meaning": "8時に出勤します。"
+      "meaning": {
+        "ja": "8時に出勤します。",
+        "en": "I go to work at 8 o'clock."
+      }
     },
     "typing": [
       [
@@ -1101,12 +1389,18 @@
     "id": "numbers-time-009",
     "hanzi": "九",
     "pinyin": "jiǔ",
-    "meaning": "9",
+    "meaning": {
+      "ja": "9",
+      "en": "Nine"
+    },
     "category": "numbers-time",
     "example": {
       "sentence": "九点下班。",
       "pinyin": "Jiǔ diǎn xiàbān.",
-      "meaning": "9時に退勤します。"
+      "meaning": {
+        "ja": "9時に退勤します。",
+        "en": "I get off work at 9 o'clock."
+      }
     },
     "typing": [
       [
@@ -1120,12 +1414,18 @@
     "id": "numbers-time-010",
     "hanzi": "十",
     "pinyin": "shí",
-    "meaning": "10",
+    "meaning": {
+      "ja": "10",
+      "en": "Ten"
+    },
     "category": "numbers-time",
     "example": {
       "sentence": "十分钟。",
       "pinyin": "Shí fēnzhōng.",
-      "meaning": "10分間。"
+      "meaning": {
+        "ja": "10分間。",
+        "en": "For ten minutes."
+      }
     },
     "typing": [
       [
@@ -1139,12 +1439,18 @@
     "id": "numbers-time-011",
     "hanzi": "百",
     "pinyin": "bǎi",
-    "meaning": "百",
+    "meaning": {
+      "ja": "百",
+      "en": "Hundred"
+    },
     "category": "numbers-time",
     "example": {
       "sentence": "一百块钱。",
       "pinyin": "Yìbǎi kuài qián.",
-      "meaning": "百元。"
+      "meaning": {
+        "ja": "百元。",
+        "en": "A hundred yuan."
+      }
     },
     "typing": [
       [
@@ -1158,12 +1464,18 @@
     "id": "numbers-time-012",
     "hanzi": "千",
     "pinyin": "qiān",
-    "meaning": "千",
+    "meaning": {
+      "ja": "千",
+      "en": "Thousand"
+    },
     "category": "numbers-time",
     "example": {
       "sentence": "一千个人。",
       "pinyin": "Yìqiān ge rén.",
-      "meaning": "千人。"
+      "meaning": {
+        "ja": "千人。",
+        "en": "A thousand people."
+      }
     },
     "typing": [
       [
@@ -1178,12 +1490,18 @@
     "id": "numbers-time-013",
     "hanzi": "点",
     "pinyin": "diǎn",
-    "meaning": "〜時",
+    "meaning": {
+      "ja": "〜時",
+      "en": "o'clock"
+    },
     "category": "numbers-time",
     "example": {
       "sentence": "现在几点?",
       "pinyin": "Xiànzài jǐ diǎn?",
-      "meaning": "今何時ですか?"
+      "meaning": {
+        "ja": "今何時ですか?",
+        "en": "What time is it now?"
+      }
     },
     "typing": [
       [
@@ -1198,12 +1516,18 @@
     "id": "numbers-time-014",
     "hanzi": "分",
     "pinyin": "fēn",
-    "meaning": "〜分",
+    "meaning": {
+      "ja": "〜分",
+      "en": "minute"
+    },
     "category": "numbers-time",
     "example": {
       "sentence": "三点十分。",
       "pinyin": "Sān diǎn shí fēn.",
-      "meaning": "3時10分。"
+      "meaning": {
+        "ja": "3時10分。",
+        "en": "3:10."
+      }
     },
     "typing": [
       [
@@ -1217,12 +1541,18 @@
     "id": "numbers-time-015",
     "hanzi": "今天",
     "pinyin": "jīntiān",
-    "meaning": "今日",
+    "meaning": {
+      "ja": "今日",
+      "en": "Today"
+    },
     "category": "numbers-time",
     "example": {
       "sentence": "今天天气很好。",
       "pinyin": "Jīntiān tiānqì hěn hǎo.",
-      "meaning": "今日は天気がいいです。"
+      "meaning": {
+        "ja": "今日は天気がいいです。",
+        "en": "The weather is nice today."
+      }
     },
     "typing": [
       [
@@ -1242,12 +1572,18 @@
     "id": "numbers-time-016",
     "hanzi": "明天",
     "pinyin": "míngtiān",
-    "meaning": "明日",
+    "meaning": {
+      "ja": "明日",
+      "en": "Tomorrow"
+    },
     "category": "numbers-time",
     "example": {
       "sentence": "明天见。",
       "pinyin": "Míngtiān jiàn.",
-      "meaning": "また明日。"
+      "meaning": {
+        "ja": "また明日。",
+        "en": "See you tomorrow."
+      }
     },
     "typing": [
       [
@@ -1268,12 +1604,18 @@
     "id": "numbers-time-017",
     "hanzi": "昨天",
     "pinyin": "zuótiān",
-    "meaning": "昨日",
+    "meaning": {
+      "ja": "昨日",
+      "en": "Yesterday"
+    },
     "category": "numbers-time",
     "example": {
       "sentence": "昨天很忙。",
       "pinyin": "Zuótiān hěn máng.",
-      "meaning": "昨日は忙しかったです。"
+      "meaning": {
+        "ja": "昨日は忙しかったです。",
+        "en": "I was busy yesterday."
+      }
     },
     "typing": [
       [
@@ -1293,12 +1635,18 @@
     "id": "numbers-time-018",
     "hanzi": "星期",
     "pinyin": "xīngqī",
-    "meaning": "曜日/週",
+    "meaning": {
+      "ja": "曜日/週",
+      "en": "Day of the week / week"
+    },
     "category": "numbers-time",
     "example": {
       "sentence": "今天星期几?",
       "pinyin": "Jīntiān xīngqī jǐ?",
-      "meaning": "今日は何曜日ですか?"
+      "meaning": {
+        "ja": "今日は何曜日ですか?",
+        "en": "What day of the week is it today?"
+      }
     },
     "typing": [
       [
@@ -1317,12 +1665,18 @@
     "id": "numbers-time-019",
     "hanzi": "星期一",
     "pinyin": "xīngqīyī",
-    "meaning": "月曜日",
+    "meaning": {
+      "ja": "月曜日",
+      "en": "Monday"
+    },
     "category": "numbers-time",
     "example": {
       "sentence": "星期一有课。",
       "pinyin": "Xīngqīyī yǒu kè.",
-      "meaning": "月曜日は授業があります。"
+      "meaning": {
+        "ja": "月曜日は授業があります。",
+        "en": "I have class on Monday."
+      }
     },
     "typing": [
       [
@@ -1345,12 +1699,18 @@
     "id": "numbers-time-020",
     "hanzi": "现在",
     "pinyin": "xiànzài",
-    "meaning": "今",
+    "meaning": {
+      "ja": "今",
+      "en": "Now"
+    },
     "category": "numbers-time",
     "example": {
       "sentence": "我现在很忙。",
       "pinyin": "Wǒ xiànzài hěn máng.",
-      "meaning": "私は今忙しいです。"
+      "meaning": {
+        "ja": "私は今忙しいです。",
+        "en": "I'm busy right now."
+      }
     },
     "typing": [
       [
@@ -1370,12 +1730,18 @@
     "id": "numbers-time-021",
     "hanzi": "年",
     "pinyin": "nián",
-    "meaning": "年",
+    "meaning": {
+      "ja": "年",
+      "en": "Year"
+    },
     "category": "numbers-time",
     "example": {
       "sentence": "今年是二零二六年。",
       "pinyin": "Jīnnián shì èr líng èr liù nián.",
-      "meaning": "今年は2026年です。"
+      "meaning": {
+        "ja": "今年は2026年です。",
+        "en": "This year is 2026."
+      }
     },
     "typing": [
       [
@@ -1390,12 +1756,18 @@
     "id": "numbers-time-022",
     "hanzi": "月",
     "pinyin": "yuè",
-    "meaning": "月",
+    "meaning": {
+      "ja": "月",
+      "en": "Month"
+    },
     "category": "numbers-time",
     "example": {
       "sentence": "九月开始上课。",
       "pinyin": "Jiǔyuè kāishǐ shàngkè.",
-      "meaning": "9月から授業が始まります。"
+      "meaning": {
+        "ja": "9月から授業が始まります。",
+        "en": "Classes start in September."
+      }
     },
     "typing": [
       [
@@ -1409,12 +1781,18 @@
     "id": "numbers-time-023",
     "hanzi": "号",
     "pinyin": "hào",
-    "meaning": "〜日",
+    "meaning": {
+      "ja": "〜日",
+      "en": "day (of the month)"
+    },
     "category": "numbers-time",
     "example": {
       "sentence": "今天几号?",
       "pinyin": "Jīntiān jǐ hào?",
-      "meaning": "今日は何日ですか?"
+      "meaning": {
+        "ja": "今日は何日ですか?",
+        "en": "What is today's date?"
+      }
     },
     "typing": [
       [
@@ -1428,12 +1806,18 @@
     "id": "numbers-time-024",
     "hanzi": "早上",
     "pinyin": "zǎoshang",
-    "meaning": "朝",
+    "meaning": {
+      "ja": "朝",
+      "en": "Morning"
+    },
     "category": "numbers-time",
     "example": {
       "sentence": "早上七点起床。",
       "pinyin": "Zǎoshang qī diǎn qǐchuáng.",
-      "meaning": "朝7時に起きます。"
+      "meaning": {
+        "ja": "朝7時に起きます。",
+        "en": "I get up at 7 in the morning."
+      }
     },
     "typing": [
       [
@@ -1454,12 +1838,18 @@
     "id": "numbers-time-025",
     "hanzi": "晚上",
     "pinyin": "wǎnshang",
-    "meaning": "夜",
+    "meaning": {
+      "ja": "夜",
+      "en": "Night"
+    },
     "category": "numbers-time",
     "example": {
       "sentence": "晚上十点睡觉。",
       "pinyin": "Wǎnshang shí diǎn shuìjiào.",
-      "meaning": "夜10時に寝ます。"
+      "meaning": {
+        "ja": "夜10時に寝ます。",
+        "en": "I go to bed at 10 at night."
+      }
     },
     "typing": [
       [
@@ -1480,12 +1870,18 @@
     "id": "travel-001",
     "hanzi": "飞机",
     "pinyin": "fēijī",
-    "meaning": "飛行機",
+    "meaning": {
+      "ja": "飛行機",
+      "en": "airplane"
+    },
     "category": "travel",
     "example": {
       "sentence": "我坐飞机去中国。",
       "pinyin": "Wǒ zuò fēijī qù Zhōngguó.",
-      "meaning": "私は飛行機で中国に行きます。"
+      "meaning": {
+        "ja": "私は飛行機で中国に行きます。",
+        "en": "I'm going to China by plane."
+      }
     },
     "typing": [
       [
@@ -1503,12 +1899,18 @@
     "id": "travel-002",
     "hanzi": "护照",
     "pinyin": "hùzhào",
-    "meaning": "パスポート",
+    "meaning": {
+      "ja": "パスポート",
+      "en": "passport"
+    },
     "category": "travel",
     "example": {
       "sentence": "请出示护照。",
       "pinyin": "Qǐng chūshì hùzhào.",
-      "meaning": "パスポートを提示してください。"
+      "meaning": {
+        "ja": "パスポートを提示してください。",
+        "en": "Please show your passport."
+      }
     },
     "typing": [
       [
@@ -1527,12 +1929,18 @@
     "id": "travel-003",
     "hanzi": "出租车",
     "pinyin": "chūzūchē",
-    "meaning": "タクシー",
+    "meaning": {
+      "ja": "タクシー",
+      "en": "taxi"
+    },
     "category": "travel",
     "example": {
       "sentence": "我们坐出租车吧。",
       "pinyin": "Wǒmen zuò chūzūchē ba.",
-      "meaning": "タクシーに乗りましょう。"
+      "meaning": {
+        "ja": "タクシーに乗りましょう。",
+        "en": "Let's take a taxi."
+      }
     },
     "typing": [
       [
@@ -1555,12 +1963,18 @@
     "id": "travel-004",
     "hanzi": "酒店",
     "pinyin": "jiǔdiàn",
-    "meaning": "ホテル",
+    "meaning": {
+      "ja": "ホテル",
+      "en": "hotel"
+    },
     "category": "travel",
     "example": {
       "sentence": "酒店在车站附近。",
       "pinyin": "Jiǔdiàn zài chēzhàn fùjìn.",
-      "meaning": "ホテルは駅の近くにあります。"
+      "meaning": {
+        "ja": "ホテルは駅の近くにあります。",
+        "en": "The hotel is near the station."
+      }
     },
     "typing": [
       [
@@ -1580,12 +1994,18 @@
     "id": "travel-005",
     "hanzi": "地铁",
     "pinyin": "dìtiě",
-    "meaning": "地下鉄",
+    "meaning": {
+      "ja": "地下鉄",
+      "en": "subway"
+    },
     "category": "travel",
     "example": {
       "sentence": "我坐地铁上班。",
       "pinyin": "Wǒ zuò dìtiě shàngbān.",
-      "meaning": "私は地下鉄で通勤します。"
+      "meaning": {
+        "ja": "私は地下鉄で通勤します。",
+        "en": "I commute by subway."
+      }
     },
     "typing": [
       [
@@ -1603,12 +2023,18 @@
     "id": "travel-006",
     "hanzi": "火车",
     "pinyin": "huǒchē",
-    "meaning": "電車/汽車",
+    "meaning": {
+      "ja": "電車/汽車",
+      "en": "train"
+    },
     "category": "travel",
     "example": {
       "sentence": "火车几点开?",
       "pinyin": "Huǒchē jǐ diǎn kāi?",
-      "meaning": "電車は何時に出発しますか?"
+      "meaning": {
+        "ja": "電車は何時に出発しますか?",
+        "en": "What time does the train leave?"
+      }
     },
     "typing": [
       [
@@ -1627,12 +2053,18 @@
     "id": "travel-007",
     "hanzi": "机场",
     "pinyin": "jīchǎng",
-    "meaning": "空港",
+    "meaning": {
+      "ja": "空港",
+      "en": "airport"
+    },
     "category": "travel",
     "example": {
       "sentence": "机场很大。",
       "pinyin": "Jīchǎng hěn dà.",
-      "meaning": "空港はとても大きいです。"
+      "meaning": {
+        "ja": "空港はとても大きいです。",
+        "en": "The airport is very big."
+      }
     },
     "typing": [
       [
@@ -1652,12 +2084,18 @@
     "id": "travel-008",
     "hanzi": "车站",
     "pinyin": "chēzhàn",
-    "meaning": "駅",
+    "meaning": {
+      "ja": "駅",
+      "en": "station"
+    },
     "category": "travel",
     "example": {
       "sentence": "车站在哪里?",
       "pinyin": "Chēzhàn zài nǎlǐ?",
-      "meaning": "駅はどこですか?"
+      "meaning": {
+        "ja": "駅はどこですか?",
+        "en": "Where is the station?"
+      }
     },
     "typing": [
       [
@@ -1677,12 +2115,18 @@
     "id": "travel-009",
     "hanzi": "票",
     "pinyin": "piào",
-    "meaning": "切符/チケット",
+    "meaning": {
+      "ja": "切符/チケット",
+      "en": "ticket"
+    },
     "category": "travel",
     "example": {
       "sentence": "两张票多少钱?",
       "pinyin": "Liǎng zhāng piào duōshao qián?",
-      "meaning": "チケット2枚でいくらですか?"
+      "meaning": {
+        "ja": "チケット2枚でいくらですか?",
+        "en": "How much for two tickets?"
+      }
     },
     "typing": [
       [
@@ -1697,12 +2141,18 @@
     "id": "travel-010",
     "hanzi": "行李",
     "pinyin": "xíngli",
-    "meaning": "荷物",
+    "meaning": {
+      "ja": "荷物",
+      "en": "luggage"
+    },
     "category": "travel",
     "example": {
       "sentence": "我的行李很重。",
       "pinyin": "Wǒ de xíngli hěn zhòng.",
-      "meaning": "私の荷物はとても重いです。"
+      "meaning": {
+        "ja": "私の荷物はとても重いです。",
+        "en": "My luggage is very heavy."
+      }
     },
     "typing": [
       [
@@ -1721,12 +2171,18 @@
     "id": "travel-011",
     "hanzi": "签证",
     "pinyin": "qiānzhèng",
-    "meaning": "ビザ",
+    "meaning": {
+      "ja": "ビザ",
+      "en": "visa"
+    },
     "category": "travel",
     "example": {
       "sentence": "我需要办签证。",
       "pinyin": "Wǒ xūyào bàn qiānzhèng.",
-      "meaning": "私はビザを申請する必要があります。"
+      "meaning": {
+        "ja": "私はビザを申請する必要があります。",
+        "en": "I need to apply for a visa."
+      }
     },
     "typing": [
       [
@@ -1748,12 +2204,18 @@
     "id": "travel-012",
     "hanzi": "地图",
     "pinyin": "dìtú",
-    "meaning": "地図",
+    "meaning": {
+      "ja": "地図",
+      "en": "map"
+    },
     "category": "travel",
     "example": {
       "sentence": "给我看看地图。",
       "pinyin": "Gěi wǒ kànkan dìtú.",
-      "meaning": "地図を見せてください。"
+      "meaning": {
+        "ja": "地図を見せてください。",
+        "en": "Please show me the map."
+      }
     },
     "typing": [
       [
@@ -1770,12 +2232,18 @@
     "id": "travel-013",
     "hanzi": "旅游",
     "pinyin": "lǚyóu",
-    "meaning": "旅行(する)",
+    "meaning": {
+      "ja": "旅行(する)",
+      "en": "travel; to travel"
+    },
     "category": "travel",
     "example": {
       "sentence": "我喜欢旅游。",
       "pinyin": "Wǒ xǐhuan lǚyóu.",
-      "meaning": "私は旅行が好きです。"
+      "meaning": {
+        "ja": "私は旅行が好きです。",
+        "en": "I like traveling."
+      }
     },
     "typing": [
       [
@@ -1793,12 +2261,18 @@
     "id": "travel-014",
     "hanzi": "公共汽车",
     "pinyin": "gōnggòng qìchē",
-    "meaning": "バス",
+    "meaning": {
+      "ja": "バス",
+      "en": "bus"
+    },
     "category": "travel",
     "example": {
       "sentence": "坐公共汽车去学校。",
       "pinyin": "Zuò gōnggòng qìchē qù xuéxiào.",
-      "meaning": "バスで学校に行きます。"
+      "meaning": {
+        "ja": "バスで学校に行きます。",
+        "en": "I go to school by bus."
+      }
     },
     "typing": [
       [
@@ -1828,12 +2302,18 @@
     "id": "travel-015",
     "hanzi": "司机",
     "pinyin": "sījī",
-    "meaning": "運転手",
+    "meaning": {
+      "ja": "運転手",
+      "en": "driver"
+    },
     "category": "travel",
     "example": {
       "sentence": "司机,请到机场。",
       "pinyin": "Sījī, qǐng dào jīchǎng.",
-      "meaning": "運転手さん、空港までお願いします。"
+      "meaning": {
+        "ja": "運転手さん、空港までお願いします。",
+        "en": "Driver, to the airport, please."
+      }
     },
     "typing": [
       [
@@ -1850,12 +2330,18 @@
     "id": "travel-016",
     "hanzi": "走",
     "pinyin": "zǒu",
-    "meaning": "歩く/行く",
+    "meaning": {
+      "ja": "歩く/行く",
+      "en": "to walk; to go"
+    },
     "category": "travel",
     "example": {
       "sentence": "我们走着去吧。",
       "pinyin": "Wǒmen zǒuzhe qù ba.",
-      "meaning": "歩いて行きましょう。"
+      "meaning": {
+        "ja": "歩いて行きましょう。",
+        "en": "Let's walk there."
+      }
     },
     "typing": [
       [
@@ -1869,12 +2355,18 @@
     "id": "travel-017",
     "hanzi": "到",
     "pinyin": "dào",
-    "meaning": "着く/〜まで",
+    "meaning": {
+      "ja": "着く/〜まで",
+      "en": "to arrive; to, until (a place)"
+    },
     "category": "travel",
     "example": {
       "sentence": "我们到了。",
       "pinyin": "Wǒmen dào le.",
-      "meaning": "着きました。"
+      "meaning": {
+        "ja": "着きました。",
+        "en": "We've arrived."
+      }
     },
     "typing": [
       [
@@ -1888,12 +2380,18 @@
     "id": "travel-018",
     "hanzi": "多远",
     "pinyin": "duō yuǎn",
-    "meaning": "どのくらい遠い",
+    "meaning": {
+      "ja": "どのくらい遠い",
+      "en": "how far"
+    },
     "category": "travel",
     "example": {
       "sentence": "这里离车站多远?",
       "pinyin": "Zhèlǐ lí chēzhàn duō yuǎn?",
-      "meaning": "ここから駅までどのくらいの距離ですか?"
+      "meaning": {
+        "ja": "ここから駅までどのくらいの距離ですか?",
+        "en": "How far is it from here to the station?"
+      }
     },
     "typing": [
       [
@@ -1913,12 +2411,18 @@
     "id": "travel-019",
     "hanzi": "附近",
     "pinyin": "fùjìn",
-    "meaning": "近く",
+    "meaning": {
+      "ja": "近く",
+      "en": "nearby"
+    },
     "category": "travel",
     "example": {
       "sentence": "附近有超市吗?",
       "pinyin": "Fùjìn yǒu chāoshì ma?",
-      "meaning": "近くにスーパーはありますか?"
+      "meaning": {
+        "ja": "近くにスーパーはありますか?",
+        "en": "Is there a supermarket nearby?"
+      }
     },
     "typing": [
       [
@@ -1936,12 +2440,18 @@
     "id": "travel-020",
     "hanzi": "出发",
     "pinyin": "chūfā",
-    "meaning": "出発する",
+    "meaning": {
+      "ja": "出発する",
+      "en": "to depart"
+    },
     "category": "travel",
     "example": {
       "sentence": "我们几点出发?",
       "pinyin": "Wǒmen jǐ diǎn chūfā?",
-      "meaning": "私たちは何時に出発しますか?"
+      "meaning": {
+        "ja": "私たちは何時に出発しますか?",
+        "en": "What time are we leaving?"
+      }
     },
     "typing": [
       [
@@ -1959,12 +2469,18 @@
     "id": "travel-021",
     "hanzi": "到达",
     "pinyin": "dàodá",
-    "meaning": "到着する",
+    "meaning": {
+      "ja": "到着する",
+      "en": "to arrive"
+    },
     "category": "travel",
     "example": {
       "sentence": "飞机什么时候到达?",
       "pinyin": "Fēijī shénme shíhou dàodá?",
-      "meaning": "飛行機はいつ到着しますか?"
+      "meaning": {
+        "ja": "飛行機はいつ到着しますか?",
+        "en": "When does the plane arrive?"
+      }
     },
     "typing": [
       [
@@ -1982,12 +2498,18 @@
     "id": "travel-022",
     "hanzi": "预订",
     "pinyin": "yùdìng",
-    "meaning": "予約する",
+    "meaning": {
+      "ja": "予約する",
+      "en": "to book, to reserve"
+    },
     "category": "travel",
     "example": {
       "sentence": "我想预订一个房间。",
       "pinyin": "Wǒ xiǎng yùdìng yí ge fángjiān.",
-      "meaning": "部屋を1室予約したいです。"
+      "meaning": {
+        "ja": "部屋を1室予約したいです。",
+        "en": "I'd like to book a room."
+      }
     },
     "typing": [
       [
@@ -2006,12 +2528,18 @@
     "id": "travel-023",
     "hanzi": "换乘",
     "pinyin": "huànchéng",
-    "meaning": "乗り換える",
+    "meaning": {
+      "ja": "乗り換える",
+      "en": "to transfer, to change (trains/buses)"
+    },
     "category": "travel",
     "example": {
       "sentence": "在这里换乘地铁。",
       "pinyin": "Zài zhèlǐ huànchéng dìtiě.",
-      "meaning": "ここで地下鉄に乗り換えます。"
+      "meaning": {
+        "ja": "ここで地下鉄に乗り換えます。",
+        "en": "I'll transfer to the subway here."
+      }
     },
     "typing": [
       [
@@ -2033,12 +2561,18 @@
     "id": "travel-024",
     "hanzi": "单程票",
     "pinyin": "dānchéngpiào",
-    "meaning": "片道切符",
+    "meaning": {
+      "ja": "片道切符",
+      "en": "one-way ticket"
+    },
     "category": "travel",
     "example": {
       "sentence": "我要一张单程票。",
       "pinyin": "Wǒ yào yì zhāng dānchéngpiào.",
-      "meaning": "片道切符を1枚ください。"
+      "meaning": {
+        "ja": "片道切符を1枚ください。",
+        "en": "One one-way ticket, please."
+      }
     },
     "typing": [
       [
@@ -2065,12 +2599,18 @@
     "id": "travel-025",
     "hanzi": "往返票",
     "pinyin": "wǎngfǎnpiào",
-    "meaning": "往復切符",
+    "meaning": {
+      "ja": "往復切符",
+      "en": "round-trip ticket"
+    },
     "category": "travel",
     "example": {
       "sentence": "往返票比较便宜。",
       "pinyin": "Wǎngfǎnpiào bǐjiào piányi.",
-      "meaning": "往復切符のほうが安いです。"
+      "meaning": {
+        "ja": "往復切符のほうが安いです。",
+        "en": "A round-trip ticket is cheaper."
+      }
     },
     "typing": [
       [
@@ -2096,12 +2636,18 @@
     "id": "food-001",
     "hanzi": "吃",
     "pinyin": "chī",
-    "meaning": "食べる",
+    "meaning": {
+      "ja": "食べる",
+      "en": "to eat"
+    },
     "category": "food",
     "example": {
       "sentence": "我想吃中国菜。",
       "pinyin": "Wǒ xiǎng chī Zhōngguócài.",
-      "meaning": "中華料理が食べたいです。"
+      "meaning": {
+        "ja": "中華料理が食べたいです。",
+        "en": "I want to eat Chinese food."
+      }
     },
     "typing": [
       [
@@ -2115,12 +2661,18 @@
     "id": "food-002",
     "hanzi": "喝",
     "pinyin": "hē",
-    "meaning": "飲む",
+    "meaning": {
+      "ja": "飲む",
+      "en": "to drink"
+    },
     "category": "food",
     "example": {
       "sentence": "你喝什么?",
       "pinyin": "Nǐ hē shénme?",
-      "meaning": "何を飲みますか?"
+      "meaning": {
+        "ja": "何を飲みますか?",
+        "en": "What would you like to drink?"
+      }
     },
     "typing": [
       [
@@ -2133,12 +2685,18 @@
     "id": "food-003",
     "hanzi": "菜单",
     "pinyin": "càidān",
-    "meaning": "メニュー",
+    "meaning": {
+      "ja": "メニュー",
+      "en": "menu"
+    },
     "category": "food",
     "example": {
       "sentence": "请给我菜单。",
       "pinyin": "Qǐng gěi wǒ càidān.",
-      "meaning": "メニューをください。"
+      "meaning": {
+        "ja": "メニューをください。",
+        "en": "Could I have the menu, please?"
+      }
     },
     "typing": [
       [
@@ -2157,12 +2715,18 @@
     "id": "food-004",
     "hanzi": "好吃",
     "pinyin": "hǎochī",
-    "meaning": "おいしい(食べ物)",
+    "meaning": {
+      "ja": "おいしい(食べ物)",
+      "en": "delicious (food)"
+    },
     "category": "food",
     "example": {
       "sentence": "这个菜很好吃。",
       "pinyin": "Zhège cài hěn hǎochī.",
-      "meaning": "この料理はとてもおいしいです。"
+      "meaning": {
+        "ja": "この料理はとてもおいしいです。",
+        "en": "This dish is very delicious."
+      }
     },
     "typing": [
       [
@@ -2181,12 +2745,18 @@
     "id": "food-005",
     "hanzi": "好喝",
     "pinyin": "hǎohē",
-    "meaning": "おいしい(飲み物)",
+    "meaning": {
+      "ja": "おいしい(飲み物)",
+      "en": "delicious (drinks)"
+    },
     "category": "food",
     "example": {
       "sentence": "这杯茶很好喝。",
       "pinyin": "Zhè bēi chá hěn hǎohē.",
-      "meaning": "このお茶はとてもおいしいです。"
+      "meaning": {
+        "ja": "このお茶はとてもおいしいです。",
+        "en": "This tea is very delicious."
+      }
     },
     "typing": [
       [
@@ -2204,12 +2774,18 @@
     "id": "food-006",
     "hanzi": "买单",
     "pinyin": "mǎidān",
-    "meaning": "会計する",
+    "meaning": {
+      "ja": "会計する",
+      "en": "to pay the bill"
+    },
     "category": "food",
     "example": {
       "sentence": "服务员,买单。",
       "pinyin": "Fúwùyuán, mǎidān.",
-      "meaning": "店員さん、お会計お願いします。"
+      "meaning": {
+        "ja": "店員さん、お会計お願いします。",
+        "en": "Excuse me, could I have the check, please?"
+      }
     },
     "typing": [
       [
@@ -2228,12 +2804,18 @@
     "id": "food-007",
     "hanzi": "米饭",
     "pinyin": "mǐfàn",
-    "meaning": "ご飯",
+    "meaning": {
+      "ja": "ご飯",
+      "en": "rice / meal"
+    },
     "category": "food",
     "example": {
       "sentence": "我要一碗米饭。",
       "pinyin": "Wǒ yào yì wǎn mǐfàn.",
-      "meaning": "ご飯を一杯ください。"
+      "meaning": {
+        "ja": "ご飯を一杯ください。",
+        "en": "A bowl of rice, please."
+      }
     },
     "typing": [
       [
@@ -2251,12 +2833,18 @@
     "id": "food-008",
     "hanzi": "面条",
     "pinyin": "miàntiáo",
-    "meaning": "麺",
+    "meaning": {
+      "ja": "麺",
+      "en": "noodles"
+    },
     "category": "food",
     "example": {
       "sentence": "我喜欢吃面条。",
       "pinyin": "Wǒ xǐhuan chī miàntiáo.",
-      "meaning": "私は麺類が好きです。"
+      "meaning": {
+        "ja": "私は麺類が好きです。",
+        "en": "I like noodles."
+      }
     },
     "typing": [
       [
@@ -2277,12 +2865,18 @@
     "id": "food-009",
     "hanzi": "水",
     "pinyin": "shuǐ",
-    "meaning": "水",
+    "meaning": {
+      "ja": "水",
+      "en": "water"
+    },
     "category": "food",
     "example": {
       "sentence": "请给我一杯水。",
       "pinyin": "Qǐng gěi wǒ yì bēi shuǐ.",
-      "meaning": "水を一杯ください。"
+      "meaning": {
+        "ja": "水を一杯ください。",
+        "en": "A glass of water, please."
+      }
     },
     "typing": [
       [
@@ -2297,12 +2891,18 @@
     "id": "food-010",
     "hanzi": "茶",
     "pinyin": "chá",
-    "meaning": "お茶",
+    "meaning": {
+      "ja": "お茶",
+      "en": "tea"
+    },
     "category": "food",
     "example": {
       "sentence": "我想喝茶。",
       "pinyin": "Wǒ xiǎng hē chá.",
-      "meaning": "お茶が飲みたいです。"
+      "meaning": {
+        "ja": "お茶が飲みたいです。",
+        "en": "I'd like to drink some tea."
+      }
     },
     "typing": [
       [
@@ -2316,12 +2916,18 @@
     "id": "food-011",
     "hanzi": "咖啡",
     "pinyin": "kāfēi",
-    "meaning": "コーヒー",
+    "meaning": {
+      "ja": "コーヒー",
+      "en": "coffee"
+    },
     "category": "food",
     "example": {
       "sentence": "我要一杯咖啡。",
       "pinyin": "Wǒ yào yì bēi kāfēi.",
-      "meaning": "コーヒーを一杯ください。"
+      "meaning": {
+        "ja": "コーヒーを一杯ください。",
+        "en": "A cup of coffee, please."
+      }
     },
     "typing": [
       [
@@ -2339,12 +2945,18 @@
     "id": "food-012",
     "hanzi": "啤酒",
     "pinyin": "píjiǔ",
-    "meaning": "ビール",
+    "meaning": {
+      "ja": "ビール",
+      "en": "beer"
+    },
     "category": "food",
     "example": {
       "sentence": "来一瓶啤酒。",
       "pinyin": "Lái yì píng píjiǔ.",
-      "meaning": "ビールを一本ください。"
+      "meaning": {
+        "ja": "ビールを一本ください。",
+        "en": "A bottle of beer, please."
+      }
     },
     "typing": [
       [
@@ -2362,12 +2974,18 @@
     "id": "food-013",
     "hanzi": "菜",
     "pinyin": "cài",
-    "meaning": "料理/野菜",
+    "meaning": {
+      "ja": "料理/野菜",
+      "en": "dish / vegetable"
+    },
     "category": "food",
     "example": {
       "sentence": "这道菜很有名。",
       "pinyin": "Zhè dào cài hěn yǒumíng.",
-      "meaning": "この料理は有名です。"
+      "meaning": {
+        "ja": "この料理は有名です。",
+        "en": "This dish is famous."
+      }
     },
     "typing": [
       [
@@ -2381,12 +2999,18 @@
     "id": "food-014",
     "hanzi": "肉",
     "pinyin": "ròu",
-    "meaning": "肉",
+    "meaning": {
+      "ja": "肉",
+      "en": "meat"
+    },
     "category": "food",
     "example": {
       "sentence": "我不吃肉。",
       "pinyin": "Wǒ bù chī ròu.",
-      "meaning": "私は肉を食べません。"
+      "meaning": {
+        "ja": "私は肉を食べません。",
+        "en": "I don't eat meat."
+      }
     },
     "typing": [
       [
@@ -2400,12 +3024,18 @@
     "id": "food-015",
     "hanzi": "鱼",
     "pinyin": "yú",
-    "meaning": "魚",
+    "meaning": {
+      "ja": "魚",
+      "en": "fish"
+    },
     "category": "food",
     "example": {
       "sentence": "这条鱼很新鲜。",
       "pinyin": "Zhè tiáo yú hěn xīnxiān.",
-      "meaning": "この魚はとても新鮮です。"
+      "meaning": {
+        "ja": "この魚はとても新鮮です。",
+        "en": "This fish is very fresh."
+      }
     },
     "typing": [
       [
@@ -2418,12 +3048,18 @@
     "id": "food-016",
     "hanzi": "蔬菜",
     "pinyin": "shūcài",
-    "meaning": "野菜",
+    "meaning": {
+      "ja": "野菜",
+      "en": "vegetables"
+    },
     "category": "food",
     "example": {
       "sentence": "多吃蔬菜对身体好。",
       "pinyin": "Duō chī shūcài duì shēntǐ hǎo.",
-      "meaning": "野菜をたくさん食べると体にいいです。"
+      "meaning": {
+        "ja": "野菜をたくさん食べると体にいいです。",
+        "en": "Eating plenty of vegetables is good for your health."
+      }
     },
     "typing": [
       [
@@ -2442,12 +3078,18 @@
     "id": "food-017",
     "hanzi": "水果",
     "pinyin": "shuǐguǒ",
-    "meaning": "果物",
+    "meaning": {
+      "ja": "果物",
+      "en": "fruit"
+    },
     "category": "food",
     "example": {
       "sentence": "我喜欢吃水果。",
       "pinyin": "Wǒ xǐhuan chī shuǐguǒ.",
-      "meaning": "私は果物が好きです。"
+      "meaning": {
+        "ja": "私は果物が好きです。",
+        "en": "I like fruit."
+      }
     },
     "typing": [
       [
@@ -2467,12 +3109,18 @@
     "id": "food-018",
     "hanzi": "早饭",
     "pinyin": "zǎofàn",
-    "meaning": "朝ごはん",
+    "meaning": {
+      "ja": "朝ごはん",
+      "en": "breakfast"
+    },
     "category": "food",
     "example": {
       "sentence": "你吃早饭了吗?",
       "pinyin": "Nǐ chī zǎofàn le ma?",
-      "meaning": "朝ごはんは食べましたか?"
+      "meaning": {
+        "ja": "朝ごはんは食べましたか?",
+        "en": "Have you had breakfast yet?"
+      }
     },
     "typing": [
       [
@@ -2491,12 +3139,18 @@
     "id": "food-019",
     "hanzi": "午饭",
     "pinyin": "wǔfàn",
-    "meaning": "昼ごはん",
+    "meaning": {
+      "ja": "昼ごはん",
+      "en": "lunch"
+    },
     "category": "food",
     "example": {
       "sentence": "我们一起吃午饭吧。",
       "pinyin": "Wǒmen yìqǐ chī wǔfàn ba.",
-      "meaning": "一緒に昼ごはんを食べましょう。"
+      "meaning": {
+        "ja": "一緒に昼ごはんを食べましょう。",
+        "en": "Let's have lunch together."
+      }
     },
     "typing": [
       [
@@ -2514,12 +3168,18 @@
     "id": "food-020",
     "hanzi": "晚饭",
     "pinyin": "wǎnfàn",
-    "meaning": "晩ごはん",
+    "meaning": {
+      "ja": "晩ごはん",
+      "en": "dinner"
+    },
     "category": "food",
     "example": {
       "sentence": "晚饭想吃什么?",
       "pinyin": "Wǎnfàn xiǎng chī shénme?",
-      "meaning": "晩ごはんは何が食べたいですか?"
+      "meaning": {
+        "ja": "晩ごはんは何が食べたいですか?",
+        "en": "What do you want to eat for dinner?"
+      }
     },
     "typing": [
       [
@@ -2538,12 +3198,18 @@
     "id": "food-021",
     "hanzi": "服务员",
     "pinyin": "fúwùyuán",
-    "meaning": "店員",
+    "meaning": {
+      "ja": "店員",
+      "en": "waiter / shop clerk"
+    },
     "category": "food",
     "example": {
       "sentence": "服务员,点菜。",
       "pinyin": "Fúwùyuán, diǎn cài.",
-      "meaning": "店員さん、注文お願いします。"
+      "meaning": {
+        "ja": "店員さん、注文お願いします。",
+        "en": "Excuse me, I'd like to order, please."
+      }
     },
     "typing": [
       [
@@ -2566,12 +3232,18 @@
     "id": "food-022",
     "hanzi": "点菜",
     "pinyin": "diǎn cài",
-    "meaning": "料理を注文する",
+    "meaning": {
+      "ja": "料理を注文する",
+      "en": "to order food"
+    },
     "category": "food",
     "example": {
       "sentence": "我们点菜吧。",
       "pinyin": "Wǒmen diǎn cài ba.",
-      "meaning": "注文しましょう。"
+      "meaning": {
+        "ja": "注文しましょう。",
+        "en": "Let's order."
+      }
     },
     "typing": [
       [
@@ -2591,12 +3263,18 @@
     "id": "food-023",
     "hanzi": "辣",
     "pinyin": "là",
-    "meaning": "辛い",
+    "meaning": {
+      "ja": "辛い",
+      "en": "spicy"
+    },
     "category": "food",
     "example": {
       "sentence": "这个菜很辣。",
       "pinyin": "Zhège cài hěn là.",
-      "meaning": "この料理はとても辛いです。"
+      "meaning": {
+        "ja": "この料理はとても辛いです。",
+        "en": "This dish is very spicy."
+      }
     },
     "typing": [
       [
@@ -2609,12 +3287,18 @@
     "id": "food-024",
     "hanzi": "甜",
     "pinyin": "tián",
-    "meaning": "甘い",
+    "meaning": {
+      "ja": "甘い",
+      "en": "sweet"
+    },
     "category": "food",
     "example": {
       "sentence": "这个蛋糕很甜。",
       "pinyin": "Zhège dàngāo hěn tián.",
-      "meaning": "このケーキはとても甘いです。"
+      "meaning": {
+        "ja": "このケーキはとても甘いです。",
+        "en": "This cake is very sweet."
+      }
     },
     "typing": [
       [
@@ -2629,12 +3313,18 @@
     "id": "food-025",
     "hanzi": "饱",
     "pinyin": "bǎo",
-    "meaning": "お腹いっぱい",
+    "meaning": {
+      "ja": "お腹いっぱい",
+      "en": "to be full (stomach)"
+    },
     "category": "food",
     "example": {
       "sentence": "我吃饱了。",
       "pinyin": "Wǒ chībǎo le.",
-      "meaning": "お腹いっぱいになりました。"
+      "meaning": {
+        "ja": "お腹いっぱいになりました。",
+        "en": "I'm full now."
+      }
     },
     "typing": [
       [
@@ -2648,12 +3338,18 @@
     "id": "shopping-001",
     "hanzi": "多少钱",
     "pinyin": "duōshao qián",
-    "meaning": "いくらですか",
+    "meaning": {
+      "ja": "いくらですか",
+      "en": "How much is it?"
+    },
     "category": "shopping",
     "example": {
       "sentence": "这个多少钱?",
       "pinyin": "Zhège duōshao qián?",
-      "meaning": "これはいくらですか?"
+      "meaning": {
+        "ja": "これはいくらですか?",
+        "en": "How much is this?"
+      }
     },
     "typing": [
       [
@@ -2679,12 +3375,18 @@
     "id": "shopping-002",
     "hanzi": "便宜",
     "pinyin": "piányi",
-    "meaning": "安い",
+    "meaning": {
+      "ja": "安い",
+      "en": "cheap"
+    },
     "category": "shopping",
     "example": {
       "sentence": "这个很便宜。",
       "pinyin": "Zhège hěn piányi.",
-      "meaning": "これはとても安いです。"
+      "meaning": {
+        "ja": "これはとても安いです。",
+        "en": "This is very cheap."
+      }
     },
     "typing": [
       [
@@ -2703,12 +3405,18 @@
     "id": "shopping-003",
     "hanzi": "贵",
     "pinyin": "guì",
-    "meaning": "高い",
+    "meaning": {
+      "ja": "高い",
+      "en": "expensive"
+    },
     "category": "shopping",
     "example": {
       "sentence": "太贵了。",
       "pinyin": "Tài guì le.",
-      "meaning": "高すぎます。"
+      "meaning": {
+        "ja": "高すぎます。",
+        "en": "It's too expensive."
+      }
     },
     "typing": [
       [
@@ -2722,12 +3430,18 @@
     "id": "shopping-004",
     "hanzi": "颜色",
     "pinyin": "yánsè",
-    "meaning": "色",
+    "meaning": {
+      "ja": "色",
+      "en": "color"
+    },
     "category": "shopping",
     "example": {
       "sentence": "有别的颜色吗?",
       "pinyin": "Yǒu bié de yánsè ma?",
-      "meaning": "他の色はありますか?"
+      "meaning": {
+        "ja": "他の色はありますか?",
+        "en": "Do you have any other colors?"
+      }
     },
     "typing": [
       [
@@ -2745,12 +3459,18 @@
     "id": "shopping-005",
     "hanzi": "试穿",
     "pinyin": "shìchuān",
-    "meaning": "試着する",
+    "meaning": {
+      "ja": "試着する",
+      "en": "to try on"
+    },
     "category": "shopping",
     "example": {
       "sentence": "我可以试穿一下吗?",
       "pinyin": "Wǒ kěyǐ shìchuān yíxià ma?",
-      "meaning": "試着してもいいですか?"
+      "meaning": {
+        "ja": "試着してもいいですか?",
+        "en": "Can I try this on?"
+      }
     },
     "typing": [
       [
@@ -2771,12 +3491,18 @@
     "id": "shopping-006",
     "hanzi": "买",
     "pinyin": "mǎi",
-    "meaning": "買う",
+    "meaning": {
+      "ja": "買う",
+      "en": "to buy"
+    },
     "category": "shopping",
     "example": {
       "sentence": "我想买这个。",
       "pinyin": "Wǒ xiǎng mǎi zhège.",
-      "meaning": "これを買いたいです。"
+      "meaning": {
+        "ja": "これを買いたいです。",
+        "en": "I want to buy this."
+      }
     },
     "typing": [
       [
@@ -2790,12 +3516,18 @@
     "id": "shopping-007",
     "hanzi": "卖",
     "pinyin": "mài",
-    "meaning": "売る",
+    "meaning": {
+      "ja": "売る",
+      "en": "to sell"
+    },
     "category": "shopping",
     "example": {
       "sentence": "这里卖水果。",
       "pinyin": "Zhèlǐ mài shuǐguǒ.",
-      "meaning": "ここは果物を売っています。"
+      "meaning": {
+        "ja": "ここは果物を売っています。",
+        "en": "This place sells fruit."
+      }
     },
     "typing": [
       [
@@ -2809,12 +3541,18 @@
     "id": "shopping-008",
     "hanzi": "商店",
     "pinyin": "shāngdiàn",
-    "meaning": "店",
+    "meaning": {
+      "ja": "店",
+      "en": "store, shop"
+    },
     "category": "shopping",
     "example": {
       "sentence": "附近有商店吗?",
       "pinyin": "Fùjìn yǒu shāngdiàn ma?",
-      "meaning": "近くに店はありますか?"
+      "meaning": {
+        "ja": "近くに店はありますか?",
+        "en": "Is there a store nearby?"
+      }
     },
     "typing": [
       [
@@ -2836,12 +3574,18 @@
     "id": "shopping-009",
     "hanzi": "超市",
     "pinyin": "chāoshì",
-    "meaning": "スーパー",
+    "meaning": {
+      "ja": "スーパー",
+      "en": "supermarket"
+    },
     "category": "shopping",
     "example": {
       "sentence": "我去超市买东西。",
       "pinyin": "Wǒ qù chāoshì mǎi dōngxi.",
-      "meaning": "スーパーへ買い物に行きます。"
+      "meaning": {
+        "ja": "スーパーへ買い物に行きます。",
+        "en": "I'm going to the supermarket to do some shopping."
+      }
     },
     "typing": [
       [
@@ -2861,12 +3605,18 @@
     "id": "shopping-010",
     "hanzi": "钱",
     "pinyin": "qián",
-    "meaning": "お金",
+    "meaning": {
+      "ja": "お金",
+      "en": "money"
+    },
     "category": "shopping",
     "example": {
       "sentence": "我没有钱了。",
       "pinyin": "Wǒ méiyǒu qián le.",
-      "meaning": "お金がなくなりました。"
+      "meaning": {
+        "ja": "お金がなくなりました。",
+        "en": "I've run out of money."
+      }
     },
     "typing": [
       [
@@ -2881,12 +3631,18 @@
     "id": "shopping-011",
     "hanzi": "元",
     "pinyin": "yuán",
-    "meaning": "元(通貨単位)",
+    "meaning": {
+      "ja": "元(通貨単位)",
+      "en": "yuan (currency unit)"
+    },
     "category": "shopping",
     "example": {
       "sentence": "一共二十元。",
       "pinyin": "Yígòng èrshí yuán.",
-      "meaning": "全部で20元です。"
+      "meaning": {
+        "ja": "全部で20元です。",
+        "en": "It's 20 yuan altogether."
+      }
     },
     "typing": [
       [
@@ -2901,12 +3657,18 @@
     "id": "shopping-012",
     "hanzi": "现金",
     "pinyin": "xiànjīn",
-    "meaning": "現金",
+    "meaning": {
+      "ja": "現金",
+      "en": "cash"
+    },
     "category": "shopping",
     "example": {
       "sentence": "可以用现金吗?",
       "pinyin": "Kěyǐ yòng xiànjīn ma?",
-      "meaning": "現金は使えますか?"
+      "meaning": {
+        "ja": "現金は使えますか?",
+        "en": "Can I pay with cash?"
+      }
     },
     "typing": [
       [
@@ -2926,12 +3688,18 @@
     "id": "shopping-013",
     "hanzi": "刷卡",
     "pinyin": "shuākǎ",
-    "meaning": "カードで払う",
+    "meaning": {
+      "ja": "カードで払う",
+      "en": "to pay by card"
+    },
     "category": "shopping",
     "example": {
       "sentence": "我要刷卡。",
       "pinyin": "Wǒ yào shuākǎ.",
-      "meaning": "カードで払います。"
+      "meaning": {
+        "ja": "カードで払います。",
+        "en": "I'll pay by card."
+      }
     },
     "typing": [
       [
@@ -2950,12 +3718,18 @@
     "id": "shopping-014",
     "hanzi": "打折",
     "pinyin": "dǎzhé",
-    "meaning": "割引する",
+    "meaning": {
+      "ja": "割引する",
+      "en": "to give a discount"
+    },
     "category": "shopping",
     "example": {
       "sentence": "现在打折吗?",
       "pinyin": "Xiànzài dǎzhé ma?",
-      "meaning": "今割引していますか?"
+      "meaning": {
+        "ja": "今割引していますか?",
+        "en": "Is there a discount right now?"
+      }
     },
     "typing": [
       [
@@ -2973,12 +3747,18 @@
     "id": "shopping-015",
     "hanzi": "大小",
     "pinyin": "dàxiǎo",
-    "meaning": "サイズ",
+    "meaning": {
+      "ja": "サイズ",
+      "en": "size"
+    },
     "category": "shopping",
     "example": {
       "sentence": "大小正合适。",
       "pinyin": "Dàxiǎo zhèng héshì.",
-      "meaning": "サイズがちょうどいいです。"
+      "meaning": {
+        "ja": "サイズがちょうどいいです。",
+        "en": "This size fits just right."
+      }
     },
     "typing": [
       [
@@ -2997,12 +3777,18 @@
     "id": "shopping-016",
     "hanzi": "号码",
     "pinyin": "hàomǎ",
-    "meaning": "サイズ番号/番号",
+    "meaning": {
+      "ja": "サイズ番号/番号",
+      "en": "size number"
+    },
     "category": "shopping",
     "example": {
       "sentence": "有大一号的吗?",
       "pinyin": "Yǒu dà yí hào de ma?",
-      "meaning": "1つ大きいサイズはありますか?"
+      "meaning": {
+        "ja": "1つ大きいサイズはありますか?",
+        "en": "Do you have this one size bigger?"
+      }
     },
     "typing": [
       [
@@ -3020,12 +3806,18 @@
     "id": "shopping-017",
     "hanzi": "收据",
     "pinyin": "shōujù",
-    "meaning": "レシート",
+    "meaning": {
+      "ja": "レシート",
+      "en": "receipt"
+    },
     "category": "shopping",
     "example": {
       "sentence": "请给我收据。",
       "pinyin": "Qǐng gěi wǒ shōujù.",
-      "meaning": "レシートをください。"
+      "meaning": {
+        "ja": "レシートをください。",
+        "en": "Could I get a receipt, please?"
+      }
     },
     "typing": [
       [
@@ -3044,12 +3836,18 @@
     "id": "shopping-018",
     "hanzi": "换",
     "pinyin": "huàn",
-    "meaning": "交換する",
+    "meaning": {
+      "ja": "交換する",
+      "en": "to exchange"
+    },
     "category": "shopping",
     "example": {
       "sentence": "可以换一个吗?",
       "pinyin": "Kěyǐ huàn yí ge ma?",
-      "meaning": "1つ交換できますか?"
+      "meaning": {
+        "ja": "1つ交換できますか?",
+        "en": "Could I exchange this for another one?"
+      }
     },
     "typing": [
       [
@@ -3064,12 +3862,18 @@
     "id": "shopping-019",
     "hanzi": "退",
     "pinyin": "tuì",
-    "meaning": "返品する",
+    "meaning": {
+      "ja": "返品する",
+      "en": "to return (an item)"
+    },
     "category": "shopping",
     "example": {
       "sentence": "我想退这个。",
       "pinyin": "Wǒ xiǎng tuì zhège.",
-      "meaning": "これを返品したいです。"
+      "meaning": {
+        "ja": "これを返品したいです。",
+        "en": "I'd like to return this."
+      }
     },
     "typing": [
       [
@@ -3083,12 +3887,18 @@
     "id": "shopping-020",
     "hanzi": "一共",
     "pinyin": "yígòng",
-    "meaning": "全部で",
+    "meaning": {
+      "ja": "全部で",
+      "en": "in total, altogether"
+    },
     "category": "shopping",
     "example": {
       "sentence": "一共多少钱?",
       "pinyin": "Yígòng duōshao qián?",
-      "meaning": "全部でいくらですか?"
+      "meaning": {
+        "ja": "全部でいくらですか?",
+        "en": "How much is it in total?"
+      }
     },
     "typing": [
       [
@@ -3107,12 +3917,18 @@
     "id": "daily-life-001",
     "hanzi": "家人",
     "pinyin": "jiārén",
-    "meaning": "家族",
+    "meaning": {
+      "ja": "家族",
+      "en": "family"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "我很想家人。",
       "pinyin": "Wǒ hěn xiǎng jiārén.",
-      "meaning": "家族にとても会いたいです。"
+      "meaning": {
+        "ja": "家族にとても会いたいです。",
+        "en": "I miss my family so much."
+      }
     },
     "typing": [
       [
@@ -3131,12 +3947,18 @@
     "id": "daily-life-002",
     "hanzi": "天气",
     "pinyin": "tiānqì",
-    "meaning": "天気",
+    "meaning": {
+      "ja": "天気",
+      "en": "weather"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "今天天气怎么样?",
       "pinyin": "Jīntiān tiānqì zěnmeyàng?",
-      "meaning": "今日の天気はどうですか?"
+      "meaning": {
+        "ja": "今日の天気はどうですか?",
+        "en": "How's the weather today?"
+      }
     },
     "typing": [
       [
@@ -3155,12 +3977,18 @@
     "id": "daily-life-003",
     "hanzi": "喜欢",
     "pinyin": "xǐhuan",
-    "meaning": "好き",
+    "meaning": {
+      "ja": "好き",
+      "en": "to like"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "我喜欢学汉语。",
       "pinyin": "Wǒ xǐhuan xué Hànyǔ.",
-      "meaning": "私は中国語を勉強するのが好きです。"
+      "meaning": {
+        "ja": "私は中国語を勉強するのが好きです。",
+        "en": "I like studying Chinese."
+      }
     },
     "typing": [
       [
@@ -3179,12 +4007,18 @@
     "id": "daily-life-004",
     "hanzi": "忙",
     "pinyin": "máng",
-    "meaning": "忙しい",
+    "meaning": {
+      "ja": "忙しい",
+      "en": "busy"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "最近很忙。",
       "pinyin": "Zuìjìn hěn máng.",
-      "meaning": "最近忙しいです。"
+      "meaning": {
+        "ja": "最近忙しいです。",
+        "en": "I've been busy lately."
+      }
     },
     "typing": [
       [
@@ -3199,12 +4033,18 @@
     "id": "daily-life-005",
     "hanzi": "学习",
     "pinyin": "xuéxí",
-    "meaning": "勉強する",
+    "meaning": {
+      "ja": "勉強する",
+      "en": "to study"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "我每天学习汉语。",
       "pinyin": "Wǒ měitiān xuéxí Hànyǔ.",
-      "meaning": "私は毎日中国語を勉強します。"
+      "meaning": {
+        "ja": "私は毎日中国語を勉強します。",
+        "en": "I study Chinese every day."
+      }
     },
     "typing": [
       [
@@ -3222,12 +4062,18 @@
     "id": "daily-life-006",
     "hanzi": "睡觉",
     "pinyin": "shuìjiào",
-    "meaning": "寝る",
+    "meaning": {
+      "ja": "寝る",
+      "en": "to sleep / to go to bed"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "我十一点睡觉。",
       "pinyin": "Wǒ shíyī diǎn shuìjiào.",
-      "meaning": "私は11時に寝ます。"
+      "meaning": {
+        "ja": "私は11時に寝ます。",
+        "en": "I go to bed at eleven o'clock."
+      }
     },
     "typing": [
       [
@@ -3248,12 +4094,18 @@
     "id": "daily-life-007",
     "hanzi": "起床",
     "pinyin": "qǐchuáng",
-    "meaning": "起きる",
+    "meaning": {
+      "ja": "起きる",
+      "en": "to get up / to wake up"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "你几点起床?",
       "pinyin": "Nǐ jǐ diǎn qǐchuáng?",
-      "meaning": "何時に起きますか?"
+      "meaning": {
+        "ja": "何時に起きますか?",
+        "en": "What time do you get up?"
+      }
     },
     "typing": [
       [
@@ -3274,12 +4126,18 @@
     "id": "daily-life-008",
     "hanzi": "看",
     "pinyin": "kàn",
-    "meaning": "見る",
+    "meaning": {
+      "ja": "見る",
+      "en": "to watch / to look at"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "我在看电视。",
       "pinyin": "Wǒ zài kàn diànshì.",
-      "meaning": "私はテレビを見ています。"
+      "meaning": {
+        "ja": "私はテレビを見ています。",
+        "en": "I'm watching TV."
+      }
     },
     "typing": [
       [
@@ -3293,12 +4151,18 @@
     "id": "daily-life-009",
     "hanzi": "听",
     "pinyin": "tīng",
-    "meaning": "聞く",
+    "meaning": {
+      "ja": "聞く",
+      "en": "to listen / to hear"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "我喜欢听音乐。",
       "pinyin": "Wǒ xǐhuan tīng yīnyuè.",
-      "meaning": "私は音楽を聞くのが好きです。"
+      "meaning": {
+        "ja": "私は音楽を聞くのが好きです。",
+        "en": "I like listening to music."
+      }
     },
     "typing": [
       [
@@ -3313,12 +4177,18 @@
     "id": "daily-life-010",
     "hanzi": "说",
     "pinyin": "shuō",
-    "meaning": "話す",
+    "meaning": {
+      "ja": "話す",
+      "en": "to speak / to talk"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "他会说汉语。",
       "pinyin": "Tā huì shuō Hànyǔ.",
-      "meaning": "彼は中国語が話せます。"
+      "meaning": {
+        "ja": "彼は中国語が話せます。",
+        "en": "He can speak Chinese."
+      }
     },
     "typing": [
       [
@@ -3333,12 +4203,18 @@
     "id": "daily-life-011",
     "hanzi": "写",
     "pinyin": "xiě",
-    "meaning": "書く",
+    "meaning": {
+      "ja": "書く",
+      "en": "to write"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "请写你的名字。",
       "pinyin": "Qǐng xiě nǐ de míngzi.",
-      "meaning": "名前を書いてください。"
+      "meaning": {
+        "ja": "名前を書いてください。",
+        "en": "Please write your name."
+      }
     },
     "typing": [
       [
@@ -3352,12 +4228,18 @@
     "id": "daily-life-012",
     "hanzi": "读",
     "pinyin": "dú",
-    "meaning": "読む",
+    "meaning": {
+      "ja": "読む",
+      "en": "to read"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "我在读书。",
       "pinyin": "Wǒ zài dú shū.",
-      "meaning": "私は本を読んでいます。"
+      "meaning": {
+        "ja": "私は本を読んでいます。",
+        "en": "I'm reading a book."
+      }
     },
     "typing": [
       [
@@ -3370,12 +4252,18 @@
     "id": "daily-life-013",
     "hanzi": "手机",
     "pinyin": "shǒujī",
-    "meaning": "携帯電話",
+    "meaning": {
+      "ja": "携帯電話",
+      "en": "mobile phone / cell phone"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "我的手机坏了。",
       "pinyin": "Wǒ de shǒujī huài le.",
-      "meaning": "私の携帯電話が壊れました。"
+      "meaning": {
+        "ja": "私の携帯電話が壊れました。",
+        "en": "My phone is broken."
+      }
     },
     "typing": [
       [
@@ -3394,12 +4282,18 @@
     "id": "daily-life-014",
     "hanzi": "电脑",
     "pinyin": "diànnǎo",
-    "meaning": "パソコン",
+    "meaning": {
+      "ja": "パソコン",
+      "en": "computer"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "我用电脑工作。",
       "pinyin": "Wǒ yòng diànnǎo gōngzuò.",
-      "meaning": "私はパソコンで仕事をします。"
+      "meaning": {
+        "ja": "私はパソコンで仕事をします。",
+        "en": "I work on a computer."
+      }
     },
     "typing": [
       [
@@ -3419,12 +4313,18 @@
     "id": "daily-life-015",
     "hanzi": "电视",
     "pinyin": "diànshì",
-    "meaning": "テレビ",
+    "meaning": {
+      "ja": "テレビ",
+      "en": "television / TV"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "晚上看电视。",
       "pinyin": "Wǎnshang kàn diànshì.",
-      "meaning": "夜にテレビを見ます。"
+      "meaning": {
+        "ja": "夜にテレビを見ます。",
+        "en": "I watch TV at night."
+      }
     },
     "typing": [
       [
@@ -3444,12 +4344,18 @@
     "id": "daily-life-016",
     "hanzi": "音乐",
     "pinyin": "yīnyuè",
-    "meaning": "音楽",
+    "meaning": {
+      "ja": "音楽",
+      "en": "music"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "这是中国音乐。",
       "pinyin": "Zhè shì Zhōngguó yīnyuè.",
-      "meaning": "これは中国の音楽です。"
+      "meaning": {
+        "ja": "これは中国の音楽です。",
+        "en": "This is Chinese music."
+      }
     },
     "typing": [
       [
@@ -3468,12 +4374,18 @@
     "id": "daily-life-017",
     "hanzi": "电影",
     "pinyin": "diànyǐng",
-    "meaning": "映画",
+    "meaning": {
+      "ja": "映画",
+      "en": "movie / film"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "我们去看电影吧。",
       "pinyin": "Wǒmen qù kàn diànyǐng ba.",
-      "meaning": "映画を見に行きましょう。"
+      "meaning": {
+        "ja": "映画を見に行きましょう。",
+        "en": "Let's go see a movie."
+      }
     },
     "typing": [
       [
@@ -3494,12 +4406,18 @@
     "id": "daily-life-018",
     "hanzi": "运动",
     "pinyin": "yùndòng",
-    "meaning": "運動する",
+    "meaning": {
+      "ja": "運動する",
+      "en": "to exercise"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "我每天运动。",
       "pinyin": "Wǒ měitiān yùndòng.",
-      "meaning": "私は毎日運動します。"
+      "meaning": {
+        "ja": "私は毎日運動します。",
+        "en": "I exercise every day."
+      }
     },
     "typing": [
       [
@@ -3519,12 +4437,18 @@
     "id": "daily-life-019",
     "hanzi": "休息",
     "pinyin": "xiūxi",
-    "meaning": "休む",
+    "meaning": {
+      "ja": "休む",
+      "en": "to rest"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "我们休息一下吧。",
       "pinyin": "Wǒmen xiūxi yíxià ba.",
-      "meaning": "少し休みましょう。"
+      "meaning": {
+        "ja": "少し休みましょう。",
+        "en": "Let's rest for a bit."
+      }
     },
     "typing": [
       [
@@ -3542,12 +4466,18 @@
     "id": "daily-life-020",
     "hanzi": "高兴",
     "pinyin": "gāoxìng",
-    "meaning": "嬉しい",
+    "meaning": {
+      "ja": "嬉しい",
+      "en": "happy / glad"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "认识你很高兴。",
       "pinyin": "Rènshi nǐ hěn gāoxìng.",
-      "meaning": "あなたに会えて嬉しいです。"
+      "meaning": {
+        "ja": "あなたに会えて嬉しいです。",
+        "en": "I'm happy to see you."
+      }
     },
     "typing": [
       [
@@ -3567,12 +4497,18 @@
     "id": "daily-life-021",
     "hanzi": "累",
     "pinyin": "lèi",
-    "meaning": "疲れた",
+    "meaning": {
+      "ja": "疲れた",
+      "en": "tired"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "今天很累。",
       "pinyin": "Jīntiān hěn lèi.",
-      "meaning": "今日はとても疲れました。"
+      "meaning": {
+        "ja": "今日はとても疲れました。",
+        "en": "I'm very tired today."
+      }
     },
     "typing": [
       [
@@ -3586,12 +4522,18 @@
     "id": "daily-life-022",
     "hanzi": "冷",
     "pinyin": "lěng",
-    "meaning": "寒い",
+    "meaning": {
+      "ja": "寒い",
+      "en": "cold"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "今天很冷。",
       "pinyin": "Jīntiān hěn lěng.",
-      "meaning": "今日はとても寒いです。"
+      "meaning": {
+        "ja": "今日はとても寒いです。",
+        "en": "It's very cold today."
+      }
     },
     "typing": [
       [
@@ -3606,12 +4548,18 @@
     "id": "daily-life-023",
     "hanzi": "热",
     "pinyin": "rè",
-    "meaning": "暑い",
+    "meaning": {
+      "ja": "暑い",
+      "en": "hot"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "夏天很热。",
       "pinyin": "Xiàtiān hěn rè.",
-      "meaning": "夏はとても暑いです。"
+      "meaning": {
+        "ja": "夏はとても暑いです。",
+        "en": "Summer is very hot."
+      }
     },
     "typing": [
       [
@@ -3624,12 +4572,18 @@
     "id": "daily-life-024",
     "hanzi": "舒服",
     "pinyin": "shūfu",
-    "meaning": "快適だ",
+    "meaning": {
+      "ja": "快適だ",
+      "en": "comfortable"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "这个椅子很舒服。",
       "pinyin": "Zhège yǐzi hěn shūfu.",
-      "meaning": "この椅子はとても快適です。"
+      "meaning": {
+        "ja": "この椅子はとても快適です。",
+        "en": "This chair is very comfortable."
+      }
     },
     "typing": [
       [
@@ -3647,12 +4601,18 @@
     "id": "daily-life-025",
     "hanzi": "打电话",
     "pinyin": "dǎ diànhuà",
-    "meaning": "電話をかける",
+    "meaning": {
+      "ja": "電話をかける",
+      "en": "to make a phone call / to call"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "我给你打电话。",
       "pinyin": "Wǒ gěi nǐ dǎ diànhuà.",
-      "meaning": "あなたに電話をかけます。"
+      "meaning": {
+        "ja": "あなたに電話をかけます。",
+        "en": "I'll call you."
+      }
     },
     "typing": [
       [
@@ -3676,12 +4636,18 @@
     "id": "directions-001",
     "hanzi": "这里",
     "pinyin": "zhèlǐ",
-    "meaning": "ここ",
+    "meaning": {
+      "ja": "ここ",
+      "en": "here"
+    },
     "category": "directions",
     "example": {
       "sentence": "这里是车站。",
       "pinyin": "Zhèlǐ shì chēzhàn.",
-      "meaning": "ここは駅です。"
+      "meaning": {
+        "ja": "ここは駅です。",
+        "en": "This is the station."
+      }
     },
     "typing": [
       [
@@ -3699,12 +4665,18 @@
     "id": "directions-002",
     "hanzi": "那里",
     "pinyin": "nàlǐ",
-    "meaning": "そこ/あそこ",
+    "meaning": {
+      "ja": "そこ/あそこ",
+      "en": "there / over there"
+    },
     "category": "directions",
     "example": {
       "sentence": "那里有一家咖啡店。",
       "pinyin": "Nàlǐ yǒu yì jiā kāfēidiàn.",
-      "meaning": "あそこにカフェが一軒あります。"
+      "meaning": {
+        "ja": "あそこにカフェが一軒あります。",
+        "en": "There is a café over there."
+      }
     },
     "typing": [
       [
@@ -3721,12 +4693,18 @@
     "id": "directions-003",
     "hanzi": "哪里",
     "pinyin": "nǎlǐ",
-    "meaning": "どこ",
+    "meaning": {
+      "ja": "どこ",
+      "en": "where"
+    },
     "category": "directions",
     "example": {
       "sentence": "厕所在哪里?",
       "pinyin": "Cèsuǒ zài nǎlǐ?",
-      "meaning": "トイレはどこですか?"
+      "meaning": {
+        "ja": "トイレはどこですか?",
+        "en": "Where is the restroom?"
+      }
     },
     "typing": [
       [
@@ -3743,12 +4721,18 @@
     "id": "directions-004",
     "hanzi": "左边",
     "pinyin": "zuǒbian",
-    "meaning": "左側",
+    "meaning": {
+      "ja": "左側",
+      "en": "left side"
+    },
     "category": "directions",
     "example": {
       "sentence": "邮局在左边。",
       "pinyin": "Yóujú zài zuǒbian.",
-      "meaning": "郵便局は左側にあります。"
+      "meaning": {
+        "ja": "郵便局は左側にあります。",
+        "en": "The post office is on the left."
+      }
     },
     "typing": [
       [
@@ -3768,12 +4752,18 @@
     "id": "directions-005",
     "hanzi": "右边",
     "pinyin": "yòubian",
-    "meaning": "右側",
+    "meaning": {
+      "ja": "右側",
+      "en": "right side"
+    },
     "category": "directions",
     "example": {
       "sentence": "银行在右边。",
       "pinyin": "Yínháng zài yòubian.",
-      "meaning": "銀行は右側にあります。"
+      "meaning": {
+        "ja": "銀行は右側にあります。",
+        "en": "The bank is on the right."
+      }
     },
     "typing": [
       [
@@ -3793,12 +4783,18 @@
     "id": "directions-006",
     "hanzi": "前面",
     "pinyin": "qiánmiàn",
-    "meaning": "前",
+    "meaning": {
+      "ja": "前",
+      "en": "front"
+    },
     "category": "directions",
     "example": {
       "sentence": "前面就是学校。",
       "pinyin": "Qiánmiàn jiù shì xuéxiào.",
-      "meaning": "前がすぐ学校です。"
+      "meaning": {
+        "ja": "前がすぐ学校です。",
+        "en": "The school is right in front."
+      }
     },
     "typing": [
       [
@@ -3819,12 +4815,18 @@
     "id": "directions-007",
     "hanzi": "后面",
     "pinyin": "hòumiàn",
-    "meaning": "後ろ",
+    "meaning": {
+      "ja": "後ろ",
+      "en": "back / behind"
+    },
     "category": "directions",
     "example": {
       "sentence": "公园在后面。",
       "pinyin": "Gōngyuán zài hòumiàn.",
-      "meaning": "公園は後ろにあります。"
+      "meaning": {
+        "ja": "公園は後ろにあります。",
+        "en": "The park is behind it."
+      }
     },
     "typing": [
       [
@@ -3844,12 +4846,18 @@
     "id": "directions-008",
     "hanzi": "上面",
     "pinyin": "shàngmiàn",
-    "meaning": "上",
+    "meaning": {
+      "ja": "上",
+      "en": "on top / above"
+    },
     "category": "directions",
     "example": {
       "sentence": "书在桌子上面。",
       "pinyin": "Shū zài zhuōzi shàngmiàn.",
-      "meaning": "本は机の上にあります。"
+      "meaning": {
+        "ja": "本は机の上にあります。",
+        "en": "The book is on the desk."
+      }
     },
     "typing": [
       [
@@ -3871,12 +4879,18 @@
     "id": "directions-009",
     "hanzi": "下面",
     "pinyin": "xiàmiàn",
-    "meaning": "下",
+    "meaning": {
+      "ja": "下",
+      "en": "under / below"
+    },
     "category": "directions",
     "example": {
       "sentence": "猫在桌子下面。",
       "pinyin": "Māo zài zhuōzi xiàmiàn.",
-      "meaning": "猫は机の下にいます。"
+      "meaning": {
+        "ja": "猫は机の下にいます。",
+        "en": "The cat is under the desk."
+      }
     },
     "typing": [
       [
@@ -3896,12 +4910,18 @@
     "id": "directions-010",
     "hanzi": "里面",
     "pinyin": "lǐmiàn",
-    "meaning": "中",
+    "meaning": {
+      "ja": "中",
+      "en": "inside"
+    },
     "category": "directions",
     "example": {
       "sentence": "房间里面很暖和。",
       "pinyin": "Fángjiān lǐmiàn hěn nuǎnhuo.",
-      "meaning": "部屋の中はとても暖かいです。"
+      "meaning": {
+        "ja": "部屋の中はとても暖かいです。",
+        "en": "It's very warm inside the room."
+      }
     },
     "typing": [
       [
@@ -3920,12 +4940,18 @@
     "id": "directions-011",
     "hanzi": "外面",
     "pinyin": "wàimiàn",
-    "meaning": "外",
+    "meaning": {
+      "ja": "外",
+      "en": "outside"
+    },
     "category": "directions",
     "example": {
       "sentence": "外面在下雨。",
       "pinyin": "Wàimiàn zài xià yǔ.",
-      "meaning": "外は雨が降っています。"
+      "meaning": {
+        "ja": "外は雨が降っています。",
+        "en": "It's raining outside."
+      }
     },
     "typing": [
       [
@@ -3945,12 +4971,18 @@
     "id": "directions-012",
     "hanzi": "旁边",
     "pinyin": "pángbiān",
-    "meaning": "そば/隣",
+    "meaning": {
+      "ja": "そば/隣",
+      "en": "next to / beside"
+    },
     "category": "directions",
     "example": {
       "sentence": "银行旁边有超市。",
       "pinyin": "Yínháng pángbiān yǒu chāoshì.",
-      "meaning": "銀行の隣にスーパーがあります。"
+      "meaning": {
+        "ja": "銀行の隣にスーパーがあります。",
+        "en": "There is a supermarket next to the bank."
+      }
     },
     "typing": [
       [
@@ -3971,12 +5003,18 @@
     "id": "directions-013",
     "hanzi": "怎么走",
     "pinyin": "zěnme zǒu",
-    "meaning": "どうやって行く",
+    "meaning": {
+      "ja": "どうやって行く",
+      "en": "how to get there"
+    },
     "category": "directions",
     "example": {
       "sentence": "去车站怎么走?",
       "pinyin": "Qù chēzhàn zěnme zǒu?",
-      "meaning": "駅へはどうやって行きますか?"
+      "meaning": {
+        "ja": "駅へはどうやって行きますか?",
+        "en": "How do I get to the station?"
+      }
     },
     "typing": [
       [
@@ -3999,12 +5037,18 @@
     "id": "directions-014",
     "hanzi": "一直走",
     "pinyin": "yìzhí zǒu",
-    "meaning": "まっすぐ行く",
+    "meaning": {
+      "ja": "まっすぐ行く",
+      "en": "go straight"
+    },
     "category": "directions",
     "example": {
       "sentence": "一直走就到了。",
       "pinyin": "Yìzhí zǒu jiù dào le.",
-      "meaning": "まっすぐ行けば着きます。"
+      "meaning": {
+        "ja": "まっすぐ行けば着きます。",
+        "en": "Go straight and you'll get there."
+      }
     },
     "typing": [
       [
@@ -4027,12 +5071,18 @@
     "id": "directions-015",
     "hanzi": "拐弯",
     "pinyin": "guǎiwān",
-    "meaning": "曲がる",
+    "meaning": {
+      "ja": "曲がる",
+      "en": "turn"
+    },
     "category": "directions",
     "example": {
       "sentence": "在这里拐弯。",
       "pinyin": "Zài zhèlǐ guǎiwān.",
-      "meaning": "ここで曲がってください。"
+      "meaning": {
+        "ja": "ここで曲がってください。",
+        "en": "Please turn here."
+      }
     },
     "typing": [
       [
@@ -4052,12 +5102,18 @@
     "id": "workplace-001",
     "hanzi": "同事",
     "pinyin": "tóngshì",
-    "meaning": "同僚",
+    "meaning": {
+      "ja": "同僚",
+      "en": "colleague"
+    },
     "category": "workplace",
     "example": {
       "sentence": "他是我的同事。",
       "pinyin": "Tā shì wǒ de tóngshì.",
-      "meaning": "彼は私の同僚です。"
+      "meaning": {
+        "ja": "彼は私の同僚です。",
+        "en": "He is my colleague."
+      }
     },
     "typing": [
       [
@@ -4077,12 +5133,18 @@
     "id": "workplace-002",
     "hanzi": "老板",
     "pinyin": "lǎobǎn",
-    "meaning": "上司、社長",
+    "meaning": {
+      "ja": "上司、社長",
+      "en": "boss, supervisor"
+    },
     "category": "workplace",
     "example": {
       "sentence": "老板叫你去他办公室。",
       "pinyin": "Lǎobǎn jiào nǐ qù tā bàngōngshì.",
-      "meaning": "上司があなたを呼んでいます。"
+      "meaning": {
+        "ja": "上司があなたを呼んでいます。",
+        "en": "The boss is calling for you."
+      }
     },
     "typing": [
       [
@@ -4101,12 +5163,18 @@
     "id": "workplace-003",
     "hanzi": "会议",
     "pinyin": "huìyì",
-    "meaning": "会議",
+    "meaning": {
+      "ja": "会議",
+      "en": "meeting"
+    },
     "category": "workplace",
     "example": {
       "sentence": "今天下午有一个会议。",
       "pinyin": "Jīntiān xiàwǔ yǒu yí ge huìyì.",
-      "meaning": "今日の午後に会議があります。"
+      "meaning": {
+        "ja": "今日の午後に会議があります。",
+        "en": "There's a meeting this afternoon."
+      }
     },
     "typing": [
       [
@@ -4124,12 +5192,18 @@
     "id": "workplace-004",
     "hanzi": "项目",
     "pinyin": "xiàngmù",
-    "meaning": "プロジェクト",
+    "meaning": {
+      "ja": "プロジェクト",
+      "en": "project"
+    },
     "category": "workplace",
     "example": {
       "sentence": "这个项目下个月结束。",
       "pinyin": "Zhège xiàngmù xià ge yuè jiéshù.",
-      "meaning": "このプロジェクトは来月終わります。"
+      "meaning": {
+        "ja": "このプロジェクトは来月終わります。",
+        "en": "This project will be finished next month."
+      }
     },
     "typing": [
       [
@@ -4149,12 +5223,18 @@
     "id": "workplace-005",
     "hanzi": "加班",
     "pinyin": "jiābān",
-    "meaning": "残業する",
+    "meaning": {
+      "ja": "残業する",
+      "en": "to work overtime"
+    },
     "category": "workplace",
     "example": {
       "sentence": "我今天要加班。",
       "pinyin": "Wǒ jīntiān yào jiābān.",
-      "meaning": "今日は残業しなければなりません。"
+      "meaning": {
+        "ja": "今日は残業しなければなりません。",
+        "en": "I have to work overtime today."
+      }
     },
     "typing": [
       [
@@ -4173,12 +5253,18 @@
     "id": "workplace-006",
     "hanzi": "下班",
     "pinyin": "xiàbān",
-    "meaning": "退勤する",
+    "meaning": {
+      "ja": "退勤する",
+      "en": "to get off work, to clock out"
+    },
     "category": "workplace",
     "example": {
       "sentence": "你几点下班?",
       "pinyin": "Nǐ jǐ diǎn xiàbān?",
-      "meaning": "何時に退勤しますか?"
+      "meaning": {
+        "ja": "何時に退勤しますか?",
+        "en": "What time do you get off work?"
+      }
     },
     "typing": [
       [
@@ -4197,12 +5283,18 @@
     "id": "workplace-007",
     "hanzi": "上班",
     "pinyin": "shàngbān",
-    "meaning": "出勤する",
+    "meaning": {
+      "ja": "出勤する",
+      "en": "to go to work, to clock in"
+    },
     "category": "workplace",
     "example": {
       "sentence": "我每天九点上班。",
       "pinyin": "Wǒ měitiān jiǔ diǎn shàngbān.",
-      "meaning": "私は毎日9時に出勤します。"
+      "meaning": {
+        "ja": "私は毎日9時に出勤します。",
+        "en": "I go to work at 9 every day."
+      }
     },
     "typing": [
       [
@@ -4223,12 +5315,18 @@
     "id": "workplace-008",
     "hanzi": "邮件",
     "pinyin": "yóujiàn",
-    "meaning": "メール",
+    "meaning": {
+      "ja": "メール",
+      "en": "email"
+    },
     "category": "workplace",
     "example": {
       "sentence": "我把邮件发给你了。",
       "pinyin": "Wǒ bǎ yóujiàn fā gěi nǐ le.",
-      "meaning": "メールを送りました。"
+      "meaning": {
+        "ja": "メールを送りました。",
+        "en": "I sent an email."
+      }
     },
     "typing": [
       [
@@ -4248,12 +5346,18 @@
     "id": "workplace-009",
     "hanzi": "报告",
     "pinyin": "bàogào",
-    "meaning": "報告(書)",
+    "meaning": {
+      "ja": "報告(書)",
+      "en": "report"
+    },
     "category": "workplace",
     "example": {
       "sentence": "麻烦你看一下这份报告。",
       "pinyin": "Máfan nǐ kàn yíxià zhè fèn bàogào.",
-      "meaning": "この報告書を見てもらえますか。"
+      "meaning": {
+        "ja": "この報告書を見てもらえますか。",
+        "en": "Could you take a look at this report?"
+      }
     },
     "typing": [
       [
@@ -4272,12 +5376,18 @@
     "id": "workplace-010",
     "hanzi": "休息",
     "pinyin": "xiūxi",
-    "meaning": "休憩する",
+    "meaning": {
+      "ja": "休憩する",
+      "en": "to take a break"
+    },
     "category": "workplace",
     "example": {
       "sentence": "我们先休息十分钟吧。",
       "pinyin": "Wǒmen xiān xiūxi shí fēnzhōng ba.",
-      "meaning": "まず10分休憩しましょう。"
+      "meaning": {
+        "ja": "まず10分休憩しましょう。",
+        "en": "Let's take a 10-minute break first."
+      }
     },
     "typing": [
       [
@@ -4295,12 +5405,18 @@
     "id": "workplace-011",
     "hanzi": "出差",
     "pinyin": "chūchāi",
-    "meaning": "出張する",
+    "meaning": {
+      "ja": "出張する",
+      "en": "to go on a business trip"
+    },
     "category": "workplace",
     "example": {
       "sentence": "这周我要出差。",
       "pinyin": "Zhè zhōu wǒ yào chūchāi.",
-      "meaning": "今週は出張します。"
+      "meaning": {
+        "ja": "今週は出張します。",
+        "en": "I'm going on a business trip this week."
+      }
     },
     "typing": [
       [
@@ -4320,12 +5436,18 @@
     "id": "workplace-012",
     "hanzi": "客户",
     "pinyin": "kèhù",
-    "meaning": "顧客",
+    "meaning": {
+      "ja": "顧客",
+      "en": "customer, client"
+    },
     "category": "workplace",
     "example": {
       "sentence": "客户什么时候来?",
       "pinyin": "Kèhù shénme shíhou lái?",
-      "meaning": "顧客はいつ来ますか?"
+      "meaning": {
+        "ja": "顧客はいつ来ますか?",
+        "en": "When is the client coming?"
+      }
     },
     "typing": [
       [
@@ -4342,12 +5464,18 @@
     "id": "workplace-013",
     "hanzi": "部门",
     "pinyin": "bùmén",
-    "meaning": "部署",
+    "meaning": {
+      "ja": "部署",
+      "en": "department"
+    },
     "category": "workplace",
     "example": {
       "sentence": "我们不是一个部门的。",
       "pinyin": "Wǒmen bú shì yí ge bùmén de.",
-      "meaning": "私たちは同じ部署ではありません。"
+      "meaning": {
+        "ja": "私たちは同じ部署ではありません。",
+        "en": "We're not in the same department."
+      }
     },
     "typing": [
       [
@@ -4365,12 +5493,18 @@
     "id": "workplace-014",
     "hanzi": "请假",
     "pinyin": "qǐngjià",
-    "meaning": "休暇を取る",
+    "meaning": {
+      "ja": "休暇を取る",
+      "en": "to take time off, to take leave"
+    },
     "category": "workplace",
     "example": {
       "sentence": "我明天想请假。",
       "pinyin": "Wǒ míngtiān xiǎng qǐngjià.",
-      "meaning": "明日休みを取りたいです。"
+      "meaning": {
+        "ja": "明日休みを取りたいです。",
+        "en": "I'd like to take tomorrow off."
+      }
     },
     "typing": [
       [
@@ -4390,12 +5524,18 @@
     "id": "workplace-015",
     "hanzi": "忙",
     "pinyin": "máng",
-    "meaning": "忙しい",
+    "meaning": {
+      "ja": "忙しい",
+      "en": "busy"
+    },
     "category": "workplace",
     "example": {
       "sentence": "最近工作很忙。",
       "pinyin": "Zuìjìn gōngzuò hěn máng.",
-      "meaning": "最近仕事がとても忙しいです。"
+      "meaning": {
+        "ja": "最近仕事がとても忙しいです。",
+        "en": "I've been really busy with work lately."
+      }
     },
     "typing": [
       [
@@ -4410,12 +5550,18 @@
     "id": "mealtime-001",
     "hanzi": "好吃",
     "pinyin": "hǎochī",
-    "meaning": "(食べ物が)おいしい",
+    "meaning": {
+      "ja": "(食べ物が)おいしい",
+      "en": "(of food) delicious, tasty"
+    },
     "category": "mealtime",
     "example": {
       "sentence": "这个菜真好吃!",
       "pinyin": "Zhège cài zhēn hǎochī!",
-      "meaning": "この料理は本当においしいです!"
+      "meaning": {
+        "ja": "この料理は本当においしいです!",
+        "en": "This dish is really delicious!"
+      }
     },
     "typing": [
       [
@@ -4434,12 +5580,18 @@
     "id": "mealtime-002",
     "hanzi": "好喝",
     "pinyin": "hǎohē",
-    "meaning": "(飲み物が)おいしい",
+    "meaning": {
+      "ja": "(飲み物が)おいしい",
+      "en": "(of a drink) delicious, tasty"
+    },
     "category": "mealtime",
     "example": {
       "sentence": "这杯奶茶很好喝。",
       "pinyin": "Zhè bēi nǎichá hěn hǎohē.",
-      "meaning": "このミルクティーはおいしいです。"
+      "meaning": {
+        "ja": "このミルクティーはおいしいです。",
+        "en": "This milk tea is delicious."
+      }
     },
     "typing": [
       [
@@ -4457,12 +5609,18 @@
     "id": "mealtime-003",
     "hanzi": "饱",
     "pinyin": "bǎo",
-    "meaning": "お腹いっぱい",
+    "meaning": {
+      "ja": "お腹いっぱい",
+      "en": "full, full up (stomach)"
+    },
     "category": "mealtime",
     "example": {
       "sentence": "我吃饱了。",
       "pinyin": "Wǒ chībǎo le.",
-      "meaning": "お腹いっぱいになりました。"
+      "meaning": {
+        "ja": "お腹いっぱいになりました。",
+        "en": "I'm full now."
+      }
     },
     "typing": [
       [
@@ -4476,12 +5634,18 @@
     "id": "mealtime-004",
     "hanzi": "饿",
     "pinyin": "è",
-    "meaning": "お腹が空いた",
+    "meaning": {
+      "ja": "お腹が空いた",
+      "en": "hungry"
+    },
     "category": "mealtime",
     "example": {
       "sentence": "我有点饿了。",
       "pinyin": "Wǒ yǒudiǎn è le.",
-      "meaning": "少しお腹が空きました。"
+      "meaning": {
+        "ja": "少しお腹が空きました。",
+        "en": "I'm getting a little hungry."
+      }
     },
     "typing": [
       [
@@ -4493,12 +5657,18 @@
     "id": "mealtime-005",
     "hanzi": "味道",
     "pinyin": "wèidao",
-    "meaning": "味",
+    "meaning": {
+      "ja": "味",
+      "en": "taste, flavor"
+    },
     "category": "mealtime",
     "example": {
       "sentence": "味道怎么样?",
       "pinyin": "Wèidao zěnmeyàng?",
-      "meaning": "味はどうですか?"
+      "meaning": {
+        "ja": "味はどうですか?",
+        "en": "How does it taste?"
+      }
     },
     "typing": [
       [
@@ -4517,12 +5687,18 @@
     "id": "mealtime-006",
     "hanzi": "咸",
     "pinyin": "xián",
-    "meaning": "しょっぱい",
+    "meaning": {
+      "ja": "しょっぱい",
+      "en": "salty"
+    },
     "category": "mealtime",
     "example": {
       "sentence": "这个汤有点咸。",
       "pinyin": "Zhège tāng yǒudiǎn xián.",
-      "meaning": "このスープは少ししょっぱいです。"
+      "meaning": {
+        "ja": "このスープは少ししょっぱいです。",
+        "en": "This soup is a little salty."
+      }
     },
     "typing": [
       [
@@ -4537,12 +5713,18 @@
     "id": "mealtime-007",
     "hanzi": "甜",
     "pinyin": "tián",
-    "meaning": "甘い",
+    "meaning": {
+      "ja": "甘い",
+      "en": "sweet"
+    },
     "category": "mealtime",
     "example": {
       "sentence": "这个蛋糕很甜。",
       "pinyin": "Zhège dàngāo hěn tián.",
-      "meaning": "このケーキはとても甘いです。"
+      "meaning": {
+        "ja": "このケーキはとても甘いです。",
+        "en": "This cake is very sweet."
+      }
     },
     "typing": [
       [
@@ -4557,12 +5739,18 @@
     "id": "mealtime-008",
     "hanzi": "辣",
     "pinyin": "là",
-    "meaning": "辛い",
+    "meaning": {
+      "ja": "辛い",
+      "en": "spicy, hot"
+    },
     "category": "mealtime",
     "example": {
       "sentence": "我不太能吃辣。",
       "pinyin": "Wǒ bú tài néng chī là.",
-      "meaning": "私はあまり辛いものが得意ではありません。"
+      "meaning": {
+        "ja": "私はあまり辛いものが得意ではありません。",
+        "en": "I'm not very good with spicy food."
+      }
     },
     "typing": [
       [
@@ -4575,12 +5763,18 @@
     "id": "mealtime-009",
     "hanzi": "酸",
     "pinyin": "suān",
-    "meaning": "酸っぱい",
+    "meaning": {
+      "ja": "酸っぱい",
+      "en": "sour"
+    },
     "category": "mealtime",
     "example": {
       "sentence": "这个水果有点酸。",
       "pinyin": "Zhège shuǐguǒ yǒudiǎn suān.",
-      "meaning": "この果物は少し酸っぱいです。"
+      "meaning": {
+        "ja": "この果物は少し酸っぱいです。",
+        "en": "This fruit is a little sour."
+      }
     },
     "typing": [
       [
@@ -4595,12 +5789,18 @@
     "id": "mealtime-010",
     "hanzi": "清淡",
     "pinyin": "qīngdàn",
-    "meaning": "あっさりしている",
+    "meaning": {
+      "ja": "あっさりしている",
+      "en": "light, mild (not greasy or oily)"
+    },
     "category": "mealtime",
     "example": {
       "sentence": "我喜欢吃清淡一点的菜。",
       "pinyin": "Wǒ xǐhuan chī qīngdàn yìdiǎn de cài.",
-      "meaning": "私はあっさりした料理が好きです。"
+      "meaning": {
+        "ja": "私はあっさりした料理が好きです。",
+        "en": "I like light, mild dishes."
+      }
     },
     "typing": [
       [
@@ -4620,12 +5820,18 @@
     "id": "mealtime-011",
     "hanzi": "干杯",
     "pinyin": "gānbēi",
-    "meaning": "乾杯(する)",
+    "meaning": {
+      "ja": "乾杯(する)",
+      "en": "cheers; to make a toast"
+    },
     "category": "mealtime",
     "example": {
       "sentence": "来,我们干杯!",
       "pinyin": "Lái, wǒmen gānbēi!",
-      "meaning": "さあ、乾杯しましょう!"
+      "meaning": {
+        "ja": "さあ、乾杯しましょう!",
+        "en": "Come on, let's make a toast!"
+      }
     },
     "typing": [
       [
@@ -4644,12 +5850,18 @@
     "id": "mealtime-012",
     "hanzi": "筷子",
     "pinyin": "kuàizi",
-    "meaning": "箸",
+    "meaning": {
+      "ja": "箸",
+      "en": "chopsticks"
+    },
     "category": "mealtime",
     "example": {
       "sentence": "你会用筷子吗?",
       "pinyin": "Nǐ huì yòng kuàizi ma?",
-      "meaning": "箸は使えますか?"
+      "meaning": {
+        "ja": "箸は使えますか?",
+        "en": "Can you use chopsticks?"
+      }
     },
     "typing": [
       [
@@ -4668,12 +5880,18 @@
     "id": "mealtime-013",
     "hanzi": "尝",
     "pinyin": "cháng",
-    "meaning": "味見する",
+    "meaning": {
+      "ja": "味見する",
+      "en": "to taste, to try (food)"
+    },
     "category": "mealtime",
     "example": {
       "sentence": "你尝尝这个。",
       "pinyin": "Nǐ chángchang zhège.",
-      "meaning": "これを味見してみてください。"
+      "meaning": {
+        "ja": "これを味見してみてください。",
+        "en": "Please try this."
+      }
     },
     "typing": [
       [
@@ -4689,12 +5907,18 @@
     "id": "mealtime-014",
     "hanzi": "菜",
     "pinyin": "cài",
-    "meaning": "料理、おかず",
+    "meaning": {
+      "ja": "料理、おかず",
+      "en": "dish, food"
+    },
     "category": "mealtime",
     "example": {
       "sentence": "今天的菜很丰富。",
       "pinyin": "Jīntiān de cài hěn fēngfù.",
-      "meaning": "今日の料理は豊富です。"
+      "meaning": {
+        "ja": "今日の料理は豊富です。",
+        "en": "There's a wide variety of dishes today."
+      }
     },
     "typing": [
       [
@@ -4708,12 +5932,18 @@
     "id": "mealtime-015",
     "hanzi": "米饭",
     "pinyin": "mǐfàn",
-    "meaning": "ご飯",
+    "meaning": {
+      "ja": "ご飯",
+      "en": "rice, meal"
+    },
     "category": "mealtime",
     "example": {
       "sentence": "再来一碗米饭。",
       "pinyin": "Zài lái yì wǎn mǐfàn.",
-      "meaning": "ご飯をもう一杯ください。"
+      "meaning": {
+        "ja": "ご飯をもう一杯ください。",
+        "en": "Another bowl of rice, please."
+      }
     },
     "typing": [
       [
@@ -4731,12 +5961,18 @@
     "id": "small-talk-001",
     "hanzi": "爱好",
     "pinyin": "àihào",
-    "meaning": "趣味",
+    "meaning": {
+      "ja": "趣味",
+      "en": "hobby"
+    },
     "category": "small-talk",
     "example": {
       "sentence": "你平时有什么爱好?",
       "pinyin": "Nǐ píngshí yǒu shénme àihào?",
-      "meaning": "普段どんな趣味がありますか?"
+      "meaning": {
+        "ja": "普段どんな趣味がありますか?",
+        "en": "What do you usually do for fun?"
+      }
     },
     "typing": [
       [
@@ -4754,12 +5990,18 @@
     "id": "small-talk-002",
     "hanzi": "周末",
     "pinyin": "zhōumò",
-    "meaning": "週末",
+    "meaning": {
+      "ja": "週末",
+      "en": "weekend"
+    },
     "category": "small-talk",
     "example": {
       "sentence": "周末打算做什么?",
       "pinyin": "Zhōumò dǎsuàn zuò shénme?",
-      "meaning": "週末は何をする予定ですか?"
+      "meaning": {
+        "ja": "週末は何をする予定ですか?",
+        "en": "What are you doing this weekend?"
+      }
     },
     "typing": [
       [
@@ -4778,12 +6020,18 @@
     "id": "small-talk-003",
     "hanzi": "电影",
     "pinyin": "diànyǐng",
-    "meaning": "映画",
+    "meaning": {
+      "ja": "映画",
+      "en": "movie"
+    },
     "category": "small-talk",
     "example": {
       "sentence": "最近有什么好看的电影吗?",
       "pinyin": "Zuìjìn yǒu shénme hǎokàn de diànyǐng ma?",
-      "meaning": "最近何かいい映画はありますか?"
+      "meaning": {
+        "ja": "最近何かいい映画はありますか?",
+        "en": "Have you seen any good movies lately?"
+      }
     },
     "typing": [
       [
@@ -4804,12 +6052,18 @@
     "id": "small-talk-004",
     "hanzi": "新闻",
     "pinyin": "xīnwén",
-    "meaning": "ニュース",
+    "meaning": {
+      "ja": "ニュース",
+      "en": "news"
+    },
     "category": "small-talk",
     "example": {
       "sentence": "你看新闻了吗?",
       "pinyin": "Nǐ kàn xīnwén le ma?",
-      "meaning": "ニュースを見ましたか?"
+      "meaning": {
+        "ja": "ニュースを見ましたか?",
+        "en": "Did you see the news?"
+      }
     },
     "typing": [
       [
@@ -4828,12 +6082,18 @@
     "id": "small-talk-005",
     "hanzi": "运动",
     "pinyin": "yùndòng",
-    "meaning": "運動、スポーツ",
+    "meaning": {
+      "ja": "運動、スポーツ",
+      "en": "exercise, sports"
+    },
     "category": "small-talk",
     "example": {
       "sentence": "你喜欢什么运动?",
       "pinyin": "Nǐ xǐhuan shénme yùndòng?",
-      "meaning": "どんなスポーツが好きですか?"
+      "meaning": {
+        "ja": "どんなスポーツが好きですか?",
+        "en": "What sports do you like?"
+      }
     },
     "typing": [
       [
@@ -4853,12 +6113,18 @@
     "id": "small-talk-006",
     "hanzi": "旅游",
     "pinyin": "lǚyóu",
-    "meaning": "旅行(する)",
+    "meaning": {
+      "ja": "旅行(する)",
+      "en": "to travel"
+    },
     "category": "small-talk",
     "example": {
       "sentence": "你喜欢旅游吗?",
       "pinyin": "Nǐ xǐhuan lǚyóu ma?",
-      "meaning": "旅行は好きですか?"
+      "meaning": {
+        "ja": "旅行は好きですか?",
+        "en": "Do you like traveling?"
+      }
     },
     "typing": [
       [
@@ -4876,12 +6142,18 @@
     "id": "small-talk-007",
     "hanzi": "电视剧",
     "pinyin": "diànshìjù",
-    "meaning": "ドラマ",
+    "meaning": {
+      "ja": "ドラマ",
+      "en": "TV show, drama"
+    },
     "category": "small-talk",
     "example": {
       "sentence": "这部电视剧很有意思。",
       "pinyin": "Zhè bù diànshìjù hěn yǒuyìsi.",
-      "meaning": "このドラマはとても面白いです。"
+      "meaning": {
+        "ja": "このドラマはとても面白いです。",
+        "en": "This show is really interesting."
+      }
     },
     "typing": [
       [
@@ -4905,12 +6177,18 @@
     "id": "small-talk-008",
     "hanzi": "音乐",
     "pinyin": "yīnyuè",
-    "meaning": "音楽",
+    "meaning": {
+      "ja": "音楽",
+      "en": "music"
+    },
     "category": "small-talk",
     "example": {
       "sentence": "你喜欢听什么音乐?",
       "pinyin": "Nǐ xǐhuan tīng shénme yīnyuè?",
-      "meaning": "どんな音楽を聴くのが好きですか?"
+      "meaning": {
+        "ja": "どんな音楽を聴くのが好きですか?",
+        "en": "What kind of music do you like to listen to?"
+      }
     },
     "typing": [
       [
@@ -4929,12 +6207,18 @@
     "id": "small-talk-009",
     "hanzi": "最近",
     "pinyin": "zuìjìn",
-    "meaning": "最近",
+    "meaning": {
+      "ja": "最近",
+      "en": "recently"
+    },
     "category": "small-talk",
     "example": {
       "sentence": "你最近怎么样?",
       "pinyin": "Nǐ zuìjìn zěnmeyàng?",
-      "meaning": "最近どうですか?"
+      "meaning": {
+        "ja": "最近どうですか?",
+        "en": "How have you been lately?"
+      }
     },
     "typing": [
       [
@@ -4953,12 +6237,18 @@
     "id": "small-talk-010",
     "hanzi": "聊天",
     "pinyin": "liáotiān",
-    "meaning": "おしゃべりする",
+    "meaning": {
+      "ja": "おしゃべりする",
+      "en": "to chat"
+    },
     "category": "small-talk",
     "example": {
       "sentence": "我们好久没聊天了。",
       "pinyin": "Wǒmen hǎojiǔ méi liáotiān le.",
-      "meaning": "久しくおしゃべりしていませんね。"
+      "meaning": {
+        "ja": "久しくおしゃべりしていませんね。",
+        "en": "We haven't chatted in a while."
+      }
     },
     "typing": [
       [
@@ -4979,12 +6269,18 @@
     "id": "small-talk-011",
     "hanzi": "有意思",
     "pinyin": "yǒuyìsi",
-    "meaning": "面白い",
+    "meaning": {
+      "ja": "面白い",
+      "en": "interesting"
+    },
     "category": "small-talk",
     "example": {
       "sentence": "这件事很有意思。",
       "pinyin": "Zhè jiàn shì hěn yǒuyìsi.",
-      "meaning": "この話はとても面白いです。"
+      "meaning": {
+        "ja": "この話はとても面白いです。",
+        "en": "This story is really interesting."
+      }
     },
     "typing": [
       [
@@ -5006,12 +6302,18 @@
     "id": "small-talk-012",
     "hanzi": "无聊",
     "pinyin": "wúliáo",
-    "meaning": "退屈だ",
+    "meaning": {
+      "ja": "退屈だ",
+      "en": "boring"
+    },
     "category": "small-talk",
     "example": {
       "sentence": "我今天有点无聊。",
       "pinyin": "Wǒ jīntiān yǒudiǎn wúliáo.",
-      "meaning": "今日はちょっと退屈です。"
+      "meaning": {
+        "ja": "今日はちょっと退屈です。",
+        "en": "I'm a bit bored today."
+      }
     },
     "typing": [
       [
@@ -5030,12 +6332,18 @@
     "id": "small-talk-013",
     "hanzi": "放假",
     "pinyin": "fàngjià",
-    "meaning": "休みになる",
+    "meaning": {
+      "ja": "休みになる",
+      "en": "to take time off"
+    },
     "category": "small-talk",
     "example": {
       "sentence": "你打算什么时候放假?",
       "pinyin": "Nǐ dǎsuàn shénme shíhou fàngjià?",
-      "meaning": "いつ休みを取る予定ですか?"
+      "meaning": {
+        "ja": "いつ休みを取る予定ですか?",
+        "en": "When are you planning to take some time off?"
+      }
     },
     "typing": [
       [
@@ -5055,12 +6363,18 @@
     "id": "small-talk-014",
     "hanzi": "宠物",
     "pinyin": "chǒngwù",
-    "meaning": "ペット",
+    "meaning": {
+      "ja": "ペット",
+      "en": "pet"
+    },
     "category": "small-talk",
     "example": {
       "sentence": "你养宠物吗?",
       "pinyin": "Nǐ yǎng chǒngwù ma?",
-      "meaning": "ペットを飼っていますか?"
+      "meaning": {
+        "ja": "ペットを飼っていますか?",
+        "en": "Do you have any pets?"
+      }
     },
     "typing": [
       [
@@ -5080,12 +6394,18 @@
     "id": "small-talk-015",
     "hanzi": "习惯",
     "pinyin": "xíguàn",
-    "meaning": "習慣",
+    "meaning": {
+      "ja": "習慣",
+      "en": "habit"
+    },
     "category": "small-talk",
     "example": {
       "sentence": "养成一个好习惯不容易。",
       "pinyin": "Yǎngchéng yí ge hǎo xíguàn bù róngyì.",
-      "meaning": "良い習慣を身につけるのは簡単ではありません。"
+      "meaning": {
+        "ja": "良い習慣を身につけるのは簡単ではありません。",
+        "en": "It's not easy to build good habits."
+      }
     },
     "typing": [
       [
@@ -5104,12 +6424,18 @@
     "id": "daily-life-026",
     "hanzi": "没",
     "pinyin": "méi",
-    "meaning": "〜していない／〜しなかった(過去の否定)",
+    "meaning": {
+      "ja": "〜していない／〜しなかった(過去の否定)",
+      "en": "not / have not (negates a completed action in the past)"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "什么都没吃。",
       "pinyin": "Shénme dōu méi chī.",
-      "meaning": "何も食べていません。"
+      "meaning": {
+        "ja": "何も食べていません。",
+        "en": "I haven't eaten anything."
+      }
     },
     "typing": [
       [
@@ -5123,12 +6449,18 @@
     "id": "daily-life-027",
     "hanzi": "不",
     "pinyin": "bù",
-    "meaning": "〜ない(現在・未来・習慣・意志の否定)",
+    "meaning": {
+      "ja": "〜ない(現在・未来・習慣・意志の否定)",
+      "en": "not (negates present, future, habitual actions, or intentions)"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "什么都不吃。",
       "pinyin": "Shénme dōu bù chī.",
-      "meaning": "何も食べません。"
+      "meaning": {
+        "ja": "何も食べません。",
+        "en": "I don't eat anything."
+      }
     },
     "typing": [
       [
@@ -5141,12 +6473,18 @@
     "id": "daily-life-028",
     "hanzi": "了",
     "pinyin": "le",
-    "meaning": "〜した(動作の完了を表す助詞)",
+    "meaning": {
+      "ja": "〜した(動作の完了を表す助詞)",
+      "en": "(particle indicating a completed action)"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "你吃了什么?",
       "pinyin": "Nǐ chī le shénme?",
-      "meaning": "何を食べましたか?"
+      "meaning": {
+        "ja": "何を食べましたか?",
+        "en": "What did you eat?"
+      }
     },
     "typing": [
       [
@@ -5159,12 +6497,18 @@
     "id": "daily-life-029",
     "hanzi": "都",
     "pinyin": "dōu",
-    "meaning": "すべて・全部(疑問詞と組み合わせて使う)",
+    "meaning": {
+      "ja": "すべて・全部(疑問詞と組み合わせて使う)",
+      "en": "all / any (used together with a question word)"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "什么都不吃。",
       "pinyin": "Shénme dōu bù chī.",
-      "meaning": "何も食べません。"
+      "meaning": {
+        "ja": "何も食べません。",
+        "en": "I don't eat anything at all."
+      }
     },
     "typing": [
       [
@@ -5178,12 +6522,18 @@
     "id": "daily-life-030",
     "hanzi": "吗",
     "pinyin": "ma",
-    "meaning": "〜か(文末に置く疑問の助詞)",
+    "meaning": {
+      "ja": "〜か(文末に置く疑問の助詞)",
+      "en": "(question particle placed at the end of a sentence)"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "你吃了吗?",
       "pinyin": "Nǐ chī le ma?",
-      "meaning": "食べましたか?"
+      "meaning": {
+        "ja": "食べましたか?",
+        "en": "Did you eat?"
+      }
     },
     "typing": [
       [
@@ -5196,12 +6546,18 @@
     "id": "daily-life-031",
     "hanzi": "有点儿",
     "pinyin": "yǒudiǎnr",
-    "meaning": "ちょっと・少し",
+    "meaning": {
+      "ja": "ちょっと・少し",
+      "en": "a little / a bit"
+    },
     "category": "daily-life",
     "example": {
       "sentence": "有点儿热。",
       "pinyin": "Yǒudiǎnr rè.",
-      "meaning": "ちょっと暑いです。"
+      "meaning": {
+        "ja": "ちょっと暑いです。",
+        "en": "It's a bit hot."
+      }
     },
     "typing": [
       [
@@ -5222,12 +6578,18 @@
     "id": "workplace-016",
     "hanzi": "懂",
     "pinyin": "dǒng",
-    "meaning": "わかる、理解する",
+    "meaning": {
+      "ja": "わかる、理解する",
+      "en": "to understand"
+    },
     "category": "workplace",
     "example": {
       "sentence": "你懂我的意思吗?",
       "pinyin": "Nǐ dǒng wǒ de yìsi ma?",
-      "meaning": "私の言いたいことわかりますか?"
+      "meaning": {
+        "ja": "私の言いたいことわかりますか?",
+        "en": "Do you understand what I mean?"
+      }
     },
     "typing": [
       [
@@ -5242,12 +6604,18 @@
     "id": "workplace-017",
     "hanzi": "讨论",
     "pinyin": "tǎolùn",
-    "meaning": "相談する、議論する",
+    "meaning": {
+      "ja": "相談する、議論する",
+      "en": "to discuss, to talk over"
+    },
     "category": "workplace",
     "example": {
       "sentence": "我们讨论一下吧。",
       "pinyin": "Wǒmen tǎolùn yíxià ba.",
-      "meaning": "ちょっと相談しましょう。"
+      "meaning": {
+        "ja": "ちょっと相談しましょう。",
+        "en": "Let's discuss this for a bit."
+      }
     },
     "typing": [
       [
@@ -5266,12 +6634,18 @@
     "id": "workplace-018",
     "hanzi": "帮助",
     "pinyin": "bāngzhù",
-    "meaning": "助け、手伝う",
+    "meaning": {
+      "ja": "助け、手伝う",
+      "en": "help, to help"
+    },
     "category": "workplace",
     "example": {
       "sentence": "谢谢你的帮助。",
       "pinyin": "Xièxie nǐ de bāngzhù.",
-      "meaning": "手伝ってくれてありがとう。"
+      "meaning": {
+        "ja": "手伝ってくれてありがとう。",
+        "en": "Thanks for your help."
+      }
     },
     "typing": [
       [
@@ -5291,12 +6665,18 @@
     "id": "workplace-019",
     "hanzi": "教",
     "pinyin": "jiāo",
-    "meaning": "教える",
+    "meaning": {
+      "ja": "教える",
+      "en": "to teach, to show"
+    },
     "category": "workplace",
     "example": {
       "sentence": "你能教我吗?",
       "pinyin": "Nǐ néng jiāo wǒ ma?",
-      "meaning": "教えてもらえますか?"
+      "meaning": {
+        "ja": "教えてもらえますか?",
+        "en": "Could you show me?"
+      }
     },
     "typing": [
       [
@@ -5311,12 +6691,18 @@
     "id": "workplace-020",
     "hanzi": "问题",
     "pinyin": "wèntí",
-    "meaning": "問題、質問",
+    "meaning": {
+      "ja": "問題、質問",
+      "en": "question"
+    },
     "category": "workplace",
     "example": {
       "sentence": "我有个问题。",
       "pinyin": "Wǒ yǒu ge wèntí.",
-      "meaning": "質問があります。"
+      "meaning": {
+        "ja": "質問があります。",
+        "en": "I have a question."
+      }
     },
     "typing": [
       [
@@ -5334,12 +6720,18 @@
     "id": "workplace-021",
     "hanzi": "了解",
     "pinyin": "liǎojiě",
-    "meaning": "理解する、把握する",
+    "meaning": {
+      "ja": "理解する、把握する",
+      "en": "to understand, to get it"
+    },
     "category": "workplace",
     "example": {
       "sentence": "我了解了。",
       "pinyin": "Wǒ liǎojiě le.",
-      "meaning": "理解しました。"
+      "meaning": {
+        "ja": "理解しました。",
+        "en": "Got it."
+      }
     },
     "typing": [
       [
@@ -5359,12 +6751,18 @@
     "id": "workplace-022",
     "hanzi": "同意",
     "pinyin": "tóngyì",
-    "meaning": "同意する",
+    "meaning": {
+      "ja": "同意する",
+      "en": "to agree"
+    },
     "category": "workplace",
     "example": {
       "sentence": "我同意你的看法。",
       "pinyin": "Wǒ tóngyì nǐ de kànfǎ.",
-      "meaning": "あなたの意見に同意します。"
+      "meaning": {
+        "ja": "あなたの意見に同意します。",
+        "en": "I agree with you."
+      }
     },
     "typing": [
       [
@@ -5383,12 +6781,18 @@
     "id": "workplace-023",
     "hanzi": "辛苦",
     "pinyin": "xīnkǔ",
-    "meaning": "大変だ、お疲れ様",
+    "meaning": {
+      "ja": "大変だ、お疲れ様",
+      "en": "that's rough, thanks for your hard work"
+    },
     "category": "workplace",
     "example": {
       "sentence": "今天辛苦了。",
       "pinyin": "Jīntiān xīnkǔ le.",
-      "meaning": "今日はお疲れ様でした。"
+      "meaning": {
+        "ja": "今日はお疲れ様でした。",
+        "en": "Thanks for your hard work today."
+      }
     },
     "typing": [
       [
@@ -5406,12 +6810,18 @@
     "id": "workplace-024",
     "hanzi": "顺利",
     "pinyin": "shùnlì",
-    "meaning": "順調だ",
+    "meaning": {
+      "ja": "順調だ",
+      "en": "to be going smoothly, to be going well"
+    },
     "category": "workplace",
     "example": {
       "sentence": "工作很顺利。",
       "pinyin": "Gōngzuò hěn shùnlì.",
-      "meaning": "仕事は順調です。"
+      "meaning": {
+        "ja": "仕事は順調です。",
+        "en": "Work is going well."
+      }
     },
     "typing": [
       [
@@ -5430,12 +6840,18 @@
     "id": "workplace-025",
     "hanzi": "打扰",
     "pinyin": "dǎrǎo",
-    "meaning": "お邪魔する",
+    "meaning": {
+      "ja": "お邪魔する",
+      "en": "to interrupt, sorry to bother you"
+    },
     "category": "workplace",
     "example": {
       "sentence": "打扰一下。",
       "pinyin": "Dǎrǎo yíxià.",
-      "meaning": "ちょっとすみません(お邪魔します)。"
+      "meaning": {
+        "ja": "ちょっとすみません(お邪魔します)。",
+        "en": "Excuse me for a second (sorry to bother you)."
+      }
     },
     "typing": [
       [
@@ -5453,12 +6869,18 @@
     "id": "small-talk-016",
     "hanzi": "感觉",
     "pinyin": "gǎnjué",
-    "meaning": "感じ、気分",
+    "meaning": {
+      "ja": "感じ、気分",
+      "en": "feeling, mood"
+    },
     "category": "small-talk",
     "example": {
       "sentence": "我感觉很累。",
       "pinyin": "Wǒ gǎnjué hěn lèi.",
-      "meaning": "疲れた感じがします。"
+      "meaning": {
+        "ja": "疲れた感じがします。",
+        "en": "I feel tired."
+      }
     },
     "typing": [
       [
@@ -5477,12 +6899,18 @@
     "id": "small-talk-017",
     "hanzi": "意思",
     "pinyin": "yìsi",
-    "meaning": "意味",
+    "meaning": {
+      "ja": "意味",
+      "en": "meaning"
+    },
     "category": "small-talk",
     "example": {
       "sentence": "这是什么意思?",
       "pinyin": "Zhè shì shénme yìsi?",
-      "meaning": "これはどういう意味ですか?"
+      "meaning": {
+        "ja": "これはどういう意味ですか?",
+        "en": "What does this mean?"
+      }
     },
     "typing": [
       [
@@ -5499,12 +6927,18 @@
     "id": "small-talk-018",
     "hanzi": "当然",
     "pinyin": "dāngrán",
-    "meaning": "もちろん",
+    "meaning": {
+      "ja": "もちろん",
+      "en": "of course"
+    },
     "category": "small-talk",
     "example": {
       "sentence": "当然可以。",
       "pinyin": "Dāngrán kěyǐ.",
-      "meaning": "もちろんいいですよ。"
+      "meaning": {
+        "ja": "もちろんいいですよ。",
+        "en": "Of course, that's fine."
+      }
     },
     "typing": [
       [
@@ -5524,12 +6958,18 @@
     "id": "small-talk-019",
     "hanzi": "一样",
     "pinyin": "yíyàng",
-    "meaning": "同じ",
+    "meaning": {
+      "ja": "同じ",
+      "en": "the same"
+    },
     "category": "small-talk",
     "example": {
       "sentence": "我们想法一样。",
       "pinyin": "Wǒmen xiǎngfǎ yíyàng.",
-      "meaning": "私たちの考えは同じです。"
+      "meaning": {
+        "ja": "私たちの考えは同じです。",
+        "en": "We think the same way."
+      }
     },
     "typing": [
       [
@@ -5548,12 +6988,18 @@
     "id": "small-talk-020",
     "hanzi": "中文",
     "pinyin": "Zhōngwén",
-    "meaning": "中国語",
+    "meaning": {
+      "ja": "中国語",
+      "en": "Chinese (language)"
+    },
     "category": "small-talk",
     "example": {
       "sentence": "我在学中文。",
       "pinyin": "Wǒ zài xué Zhōngwén.",
-      "meaning": "中国語を勉強しています。"
+      "meaning": {
+        "ja": "中国語を勉強しています。",
+        "en": "I'm studying Chinese."
+      }
     },
     "typing": [
       [
@@ -5574,12 +7020,18 @@
     "id": "small-talk-021",
     "hanzi": "文化",
     "pinyin": "wénhuà",
-    "meaning": "文化",
+    "meaning": {
+      "ja": "文化",
+      "en": "culture"
+    },
     "category": "small-talk",
     "example": {
       "sentence": "我对中国文化很感兴趣。",
       "pinyin": "Wǒ duì Zhōngguó wénhuà hěn gǎn xìngqù.",
-      "meaning": "中国文化に興味があります。"
+      "meaning": {
+        "ja": "中国文化に興味があります。",
+        "en": "I'm interested in Chinese culture."
+      }
     },
     "typing": [
       [

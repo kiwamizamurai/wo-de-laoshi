@@ -2,7 +2,9 @@ import { useEffect, useMemo, useState } from 'hono/jsx/dom';
 import { loadBookmarks, saveBookmarks } from '../flashcards/bookmarks';
 import { ALL_VOCAB_ITEMS } from '../../data/vocab';
 import scenariosData from '../../data/scenarios.json';
+import { pickLocalized } from '../../data/localized';
 import type { ChatScenario } from '../../data/types';
+import { useLocale, useT } from '../../i18n/LocaleContext';
 import { search } from './search';
 import { addSearchHistory, clearSearchHistory, loadSearchHistory, removeSearchHistory } from './searchHistory';
 import { SearchResultRow } from './SearchResultRow';
@@ -15,11 +17,13 @@ interface SearchPageProps {
 }
 
 export function SearchPage({ onSelectScenario }: SearchPageProps) {
+  const t = useT();
+  const { locale } = useLocale();
   const [query, setQuery] = useState('');
   const [bookmarks, setBookmarks] = useState<Set<string>>(() => loadBookmarks());
   const [history, setHistory] = useState<string[]>(() => loadSearchHistory());
 
-  const results = useMemo(() => search(ALL_VOCAB_ITEMS, SCENARIOS, query), [query]);
+  const results = useMemo(() => search(ALL_VOCAB_ITEMS, SCENARIOS, query, locale), [query, locale]);
 
   useEffect(() => {
     const trimmed = query.trim();
@@ -59,7 +63,7 @@ export function SearchPage({ onSelectScenario }: SearchPageProps) {
         type="text"
         value={query}
         onInput={(event: any) => setQuery(event.target.value)}
-        placeholder="調べたい場面やフレーズを入力してください（例: タクシー、値段、体調）"
+        placeholder={t.search.placeholder}
         style={{
           padding: '0.7rem',
           borderRadius: 'var(--radius-md)',
@@ -75,13 +79,13 @@ export function SearchPage({ onSelectScenario }: SearchPageProps) {
         history.length > 0 ? (
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
-              <strong style={{ fontSize: '0.85rem' }}>最近の検索</strong>
+              <strong style={{ fontSize: '0.85rem' }}>{t.search.recentSearches}</strong>
               <button
                 className="tap-scale"
                 onClick={clearHistory}
                 style={{ background: 'transparent', border: 'none', cursor: 'pointer', color: 'var(--color-text-muted)', fontSize: '0.75rem' }}
               >
-                すべて消去
+                {t.search.clearAll}
               </button>
             </div>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
@@ -106,7 +110,7 @@ export function SearchPage({ onSelectScenario }: SearchPageProps) {
                       event.stopPropagation();
                       removeHistoryItem(item);
                     }}
-                    aria-label={`「${item}」を履歴から削除`}
+                    aria-label={t.search.removeFromHistory(item)}
                     style={{
                       background: 'transparent',
                       border: 'none',
@@ -125,12 +129,12 @@ export function SearchPage({ onSelectScenario }: SearchPageProps) {
           </div>
         ) : null
       ) : results.vocab.length === 0 && results.scenarios.length === 0 ? (
-        <p className="muted">「{trimmedQuery}」に一致する結果が見つかりませんでした。</p>
+        <p className="muted">{t.search.noResults(trimmedQuery)}</p>
       ) : (
         <>
           {results.scenarios.length > 0 ? (
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-              <strong style={{ fontSize: '0.85rem' }}>会話シナリオ</strong>
+              <strong style={{ fontSize: '0.85rem' }}>{t.search.scenariosHeading}</strong>
               {results.scenarios.map(({ scenario }, index) => (
                 <button
                   key={scenario.id}
@@ -145,13 +149,13 @@ export function SearchPage({ onSelectScenario }: SearchPageProps) {
                   onClick={() => onSelectScenario(scenario.id)}
                 >
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                    <strong>{scenario.title}</strong>
+                    <strong>{pickLocalized(scenario.title, locale)}</strong>
                     <span className="muted" style={{ fontSize: '0.75rem' }}>
                       HSK{scenario.hskLevel}
                     </span>
                   </div>
                   <p className="muted" style={{ margin: '0.3rem 0 0', fontSize: '0.85rem' }}>
-                    {scenario.descriptionJa}
+                    {pickLocalized(scenario.description, locale)}
                   </p>
                 </button>
               ))}
@@ -161,10 +165,9 @@ export function SearchPage({ onSelectScenario }: SearchPageProps) {
           {results.vocab.length > 0 ? (
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
               <strong style={{ fontSize: '0.85rem' }}>
-                単語・フレーズ
                 {results.vocabTotalCount > results.vocab.length
-                  ? `（${results.vocabTotalCount}件中上位${results.vocab.length}件を表示）`
-                  : `（${results.vocabTotalCount}件）`}
+                  ? t.search.vocabHeadingTruncated(results.vocabTotalCount, results.vocab.length)
+                  : t.search.vocabHeadingFull(results.vocabTotalCount)}
               </strong>
               {results.vocab.map(({ item }, index) => (
                 <SearchResultRow

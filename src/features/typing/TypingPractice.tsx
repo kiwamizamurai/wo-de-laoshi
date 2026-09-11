@@ -1,6 +1,8 @@
 import { CopyButton } from '../../components/CopyButton';
 import { SpeakButton } from '../../components/SpeakButton';
+import { pickLocalized } from '../../data/localized';
 import type { VocabItem } from '../../data/types';
+import { useLocale, useT } from '../../i18n/LocaleContext';
 import { PinyinKeyboard } from './PinyinKeyboard';
 import { TypingProgress } from './TypingProgress';
 import { useTypingPractice } from './useTypingPractice';
@@ -10,6 +12,8 @@ interface TypingPracticeProps {
 }
 
 export function TypingPractice({ items }: TypingPracticeProps) {
+  const t = useT();
+  const { locale } = useLocale();
   const { current, syllables, cursor, nextKey, stats, total, isComplete, handleKeyPress, reset } =
     useTypingPractice(items);
 
@@ -20,13 +24,11 @@ export function TypingPractice({ items }: TypingPracticeProps) {
         style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.8rem', padding: '2rem 1.2rem' }}
       >
         <p className="muted">
-          {total === 0
-            ? 'タイピング練習できる単語がありません。'
-            : `お疲れさまでした! ${stats.correct}/${stats.total} 問正解しました。`}
+          {total === 0 ? t.typing.noItems : t.typing.resultSummary(stats.correct, stats.total)}
         </p>
         {total > 0 ? (
           <button className="btn btn-primary" onClick={reset}>
-            もう一度
+            {t.typing.restart}
           </button>
         ) : null}
       </div>
@@ -47,7 +49,7 @@ export function TypingPractice({ items }: TypingPracticeProps) {
           <CopyButton text={current.hanzi} />
         </div>
         <span className="muted">{current.pinyin}</span>
-        <span className="muted">{current.meaning}</span>
+        <span className="muted">{pickLocalized(current.meaning, locale)}</span>
       </div>
 
       <TypingProgress syllables={syllables} syllableIndex={cursor.syllableIndex} keyIndex={cursor.keyIndex} />

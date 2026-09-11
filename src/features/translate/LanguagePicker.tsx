@@ -1,12 +1,10 @@
+import { useT } from '../../i18n/LocaleContext';
+
 export interface LanguageOption {
   code: string;
-  label: string;
 }
 
-export const LANGUAGE_OPTIONS: LanguageOption[] = [
-  { code: 'zh', label: '中国語(簡体字)' },
-  { code: 'ja', label: '日本語' },
-];
+export const LANGUAGE_OPTIONS: LanguageOption[] = [{ code: 'zh' }, { code: 'ja' }];
 
 interface LanguagePickerProps {
   sourceLanguage: string;
@@ -23,6 +21,8 @@ export function LanguagePicker({
   onChangeTarget,
   onSwap,
 }: LanguagePickerProps) {
+  const t = useT();
+  const labelFor = (code: string) => (code === 'zh' ? t.translate.languageZh : t.translate.languageJa);
   return (
     <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
       <select
@@ -33,11 +33,11 @@ export function LanguagePicker({
       >
         {LANGUAGE_OPTIONS.map((opt) => (
           <option key={opt.code} value={opt.code}>
-            {opt.label}
+            {labelFor(opt.code)}
           </option>
         ))}
       </select>
-      <button className="btn" onClick={onSwap} aria-label="言語を入れ替える" style={{ flexShrink: 0 }}>
+      <button className="btn" onClick={onSwap} aria-label={t.translate.swapAriaLabel} style={{ flexShrink: 0 }}>
         ⇄
       </button>
       <select
@@ -48,7 +48,7 @@ export function LanguagePicker({
       >
         {LANGUAGE_OPTIONS.map((opt) => (
           <option key={opt.code} value={opt.code}>
-            {opt.label}
+            {labelFor(opt.code)}
           </option>
         ))}
       </select>

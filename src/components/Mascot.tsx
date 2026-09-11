@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'hono/jsx/dom';
 import { celebrateMascot, MASCOT_CELEBRATE_EVENT, type CelebrateIntensity } from '../lib/mascotEvents';
+import { useT } from '../i18n/LocaleContext';
 
 interface Sparkle {
   id: number;
@@ -25,6 +26,7 @@ interface MascotProps {
 }
 
 export function Mascot({ size = 38, interactive = false }: MascotProps) {
+  const t = useT();
   const [celebrating, setCelebrating] = useState(false);
   const [sparkles, setSparkles] = useState<Sparkle[]>([]);
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -55,7 +57,7 @@ export function Mascot({ size = 38, interactive = false }: MascotProps) {
     <div
       aria-hidden={interactive ? undefined : 'true'}
       role={interactive ? 'button' : undefined}
-      aria-label={interactive ? 'パンダを撫でる' : undefined}
+      aria-label={interactive ? t.common.petMascot : undefined}
       onClick={interactive ? () => celebrateMascot('small') : undefined}
       className={interactive ? 'tap-scale' : undefined}
       style={{

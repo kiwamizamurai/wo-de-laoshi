@@ -1,4 +1,5 @@
 import { useMemo } from 'hono/jsx/dom';
+import { useLocale, useT } from '../../i18n/LocaleContext';
 import { loadActivityLog, toDateKey } from '../flashcards/activityLog';
 
 const WEEKS = 12;
@@ -21,6 +22,9 @@ interface DayCell {
 }
 
 export function ActivityHeatmap() {
+  const t = useT();
+  const { locale } = useLocale();
+  const dateLocale = locale === 'ja' ? 'ja-JP' : 'en-US';
   const { weeks, activeDays, rangeDays } = useMemo(() => {
     const log = loadActivityLog();
     const today = new Date();
@@ -38,7 +42,7 @@ export function ActivityHeatmap() {
       const inRange = cursor >= rangeStart;
       days.push({
         key: toDateKey(cursor),
-        label: cursor.toLocaleDateString('ja-JP'),
+        label: cursor.toLocaleDateString(dateLocale),
         count: inRange ? (log[toDateKey(cursor)] ?? 0) : 0,
         inRange,
       });
@@ -47,7 +51,7 @@ export function ActivityHeatmap() {
     while (days.length % 7 !== 0) {
       const last = new Date(days[days.length - 1].key);
       last.setDate(last.getDate() + 1);
-      days.push({ key: toDateKey(last), label: last.toLocaleDateString('ja-JP'), count: 0, inRange: false });
+      days.push({ key: toDateKey(last), label: last.toLocaleDateString(dateLocale), count: 0, inRange: false });
     }
 
     const weeks: DayCell[][] = [];
@@ -59,14 +63,14 @@ export function ActivityHeatmap() {
     const activeDays = inRangeDays.filter((d) => d.count > 0).length;
 
     return { weeks, activeDays, rangeDays: inRangeDays.length };
-  }, []);
+  }, [dateLocale]);
 
   return (
     <div className="card" style={{ padding: '0.85rem', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
-        <strong style={{ fontSize: '0.85rem' }}>学習記録</strong>
+        <strong style={{ fontSize: '0.85rem' }}>{t.home.activityTitle}</strong>
         <span className="muted" style={{ fontSize: '0.75rem' }}>
-          過去{rangeDays}日中{activeDays}日学習
+          {t.home.activitySummary(rangeDays, activeDays)}
         </span>
       </div>
       <div style={{ display: 'flex', gap: '3px', overflowX: 'auto', padding: '2px' }}>
@@ -75,7 +79,7 @@ export function ActivityHeatmap() {
             {week.map((day, dayIndex) => (
               <div
                 key={day.key}
-                title={day.inRange ? `${day.label}: ${day.count}件` : undefined}
+                title={day.inRange ? t.home.activityTooltip(day.label, day.count) : undefined}
                 className={day.inRange ? 'heatmap-cell' : undefined}
                 style={{
                   width: '11px',

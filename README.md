@@ -18,7 +18,7 @@
 
 ## Features
 
-- **Flashcards**: ~220 words + 237 phrases at HSK1–3 level, covering everyday situations like the workplace, meals, and casual small talk, reviewed with an SM-2 spaced-repetition algorithm. Works in any browser since it does not depend on Chrome Built-in AI. Bookmark cards for quick review later.
+- **Flashcards**: ~220 words + 237 phrases at HSK1–3 level, covering everyday situations like the workplace, meals, and casual small talk, reviewed with an SM-2 spaced-repetition algorithm. Works in any browser since it does not depend on Chrome Built-in AI. Bookmark cards for quick review later. A typing-practice mode is also available: an on-screen keyboard highlights the next key to tap, so you can build pinyin muscle memory without a physical keyboard — toned pinyin is shown above for reference.
 - **Full-text search**: Search across flashcards, phrases, and conversation scenarios by Japanese meaning, Chinese text, or pinyin (diacritics optional) — find the expressions you need for a specific situation (e.g. "taxi", "how much").
 - **Translate & reading assist**: Uses Chrome's Translator API / Language Detector API / Summarizer API for Japanese⇄Chinese translation (defaults to Japanese→Chinese), automatic input-language detection, and long-text summarization. Chinese translation results are annotated with pinyin (via the Prompt API) and can be read aloud.
 - **AI conversation practice**: Uses Chrome's Prompt API for roleplay-style Chinese conversation practice across 11 scenarios (ordering at a cafe, taking a taxi, checking into a hotel, immigration at the airport, chatting with a coworker, lunch with a colleague, catching up with a friend, etc.), with per-turn AI feedback (structured output).

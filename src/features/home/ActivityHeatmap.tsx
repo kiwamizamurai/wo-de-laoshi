@@ -70,17 +70,19 @@ export function ActivityHeatmap() {
         </span>
       </div>
       <div style={{ display: 'flex', gap: '3px', overflowX: 'auto', padding: '2px' }}>
-        {weeks.map((week) => (
+        {weeks.map((week, weekIndex) => (
           <div key={week[0].key} style={{ display: 'flex', flexDirection: 'column', gap: '3px' }}>
-            {week.map((day) => (
+            {week.map((day, dayIndex) => (
               <div
                 key={day.key}
                 title={day.inRange ? `${day.label}: ${day.count}件` : undefined}
+                className={day.inRange ? 'heatmap-cell' : undefined}
                 style={{
                   width: '11px',
                   height: '11px',
                   borderRadius: '2px',
                   background: day.inRange ? LEVEL_COLORS[levelForCount(day.count)] : 'transparent',
+                  animationDelay: day.inRange ? `${(weekIndex * 7 + dayIndex) * 6}ms` : undefined,
                 }}
               />
             ))}

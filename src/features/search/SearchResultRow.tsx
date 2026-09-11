@@ -6,11 +6,21 @@ interface SearchResultRowProps {
   item: VocabItem;
   bookmarked: boolean;
   onToggleBookmark: () => void;
+  index?: number;
 }
 
-export function SearchResultRow({ item, bookmarked, onToggleBookmark }: SearchResultRowProps) {
+export function SearchResultRow({ item, bookmarked, onToggleBookmark, index = 0 }: SearchResultRowProps) {
   return (
-    <div className="card" style={{ padding: '0.85rem', display: 'flex', flexDirection: 'column', gap: '0.35rem' }}>
+    <div
+      className="card anim-slide-up-in"
+      style={{
+        padding: '0.85rem',
+        display: 'flex',
+        flexDirection: 'column',
+        gap: '0.35rem',
+        animationDelay: `${index * 30}ms`,
+      }}
+    >
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '0.5rem' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
           <span className="hanzi" style={{ fontSize: '1.3rem', fontWeight: 700 }}>
@@ -20,6 +30,7 @@ export function SearchResultRow({ item, bookmarked, onToggleBookmark }: SearchRe
           <CopyButton text={item.hanzi} />
         </div>
         <button
+          className="tap-scale"
           onClick={(event: any) => {
             event.stopPropagation();
             onToggleBookmark();

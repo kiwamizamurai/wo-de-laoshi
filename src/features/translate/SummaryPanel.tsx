@@ -6,7 +6,10 @@ interface SummaryPanelProps {
 export function SummaryPanel({ summary, loading }: SummaryPanelProps) {
   if (!loading && !summary) return null;
   return (
-    <div className="card" style={{ padding: '1rem', display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
+    <div
+      className="card anim-slide-up-in"
+      style={{ padding: '1rem', display: 'flex', flexDirection: 'column', gap: '0.4rem' }}
+    >
       <strong style={{ fontSize: '0.85rem' }}>要約</strong>
       {loading ? (
         <span className="muted">要約を生成しています...</span>

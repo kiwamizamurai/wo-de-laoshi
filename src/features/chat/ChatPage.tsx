@@ -6,6 +6,7 @@ import scenariosData from '../../data/scenarios.json';
 import type { ChatScenario } from '../../data/types';
 import { ChatSessionManager } from './ChatSessionManager';
 import { ChatMessage } from './ChatMessage';
+import { TypingIndicator } from './TypingIndicator';
 import { useChatSession } from './useChatSession';
 
 const SCENARIOS = scenariosData as ChatScenario[];
@@ -74,6 +75,7 @@ function ChatConversation({ scenario, manager }: { scenario: ChatScenario; manag
         {turns.map((turn, i) => (
           <ChatMessage key={i} turn={turn} />
         ))}
+        {sending && turns[turns.length - 1]?.role === 'user' ? <TypingIndicator /> : null}
       </div>
       {reachedLimit ? (
         <p className="muted" style={{ fontSize: '0.85rem' }}>

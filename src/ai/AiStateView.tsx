@@ -32,11 +32,12 @@ function ProgressBar({ ratio }: { ratio: number }) {
       }}
     >
       <div
+        className="progress-bar-fill"
         style={{
           height: '100%',
           width: `${pct}%`,
-          background: 'var(--color-accent)',
-          transition: 'width 0.2s ease',
+          backgroundColor: 'var(--color-accent)',
+          transition: 'width var(--dur-base) var(--ease-decelerate)',
         }}
       />
     </div>
@@ -45,7 +46,10 @@ function ProgressBar({ ratio }: { ratio: number }) {
 
 function Notice({ title, body }: { title: string; body: string }) {
   return (
-    <div className="card" style={{ padding: '1rem', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+    <div
+      className="card anim-slide-up-in"
+      style={{ padding: '1rem', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}
+    >
       <strong>{title}</strong>
       <p className="muted" style={{ margin: 0, fontSize: '0.9rem' }}>
         {body}
@@ -68,7 +72,11 @@ export function AiStateView<T>({
 }: AiStateViewProps<T>): JSX.Element {
   switch (state.status) {
     case 'checking':
-      return <p className="muted">{featureLabel}を確認しています...</p>;
+      return (
+        <p className="muted" style={{ animation: 'pulse-fade 1.4s ease-in-out infinite' }}>
+          {featureLabel}を確認しています...
+        </p>
+      );
     case 'unsupported':
       return (
         <Notice
@@ -82,7 +90,10 @@ export function AiStateView<T>({
       );
     case 'needs-download':
       return (
-        <div className="card" style={{ padding: '1rem', display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>
+        <div
+          className="card anim-slide-up-in"
+          style={{ padding: '1rem', display: 'flex', flexDirection: 'column', gap: '0.6rem' }}
+        >
           <strong>{featureLabel}を利用するにはモデルのダウンロードが必要です</strong>
           <span className="muted" style={{ fontSize: '0.85rem' }}>
             初回のみダウンロードが発生します。ボタンを押すと開始します。
@@ -94,7 +105,10 @@ export function AiStateView<T>({
       );
     case 'downloading':
       return (
-        <div className="card" style={{ padding: '1rem', display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>
+        <div
+          className="card anim-slide-up-in"
+          style={{ padding: '1rem', display: 'flex', flexDirection: 'column', gap: '0.6rem' }}
+        >
           <strong>{featureLabel}のモデルを準備しています</strong>
           <ProgressBar ratio={state.progress} />
           <span className="muted" style={{ fontSize: '0.85rem' }}>
@@ -104,7 +118,16 @@ export function AiStateView<T>({
       );
     case 'error':
       return (
-        <div className="card" style={{ padding: '1rem', display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>
+        <div
+          className="card"
+          style={{
+            padding: '1rem',
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '0.6rem',
+            animation: 'slide-up-in var(--dur-base) var(--ease-decelerate) both, wiggle 0.4s var(--ease-standard) 0.2s',
+          }}
+        >
           <strong>{featureLabel}の準備中にエラーが発生しました</strong>
           <button className="btn" onClick={onRetry}>
             再試行する

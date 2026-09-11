@@ -147,7 +147,10 @@ export function TranslatePage() {
               {translation.status === 'translating' ? '翻訳中...' : '翻訳する'}
             </button>
             {translation.status === 'done' ? (
-              <div className="card" style={{ padding: '1rem', display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
+              <div
+                className="card anim-slide-up-in"
+                style={{ padding: '1rem', display: 'flex', flexDirection: 'column', gap: '0.4rem' }}
+              >
                 {targetLanguage === 'zh' ? (
                   <PinyinLine pinyin={pinyin.status === 'done' ? pinyin.text : null} loading={pinyin.status === 'loading'} />
                 ) : null}

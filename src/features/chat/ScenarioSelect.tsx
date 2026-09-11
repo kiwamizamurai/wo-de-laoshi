@@ -9,11 +9,17 @@ export function ScenarioSelect({ onSelect }: { onSelect: (id: string) => void })
       <p className="muted" style={{ fontSize: '0.85rem' }}>
         シナリオを選んでAIと中国語で会話練習をしましょう。
       </p>
-      {SCENARIOS.map((scenario) => (
+      {SCENARIOS.map((scenario, index) => (
         <button
           key={scenario.id}
-          className="card"
-          style={{ padding: '1rem', textAlign: 'left', cursor: 'pointer', border: 'none' }}
+          className="card anim-slide-up-in"
+          style={{
+            padding: '1rem',
+            textAlign: 'left',
+            cursor: 'pointer',
+            border: 'none',
+            animationDelay: `${index * 40}ms`,
+          }}
           onClick={() => onSelect(scenario.id)}
         >
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>

@@ -4,7 +4,10 @@ import { FeedbackPanel } from './FeedbackPanel';
 export function ChatMessage({ turn }: { turn: ChatTurn }) {
   if (turn.role === 'ai') {
     return (
-      <div className="card" style={{ padding: '0.8rem 1rem', alignSelf: 'flex-start', maxWidth: '85%' }}>
+      <div
+        className="card anim-bubble-in-left"
+        style={{ padding: '0.8rem 1rem', alignSelf: 'flex-start', maxWidth: '85%' }}
+      >
         {turn.reply.kind === 'structured' ? (
           <>
             <p className="hanzi" style={{ margin: 0, fontSize: '1.05rem' }}>
@@ -23,7 +26,10 @@ export function ChatMessage({ turn }: { turn: ChatTurn }) {
   }
 
   return (
-    <div style={{ alignSelf: 'flex-end', maxWidth: '85%', display: 'flex', flexDirection: 'column', gap: '0.3rem' }}>
+    <div
+      className="anim-bubble-in-right"
+      style={{ alignSelf: 'flex-end', maxWidth: '85%', display: 'flex', flexDirection: 'column', gap: '0.3rem' }}
+    >
       <div
         className="card"
         style={{ padding: '0.8rem 1rem', background: 'var(--color-primary)', color: 'var(--color-primary-contrast)' }}

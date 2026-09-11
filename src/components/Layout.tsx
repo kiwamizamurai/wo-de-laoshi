@@ -1,6 +1,8 @@
+import { Mascot } from './Mascot';
 import { NavBar } from './NavBar';
 
 const REPO_URL = 'https://github.com/kiwamizamurai/wo-de-laoshi';
+const TITLE = '我的老师';
 
 interface LayoutProps {
   currentPath: string;
@@ -36,6 +38,7 @@ export function Layout({ currentPath, onNavigate, children }: LayoutProps) {
   return (
     <>
       <header
+        className="app-intro-header"
         style={{
           padding: '1rem 1rem 0.5rem',
           display: 'flex',
@@ -44,14 +47,19 @@ export function Layout({ currentPath, onNavigate, children }: LayoutProps) {
           gap: '0.5rem',
         }}
       >
-        <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.5rem', minWidth: 0 }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', minWidth: 0 }}>
+          <Mascot />
           <span className="hanzi" style={{ fontSize: '1.3rem', fontWeight: 700 }}>
-            我的老师
+            {Array.from(TITLE).map((char, index) => (
+              <span key={index} className="title-char" style={{ animationDelay: `${index * 70}ms` }}>
+                {char}
+              </span>
+            ))}
           </span>
         </div>
         <GitHubLink />
       </header>
-      <main className="page">{children}</main>
+      <main className="page app-intro-main">{children}</main>
       <NavBar currentPath={currentPath} onNavigate={onNavigate} />
     </>
   );

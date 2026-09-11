@@ -77,6 +77,7 @@ export function SearchPage({ onSelectScenario }: SearchPageProps) {
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
               <strong style={{ fontSize: '0.85rem' }}>最近の検索</strong>
               <button
+                className="tap-scale"
                 onClick={clearHistory}
                 style={{ background: 'transparent', border: 'none', cursor: 'pointer', color: 'var(--color-text-muted)', fontSize: '0.75rem' }}
               >
@@ -84,21 +85,23 @@ export function SearchPage({ onSelectScenario }: SearchPageProps) {
               </button>
             </div>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
-              {history.map((item) => (
+              {history.map((item, index) => (
                 <div
                   key={item}
-                  className="card"
+                  className="card anim-pop-in"
                   style={{
                     display: 'flex',
                     alignItems: 'center',
                     gap: '0.4rem',
                     padding: '0.4rem 0.7rem',
                     cursor: 'pointer',
+                    animationDelay: `${index * 30}ms`,
                   }}
                   onClick={() => setQuery(item)}
                 >
                   <span style={{ fontSize: '0.85rem' }}>{item}</span>
                   <button
+                    className="tap-scale"
                     onClick={(event: any) => {
                       event.stopPropagation();
                       removeHistoryItem(item);
@@ -128,11 +131,17 @@ export function SearchPage({ onSelectScenario }: SearchPageProps) {
           {results.scenarios.length > 0 ? (
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
               <strong style={{ fontSize: '0.85rem' }}>会話シナリオ</strong>
-              {results.scenarios.map(({ scenario }) => (
+              {results.scenarios.map(({ scenario }, index) => (
                 <button
                   key={scenario.id}
-                  className="card"
-                  style={{ padding: '1rem', textAlign: 'left', cursor: 'pointer', border: 'none' }}
+                  className="card anim-slide-up-in"
+                  style={{
+                    padding: '1rem',
+                    textAlign: 'left',
+                    cursor: 'pointer',
+                    border: 'none',
+                    animationDelay: `${index * 30}ms`,
+                  }}
                   onClick={() => onSelectScenario(scenario.id)}
                 >
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
@@ -157,10 +166,11 @@ export function SearchPage({ onSelectScenario }: SearchPageProps) {
                   ? `（${results.vocabTotalCount}件中上位${results.vocab.length}件を表示）`
                   : `（${results.vocabTotalCount}件）`}
               </strong>
-              {results.vocab.map(({ item }) => (
+              {results.vocab.map(({ item }, index) => (
                 <SearchResultRow
                   key={item.id}
                   item={item}
+                  index={index}
                   bookmarked={bookmarks.has(item.id)}
                   onToggleBookmark={() => toggleBookmark(item.id)}
                 />

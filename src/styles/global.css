@@ -15,6 +15,23 @@
   --radius-lg: 18px;
   --shadow-card: 0 2px 10px rgba(43, 36, 32, 0.08);
   font-family: 'Hiragino Sans', 'Noto Sans JP', 'Noto Sans SC', system-ui, sans-serif;
+
+  /* === Motion: easing === */
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-decelerate: cubic-bezier(0.05, 0.7, 0.1, 1);
+  --ease-accelerate: cubic-bezier(0.3, 0, 0.8, 0.15);
+  --ease-swift: cubic-bezier(0.76, 0, 0.25, 0.97);
+  --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-bounce-soft: cubic-bezier(0.22, 1.2, 0.36, 1);
+  --ease-spring-out: cubic-bezier(0.68, -0.55, 0.32, 1.55);
+
+  /* === Motion: duration === */
+  --dur-instant: 100ms;
+  --dur-fast: 160ms;
+  --dur-base: 260ms;
+  --dur-slow: 420ms;
+  --dur-page: 320ms;
+  --dur-flip: 600ms;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -95,6 +112,13 @@ a {
   cursor: pointer;
   background: var(--color-surface-alt);
   color: var(--color-text);
+  transition:
+    transform var(--dur-fast) var(--ease-spring-out),
+    background-color var(--dur-fast) var(--ease-standard);
+}
+
+.btn:active {
+  transform: scale(0.92);
 }
 
 .btn-primary {
@@ -105,6 +129,10 @@ a {
 .btn:disabled {
   opacity: 0.5;
   cursor: not-allowed;
+}
+
+.btn:disabled:active {
+  transform: none;
 }
 
 .page {
@@ -128,8 +156,646 @@ a {
   font-size: 0.9rem;
 }
 
+.review-controls .btn:active {
+  transform: scale(0.88);
+}
+
 @media (max-width: 400px) {
   .review-controls {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ============================================================
+   Motion: keyframe library
+   ============================================================ */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.55);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes slide-up-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-left-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-18px) scale(0.92);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(4px) scale(1.02);
+  }
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes slide-right-in {
+  0% {
+    opacity: 0;
+    transform: translateX(18px) scale(0.92);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(-4px) scale(1.02);
+  }
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes bookmark-pop {
+  0% {
+    transform: scale(1) rotate(0);
+  }
+  35% {
+    transform: scale(1.55) rotate(-10deg);
+  }
+  60% {
+    transform: scale(0.92) rotate(6deg);
+  }
+  100% {
+    transform: scale(1) rotate(0);
+  }
+}
+
+@keyframes pulse-fade {
+  0%,
+  100% {
+    opacity: 0.45;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes dot-bounce {
+  0%,
+  60%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.5;
+  }
+  30% {
+    transform: translateY(-6px);
+    opacity: 1;
+  }
+}
+
+@keyframes heatmap-pop {
+  from {
+    opacity: 0;
+    transform: scale(0.4);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes wiggle {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-4px);
+  }
+  40% {
+    transform: translateX(3px);
+  }
+  60% {
+    transform: translateX(-2px);
+  }
+  80% {
+    transform: translateX(1px);
+  }
+}
+
+@keyframes shimmer {
+  from {
+    background-position: 200% 0;
+  }
+  to {
+    background-position: -200% 0;
+  }
+}
+
+@keyframes page-out {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.97);
+  }
+}
+
+@keyframes page-in {
+  from {
+    opacity: 0;
+    transform: scale(1.03) translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* === Motion: reusable utility classes (fill-mode both keeps start/end states) === */
+.anim-fade-in {
+  animation: fade-in var(--dur-base) var(--ease-standard) both;
+}
+
+.anim-pop-in {
+  animation: pop-in var(--dur-slow) var(--ease-bounce) both;
+}
+
+.anim-slide-up-in {
+  animation: slide-up-in var(--dur-base) var(--ease-decelerate) both;
+}
+
+.anim-bubble-in-left {
+  animation: slide-left-in var(--dur-slow) var(--ease-bounce) both;
+  transform-origin: bottom left;
+}
+
+.anim-bubble-in-right {
+  animation: slide-right-in var(--dur-slow) var(--ease-bounce) both;
+  transform-origin: bottom right;
+}
+
+.tap-scale {
+  transition: transform var(--dur-fast) var(--ease-spring-out);
+}
+
+.tap-scale:active {
+  transform: scale(0.85);
+}
+
+.heatmap-cell {
+  animation: heatmap-pop var(--dur-fast) var(--ease-bounce) both;
+}
+
+.progress-bar-fill {
+  background-image: linear-gradient(110deg, transparent 30%, rgba(255, 255, 255, 0.35) 50%, transparent 70%);
+  background-size: 200% 100%;
+  animation: shimmer 1.6s linear infinite;
+}
+
+/* ============================================================
+   Motion: page transitions (View Transitions API)
+   ============================================================ */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: var(--dur-page);
+}
+
+::view-transition-old(root) {
+  animation-name: page-out;
+  animation-timing-function: var(--ease-accelerate);
+}
+
+::view-transition-new(root) {
+  animation-name: page-in;
+  animation-timing-function: var(--ease-bounce-soft);
+}
+
+/* ============================================================
+   Motion: 3D flip card (flashcards)
+   ============================================================ */
+.flip-card {
+  position: relative;
+  height: clamp(260px, 45vh, 340px);
+  perspective: 1400px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: transform var(--dur-flip) var(--ease-bounce);
+  will-change: transform;
+}
+
+.flip-card-inner.is-flipped {
+  transform: rotateY(180deg);
+  cursor: default;
+}
+
+.flip-card-face {
+  position: absolute;
+  inset: 0;
+  overflow-y: auto;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-card);
+  padding: clamp(1.5rem, 6vw, 2.5rem) 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  text-align: center;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+/* ============================================================
+   Motion: card fly-away grading (Tinder-style swipe exit)
+   ============================================================ */
+@keyframes card-fly-left {
+  to {
+    transform: translateX(-130%) rotate(-18deg);
+    opacity: 0;
+  }
+}
+
+@keyframes card-fly-right {
+  to {
+    transform: translateX(130%) rotate(18deg);
+    opacity: 0;
+  }
+}
+
+.card-exit-left {
+  animation: card-fly-left var(--dur-slow) var(--ease-accelerate) forwards;
+}
+
+.card-exit-right {
+  animation: card-fly-right var(--dur-slow) var(--ease-accelerate) forwards;
+}
+
+/* ============================================================
+   Motion: title intro (staggered per-character reveal)
+   ============================================================ */
+@keyframes title-char-in {
+  0% {
+    opacity: 0;
+    transform: translateY(10px) scale(0.5) rotate(-8deg);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(-2px) scale(1.08) rotate(3deg);
+  }
+  100% {
+    transform: translateY(0) scale(1) rotate(0deg);
+  }
+}
+
+.title-char {
+  display: inline-block;
+  animation: title-char-in var(--dur-slow) var(--ease-bounce) both;
+}
+
+/* ============================================================
+   Motion: mascot (idle loop, blink, celebrate, sparkle burst)
+   ============================================================ */
+@keyframes mascot-bob {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-3px) rotate(-2deg);
+  }
+}
+
+@keyframes mascot-blink {
+  0%,
+  92%,
+  100% {
+    transform: scaleY(1);
+  }
+  96% {
+    transform: scaleY(0.1);
+  }
+}
+
+@keyframes mascot-ear-wiggle-left {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+}
+
+@keyframes mascot-ear-wiggle-right {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+}
+
+@keyframes mascot-celebrate-bounce {
+  0% {
+    transform: translateY(0) scale(1) rotate(0deg);
+  }
+  20% {
+    transform: translateY(-14px) scale(1.15) rotate(-8deg);
+  }
+  40% {
+    transform: translateY(0) scale(0.95) rotate(6deg);
+  }
+  60% {
+    transform: translateY(-8px) scale(1.08) rotate(-4deg);
+  }
+  80% {
+    transform: translateY(0) scale(1) rotate(2deg);
+  }
+  100% {
+    transform: translateY(0) scale(1) rotate(0deg);
+  }
+}
+
+.mascot-idle {
+  animation: mascot-bob 3.2s var(--ease-standard) infinite;
+}
+
+.mascot-celebrate {
+  animation: mascot-celebrate-bounce 0.9s var(--ease-bounce) both;
+}
+
+.mascot-eye {
+  animation: mascot-blink 4.5s ease-in-out infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.mascot-ear-left {
+  animation: mascot-ear-wiggle-left 3.2s var(--ease-standard) infinite;
+  transform-box: fill-box;
+  transform-origin: bottom center;
+}
+
+.mascot-ear-right {
+  animation: mascot-ear-wiggle-right 3.2s var(--ease-standard) infinite;
+  transform-box: fill-box;
+  transform-origin: bottom center;
+}
+
+.mascot-spark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  background: #ffcc33;
+  box-shadow: 0 0 6px 1px rgba(255, 204, 51, 0.8);
+  pointer-events: none;
+}
+
+.spark-dir-1 {
+  animation: spark-burst-1 0.8s var(--ease-decelerate) both;
+}
+.spark-dir-2 {
+  animation: spark-burst-2 0.8s var(--ease-decelerate) both;
+}
+.spark-dir-3 {
+  animation: spark-burst-3 0.8s var(--ease-decelerate) both;
+}
+.spark-dir-4 {
+  animation: spark-burst-4 0.8s var(--ease-decelerate) both;
+}
+.spark-dir-5 {
+  animation: spark-burst-5 0.8s var(--ease-decelerate) both;
+}
+.spark-dir-6 {
+  animation: spark-burst-6 0.8s var(--ease-decelerate) both;
+}
+.spark-dir-7 {
+  animation: spark-burst-7 0.8s var(--ease-decelerate) both;
+}
+.spark-dir-8 {
+  animation: spark-burst-8 0.8s var(--ease-decelerate) both;
+}
+
+@keyframes spark-burst-1 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 1;
+  }
+  15% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(calc(-50% + 0px), calc(-50% - 30px)) scale(1);
+    opacity: 0;
+  }
+}
+@keyframes spark-burst-2 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 1;
+  }
+  15% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(calc(-50% + 21px), calc(-50% - 21px)) scale(1);
+    opacity: 0;
+  }
+}
+@keyframes spark-burst-3 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 1;
+  }
+  15% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(calc(-50% + 30px), calc(-50% + 0px)) scale(1);
+    opacity: 0;
+  }
+}
+@keyframes spark-burst-4 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 1;
+  }
+  15% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(calc(-50% + 21px), calc(-50% + 21px)) scale(1);
+    opacity: 0;
+  }
+}
+@keyframes spark-burst-5 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 1;
+  }
+  15% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(calc(-50% + 0px), calc(-50% + 30px)) scale(1);
+    opacity: 0;
+  }
+}
+@keyframes spark-burst-6 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 1;
+  }
+  15% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(calc(-50% - 21px), calc(-50% + 21px)) scale(1);
+    opacity: 0;
+  }
+}
+@keyframes spark-burst-7 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 1;
+  }
+  15% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(calc(-50% - 30px), calc(-50% + 0px)) scale(1);
+    opacity: 0;
+  }
+}
+@keyframes spark-burst-8 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 1;
+  }
+  15% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(calc(-50% - 21px), calc(-50% - 21px)) scale(1);
+    opacity: 0;
+  }
+}
+
+/* ============================================================
+   Motion: nav tab ripple (tap wave feedback)
+   ============================================================ */
+.nav-ripple {
+  position: absolute;
+  border-radius: 50%;
+  background: currentColor;
+  opacity: 0.28;
+  transform: translate(-50%, -50%) scale(0);
+  animation: nav-ripple-expand 0.55s var(--ease-decelerate) both;
+  pointer-events: none;
+}
+
+@keyframes nav-ripple-expand {
+  to {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0;
+  }
+}
+
+/* ============================================================
+   Motion: app intro (first paint boot sequence)
+   ============================================================ */
+@keyframes app-intro-header {
+  from {
+    opacity: 0;
+    transform: translateY(-14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes app-intro-main {
+  from {
+    opacity: 0;
+    transform: translateY(18px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes app-intro-navbar {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.app-intro-header {
+  animation: app-intro-header var(--dur-slow) var(--ease-decelerate) both;
+}
+
+.app-intro-main {
+  animation: app-intro-main var(--dur-slow) var(--ease-decelerate) 120ms both;
+}
+
+.app-intro-navbar {
+  animation: app-intro-navbar var(--dur-slow) var(--ease-bounce) 220ms both;
+}
+
+/* ============================================================
+   Motion: prefers-reduced-motion
+   ============================================================ */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
   }
 }

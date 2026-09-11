@@ -27,7 +27,9 @@ export function CopyButton({ text }: CopyButtonProps) {
       aria-label="コピーする"
       style={{ padding: '0.3em 0.55em', fontSize: '1rem', lineHeight: 1 }}
     >
-      {copied ? '✓' : '📋'}
+      <span key={String(copied)} className="anim-pop-in" style={{ display: 'inline-block' }}>
+        {copied ? '✓' : '📋'}
+      </span>
     </button>
   );
 }

@@ -9,7 +9,10 @@ function makeItem(overrides: Partial<VocabItem>): VocabItem {
     pinyin: 'nǐ hǎo',
     meaning: 'こんにちは',
     category: 'greetings',
-    hskLevel: 1,
+    typing: [
+      ['n', 'i'],
+      ['h', 'a', 'o'],
+    ],
     ...overrides,
   };
 }
@@ -46,8 +49,6 @@ describe('searchVocab', () => {
       pinyin: 'wǒ yǒudiǎn bù shūfu.',
       meaning: '少し体調が悪いです。',
       category: 'phrase',
-      exampleSentence: undefined,
-      exampleSentenceMeaning: undefined,
     }),
   ];
 
@@ -86,8 +87,7 @@ describe('searchVocab', () => {
     const exampleOnlyMatch = makeItem({
       id: 'b',
       meaning: '別の意味',
-      exampleSentence: '欢迎光临',
-      exampleSentenceMeaning: 'ようこそいらっしゃいませ',
+      example: { sentence: '欢迎光临', pinyin: 'huānyíng guānglín', meaning: 'ようこそいらっしゃいませ' },
     });
     const results = searchVocab([exampleOnlyMatch, meaningMatch], 'ようこそ');
     expect(results[0].item.id).toBe('a');

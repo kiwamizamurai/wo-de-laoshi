@@ -3,6 +3,7 @@ import { ALL_VOCAB_ITEMS } from '../../data/vocab';
 import { CATEGORY_LABELS, type VocabCategory } from '../../data/types';
 import { celebrateMascot } from '../../lib/mascotEvents';
 import { prefersReducedMotion } from '../../lib/motion';
+import { TypingPractice } from '../typing/TypingPractice';
 import { Card } from './Card';
 import { DeckStats } from './DeckStats';
 import { ReviewControls } from './ReviewControls';
@@ -12,7 +13,13 @@ import type { Grade } from './srs';
 const ALL_ITEMS = ALL_VOCAB_ITEMS;
 const CATEGORIES = Array.from(new Set(ALL_ITEMS.map((item) => item.category))) as VocabCategory[];
 
-type Mode = 'srs' | 'bookmarks';
+type Mode = 'srs' | 'bookmarks' | 'typing';
+
+const MODE_OPTIONS: { mode: Mode; label: string }[] = [
+  { mode: 'srs', label: '復習' },
+  { mode: 'bookmarks', label: '★ ブックマーク' },
+  { mode: 'typing', label: '⌨️ タイピング' },
+];
 
 const EXIT_DURATION_MS = 420;
 const FLY_DIRECTION: Record<Grade, 'left' | 'right'> = {
@@ -66,37 +73,43 @@ export function FlashcardsPage() {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+      <select
+        value={selectedCategory}
+        onChange={(event: any) => setSelectedCategory(event.target.value as VocabCategory | 'all')}
+        className="btn"
+        disabled={mode === 'bookmarks'}
+      >
+        <option value="all">すべてのカテゴリ</option>
+        {CATEGORIES.map((cat) => (
+          <option key={cat} value={cat}>
+            {CATEGORY_LABELS[cat]}
+          </option>
+        ))}
+      </select>
+
       <div style={{ display: 'flex', gap: '0.5rem' }}>
-        <select
-          value={selectedCategory}
-          onChange={(event: any) => setSelectedCategory(event.target.value as VocabCategory | 'all')}
-          className="btn"
-          disabled={mode === 'bookmarks'}
-          style={{ flex: 1 }}
-        >
-          <option value="all">すべてのカテゴリ</option>
-          {CATEGORIES.map((cat) => (
-            <option key={cat} value={cat}>
-              {CATEGORY_LABELS[cat]}
-            </option>
-          ))}
-        </select>
-        <button
-          className="btn"
-          onClick={() => setMode((m) => (m === 'bookmarks' ? 'srs' : 'bookmarks'))}
-          style={{
-            flexShrink: 0,
-            color: mode === 'bookmarks' ? 'var(--color-warning)' : 'var(--color-text)',
-            fontWeight: mode === 'bookmarks' ? 700 : 600,
-          }}
-        >
-          {mode === 'bookmarks' ? '★ ブックマーク中' : '☆ ブックマーク'}
-        </button>
+        {MODE_OPTIONS.map(({ mode: m, label }) => (
+          <button
+            key={m}
+            className="btn"
+            onClick={() => setMode(m)}
+            style={{
+              flex: 1,
+              color: mode === m ? 'var(--color-primary)' : 'var(--color-text)',
+              fontWeight: mode === m ? 700 : 600,
+              borderColor: mode === m ? 'var(--color-primary)' : undefined,
+            }}
+          >
+            {label}
+          </button>
+        ))}
       </div>
 
-      <DeckStats stats={stats} />
+      {mode !== 'typing' ? <DeckStats stats={stats} /> : null}
 
-      {current ? (
+      {mode === 'typing' ? (
+        <TypingPractice items={items} />
+      ) : current ? (
         <>
           <Card
             key={current.item.id}

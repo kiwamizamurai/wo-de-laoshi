@@ -11,7 +11,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "hono": "^4.13.0"
+    "hono": "^4.13.0",
+    "simple-keyboard": "^3.8.187"
   },
   "devDependencies": {
     "@types/dom-chromium-ai": "^0.0.16",

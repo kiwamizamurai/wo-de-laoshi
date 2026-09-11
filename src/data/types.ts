@@ -15,16 +15,51 @@ export type VocabCategory =
   | 'mealtime'
   | 'small-talk';
 
+export interface VocabExample {
+  sentence: string;
+  pinyin: string;
+  meaning: string;
+}
+
+export const PINYIN_KEYS = [
+  'a',
+  'b',
+  'c',
+  'd',
+  'e',
+  'f',
+  'g',
+  'h',
+  'i',
+  'j',
+  'k',
+  'l',
+  'm',
+  'n',
+  'o',
+  'p',
+  'q',
+  'r',
+  's',
+  't',
+  'u',
+  'v',
+  'w',
+  'x',
+  'y',
+  'z',
+] as const;
+
+export type PinyinKey = (typeof PINYIN_KEYS)[number];
+
 export interface VocabItem {
   id: string;
   hanzi: string;
   pinyin: string;
   meaning: string;
   category: VocabCategory;
-  hskLevel: 1 | 2 | 3;
-  exampleSentence?: string;
-  exampleSentencePinyin?: string;
-  exampleSentenceMeaning?: string;
+  example?: VocabExample;
+  typing: PinyinKey[][];
 }
 
 export interface ChatScenario {

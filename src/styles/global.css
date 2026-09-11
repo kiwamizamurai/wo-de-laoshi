@@ -799,3 +799,43 @@ a {
     animation: none !important;
   }
 }
+
+.pinyin-keyboard-mount .hg-theme-default {
+  background: var(--color-surface-alt);
+  border-radius: var(--radius-md);
+  padding: 0.4rem;
+}
+
+.pinyin-keyboard-mount .hg-button {
+  background: var(--color-surface);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  box-shadow: none;
+  transition:
+    transform var(--dur-fast) var(--ease-spring-out),
+    background-color var(--dur-fast) var(--ease-standard);
+}
+
+.pinyin-keyboard-mount .hg-button.hg-activeButton {
+  transform: scale(0.9);
+}
+
+.pinyin-keyboard-mount .hg-button.key-highlight {
+  background: var(--color-primary);
+  color: var(--color-primary-contrast);
+  animation: key-pulse 1.1s var(--ease-standard) infinite;
+}
+
+.pinyin-keyboard-mount .hg-button.key-mistake {
+  animation: wiggle 0.4s var(--ease-standard) both;
+}
+
+@keyframes key-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--color-primary) 45%, transparent);
+  }
+  50% {
+    box-shadow: 0 0 0 6px color-mix(in srgb, var(--color-primary) 0%, transparent);
+  }
+}

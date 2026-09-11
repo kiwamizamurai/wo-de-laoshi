@@ -1,11 +1,13 @@
 import { useMemo, useState } from 'hono/jsx/dom';
 import { ALL_GRAMMAR_POINTS } from '../../data/grammar';
-import { GRAMMAR_CATEGORY_LABELS, type GrammarCategory } from '../../data/types';
+import type { GrammarCategory } from '../../data/types';
+import { useT } from '../../i18n/LocaleContext';
 import { GrammarListItem } from './GrammarListItem';
 
 const CATEGORIES = Array.from(new Set(ALL_GRAMMAR_POINTS.map((item) => item.category))) as GrammarCategory[];
 
 export function GrammarPage() {
+  const t = useT();
   const [selectedCategory, setSelectedCategory] = useState<GrammarCategory | 'all'>('all');
   const [expandedId, setExpandedId] = useState<string | null>(null);
 
@@ -25,16 +27,16 @@ export function GrammarPage() {
         onChange={(event: any) => setSelectedCategory(event.target.value as GrammarCategory | 'all')}
         className="btn"
       >
-        <option value="all">すべてのカテゴリ</option>
+        <option value="all">{t.categories.all}</option>
         {CATEGORIES.map((cat) => (
           <option key={cat} value={cat}>
-            {GRAMMAR_CATEGORY_LABELS[cat]}
+            {t.categories.grammar[cat]}
           </option>
         ))}
       </select>
 
       <p className="muted" style={{ fontSize: '0.85rem', margin: 0 }}>
-        {items.length}件の文法ポイント。タップして中国語の説明・例文を確認できます。
+        {t.grammar.pointCount(items.length)}
       </p>
 
       <div style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>

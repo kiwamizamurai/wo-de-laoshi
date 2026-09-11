@@ -2,7 +2,9 @@ import { useRef } from 'hono/jsx/dom';
 import { CopyButton } from '../../components/CopyButton';
 import { SpeakButton } from '../../components/SpeakButton';
 import { replayAnimation } from '../../lib/animation';
+import { pickLocalized } from '../../data/localized';
 import type { VocabItem } from '../../data/types';
+import { useLocale, useT } from '../../i18n/LocaleContext';
 
 interface CardProps {
   item: VocabItem;
@@ -14,6 +16,8 @@ interface CardProps {
 }
 
 export function Card({ item, revealed, onReveal, bookmarked, onToggleBookmark, exitDirection = null }: CardProps) {
+  const t = useT();
+  const { locale } = useLocale();
   const bookmarkRef = useRef<HTMLButtonElement | null>(null);
 
   function handleToggleBookmark(event: any): void {
@@ -30,7 +34,7 @@ export function Card({ item, revealed, onReveal, bookmarked, onToggleBookmark, e
         ref={bookmarkRef}
         className="tap-scale"
         onClick={handleToggleBookmark}
-        aria-label={bookmarked ? 'ブックマークを解除' : 'ブックマークに追加'}
+        aria-label={bookmarked ? t.flashcards.bookmarkRemove : t.flashcards.bookmarkAdd}
         style={{
           position: 'absolute',
           top: '0.6rem',
@@ -61,7 +65,7 @@ export function Card({ item, revealed, onReveal, bookmarked, onToggleBookmark, e
             {item.pinyin}
           </span>
           <span className="muted" style={{ fontSize: '0.85rem', marginTop: '1rem' }}>
-            タップして意味を表示
+            {t.flashcards.tapToReveal}
           </span>
         </div>
 
@@ -69,7 +73,7 @@ export function Card({ item, revealed, onReveal, bookmarked, onToggleBookmark, e
           <span className="muted" style={{ fontSize: '0.9rem' }}>
             <span className="hanzi">{item.hanzi}</span> {item.pinyin}
           </span>
-          <strong style={{ fontSize: '1.2rem' }}>{item.meaning}</strong>
+          <strong style={{ fontSize: '1.2rem' }}>{pickLocalized(item.meaning, locale)}</strong>
           {item.example ? (
             <div style={{ marginTop: '0.6rem', fontSize: '0.9rem' }}>
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.4rem' }}>
@@ -78,7 +82,7 @@ export function Card({ item, revealed, onReveal, bookmarked, onToggleBookmark, e
                 <CopyButton text={item.example.sentence} />
               </div>
               <div className="muted">{item.example.pinyin}</div>
-              <div className="muted">{item.example.meaning}</div>
+              <div className="muted">{pickLocalized(item.example.meaning, locale)}</div>
             </div>
           ) : null}
         </div>

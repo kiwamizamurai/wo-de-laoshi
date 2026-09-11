@@ -3,7 +3,9 @@ import { AiStateView } from '../../ai/AiStateView';
 import { getPromptAvailability, isPromptApiSupported } from '../../ai/promptApi';
 import { useAiAvailability } from '../../ai/useAiAvailability';
 import scenariosData from '../../data/scenarios.json';
+import { pickLocalized } from '../../data/localized';
 import type { ChatScenario } from '../../data/types';
+import { useLocale, useT } from '../../i18n/LocaleContext';
 import { ChatSessionManager } from './ChatSessionManager';
 import { ChatMessage } from './ChatMessage';
 import { TypingIndicator } from './TypingIndicator';
@@ -17,48 +19,49 @@ interface ChatPageProps {
 }
 
 export function ChatPage({ scenarioId, onExit }: ChatPageProps) {
+  const t = useT();
+  const { locale } = useLocale();
   const scenario = SCENARIOS.find((s) => s.id === scenarioId);
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <button className="btn" onClick={onExit}>
-          ← シナリオ選択
+          {t.chat.backToScenarios}
         </button>
-        {scenario ? <strong>{scenario.title}</strong> : null}
+        {scenario ? <strong>{pickLocalized(scenario.title, locale)}</strong> : null}
       </div>
-      {scenario ? (
-        <ChatPageBody scenario={scenario} />
-      ) : (
-        <p className="muted">シナリオが見つかりませんでした。</p>
-      )}
+      {scenario ? <ChatPageBody scenario={scenario} /> : <p className="muted">{t.chat.scenarioNotFound}</p>}
     </div>
   );
 }
 
 function ChatPageBody({ scenario }: { scenario: ChatScenario }) {
+  const t = useT();
+  const { locale } = useLocale();
   const { state, retry } = useAiAvailability(
     {
       isSupported: isPromptApiSupported,
       checkAvailability: getPromptAvailability,
       createInstance: async (onProgress) => {
         const manager = new ChatSessionManager();
-        await manager.init(scenario, onProgress);
+        await manager.init(scenario, locale, onProgress);
         return manager;
       },
       disposeInstance: (manager) => manager.dispose(),
     },
-    [scenario.id],
+    [scenario.id, locale],
   );
 
   return (
-    <AiStateView state={state} onRetry={retry} featureLabel="AI会話練習">
+    <AiStateView state={state} onRetry={retry} featureLabel={t.chat.featureLabel}>
       {(manager) => <ChatConversation scenario={scenario} manager={manager} />}
     </AiStateView>
   );
 }
 
 function ChatConversation({ scenario, manager }: { scenario: ChatScenario; manager: ChatSessionManager }) {
+  const t = useT();
   const [input, setInput] = useState('');
   const { turns, sending, reachedLimit, turnCount, maxTurns, sendMessage } = useChatSession(scenario, manager);
 
@@ -79,7 +82,7 @@ function ChatConversation({ scenario, manager }: { scenario: ChatScenario; manag
       </div>
       {reachedLimit ? (
         <p className="muted" style={{ fontSize: '0.85rem' }}>
-          このシナリオは会話上限({maxTurns}往復)に達しました。シナリオを選び直してください。
+          {t.chat.turnLimitReached(maxTurns)}
         </p>
       ) : (
         <div style={{ display: 'flex', gap: '0.5rem' }}>
@@ -89,7 +92,7 @@ function ChatConversation({ scenario, manager }: { scenario: ChatScenario; manag
             onKeyDown={(event: any) => {
               if (event.key === 'Enter') handleSend();
             }}
-            placeholder="中国語で入力..."
+            placeholder={t.chat.inputPlaceholder}
             disabled={sending}
             style={{
               flex: 1,
@@ -101,12 +104,12 @@ function ChatConversation({ scenario, manager }: { scenario: ChatScenario; manag
             }}
           />
           <button className="btn btn-primary" onClick={handleSend} disabled={sending}>
-            送信
+            {t.chat.send}
           </button>
         </div>
       )}
       <span className="muted" style={{ fontSize: '0.75rem' }}>
-        {turnCount}/{maxTurns} 往復
+        {t.chat.turnCounter(turnCount, maxTurns)}
       </span>
     </>
   );

@@ -1,8 +1,10 @@
 import { useMemo, useState } from 'hono/jsx/dom';
 import { ALL_VOCAB_ITEMS } from '../../data/vocab';
-import { CATEGORY_LABELS, type VocabCategory } from '../../data/types';
+import type { VocabCategory } from '../../data/types';
 import { celebrateMascot } from '../../lib/mascotEvents';
 import { prefersReducedMotion } from '../../lib/motion';
+import { useT } from '../../i18n/LocaleContext';
+import type { Dictionary } from '../../i18n/types';
 import { TypingPractice } from '../typing/TypingPractice';
 import { Card } from './Card';
 import { DeckStats } from './DeckStats';
@@ -15,10 +17,10 @@ const CATEGORIES = Array.from(new Set(ALL_ITEMS.map((item) => item.category))) a
 
 type Mode = 'srs' | 'bookmarks' | 'typing';
 
-const MODE_OPTIONS: { mode: Mode; label: string }[] = [
-  { mode: 'srs', label: '復習' },
-  { mode: 'bookmarks', label: '★ ブックマーク' },
-  { mode: 'typing', label: '⌨️ タイピング' },
+const MODE_OPTIONS: { mode: Mode; labelKey: keyof Pick<Dictionary['flashcards'], 'modeSrs' | 'modeBookmarks' | 'modeTyping'> }[] = [
+  { mode: 'srs', labelKey: 'modeSrs' },
+  { mode: 'bookmarks', labelKey: 'modeBookmarks' },
+  { mode: 'typing', labelKey: 'modeTyping' },
 ];
 
 const EXIT_DURATION_MS = 420;
@@ -30,6 +32,7 @@ const FLY_DIRECTION: Record<Grade, 'left' | 'right'> = {
 };
 
 export function FlashcardsPage() {
+  const t = useT();
   const [selectedCategory, setSelectedCategory] = useState<VocabCategory | 'all'>('all');
   const [mode, setMode] = useState<Mode>('srs');
 
@@ -79,16 +82,16 @@ export function FlashcardsPage() {
         className="btn"
         disabled={mode === 'bookmarks'}
       >
-        <option value="all">すべてのカテゴリ</option>
+        <option value="all">{t.categories.all}</option>
         {CATEGORIES.map((cat) => (
           <option key={cat} value={cat}>
-            {CATEGORY_LABELS[cat]}
+            {t.categories.vocab[cat]}
           </option>
         ))}
       </select>
 
       <div style={{ display: 'flex', gap: '0.5rem' }}>
-        {MODE_OPTIONS.map(({ mode: m, label }) => (
+        {MODE_OPTIONS.map(({ mode: m, labelKey }) => (
           <button
             key={m}
             className="btn"
@@ -100,7 +103,7 @@ export function FlashcardsPage() {
               borderColor: mode === m ? 'var(--color-primary)' : undefined,
             }}
           >
-            {label}
+            {t.flashcards[labelKey]}
           </button>
         ))}
       </div>
@@ -123,9 +126,9 @@ export function FlashcardsPage() {
           {revealed && !exitGrade ? <ReviewControls onGrade={handleGrade} /> : null}
         </>
       ) : mode === 'bookmarks' ? (
-        <p className="muted">ブックマークしたカードはまだありません。カードの★ボタンでブックマークしましょう。</p>
+        <p className="muted">{t.flashcards.noBookmarks}</p>
       ) : (
-        <p className="muted">今日学習するカードはありません。お疲れさまでした!</p>
+        <p className="muted">{t.flashcards.noCardsToday}</p>
       )}
     </div>
   );

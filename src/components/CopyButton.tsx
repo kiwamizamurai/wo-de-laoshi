@@ -1,4 +1,5 @@
 import { useState } from 'hono/jsx/dom';
+import { useT } from '../i18n/LocaleContext';
 
 interface CopyButtonProps {
   text: string;
@@ -7,6 +8,7 @@ interface CopyButtonProps {
 const FEEDBACK_DURATION_MS = 1200;
 
 export function CopyButton({ text }: CopyButtonProps) {
+  const t = useT();
   const [copied, setCopied] = useState(false);
 
   async function handleCopy(event: any): Promise<void> {
@@ -24,7 +26,7 @@ export function CopyButton({ text }: CopyButtonProps) {
     <button
       className="btn"
       onClick={handleCopy}
-      aria-label="コピーする"
+      aria-label={t.common.copy}
       style={{ padding: '0.3em 0.55em', fontSize: '1rem', lineHeight: 1 }}
     >
       <span key={String(copied)} className="anim-pop-in" style={{ display: 'inline-block' }}>

@@ -1,4 +1,5 @@
 import type { Grade } from './srs';
+import { useT } from '../../i18n/LocaleContext';
 
 interface ReviewControlsProps {
   onGrade: (grade: Grade) => void;
@@ -6,28 +7,28 @@ interface ReviewControlsProps {
 
 interface GradeButtonSpec {
   grade: Grade;
-  label: string;
   color: string;
 }
 
 const GRADE_BUTTONS: GradeButtonSpec[] = [
-  { grade: 'again', label: 'もう一度', color: 'var(--color-danger)' },
-  { grade: 'hard', label: '難しい', color: 'var(--color-warning)' },
-  { grade: 'good', label: '普通', color: 'var(--color-accent)' },
-  { grade: 'easy', label: '簡単', color: 'var(--color-primary)' },
+  { grade: 'again', color: 'var(--color-danger)' },
+  { grade: 'hard', color: 'var(--color-warning)' },
+  { grade: 'good', color: 'var(--color-accent)' },
+  { grade: 'easy', color: 'var(--color-primary)' },
 ];
 
 export function ReviewControls({ onGrade }: ReviewControlsProps) {
+  const t = useT();
   return (
     <div className="review-controls">
-      {GRADE_BUTTONS.map(({ grade, label, color }) => (
+      {GRADE_BUTTONS.map(({ grade, color }) => (
         <button
           key={grade}
           className="btn"
           style={{ color, border: `1px solid ${color}` }}
           onClick={() => onGrade(grade)}
         >
-          {label}
+          {t.flashcards.grade[grade]}
         </button>
       ))}
     </div>

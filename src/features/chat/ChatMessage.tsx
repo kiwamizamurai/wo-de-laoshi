@@ -16,7 +16,7 @@ export function ChatMessage({ turn }: { turn: ChatTurn }) {
             <p className="muted" style={{ margin: '0.2rem 0', fontSize: '0.85rem' }}>
               {turn.reply.pinyin}
             </p>
-            <p style={{ margin: 0, fontSize: '0.9rem' }}>{turn.reply.meaningJa}</p>
+            <p style={{ margin: 0, fontSize: '0.9rem' }}>{turn.reply.meaningText}</p>
           </>
         ) : (
           <p style={{ margin: 0 }}>{turn.reply.text}</p>

@@ -1,4 +1,6 @@
 import { useState } from 'hono/jsx/dom';
+import { useT } from '../i18n/LocaleContext';
+import type { Dictionary } from '../i18n/types';
 
 interface NavBarProps {
   currentPath: string;
@@ -7,17 +9,17 @@ interface NavBarProps {
 
 interface TabSpec {
   path: string;
-  label: string;
+  labelKey: keyof Dictionary['nav'];
   icon: string;
 }
 
-const TABS: TabSpec[] = [
-  { path: '/home', label: 'ホーム', icon: '家' },
-  { path: '/flashcards', label: '単語帳', icon: '卡' },
-  { path: '/grammar', label: '文法', icon: '语' },
-  { path: '/search', label: '検索', icon: '找' },
-  { path: '/translate', label: '翻訳', icon: '译' },
-  { path: '/chat', label: '会話', icon: '话' },
+const TAB_SPECS: TabSpec[] = [
+  { path: '/home', labelKey: 'home', icon: '家' },
+  { path: '/flashcards', labelKey: 'flashcards', icon: '卡' },
+  { path: '/grammar', labelKey: 'grammar', icon: '语' },
+  { path: '/search', labelKey: 'search', icon: '找' },
+  { path: '/translate', labelKey: 'translate', icon: '译' },
+  { path: '/chat', labelKey: 'chat', icon: '话' },
 ];
 
 function isActive(currentPath: string, tabPath: string): boolean {
@@ -35,11 +37,12 @@ let rippleSeq = 0;
 
 interface NavTabButtonProps {
   tab: TabSpec;
+  label: string;
   active: boolean;
   onNavigate: (path: string) => void;
 }
 
-function NavTabButton({ tab, active, onNavigate }: NavTabButtonProps) {
+function NavTabButton({ tab, label, active, onNavigate }: NavTabButtonProps) {
   const [ripples, setRipples] = useState<Ripple[]>([]);
 
   function handleClick(event: any): void {
@@ -97,13 +100,14 @@ function NavTabButton({ tab, active, onNavigate }: NavTabButtonProps) {
       >
         {tab.icon}
       </span>
-      <span style={{ fontSize: '0.75rem' }}>{tab.label}</span>
+      <span style={{ fontSize: '0.75rem' }}>{label}</span>
     </button>
   );
 }
 
 export function NavBar({ currentPath, onNavigate }: NavBarProps) {
-  const activeIndex = TABS.findIndex((tab) => isActive(currentPath, tab.path));
+  const t = useT();
+  const activeIndex = TAB_SPECS.findIndex((tab) => isActive(currentPath, tab.path));
 
   return (
     <nav
@@ -122,7 +126,7 @@ export function NavBar({ currentPath, onNavigate }: NavBarProps) {
           position: 'absolute',
           top: '0.35rem',
           left: 0,
-          width: `${100 / TABS.length}%`,
+          width: `${100 / TAB_SPECS.length}%`,
           height: 'calc(100% - 0.7rem)',
           transform: `translateX(${Math.max(activeIndex, 0) * 100}%)`,
           transition: 'transform var(--dur-base) var(--ease-bounce)',
@@ -139,8 +143,14 @@ export function NavBar({ currentPath, onNavigate }: NavBarProps) {
           }}
         />
       </div>
-      {TABS.map((tab) => (
-        <NavTabButton key={tab.path} tab={tab} active={isActive(currentPath, tab.path)} onNavigate={onNavigate} />
+      {TAB_SPECS.map((tab) => (
+        <NavTabButton
+          key={tab.path}
+          tab={tab}
+          label={t.nav[tab.labelKey]}
+          active={isActive(currentPath, tab.path)}
+          onNavigate={onNavigate}
+        />
       ))}
     </nav>
   );

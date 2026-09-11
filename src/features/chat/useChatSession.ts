@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'hono/jsx/dom';
+import { pickLocalized } from '../../data/localized';
 import type { ChatScenario } from '../../data/types';
+import { useLocale } from '../../i18n/LocaleContext';
 import type { ChatSessionManager, FeedbackResult } from './ChatSessionManager';
 import { parseAiReply, type ParsedAiReply } from './parseAiReply';
 
@@ -15,13 +17,14 @@ export type ChatTurn =
 const MAX_TURNS = 10;
 
 export function useChatSession(scenario: ChatScenario, manager: ChatSessionManager) {
+  const { locale } = useLocale();
   const [turns, setTurns] = useState<ChatTurn[]>(() => [
-    { role: 'ai', reply: parseAiReply(scenario.starterMessage) },
+    { role: 'ai', reply: parseAiReply(pickLocalized(scenario.starterMessage, locale)) },
   ]);
   const [sending, setSending] = useState(false);
 
   useEffect(() => {
-    setTurns([{ role: 'ai', reply: parseAiReply(scenario.starterMessage) }]);
+    setTurns([{ role: 'ai', reply: parseAiReply(pickLocalized(scenario.starterMessage, locale)) }]);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [scenario.id]);
 

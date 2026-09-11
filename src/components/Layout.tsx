@@ -1,3 +1,5 @@
+import { useT } from '../i18n/LocaleContext';
+import { LocaleToggle } from './LocaleToggle';
 import { Mascot } from './Mascot';
 import { NavBar } from './NavBar';
 
@@ -10,13 +12,13 @@ interface LayoutProps {
   children?: JSX.Element | JSX.Element[] | string | false | null;
 }
 
-function GitHubLink() {
+function GitHubLink({ ariaLabel }: { ariaLabel: string }) {
   return (
     <a
       href={REPO_URL}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="GitHubでソースコードを見る(オープンソースです)"
+      aria-label={ariaLabel}
       title="Open source on GitHub"
       style={{
         display: 'flex',
@@ -35,6 +37,7 @@ function GitHubLink() {
 }
 
 export function Layout({ currentPath, onNavigate, children }: LayoutProps) {
+  const t = useT();
   return (
     <>
       <header
@@ -57,7 +60,10 @@ export function Layout({ currentPath, onNavigate, children }: LayoutProps) {
             ))}
           </span>
         </div>
-        <GitHubLink />
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', flexShrink: 0 }}>
+          <LocaleToggle />
+          <GitHubLink ariaLabel={t.header.githubAriaLabel} />
+        </div>
       </header>
       <main className="page app-intro-main">{children}</main>
       <NavBar currentPath={currentPath} onNavigate={onNavigate} />

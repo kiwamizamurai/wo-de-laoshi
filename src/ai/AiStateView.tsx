@@ -1,4 +1,6 @@
 import { isMobileDevice } from '../lib/device';
+import { useT } from '../i18n/LocaleContext';
+import type { Dictionary } from '../i18n/types';
 import type { AiState } from './useAiAvailability';
 
 interface AiStateViewProps<T> {
@@ -10,15 +12,9 @@ interface AiStateViewProps<T> {
   children: (instance: T) => JSX.Element;
 }
 
-function defaultUnsupportedMessage(): string {
-  if (isMobileDevice()) {
-    return 'スマートフォンのブラウザでは利用できません。Chrome Built-in AIは現時点でPC版Chrome(バージョン138以降)専用の機能です。';
-  }
-  return 'Chrome(バージョン138以降)でアクセスしてください。Edgeの一部バージョンでも開発者向けプレビューとして利用できます。';
+function defaultUnsupportedMessage(t: Dictionary): string {
+  return isMobileDevice() ? t.ai.unsupportedBodyMobile : t.ai.unsupportedBodyDesktop;
 }
-
-const DEFAULT_UNAVAILABLE_MESSAGE =
-  '端末のハードウェア要件(空き容量22GB以上、GPU 4GB VRAM以上またはCPU 16GB RAM+4コア以上)を満たしていない可能性があります。chrome://on-device-internals で状態を確認できます。';
 
 function ProgressBar({ ratio }: { ratio: number }) {
   const pct = Math.round(Math.min(1, Math.max(0, ratio)) * 100);
@@ -70,36 +66,35 @@ export function AiStateView<T>({
   unavailableMessage,
   children,
 }: AiStateViewProps<T>): JSX.Element {
+  const t = useT();
   switch (state.status) {
     case 'checking':
       return (
         <p className="muted" style={{ animation: 'pulse-fade 1.4s ease-in-out infinite' }}>
-          {featureLabel}を確認しています...
+          {t.ai.checking(featureLabel)}
         </p>
       );
     case 'unsupported':
       return (
         <Notice
-          title={`${featureLabel}はこのブラウザでは使えません`}
-          body={unsupportedMessage ?? defaultUnsupportedMessage()}
+          title={t.ai.unsupportedTitle(featureLabel)}
+          body={unsupportedMessage ?? defaultUnsupportedMessage(t)}
         />
       );
     case 'unavailable':
-      return (
-        <Notice title={`${featureLabel}を利用できません`} body={unavailableMessage ?? DEFAULT_UNAVAILABLE_MESSAGE} />
-      );
+      return <Notice title={t.ai.unavailableTitle(featureLabel)} body={unavailableMessage ?? t.ai.unavailableBody} />;
     case 'needs-download':
       return (
         <div
           className="card anim-slide-up-in"
           style={{ padding: '1rem', display: 'flex', flexDirection: 'column', gap: '0.6rem' }}
         >
-          <strong>{featureLabel}を利用するにはモデルのダウンロードが必要です</strong>
+          <strong>{t.ai.needsDownloadTitle(featureLabel)}</strong>
           <span className="muted" style={{ fontSize: '0.85rem' }}>
-            初回のみダウンロードが発生します。ボタンを押すと開始します。
+            {t.ai.needsDownloadBody}
           </span>
           <button className="btn btn-primary" onClick={state.start}>
-            ダウンロードして開始
+            {t.ai.downloadStart}
           </button>
         </div>
       );
@@ -109,10 +104,10 @@ export function AiStateView<T>({
           className="card anim-slide-up-in"
           style={{ padding: '1rem', display: 'flex', flexDirection: 'column', gap: '0.6rem' }}
         >
-          <strong>{featureLabel}のモデルを準備しています</strong>
+          <strong>{t.ai.downloadingTitle(featureLabel)}</strong>
           <ProgressBar ratio={state.progress} />
           <span className="muted" style={{ fontSize: '0.85rem' }}>
-            初回のみダウンロードが発生します。しばらくお待ちください。
+            {t.ai.downloadingBody}
           </span>
         </div>
       );
@@ -128,9 +123,9 @@ export function AiStateView<T>({
             animation: 'slide-up-in var(--dur-base) var(--ease-decelerate) both, wiggle 0.4s var(--ease-standard) 0.2s',
           }}
         >
-          <strong>{featureLabel}の準備中にエラーが発生しました</strong>
+          <strong>{t.ai.errorTitle(featureLabel)}</strong>
           <button className="btn" onClick={onRetry}>
-            再試行する
+            {t.ai.retry}
           </button>
         </div>
       );

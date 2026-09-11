@@ -1,6 +1,8 @@
 import { CopyButton } from '../../components/CopyButton';
 import { SpeakButton } from '../../components/SpeakButton';
-import { GRAMMAR_CATEGORY_LABELS, type GrammarPoint } from '../../data/types';
+import { pickLocalized } from '../../data/localized';
+import type { GrammarPoint } from '../../data/types';
+import { useLocale, useT } from '../../i18n/LocaleContext';
 
 interface GrammarListItemProps {
   item: GrammarPoint;
@@ -9,6 +11,8 @@ interface GrammarListItemProps {
 }
 
 export function GrammarListItem({ item, expanded, onToggleExpand }: GrammarListItemProps) {
+  const t = useT();
+  const { locale } = useLocale();
   return (
     <div className="card" style={{ padding: '1rem' }}>
       <div
@@ -17,14 +21,14 @@ export function GrammarListItem({ item, expanded, onToggleExpand }: GrammarListI
       >
         <div style={{ flex: 1, minWidth: 0 }}>
           <div className="muted" style={{ fontSize: '0.8rem' }}>
-            {item.englishGrammarRef} ・ {GRAMMAR_CATEGORY_LABELS[item.category]}
+            {pickLocalized(item.englishGrammarRef, locale)} ・ {t.categories.grammar[item.category]}
           </div>
-          <strong style={{ fontSize: '1.05rem' }}>{item.title}</strong>
+          <strong style={{ fontSize: '1.05rem' }}>{pickLocalized(item.title, locale)}</strong>
           <div
             className="muted"
             style={{ fontFamily: 'monospace', fontSize: '0.85rem', marginTop: '0.2rem' }}
           >
-            {item.pattern}
+            {pickLocalized(item.pattern, locale)}
           </div>
         </div>
         <span
@@ -43,7 +47,7 @@ export function GrammarListItem({ item, expanded, onToggleExpand }: GrammarListI
       {expanded ? (
         <div style={{ marginTop: '0.8rem', paddingTop: '0.8rem', borderTop: '1px solid var(--color-border)' }}>
           <p className="muted" style={{ fontSize: '0.9rem', margin: '0 0 0.6rem' }}>
-            {item.explanationJa}
+            {pickLocalized(item.explanation, locale)}
           </p>
           {item.examples.map((example, index) => (
             <div
@@ -61,7 +65,7 @@ export function GrammarListItem({ item, expanded, onToggleExpand }: GrammarListI
                 <CopyButton text={example.hanzi} />
               </div>
               <div className="muted">{example.pinyin}</div>
-              <div className="muted">{example.meaning}</div>
+              <div className="muted">{pickLocalized(example.meaning, locale)}</div>
             </div>
           ))}
         </div>

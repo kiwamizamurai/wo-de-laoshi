@@ -1,13 +1,17 @@
 import scenariosData from '../../data/scenarios.json';
+import { pickLocalized } from '../../data/localized';
 import type { ChatScenario } from '../../data/types';
+import { useLocale, useT } from '../../i18n/LocaleContext';
 
 const SCENARIOS = scenariosData as ChatScenario[];
 
 export function ScenarioSelect({ onSelect }: { onSelect: (id: string) => void }) {
+  const t = useT();
+  const { locale } = useLocale();
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
       <p className="muted" style={{ fontSize: '0.85rem' }}>
-        シナリオを選んでAIと中国語で会話練習をしましょう。
+        {t.chat.scenarioSelectIntro}
       </p>
       {SCENARIOS.map((scenario, index) => (
         <button
@@ -23,13 +27,13 @@ export function ScenarioSelect({ onSelect }: { onSelect: (id: string) => void })
           onClick={() => onSelect(scenario.id)}
         >
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-            <strong>{scenario.title}</strong>
+            <strong>{pickLocalized(scenario.title, locale)}</strong>
             <span className="muted" style={{ fontSize: '0.75rem' }}>
               HSK{scenario.hskLevel}
             </span>
           </div>
           <p className="muted" style={{ margin: '0.3rem 0 0', fontSize: '0.85rem' }}>
-            {scenario.descriptionJa}
+            {pickLocalized(scenario.description, locale)}
           </p>
         </button>
       ))}

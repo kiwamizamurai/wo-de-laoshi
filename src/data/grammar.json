@@ -1,726 +1,1335 @@
 [
   {
     "id": "word-order-001",
-    "title": "主語+動詞+目的語の基本語順",
-    "englishGrammarRef": "SVO語順",
+    "title": {
+      "ja": "主語+動詞+目的語の基本語順",
+      "en": "Basic word order: Subject + Verb + Object"
+    },
+    "englishGrammarRef": {
+      "ja": "SVO語順",
+      "en": "SVO word order"
+    },
     "category": "word-order",
-    "pattern": "S + V + O",
-    "explanationJa": "中国語の基本語順は英語と同じSVO(主語+動詞+目的語)です。「私は〜を〜する」という感覚でそのまま単語を並べれば通じます。",
+    "pattern": {
+      "ja": "S + V + O",
+      "en": "S + V + O"
+    },
+    "explanation": {
+      "ja": "中国語の基本語順は英語と同じSVO(主語+動詞+目的語)です。「私は〜を〜する」という感覚でそのまま単語を並べれば通じます。",
+      "en": "Chinese basic word order is SVO (Subject + Verb + Object), the same as English. If you arrange words in the sense of ‘I do ~ to ~’, you will be understood."
+    },
     "examples": [
       {
         "hanzi": "我喝咖啡。",
         "pinyin": "Wǒ hē kāfēi.",
-        "meaning": "私はコーヒーを飲みます。"
+        "meaning": {
+          "ja": "私はコーヒーを飲みます。",
+          "en": "I drink coffee."
+        }
       },
       {
         "hanzi": "他看书。",
         "pinyin": "Tā kàn shū.",
-        "meaning": "彼は本を読みます。"
+        "meaning": {
+          "ja": "彼は本を読みます。",
+          "en": "He reads a book."
+        }
       },
       {
         "hanzi": "我们学中文。",
         "pinyin": "Wǒmen xué Zhōngwén.",
-        "meaning": "私たちは中国語を勉強します。"
+        "meaning": {
+          "ja": "私たちは中国語を勉強します。",
+          "en": "We study Chinese."
+        }
       }
     ]
   },
   {
     "id": "word-order-002",
-    "title": "時間詞・場所詞は動詞の前に置く",
-    "englishGrammarRef": "時間・場所の前置詞句",
+    "title": {
+      "ja": "時間詞・場所詞は動詞の前に置く",
+      "en": "Time and place words go before the verb"
+    },
+    "englishGrammarRef": {
+      "ja": "時間・場所の前置詞句",
+      "en": "Time/place phrases"
+    },
     "category": "word-order",
-    "pattern": "S + 時間/場所 + V + O",
-    "explanationJa": "英語ではI go to school at 8のように時間や場所を文末に置きますが、中国語では「いつ・どこで」を動詞の前に置きます。",
+    "pattern": {
+      "ja": "S + 時間/場所 + V + O",
+      "en": "S + Time/Place + V + O"
+    },
+    "explanation": {
+      "ja": "英語ではI go to school at 8のように時間や場所を文末に置きますが、中国語では「いつ・どこで」を動詞の前に置きます。",
+      "en": "In English, time and place often come at the end of a sentence, as in ‘I go to school at 8’. In Chinese, ‘when’ and ‘where’ go before the verb."
+    },
     "examples": [
       {
         "hanzi": "我八点去学校。",
         "pinyin": "Wǒ bā diǎn qù xuéxiào.",
-        "meaning": "私は8時に学校へ行きます。"
+        "meaning": {
+          "ja": "私は8時に学校へ行きます。",
+          "en": "I go to school at 8 o'clock."
+        }
       },
       {
         "hanzi": "我在家吃饭。",
         "pinyin": "Wǒ zài jiā chīfàn.",
-        "meaning": "私は家でご飯を食べます。"
+        "meaning": {
+          "ja": "私は家でご飯を食べます。",
+          "en": "I eat at home."
+        }
       },
       {
         "hanzi": "他明天来。",
         "pinyin": "Tā míngtiān lái.",
-        "meaning": "彼は明日来ます。"
+        "meaning": {
+          "ja": "彼は明日来ます。",
+          "en": "He is coming tomorrow."
+        }
       }
     ]
   },
   {
     "id": "tense-aspect-001",
-    "title": "「了」で完了・変化を表す",
-    "englishGrammarRef": "過去形",
+    "title": {
+      "ja": "「了」で完了・変化を表す",
+      "en": "Using 了 (le) to show completion or change"
+    },
+    "englishGrammarRef": {
+      "ja": "過去形",
+      "en": "Past tense"
+    },
     "category": "tense-aspect",
-    "pattern": "V + 了",
-    "explanationJa": "中国語には英語のような動詞の過去形変化はありません。文末や動詞の後ろに「了」を置くことで、動作の完了や状況の変化を表します。",
+    "pattern": {
+      "ja": "V + 了",
+      "en": "V + 了"
+    },
+    "explanation": {
+      "ja": "中国語には英語のような動詞の過去形変化はありません。文末や動詞の後ろに「了」を置くことで、動作の完了や状況の変化を表します。",
+      "en": "Chinese verbs don't conjugate for the past tense like English verbs do. Placing 了 at the end of a sentence or right after the verb shows that an action is complete or a situation has changed."
+    },
     "examples": [
       {
         "hanzi": "我吃了。",
         "pinyin": "Wǒ chī le.",
-        "meaning": "私は食べました。"
+        "meaning": {
+          "ja": "私は食べました。",
+          "en": "I ate. / I've eaten."
+        }
       },
       {
         "hanzi": "他走了。",
         "pinyin": "Tā zǒu le.",
-        "meaning": "彼は行ってしまいました。"
+        "meaning": {
+          "ja": "彼は行ってしまいました。",
+          "en": "He left."
+        }
       },
       {
         "hanzi": "天气冷了。",
         "pinyin": "Tiānqì lěng le.",
-        "meaning": "天気が寒くなりました。"
+        "meaning": {
+          "ja": "天気が寒くなりました。",
+          "en": "The weather has turned cold."
+        }
       }
     ]
   },
   {
     "id": "tense-aspect-002",
-    "title": "「过」で経験を表す",
-    "englishGrammarRef": "現在完了(経験)",
+    "title": {
+      "ja": "「过」で経験を表す",
+      "en": "Using 过 (guo) to express experience"
+    },
+    "englishGrammarRef": {
+      "ja": "現在完了(経験)",
+      "en": "Present perfect (experience)"
+    },
     "category": "tense-aspect",
-    "pattern": "V + 过",
-    "explanationJa": "「〜したことがある」という経験は、動詞の後ろに「过(guo)」を付けて表します。英語のhave doneの経験用法に近い感覚です。",
+    "pattern": {
+      "ja": "V + 过",
+      "en": "V + 过"
+    },
+    "explanation": {
+      "ja": "「〜したことがある」という経験は、動詞の後ろに「过(guo)」を付けて表します。英語のhave doneの経験用法に近い感覚です。",
+      "en": "To say ‘have done ~ before’, attach 过 (guo) after the verb. It's similar to the experiential use of the present perfect (‘have done’) in English."
+    },
     "examples": [
       {
         "hanzi": "我去过中国。",
         "pinyin": "Wǒ qùguo Zhōngguó.",
-        "meaning": "私は中国に行ったことがあります。"
+        "meaning": {
+          "ja": "私は中国に行ったことがあります。",
+          "en": "I have been to China."
+        }
       },
       {
         "hanzi": "你吃过北京烤鸭吗?",
         "pinyin": "Nǐ chīguo Běijīng kǎoyā ma?",
-        "meaning": "北京ダックを食べたことがありますか?"
+        "meaning": {
+          "ja": "北京ダックを食べたことがありますか?",
+          "en": "Have you ever eaten Peking duck?"
+        }
       },
       {
         "hanzi": "我没看过这部电影。",
         "pinyin": "Wǒ méi kànguo zhè bù diànyǐng.",
-        "meaning": "私はこの映画を見たことがありません。"
+        "meaning": {
+          "ja": "私はこの映画を見たことがありません。",
+          "en": "I haven't seen this movie."
+        }
       }
     ]
   },
   {
     "id": "tense-aspect-003",
-    "title": "「已经…了」で完了を強調する",
-    "englishGrammarRef": "現在完了(すでに〜した)",
+    "title": {
+      "ja": "「已经…了」で完了を強調する",
+      "en": "Using 已经…了 to emphasize completion"
+    },
+    "englishGrammarRef": {
+      "ja": "現在完了(すでに〜した)",
+      "en": "Present perfect (already done)"
+    },
     "category": "tense-aspect",
-    "pattern": "已经 + V + 了",
-    "explanationJa": "「すでに〜した」という完了の強調は「已经(すでに)」と文末の「了」をセットで使います。",
+    "pattern": {
+      "ja": "已经 + V + 了",
+      "en": "已经 + V + 了"
+    },
+    "explanation": {
+      "ja": "「すでに〜した」という完了の強調は「已经(すでに)」と文末の「了」をセットで使います。",
+      "en": "To emphasize that something is ‘already done’, use 已经 (already) together with 了 at the end of the sentence."
+    },
     "examples": [
       {
         "hanzi": "我已经吃了。",
         "pinyin": "Wǒ yǐjīng chī le.",
-        "meaning": "私はもう食べました。"
+        "meaning": {
+          "ja": "私はもう食べました。",
+          "en": "I have already eaten."
+        }
       },
       {
         "hanzi": "他已经走了。",
         "pinyin": "Tā yǐjīng zǒu le.",
-        "meaning": "彼はもう行ってしまいました。"
+        "meaning": {
+          "ja": "彼はもう行ってしまいました。",
+          "en": "He has already left."
+        }
       },
       {
         "hanzi": "电影已经开始了。",
         "pinyin": "Diànyǐng yǐjīng kāishǐ le.",
-        "meaning": "映画はもう始まりました。"
+        "meaning": {
+          "ja": "映画はもう始まりました。",
+          "en": "The movie has already started."
+        }
       }
     ]
   },
   {
     "id": "tense-aspect-004",
-    "title": "「在」で動作の進行を表す",
-    "englishGrammarRef": "現在進行形",
+    "title": {
+      "ja": "「在」で動作の進行を表す",
+      "en": "Using 在 to show an action in progress"
+    },
+    "englishGrammarRef": {
+      "ja": "現在進行形",
+      "en": "Present continuous"
+    },
     "category": "tense-aspect",
-    "pattern": "在 + V (+呢)",
-    "explanationJa": "「〜している」という進行形は動詞の前に「在」を置いて表します。文末に「呢」を添えるとより口語的になります。",
+    "pattern": {
+      "ja": "在 + V (+呢)",
+      "en": "在 + V (+呢)"
+    },
+    "explanation": {
+      "ja": "「〜している」という進行形は動詞の前に「在」を置いて表します。文末に「呢」を添えるとより口語的になります。",
+      "en": "To express ‘~ing’ (an action in progress), place 在 before the verb. Adding 呢 at the end makes it sound more conversational."
+    },
     "examples": [
       {
         "hanzi": "我在吃饭。",
         "pinyin": "Wǒ zài chīfàn.",
-        "meaning": "私はご飯を食べています。"
+        "meaning": {
+          "ja": "私はご飯を食べています。",
+          "en": "I am eating."
+        }
       },
       {
         "hanzi": "他在看电视呢。",
         "pinyin": "Tā zài kàn diànshì ne.",
-        "meaning": "彼はテレビを見ています。"
+        "meaning": {
+          "ja": "彼はテレビを見ています。",
+          "en": "He is watching TV."
+        }
       },
       {
         "hanzi": "你在做什么?",
         "pinyin": "Nǐ zài zuò shénme?",
-        "meaning": "あなたは何をしていますか?"
+        "meaning": {
+          "ja": "あなたは何をしていますか?",
+          "en": "What are you doing?"
+        }
       }
     ]
   },
   {
     "id": "tense-aspect-005",
-    "title": "「着」で状態の持続を表す",
-    "englishGrammarRef": "状態の持続",
+    "title": {
+      "ja": "「着」で状態の持続を表す",
+      "en": "Using 着 to show a state continuing"
+    },
+    "englishGrammarRef": {
+      "ja": "状態の持続",
+      "en": "Continuing state"
+    },
     "category": "tense-aspect",
-    "pattern": "V + 着",
-    "explanationJa": "動作の結果として生じた状態がそのまま続いていることを表すには、動詞の後ろに「着」を付けます。",
+    "pattern": {
+      "ja": "V + 着",
+      "en": "V + 着"
+    },
+    "explanation": {
+      "ja": "動作の結果として生じた状態がそのまま続いていることを表すには、動詞の後ろに「着」を付けます。",
+      "en": "To show that a state resulting from an action is continuing, attach 着 after the verb."
+    },
     "examples": [
       {
         "hanzi": "门开着。",
         "pinyin": "Mén kāizhe.",
-        "meaning": "ドアが開いています。"
+        "meaning": {
+          "ja": "ドアが開いています。",
+          "en": "The door is open."
+        }
       },
       {
         "hanzi": "他坐着看书。",
         "pinyin": "Tā zuòzhe kàn shū.",
-        "meaning": "彼は座って本を読んでいます。"
+        "meaning": {
+          "ja": "彼は座って本を読んでいます。",
+          "en": "He is sitting and reading a book."
+        }
       },
       {
         "hanzi": "墙上挂着一幅画。",
         "pinyin": "Qiáng shàng guàzhe yì fú huà.",
-        "meaning": "壁に絵が一枚かかっています。"
+        "meaning": {
+          "ja": "壁に絵が一枚かかっています。",
+          "en": "A painting is hanging on the wall."
+        }
       }
     ]
   },
   {
     "id": "negation-001",
-    "title": "「不」と「没(有)」の使い分け",
-    "englishGrammarRef": "否定文(be動詞/一般動詞)",
+    "title": {
+      "ja": "「不」と「没(有)」の使い分け",
+      "en": "Choosing between 不 and 没(有)"
+    },
+    "englishGrammarRef": {
+      "ja": "否定文(be動詞/一般動詞)",
+      "en": "Negation (to be / general verbs)"
+    },
     "category": "negation",
-    "pattern": "不/没(有) + V",
-    "explanationJa": "現在・未来・習慣・意志の否定には「不」、過去の事象や「まだ〜していない」には「没(有)」を使います。",
+    "pattern": {
+      "ja": "不/没(有) + V",
+      "en": "不/没(有) + V"
+    },
+    "explanation": {
+      "ja": "現在・未来・習慣・意志の否定には「不」、過去の事象や「まだ〜していない」には「没(有)」を使います。",
+      "en": "Use 不 to negate the present, future, habits, or intentions. Use 没(有) for past events or ‘haven't done ~ yet’."
+    },
     "examples": [
       {
         "hanzi": "我不吃辣的。",
         "pinyin": "Wǒ bù chī là de.",
-        "meaning": "私は辛いものを食べません。"
+        "meaning": {
+          "ja": "私は辛いものを食べません。",
+          "en": "I don't eat spicy food."
+        }
       },
       {
         "hanzi": "我没吃早饭。",
         "pinyin": "Wǒ méi chī zǎofàn.",
-        "meaning": "私は朝食を食べていません。"
+        "meaning": {
+          "ja": "私は朝食を食べていません。",
+          "en": "I haven't eaten breakfast."
+        }
       },
       {
         "hanzi": "他不是学生。",
         "pinyin": "Tā bú shì xuésheng.",
-        "meaning": "彼は学生ではありません。"
+        "meaning": {
+          "ja": "彼は学生ではありません。",
+          "en": "He is not a student."
+        }
       }
     ]
   },
   {
     "id": "negation-002",
-    "title": "「别/不要」で禁止を表す",
-    "englishGrammarRef": "禁止命令(Don't~)",
+    "title": {
+      "ja": "「别/不要」で禁止を表す",
+      "en": "Using 别/不要 to express prohibition"
+    },
+    "englishGrammarRef": {
+      "ja": "禁止命令(Don't~)",
+      "en": "Prohibitive commands (Don't ~)"
+    },
     "category": "negation",
-    "pattern": "别/不要 + V",
-    "explanationJa": "「〜しないで」という禁止・命令は、動詞の前に「别」または「不要」を置いて表します。",
+    "pattern": {
+      "ja": "别/不要 + V",
+      "en": "别/不要 + V"
+    },
+    "explanation": {
+      "ja": "「〜しないで」という禁止・命令は、動詞の前に「别」または「不要」を置いて表します。",
+      "en": "To say ‘don't ~’ as a prohibition or command, place 别 or 不要 before the verb."
+    },
     "examples": [
       {
         "hanzi": "别担心。",
         "pinyin": "Bié dānxīn.",
-        "meaning": "心配しないで。"
+        "meaning": {
+          "ja": "心配しないで。",
+          "en": "Don't worry."
+        }
       },
       {
         "hanzi": "不要迟到。",
         "pinyin": "Bú yào chídào.",
-        "meaning": "遅刻しないでください。"
+        "meaning": {
+          "ja": "遅刻しないでください。",
+          "en": "Don't be late."
+        }
       },
       {
         "hanzi": "别说话。",
         "pinyin": "Bié shuōhuà.",
-        "meaning": "しゃべらないで。"
+        "meaning": {
+          "ja": "しゃべらないで。",
+          "en": "Don't talk."
+        }
       }
     ]
   },
   {
     "id": "question-001",
-    "title": "文末の「吗」で疑問文を作る",
-    "englishGrammarRef": "Yes/No疑問文",
+    "title": {
+      "ja": "文末の「吗」で疑問文を作る",
+      "en": "Using 吗 at the end of a sentence to make a yes/no question"
+    },
+    "englishGrammarRef": {
+      "ja": "Yes/No疑問文",
+      "en": "Yes/no questions"
+    },
     "category": "question",
-    "pattern": "… + 吗?",
-    "explanationJa": "英語のようにDo/Doesを使ったり語順を変えたりする必要はありません。平叙文の文末に「吗」を付けるだけでYes/No疑問文になります。",
+    "pattern": {
+      "ja": "… + 吗?",
+      "en": "… + 吗?"
+    },
+    "explanation": {
+      "ja": "英語のようにDo/Doesを使ったり語順を変えたりする必要はありません。平叙文の文末に「吗」を付けるだけでYes/No疑問文になります。",
+      "en": "You don't need to use do/does or change word order like in English. Just add 吗 to the end of a statement to make it a yes/no question."
+    },
     "examples": [
       {
         "hanzi": "你是学生吗?",
         "pinyin": "Nǐ shì xuésheng ma?",
-        "meaning": "あなたは学生ですか?"
+        "meaning": {
+          "ja": "あなたは学生ですか?",
+          "en": "Are you a student?"
+        }
       },
       {
         "hanzi": "你吃饭了吗?",
         "pinyin": "Nǐ chīfàn le ma?",
-        "meaning": "ご飯を食べましたか?"
+        "meaning": {
+          "ja": "ご飯を食べましたか?",
+          "en": "Have you eaten?"
+        }
       },
       {
         "hanzi": "明天下雨吗?",
         "pinyin": "Míngtiān xiàyǔ ma?",
-        "meaning": "明日は雨が降りますか?"
+        "meaning": {
+          "ja": "明日は雨が降りますか?",
+          "en": "Will it rain tomorrow?"
+        }
       }
     ]
   },
   {
     "id": "question-002",
-    "title": "疑問詞は語順を変えずそのまま使う",
-    "englishGrammarRef": "疑問詞疑問文(5W1H)",
+    "title": {
+      "ja": "疑問詞は語順を変えずそのまま使う",
+      "en": "Question words stay in place, without changing word order"
+    },
+    "englishGrammarRef": {
+      "ja": "疑問詞疑問文(5W1H)",
+      "en": "Wh-questions (5W1H)"
+    },
     "category": "question",
-    "pattern": "… + 疑問詞 + …?",
-    "explanationJa": "英語では疑問詞を文頭に移動しますが、中国語では疑問詞をそのまま答えの位置に置くだけで語順は変わりません。",
+    "pattern": {
+      "ja": "… + 疑問詞 + …?",
+      "en": "… + question word + …?"
+    },
+    "explanation": {
+      "ja": "英語では疑問詞を文頭に移動しますが、中国語では疑問詞をそのまま答えの位置に置くだけで語順は変わりません。",
+      "en": "In English, question words move to the front of the sentence. In Chinese, you simply put the question word where the answer would go — word order doesn't change."
+    },
     "examples": [
       {
         "hanzi": "你叫什么名字?",
         "pinyin": "Nǐ jiào shénme míngzi?",
-        "meaning": "あなたの名前は何ですか?"
+        "meaning": {
+          "ja": "あなたの名前は何ですか?",
+          "en": "What is your name?"
+        }
       },
       {
         "hanzi": "他是谁?",
         "pinyin": "Tā shì shéi?",
-        "meaning": "彼は誰ですか?"
+        "meaning": {
+          "ja": "彼は誰ですか?",
+          "en": "Who is he?"
+        }
       },
       {
         "hanzi": "你什么时候来?",
         "pinyin": "Nǐ shénme shíhou lái?",
-        "meaning": "あなたはいつ来ますか?"
+        "meaning": {
+          "ja": "あなたはいつ来ますか?",
+          "en": "When are you coming?"
+        }
       }
     ]
   },
   {
     "id": "question-003",
-    "title": "「A还是B」で選択疑問文を作る",
-    "englishGrammarRef": "選択疑問文(or)",
+    "title": {
+      "ja": "「A还是B」で選択疑問文を作る",
+      "en": "Using A还是B to make an alternative question"
+    },
+    "englishGrammarRef": {
+      "ja": "選択疑問文(or)",
+      "en": "Alternative questions (or)"
+    },
     "category": "question",
-    "pattern": "A + 还是 + B?",
-    "explanationJa": "「AそれともB」という選択を尋ねる疑問文は、「A还是B」という形で作ります。",
+    "pattern": {
+      "ja": "A + 还是 + B?",
+      "en": "A + 还是 + B?"
+    },
+    "explanation": {
+      "ja": "「AそれともB」という選択を尋ねる疑問文は、「A还是B」という形で作ります。",
+      "en": "To ask ‘A or B’, use the pattern ‘A 还是 B’."
+    },
     "examples": [
       {
         "hanzi": "你要咖啡还是茶?",
         "pinyin": "Nǐ yào kāfēi háishi chá?",
-        "meaning": "コーヒーとお茶どちらにしますか?"
+        "meaning": {
+          "ja": "コーヒーとお茶どちらにしますか?",
+          "en": "Would you like coffee or tea?"
+        }
       },
       {
         "hanzi": "你去还是不去?",
         "pinyin": "Nǐ qù háishi bú qù?",
-        "meaning": "行きますか行きませんか?"
+        "meaning": {
+          "ja": "行きますか行きませんか?",
+          "en": "Are you going or not?"
+        }
       },
       {
         "hanzi": "这是你的还是他的?",
         "pinyin": "Zhè shì nǐ de háishi tā de?",
-        "meaning": "これはあなたのですか彼のですか?"
+        "meaning": {
+          "ja": "これはあなたのですか彼のですか?",
+          "en": "Is this yours or his?"
+        }
       }
     ]
   },
   {
     "id": "question-004",
-    "title": "「呢」で省略疑問文を作る",
-    "englishGrammarRef": "付加疑問文",
+    "title": {
+      "ja": "「呢」で省略疑問文を作る",
+      "en": "Using 呢 to make an abbreviated question"
+    },
+    "englishGrammarRef": {
+      "ja": "付加疑問文",
+      "en": "Tag questions"
+    },
     "category": "question",
-    "pattern": "N + 呢?",
-    "explanationJa": "「〜は?」と前の話題を受けて簡潔に尋ねる場合は、名詞の後ろに「呢」を置きます。英語のAnd you?に近い感覚です。",
+    "pattern": {
+      "ja": "N + 呢?",
+      "en": "N + 呢?"
+    },
+    "explanation": {
+      "ja": "「〜は?」と前の話題を受けて簡潔に尋ねる場合は、名詞の後ろに「呢」を置きます。英語のAnd you?に近い感覚です。",
+      "en": "To briefly ask ‘what about ~?’ referring back to something already mentioned, put 呢 after a noun. It's similar to ‘And you?’ in English."
+    },
     "examples": [
       {
         "hanzi": "我很好,你呢?",
         "pinyin": "Wǒ hěn hǎo, nǐ ne?",
-        "meaning": "私は元気です、あなたは?"
+        "meaning": {
+          "ja": "私は元気です、あなたは?",
+          "en": "I'm fine, and you?"
+        }
       },
       {
         "hanzi": "我要咖啡,你呢?",
         "pinyin": "Wǒ yào kāfēi, nǐ ne?",
-        "meaning": "私はコーヒーにします、あなたは?"
+        "meaning": {
+          "ja": "私はコーヒーにします、あなたは?",
+          "en": "I'll have coffee, and you?"
+        }
       },
       {
         "hanzi": "他去,我呢?",
         "pinyin": "Tā qù, wǒ ne?",
-        "meaning": "彼は行きます、私は?"
+        "meaning": {
+          "ja": "彼は行きます、私は?",
+          "en": "He's going — what about me?"
+        }
       }
     ]
   },
   {
     "id": "exclamation-001",
-    "title": "「太…了」「真」で感嘆を表す",
-    "englishGrammarRef": "What a~! / How~!",
+    "title": {
+      "ja": "「太…了」「真」で感嘆を表す",
+      "en": "Using 太…了 and 真 to express exclamation"
+    },
+    "englishGrammarRef": {
+      "ja": "What a~! / How~!",
+      "en": "What a ~! / How ~!"
+    },
     "category": "exclamation",
-    "pattern": "太 + 形容詞 + 了!",
-    "explanationJa": "「なんて〜なんだ!」という感嘆は、形容詞を「太…了」や「真」で挟んで強調します。",
+    "pattern": {
+      "ja": "太 + 形容詞 + 了!",
+      "en": "太 + adjective + 了!"
+    },
+    "explanation": {
+      "ja": "「なんて〜なんだ!」という感嘆は、形容詞を「太…了」や「真」で挟んで強調します。",
+      "en": "To exclaim ‘how ~ it is!’, sandwich the adjective between 太 and 了, or use 真 for emphasis."
+    },
     "examples": [
       {
         "hanzi": "太好了!",
         "pinyin": "Tài hǎo le!",
-        "meaning": "なんて素晴らしいんだ!"
+        "meaning": {
+          "ja": "なんて素晴らしいんだ!",
+          "en": "That's wonderful!"
+        }
       },
       {
         "hanzi": "今天真热!",
         "pinyin": "Jīntiān zhēn rè!",
-        "meaning": "今日は本当に暑い!"
+        "meaning": {
+          "ja": "今日は本当に暑い!",
+          "en": "It's really hot today!"
+        }
       },
       {
         "hanzi": "这个太贵了!",
         "pinyin": "Zhège tài guì le!",
-        "meaning": "これは高すぎる!"
+        "meaning": {
+          "ja": "これは高すぎる!",
+          "en": "This is too expensive!"
+        }
       }
     ]
   },
   {
     "id": "exclamation-002",
-    "title": "「多么…啊」で感嘆を表す",
-    "englishGrammarRef": "感嘆のバリエーション",
+    "title": {
+      "ja": "「多么…啊」で感嘆を表す",
+      "en": "Using 多么…啊 to express exclamation"
+    },
+    "englishGrammarRef": {
+      "ja": "感嘆のバリエーション",
+      "en": "Exclamation variations"
+    },
     "category": "exclamation",
-    "pattern": "多么 + 形容詞 + 啊!",
-    "explanationJa": "よりフォーマル・文学的な感嘆表現には「多么…啊」を使います。英語のHow beautiful it is!のニュアンスに近い形です。",
+    "pattern": {
+      "ja": "多么 + 形容詞 + 啊!",
+      "en": "多么 + adjective + 啊!"
+    },
+    "explanation": {
+      "ja": "よりフォーマル・文学的な感嘆表現には「多么…啊」を使います。英語のHow beautiful it is!のニュアンスに近い形です。",
+      "en": "For a more formal or literary exclamation, use 多么…啊. It's close in nuance to ‘How beautiful it is!’ in English."
+    },
     "examples": [
       {
         "hanzi": "这里的风景多么美啊!",
         "pinyin": "Zhèlǐ de fēngjǐng duōme měi a!",
-        "meaning": "ここの景色はなんて美しいんだ!"
+        "meaning": {
+          "ja": "ここの景色はなんて美しいんだ!",
+          "en": "How beautiful the scenery here is!"
+        }
       },
       {
         "hanzi": "他多么努力啊!",
         "pinyin": "Tā duōme nǔlì a!",
-        "meaning": "彼はなんて努力家なんだ!"
+        "meaning": {
+          "ja": "彼はなんて努力家なんだ!",
+          "en": "How hard-working he is!"
+        }
       },
       {
         "hanzi": "时间过得多么快啊!",
         "pinyin": "Shíjiān guò de duōme kuài a!",
-        "meaning": "時間が経つのはなんて早いんだ!"
+        "meaning": {
+          "ja": "時間が経つのはなんて早いんだ!",
+          "en": "How fast time flies!"
+        }
       }
     ]
   },
   {
     "id": "comparison-001",
-    "title": "「比」で比較を表す",
-    "englishGrammarRef": "比較級(-er/more)",
+    "title": {
+      "ja": "「比」で比較を表す",
+      "en": "Using 比 to make a comparison"
+    },
+    "englishGrammarRef": {
+      "ja": "比較級(-er/more)",
+      "en": "Comparative (-er / more)"
+    },
     "category": "comparison",
-    "pattern": "A + 比 + B + 形容詞",
-    "explanationJa": "「AはBより〜だ」という比較には「A比B+形容詞」という形を使います。",
+    "pattern": {
+      "ja": "A + 比 + B + 形容詞",
+      "en": "A + 比 + B + adjective"
+    },
+    "explanation": {
+      "ja": "「AはBより〜だ」という比較には「A比B+形容詞」という形を使います。",
+      "en": "To say ‘A is more ~ than B’, use the pattern ‘A 比 B + adjective’."
+    },
     "examples": [
       {
         "hanzi": "我比他高。",
         "pinyin": "Wǒ bǐ tā gāo.",
-        "meaning": "私は彼より背が高いです。"
+        "meaning": {
+          "ja": "私は彼より背が高いです。",
+          "en": "I am taller than him."
+        }
       },
       {
         "hanzi": "今天比昨天冷。",
         "pinyin": "Jīntiān bǐ zuótiān lěng.",
-        "meaning": "今日は昨日より寒いです。"
+        "meaning": {
+          "ja": "今日は昨日より寒いです。",
+          "en": "Today is colder than yesterday."
+        }
       },
       {
         "hanzi": "这个比那个贵。",
         "pinyin": "Zhège bǐ nàge guì.",
-        "meaning": "これはあれより高いです。"
+        "meaning": {
+          "ja": "これはあれより高いです。",
+          "en": "This one is more expensive than that one."
+        }
       }
     ]
   },
   {
     "id": "comparison-002",
-    "title": "「最」で最上級を表す",
-    "englishGrammarRef": "最上級",
+    "title": {
+      "ja": "「最」で最上級を表す",
+      "en": "Using 最 to express the superlative"
+    },
+    "englishGrammarRef": {
+      "ja": "最上級",
+      "en": "Superlative"
+    },
     "category": "comparison",
-    "pattern": "最 + 形容詞",
-    "explanationJa": "「一番〜だ」という最上級は、形容詞の前に「最」を置くだけで表せます。",
+    "pattern": {
+      "ja": "最 + 形容詞",
+      "en": "最 + adjective"
+    },
+    "explanation": {
+      "ja": "「一番〜だ」という最上級は、形容詞の前に「最」を置くだけで表せます。",
+      "en": "To say ‘the most ~’, simply place 最 before the adjective."
+    },
     "examples": [
       {
         "hanzi": "他是最高的。",
         "pinyin": "Tā shì zuì gāo de.",
-        "meaning": "彼が一番背が高いです。"
+        "meaning": {
+          "ja": "彼が一番背が高いです。",
+          "en": "He is the tallest."
+        }
       },
       {
         "hanzi": "这是最好的办法。",
         "pinyin": "Zhè shì zuì hǎo de bànfǎ.",
-        "meaning": "これが一番良い方法です。"
+        "meaning": {
+          "ja": "これが一番良い方法です。",
+          "en": "This is the best method."
+        }
       },
       {
         "hanzi": "我最喜欢夏天。",
         "pinyin": "Wǒ zuì xǐhuan xiàtiān.",
-        "meaning": "私は夏が一番好きです。"
+        "meaning": {
+          "ja": "私は夏が一番好きです。",
+          "en": "I like summer the best."
+        }
       }
     ]
   },
   {
     "id": "comparison-003",
-    "title": "「跟…一样」で同等比較を表す",
-    "englishGrammarRef": "同等比較(as~as)",
+    "title": {
+      "ja": "「跟…一样」で同等比較を表す",
+      "en": "Using 跟…一样 to express equal comparison"
+    },
+    "englishGrammarRef": {
+      "ja": "同等比較(as~as)",
+      "en": "Equal comparison (as ~ as)"
+    },
     "category": "comparison",
-    "pattern": "A + 跟 + B + 一样 + 形容詞",
-    "explanationJa": "「AはBと同じくらい〜だ」という同等比較は「跟…一样」という形を使います。",
+    "pattern": {
+      "ja": "A + 跟 + B + 一样 + 形容詞",
+      "en": "A + 跟 + B + 一样 + adjective"
+    },
+    "explanation": {
+      "ja": "「AはBと同じくらい〜だ」という同等比較は「跟…一样」という形を使います。",
+      "en": "To say ‘A is as ~ as B’, use the pattern 跟…一样."
+    },
     "examples": [
       {
         "hanzi": "我跟他一样高。",
         "pinyin": "Wǒ gēn tā yíyàng gāo.",
-        "meaning": "私は彼と同じくらいの背の高さです。"
+        "meaning": {
+          "ja": "私は彼と同じくらいの背の高さです。",
+          "en": "I am as tall as him."
+        }
       },
       {
         "hanzi": "这个跟那个一样贵。",
         "pinyin": "Zhège gēn nàge yíyàng guì.",
-        "meaning": "これはあれと同じ値段です。"
+        "meaning": {
+          "ja": "これはあれと同じ値段です。",
+          "en": "This one costs the same as that one."
+        }
       },
       {
         "hanzi": "今天跟昨天一样热。",
         "pinyin": "Jīntiān gēn zuótiān yíyàng rè.",
-        "meaning": "今日は昨日と同じくらい暑いです。"
+        "meaning": {
+          "ja": "今日は昨日と同じくらい暑いです。",
+          "en": "Today is as hot as yesterday."
+        }
       }
     ]
   },
   {
     "id": "comparison-004",
-    "title": "「越来越」で変化の程度を表す",
-    "englishGrammarRef": "だんだん〜になる",
+    "title": {
+      "ja": "「越来越」で変化の程度を表す",
+      "en": "Using 越来越 to express a degree of change"
+    },
+    "englishGrammarRef": {
+      "ja": "だんだん〜になる",
+      "en": "Getting more and more ~"
+    },
     "category": "comparison",
-    "pattern": "越来越 + 形容詞",
-    "explanationJa": "「だんだん〜になっていく」という変化の進行は、形容詞の前に「越来越」を置いて表します。",
+    "pattern": {
+      "ja": "越来越 + 形容詞",
+      "en": "越来越 + adjective"
+    },
+    "explanation": {
+      "ja": "「だんだん〜になっていく」という変化の進行は、形容詞の前に「越来越」を置いて表します。",
+      "en": "To express an ongoing change like ‘getting more and more ~’, place 越来越 before the adjective."
+    },
     "examples": [
       {
         "hanzi": "天气越来越冷了。",
         "pinyin": "Tiānqì yuè lái yuè lěng le.",
-        "meaning": "天気がだんだん寒くなってきました。"
+        "meaning": {
+          "ja": "天気がだんだん寒くなってきました。",
+          "en": "The weather is getting colder and colder."
+        }
       },
       {
         "hanzi": "他越来越忙。",
         "pinyin": "Tā yuè lái yuè máng.",
-        "meaning": "彼はだんだん忙しくなっています。"
+        "meaning": {
+          "ja": "彼はだんだん忙しくなっています。",
+          "en": "He is getting busier and busier."
+        }
       },
       {
         "hanzi": "我的中文越来越好了。",
         "pinyin": "Wǒ de Zhōngwén yuè lái yuè hǎo le.",
-        "meaning": "私の中国語はだんだん上手になってきました。"
+        "meaning": {
+          "ja": "私の中国語はだんだん上手になってきました。",
+          "en": "My Chinese is getting better and better."
+        }
       }
     ]
   },
   {
     "id": "modal-001",
-    "title": "「会」と「能」の使い分け",
-    "englishGrammarRef": "can/be able to",
+    "title": {
+      "ja": "「会」と「能」の使い分け",
+      "en": "Choosing between 会 and 能"
+    },
+    "englishGrammarRef": {
+      "ja": "can/be able to",
+      "en": "can / be able to"
+    },
     "category": "modal",
-    "pattern": "会/能 + V",
-    "explanationJa": "習得して「〜できる」は「会」、状況的・能力的に「〜できる」は「能」を使います。",
+    "pattern": {
+      "ja": "会/能 + V",
+      "en": "会/能 + V"
+    },
+    "explanation": {
+      "ja": "習得して「〜できる」は「会」、状況的・能力的に「〜できる」は「能」を使います。",
+      "en": "Use 会 for ‘can’ in the sense of having learned a skill, and 能 for ‘can’ in the sense of being able to due to circumstances or ability."
+    },
     "examples": [
       {
         "hanzi": "我会说中文。",
         "pinyin": "Wǒ huì shuō Zhōngwén.",
-        "meaning": "私は中国語を話せます。"
+        "meaning": {
+          "ja": "私は中国語を話せます。",
+          "en": "I can speak Chinese."
+        }
       },
       {
         "hanzi": "我今天不能去。",
         "pinyin": "Wǒ jīntiān bù néng qù.",
-        "meaning": "私は今日行けません。"
+        "meaning": {
+          "ja": "私は今日行けません。",
+          "en": "I can't go today."
+        }
       },
       {
         "hanzi": "你会游泳吗?",
         "pinyin": "Nǐ huì yóuyǒng ma?",
-        "meaning": "泳げますか?"
+        "meaning": {
+          "ja": "泳げますか?",
+          "en": "Can you swim?"
+        }
       }
     ]
   },
   {
     "id": "modal-002",
-    "title": "「可以」で許可を表す",
-    "englishGrammarRef": "may/can(許可)",
+    "title": {
+      "ja": "「可以」で許可を表す",
+      "en": "Using 可以 to express permission"
+    },
+    "englishGrammarRef": {
+      "ja": "may/can(許可)",
+      "en": "may / can (permission)"
+    },
     "category": "modal",
-    "pattern": "可以 + V",
-    "explanationJa": "「〜してもよい」という許可は「可以」を使います。疑問文にすれば「〜してもいいですか?」という丁寧な依頼にもなります。",
+    "pattern": {
+      "ja": "可以 + V",
+      "en": "可以 + V"
+    },
+    "explanation": {
+      "ja": "「〜してもよい」という許可は「可以」を使います。疑問文にすれば「〜してもいいですか?」という丁寧な依頼にもなります。",
+      "en": "Use 可以 to say ‘may ~’ (permission). As a question, it also becomes a polite request meaning ‘may I ~?’."
+    },
     "examples": [
       {
         "hanzi": "我可以进来吗?",
         "pinyin": "Wǒ kěyǐ jìnlái ma?",
-        "meaning": "入ってもいいですか?"
+        "meaning": {
+          "ja": "入ってもいいですか?",
+          "en": "May I come in?"
+        }
       },
       {
         "hanzi": "这里可以拍照。",
         "pinyin": "Zhèlǐ kěyǐ pāizhào.",
-        "meaning": "ここは写真を撮ってもいいです。"
+        "meaning": {
+          "ja": "ここは写真を撮ってもいいです。",
+          "en": "You can take photos here."
+        }
       },
       {
         "hanzi": "你可以坐这里。",
         "pinyin": "Nǐ kěyǐ zuò zhèlǐ.",
-        "meaning": "ここに座ってもいいですよ。"
+        "meaning": {
+          "ja": "ここに座ってもいいですよ。",
+          "en": "You may sit here."
+        }
       }
     ]
   },
   {
     "id": "modal-003",
-    "title": "「要/得」で義務を表す",
-    "englishGrammarRef": "must/have to",
+    "title": {
+      "ja": "「要/得」で義務を表す",
+      "en": "Using 要/得 to express obligation"
+    },
+    "englishGrammarRef": {
+      "ja": "must/have to",
+      "en": "must / have to"
+    },
     "category": "modal",
-    "pattern": "要/得 + V",
-    "explanationJa": "「〜しなければならない」という義務は「要」や「得(děi)」で表します。「得」の方がより口語的です。",
+    "pattern": {
+      "ja": "要/得 + V",
+      "en": "要/得 + V"
+    },
+    "explanation": {
+      "ja": "「〜しなければならない」という義務は「要」や「得(děi)」で表します。「得」の方がより口語的です。",
+      "en": "To say ‘must ~’, use 要 or 得 (děi). 得 is more colloquial."
+    },
     "examples": [
       {
         "hanzi": "我要走了。",
         "pinyin": "Wǒ yào zǒu le.",
-        "meaning": "私はもう行かなければなりません。"
+        "meaning": {
+          "ja": "私はもう行かなければなりません。",
+          "en": "I have to go now."
+        }
       },
       {
         "hanzi": "我们得早点出发。",
         "pinyin": "Wǒmen děi zǎodiǎn chūfā.",
-        "meaning": "私たちは早く出発しなければなりません。"
+        "meaning": {
+          "ja": "私たちは早く出発しなければなりません。",
+          "en": "We have to leave early."
+        }
       },
       {
         "hanzi": "你要注意安全。",
         "pinyin": "Nǐ yào zhùyì ānquán.",
-        "meaning": "安全に気をつけなければなりません。"
+        "meaning": {
+          "ja": "安全に気をつけなければなりません。",
+          "en": "You must be careful for your safety."
+        }
       }
     ]
   },
   {
     "id": "modal-004",
-    "title": "「应该」で当然・提案を表す",
-    "englishGrammarRef": "should",
+    "title": {
+      "ja": "「应该」で当然・提案を表す",
+      "en": "Using 应该 to express what's natural or a suggestion"
+    },
+    "englishGrammarRef": {
+      "ja": "should",
+      "en": "should"
+    },
     "category": "modal",
-    "pattern": "应该 + V",
-    "explanationJa": "「〜すべきだ」という当然・提案は「应该」を使います。",
+    "pattern": {
+      "ja": "应该 + V",
+      "en": "应该 + V"
+    },
+    "explanation": {
+      "ja": "「〜すべきだ」という当然・提案は「应该」を使います。",
+      "en": "Use 应该 to say ‘should ~’ as a natural expectation or suggestion."
+    },
     "examples": [
       {
         "hanzi": "你应该多休息。",
         "pinyin": "Nǐ yīnggāi duō xiūxi.",
-        "meaning": "あなたはもっと休むべきです。"
+        "meaning": {
+          "ja": "あなたはもっと休むべきです。",
+          "en": "You should rest more."
+        }
       },
       {
         "hanzi": "我们应该准时到。",
         "pinyin": "Wǒmen yīnggāi zhǔnshí dào.",
-        "meaning": "私たちは時間通りに着くべきです。"
+        "meaning": {
+          "ja": "私たちは時間通りに着くべきです。",
+          "en": "We should arrive on time."
+        }
       },
       {
         "hanzi": "这件事应该告诉他。",
         "pinyin": "Zhè jiàn shì yīnggāi gàosu tā.",
-        "meaning": "この件は彼に伝えるべきです。"
+        "meaning": {
+          "ja": "この件は彼に伝えるべきです。",
+          "en": "You should tell him about this."
+        }
       }
     ]
   },
   {
     "id": "complement-001",
-    "title": "連動文で目的を表す(動詞1+動詞2)",
-    "englishGrammarRef": "to不定詞(目的)",
+    "title": {
+      "ja": "連動文で目的を表す(動詞1+動詞2)",
+      "en": "Serial verb construction to express purpose (verb 1 + verb 2)"
+    },
+    "englishGrammarRef": {
+      "ja": "to不定詞(目的)",
+      "en": "Infinitive of purpose (to ~)"
+    },
     "category": "complement",
-    "pattern": "V1 + V2(目的)",
-    "explanationJa": "英語のto不定詞(目的)にあたる「〜するために…する」は、中国語では動詞を2つ並べる連動文で表します(前の動作が後ろの動作の手段・目的)。",
+    "pattern": {
+      "ja": "V1 + V2(目的)",
+      "en": "V1 + V2 (purpose)"
+    },
+    "explanation": {
+      "ja": "英語のto不定詞(目的)にあたる「〜するために…する」は、中国語では動詞を2つ並べる連動文で表します(前の動作が後ろの動作の手段・目的)。",
+      "en": "What corresponds to the English infinitive of purpose (‘to do ~ in order to …’) is expressed in Chinese with two verbs placed one after another (the first action is the means or purpose of the second)."
+    },
     "examples": [
       {
         "hanzi": "我去超市买东西。",
         "pinyin": "Wǒ qù chāoshì mǎi dōngxi.",
-        "meaning": "私はスーパーへ買い物に行きます。"
+        "meaning": {
+          "ja": "私はスーパーへ買い物に行きます。",
+          "en": "I'm going to the supermarket to buy things."
+        }
       },
       {
         "hanzi": "他来中国学习中文。",
         "pinyin": "Tā lái Zhōngguó xuéxí Zhōngwén.",
-        "meaning": "彼は中国語を学ぶために中国に来ました。"
+        "meaning": {
+          "ja": "彼は中国語を学ぶために中国に来ました。",
+          "en": "He came to China to study Chinese."
+        }
       },
       {
         "hanzi": "我们坐地铁去公司。",
         "pinyin": "Wǒmen zuò dìtiě qù gōngsī.",
-        "meaning": "私たちは地下鉄に乗って会社へ行きます。"
+        "meaning": {
+          "ja": "私たちは地下鉄に乗って会社へ行きます。",
+          "en": "We take the subway to work."
+        }
       }
     ]
   },
   {
     "id": "complement-002",
-    "title": "「得」で程度・様態補語を作る",
-    "englishGrammarRef": "様態を表す副詞(well/fast)",
+    "title": {
+      "ja": "「得」で程度・様態補語を作る",
+      "en": "Using 得 to form a degree/manner complement"
+    },
+    "englishGrammarRef": {
+      "ja": "様態を表す副詞(well/fast)",
+      "en": "Adverbs of manner (well / fast)"
+    },
     "category": "complement",
-    "pattern": "V + 得 + 形容詞",
-    "explanationJa": "英語の副詞(wellやfast)にあたる「どのように〜するか」は、動詞の後ろに「得」を置き、その後ろに形容詞を続けて表します。",
+    "pattern": {
+      "ja": "V + 得 + 形容詞",
+      "en": "V + 得 + adjective"
+    },
+    "explanation": {
+      "ja": "英語の副詞(wellやfast)にあたる「どのように〜するか」は、動詞の後ろに「得」を置き、その後ろに形容詞を続けて表します。",
+      "en": "What corresponds to English adverbs like ‘well’ or ‘fast’ — describing how an action is done — is expressed by placing 得 after the verb, followed by an adjective."
+    },
     "examples": [
       {
         "hanzi": "他说得很好。",
         "pinyin": "Tā shuō de hěn hǎo.",
-        "meaning": "彼は上手に話します。"
+        "meaning": {
+          "ja": "彼は上手に話します。",
+          "en": "He speaks very well."
+        }
       },
       {
         "hanzi": "你跑得很快。",
         "pinyin": "Nǐ pǎo de hěn kuài.",
-        "meaning": "あなたは速く走ります。"
+        "meaning": {
+          "ja": "あなたは速く走ります。",
+          "en": "You run very fast."
+        }
       },
       {
         "hanzi": "她笑得很开心。",
         "pinyin": "Tā xiào de hěn kāixīn.",
-        "meaning": "彼女は楽しそうに笑います。"
+        "meaning": {
+          "ja": "彼女は楽しそうに笑います。",
+          "en": "She laughs happily."
+        }
       }
     ]
   },
   {
     "id": "complement-003",
-    "title": "結果補語(动词+完/好/懂など)",
-    "englishGrammarRef": "結果を表す表現",
+    "title": {
+      "ja": "結果補語(动词+完/好/懂など)",
+      "en": "Resultative complements (verb + 完/好/懂, etc.)"
+    },
+    "englishGrammarRef": {
+      "ja": "結果を表す表現",
+      "en": "Expressions of result"
+    },
     "category": "complement",
-    "pattern": "V + 结果補語(完/好/懂...)",
-    "explanationJa": "動作の結果どうなったかは、動詞の直後に別の動詞や形容詞(結果補語)をくっつけて表します。",
+    "pattern": {
+      "ja": "V + 结果補語(完/好/懂...)",
+      "en": "V + resultative complement (完/好/懂...)"
+    },
+    "explanation": {
+      "ja": "動作の結果どうなったかは、動詞の直後に別の動詞や形容詞(結果補語)をくっつけて表します。",
+      "en": "What resulted from an action is expressed by attaching another verb or adjective (a resultative complement) directly after the verb."
+    },
     "examples": [
       {
         "hanzi": "我吃完了。",
         "pinyin": "Wǒ chīwán le.",
-        "meaning": "私は食べ終わりました。"
+        "meaning": {
+          "ja": "私は食べ終わりました。",
+          "en": "I've finished eating."
+        }
       },
       {
         "hanzi": "你听懂了吗?",
         "pinyin": "Nǐ tīngdǒng le ma?",
-        "meaning": "聞いて理解できましたか?"
+        "meaning": {
+          "ja": "聞いて理解できましたか?",
+          "en": "Did you understand (by listening)?"
+        }
       },
       {
         "hanzi": "作业做好了。",
         "pinyin": "Zuòyè zuòhǎo le.",
-        "meaning": "宿題ができあがりました。"
+        "meaning": {
+          "ja": "宿題ができあがりました。",
+          "en": "The homework is done."
+        }
       }
     ]
   },
   {
     "id": "particle-001",
-    "title": "「被」で受け身を表す",
-    "englishGrammarRef": "受動態(be+過去分詞)",
+    "title": {
+      "ja": "「被」で受け身を表す",
+      "en": "Using 被 to express the passive voice"
+    },
+    "englishGrammarRef": {
+      "ja": "受動態(be+過去分詞)",
+      "en": "Passive voice (be + past participle)"
+    },
     "category": "particle",
-    "pattern": "S + 被 + (施動者) + V",
-    "explanationJa": "「〜される」という受け身は「被」を使います。「Aは(Bに)〜される」という形で、動作主(B)は省略も可能です。",
+    "pattern": {
+      "ja": "S + 被 + (施動者) + V",
+      "en": "S + 被 + (agent) + V"
+    },
+    "explanation": {
+      "ja": "「〜される」という受け身は「被」を使います。「Aは(Bに)〜される」という形で、動作主(B)は省略も可能です。",
+      "en": "Use 被 to express the passive, meaning ‘~ is done (by someone)’. In the pattern ‘A is done (by B)’, the agent (B) can be omitted."
+    },
     "examples": [
       {
         "hanzi": "我的手机被偷了。",
         "pinyin": "Wǒ de shǒujī bèi tōu le.",
-        "meaning": "私のスマホは盗まれました。"
+        "meaning": {
+          "ja": "私のスマホは盗まれました。",
+          "en": "My phone was stolen."
+        }
       },
       {
         "hanzi": "这本书被他借走了。",
         "pinyin": "Zhè běn shū bèi tā jièzǒu le.",
-        "meaning": "この本は彼に借りていかれました。"
+        "meaning": {
+          "ja": "この本は彼に借りていかれました。",
+          "en": "This book was borrowed by him."
+        }
       },
       {
         "hanzi": "窗户被风吹开了。",
         "pinyin": "Chuānghu bèi fēng chuīkāi le.",
-        "meaning": "窓は風で開けられました。"
+        "meaning": {
+          "ja": "窓は風で開けられました。",
+          "en": "The window was blown open by the wind."
+        }
       }
     ]
   },
   {
     "id": "particle-002",
-    "title": "「的」で名詞を修飾する",
-    "englishGrammarRef": "関係代名詞(who/which/that)",
+    "title": {
+      "ja": "「的」で名詞を修飾する",
+      "en": "Using 的 to modify a noun"
+    },
+    "englishGrammarRef": {
+      "ja": "関係代名詞(who/which/that)",
+      "en": "Relative pronouns (who / which / that)"
+    },
     "category": "particle",
-    "pattern": "(修飾語) + 的 + N",
-    "explanationJa": "英語の関係代名詞のように名詞を後ろから修飾するのではなく、中国語では修飾する内容を「的」でつないで名詞の前に置きます。",
+    "pattern": {
+      "ja": "(修飾語) + 的 + N",
+      "en": "(modifier) + 的 + N"
+    },
+    "explanation": {
+      "ja": "英語の関係代名詞のように名詞を後ろから修飾するのではなく、中国語では修飾する内容を「的」でつないで名詞の前に置きます。",
+      "en": "Unlike English relative pronouns, which modify a noun from behind, Chinese connects the modifying content with 的 and places it before the noun."
+    },
     "examples": [
       {
         "hanzi": "这是我昨天买的书。",
         "pinyin": "Zhè shì wǒ zuótiān mǎi de shū.",
-        "meaning": "これは私が昨日買った本です。"
+        "meaning": {
+          "ja": "これは私が昨日買った本です。",
+          "en": "This is the book I bought yesterday."
+        }
       },
       {
         "hanzi": "那个正在说话的人是我朋友。",
         "pinyin": "Nàge zhèngzài shuōhuà de rén shì wǒ péngyou.",
-        "meaning": "あそこで話しているその人は私の友達です。"
+        "meaning": {
+          "ja": "あそこで話しているその人は私の友達です。",
+          "en": "The person who is talking over there is my friend."
+        }
       },
       {
         "hanzi": "我喜欢的电影很多。",
         "pinyin": "Wǒ xǐhuan de diànyǐng hěn duō.",
-        "meaning": "私が好きな映画はたくさんあります。"
+        "meaning": {
+          "ja": "私が好きな映画はたくさんあります。",
+          "en": "There are many movies that I like."
+        }
       }
     ]
   },
   {
     "id": "particle-003",
-    "title": "「地」で動詞を修飾する",
-    "englishGrammarRef": "副詞的修飾語(-ly)",
+    "title": {
+      "ja": "「地」で動詞を修飾する",
+      "en": "Using 地 to modify a verb"
+    },
+    "englishGrammarRef": {
+      "ja": "副詞的修飾語(-ly)",
+      "en": "Adverbial modifiers (-ly)"
+    },
     "category": "particle",
-    "pattern": "形容詞 + 地 + V",
-    "explanationJa": "英語の-ly副詞のように動詞を修飾する語は、形容詞の後ろに「地(de)」を付けて動詞の前に置きます。",
+    "pattern": {
+      "ja": "形容詞 + 地 + V",
+      "en": "adjective + 地 + V"
+    },
+    "explanation": {
+      "ja": "英語の-ly副詞のように動詞を修飾する語は、形容詞の後ろに「地(de)」を付けて動詞の前に置きます。",
+      "en": "What corresponds to an English -ly adverb modifying a verb is expressed by attaching 地 (de) after an adjective and placing it before the verb."
+    },
     "examples": [
       {
         "hanzi": "他认真地工作。",
         "pinyin": "Tā rènzhēn de gōngzuò.",
-        "meaning": "彼は真面目に働きます。"
+        "meaning": {
+          "ja": "彼は真面目に働きます。",
+          "en": "He works seriously."
+        }
       },
       {
         "hanzi": "她慢慢地走。",
         "pinyin": "Tā mànmàn de zǒu.",
-        "meaning": "彼女はゆっくり歩きます。"
+        "meaning": {
+          "ja": "彼女はゆっくり歩きます。",
+          "en": "She walks slowly."
+        }
       },
       {
         "hanzi": "我们高兴地笑了。",
         "pinyin": "Wǒmen gāoxìng de xiào le.",
-        "meaning": "私たちは嬉しそうに笑いました。"
+        "meaning": {
+          "ja": "私たちは嬉しそうに笑いました。",
+          "en": "We laughed happily."
+        }
       }
     ]
   }

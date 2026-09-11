@@ -3,7 +3,10 @@
     "id": "phrase-001",
     "hanzi": "你好,我要点菜。",
     "pinyin": "Nǐ hǎo, wǒ yào diǎn cài.",
-    "meaning": "こんにちは、注文したいです。",
+    "meaning": {
+      "ja": "こんにちは、注文したいです。",
+      "en": "Hello, I'd like to order."
+    },
     "category": "phrase",
     "typing": [
       [
@@ -41,7 +44,10 @@
     "id": "phrase-002",
     "hanzi": "我要一杯咖啡。",
     "pinyin": "Wǒ yào yì bēi kāfēi.",
-    "meaning": "コーヒーを一杯ください。",
+    "meaning": {
+      "ja": "コーヒーを一杯ください。",
+      "en": "A cup of coffee, please."
+    },
     "category": "phrase",
     "typing": [
       [
@@ -77,7 +83,10 @@
     "id": "phrase-003",
     "hanzi": "多少钱?",
     "pinyin": "Duōshao qián?",
-    "meaning": "いくらですか?",
+    "meaning": {
+      "ja": "いくらですか?",
+      "en": "How much is it?"
+    },
     "category": "phrase",
     "typing": [
       [
@@ -103,7 +112,10 @@
     "id": "phrase-004",
     "hanzi": "太贵了,便宜一点吧。",
     "pinyin": "Tài guì le, piányi yìdiǎn ba.",
-    "meaning": "高すぎます、少し安くしてください。",
+    "meaning": {
+      "ja": "高すぎます、少し安くしてください。",
+      "en": "That's too expensive, could you lower the price a bit?"
+    },
     "category": "phrase",
     "typing": [
       [
@@ -150,7 +162,10 @@
     "id": "phrase-005",
     "hanzi": "请问洗手间在哪里?",
     "pinyin": "Qǐngwèn xǐshǒujiān zài nǎlǐ?",
-    "meaning": "お手洗いはどこですか?",
+    "meaning": {
+      "ja": "お手洗いはどこですか?",
+      "en": "Where is the restroom?"
+    },
     "category": "phrase",
     "typing": [
       [
@@ -199,7 +214,10 @@
     "id": "phrase-006",
     "hanzi": "我可以刷卡吗?",
     "pinyin": "Wǒ kěyǐ shuākǎ ma?",
-    "meaning": "カードは使えますか?",
+    "meaning": {
+      "ja": "カードは使えますか?",
+      "en": "Can I pay by card?"
+    },
     "category": "phrase",
     "typing": [
       [
@@ -234,7 +252,10 @@
     "id": "phrase-007",
     "hanzi": "请给我看看菜单。",
     "pinyin": "Qǐng gěi wǒ kànkan càidān.",
-    "meaning": "メニューを見せてください。",
+    "meaning": {
+      "ja": "メニューを見せてください。",
+      "en": "Please show me the menu."
+    },
     "category": "phrase",
     "typing": [
       [
@@ -278,7 +299,10 @@
     "id": "phrase-008",
     "hanzi": "我要这个。",
     "pinyin": "Wǒ yào zhège.",
-    "meaning": "これをください。",
+    "meaning": {
+      "ja": "これをください。",
+      "en": "I'll have this, please."
+    },
     "category": "phrase",
     "typing": [
       [
@@ -305,7 +329,10 @@
     "id": "phrase-009",
     "hanzi": "我叫田中,请多关照。",
     "pinyin": "Wǒ jiào Tiánzhōng, qǐng duō guānzhào.",
-    "meaning": "田中と申します、よろしくお願いします。",
+    "meaning": {
+      "ja": "田中と申します、よろしくお願いします。",
+      "en": "My name is Tanaka. Nice to meet you."
+    },
     "category": "phrase",
     "typing": [
       [
@@ -360,7 +387,10 @@
     "id": "phrase-010",
     "hanzi": "很高兴认识你。",
     "pinyin": "Hěn gāoxìng rènshi nǐ.",
-    "meaning": "お会いできて嬉しいです。",
+    "meaning": {
+      "ja": "お会いできて嬉しいです。",
+      "en": "I'm glad to meet you."
+    },
     "category": "phrase",
     "typing": [
       [
@@ -399,7 +429,10 @@
     "id": "phrase-011",
     "hanzi": "我是从日本来的。",
     "pinyin": "Wǒ shì cóng Rìběn lái de.",
-    "meaning": "私は日本から来ました。",
+    "meaning": {
+      "ja": "私は日本から来ました。",
+      "en": "I'm from Japan."
+    },
     "category": "phrase",
     "typing": [
       [
@@ -441,7 +474,10 @@
     "id": "phrase-012",
     "hanzi": "请问,到机场怎么走?",
     "pinyin": "Qǐngwèn, dào jīchǎng zěnme zǒu?",
-    "meaning": "空港へはどう行きますか?",
+    "meaning": {
+      "ja": "空港へはどう行きますか?",
+      "en": "How do I get to the airport?"
+    },
     "category": "phrase",
     "typing": [
       [
@@ -491,7 +527,10 @@
     "id": "phrase-013",
     "hanzi": "请到这个地址。",
     "pinyin": "Qǐng dào zhège dìzhǐ.",
-    "meaning": "この住所までお願いします。",
+    "meaning": {
+      "ja": "この住所までお願いします。",
+      "en": "Please take me to this address."
+    },
     "category": "phrase",
     "typing": [
       [
@@ -529,7 +568,10 @@
     "id": "phrase-014",
     "hanzi": "请开一下空调。",
     "pinyin": "Qǐng kāi yíxià kōngtiáo.",
-    "meaning": "エアコンをつけてください。",
+    "meaning": {
+      "ja": "エアコンをつけてください。",
+      "en": "Please turn on the air conditioner."
+    },
     "category": "phrase",
     "typing": [
       [
@@ -570,7 +612,10 @@
     "id": "phrase-015",
     "hanzi": "到了请告诉我。",
     "pinyin": "Dào le qǐng gàosu wǒ.",
-    "meaning": "着いたら教えてください。",
+    "meaning": {
+      "ja": "着いたら教えてください。",
+      "en": "Please let me know when we arrive."
+    },
     "category": "phrase",
     "typing": [
       [
@@ -607,7 +652,10 @@
     "id": "phrase-016",
     "hanzi": "我想预订一个房间。",
     "pinyin": "Wǒ xiǎng yùdìng yí ge fángjiān.",
-    "meaning": "部屋を予約したいです。",
+    "meaning": {
+      "ja": "部屋を予約したいです。",
+      "en": "I'd like to book a room."
+    },
     "category": "phrase",
     "typing": [
       [
@@ -657,7 +705,10 @@
     "id": "phrase-017",
     "hanzi": "我想办理入住。",
     "pinyin": "Wǒ xiǎng bànlǐ rùzhù.",
-    "meaning": "チェックインしたいです。",
+    "meaning": {
+      "ja": "チェックインしたいです。",
+      "en": "I'd like to check in."
+    },
     "category": "phrase",
     "typing": [
       [
@@ -695,7 +746,10 @@
     "id": "phrase-018",
     "hanzi": "我的房间号是多少?",
     "pinyin": "Wǒ de fángjiān hào shì duōshao?",
-    "meaning": "私の部屋番号は何番ですか?",
+    "meaning": {
+      "ja": "私の部屋番号は何番ですか?",
+      "en": "What is my room number?"
+    },
     "category": "phrase",
     "typing": [
       [
@@ -745,7 +799,10 @@
     "id": "phrase-019",
     "hanzi": "几点可以退房?",
     "pinyin": "Jǐ diǎn kěyǐ tuìfáng?",
-    "meaning": "何時にチェックアウトできますか?",
+    "meaning": {
+      "ja": "何時にチェックアウトできますか?",
+      "en": "What time can I check out?"
+    },
     "category": "phrase",
     "typing": [
       [
@@ -783,7 +840,10 @@
     "id": "phrase-020",
     "hanzi": "可以再便宜一点吗?",
     "pinyin": "Kěyǐ zài piányi yìdiǎn ma?",
-    "meaning": "もう少し安くできますか?",
+    "meaning": {
+      "ja": "もう少し安くできますか?",
+      "en": "Can you make it a little cheaper?"
+    },
     "category": "phrase",
     "typing": [
       [
@@ -829,7 +889,10 @@
     "id": "phrase-021",
     "hanzi": "太贵了。",
     "pinyin": "Tài guì le.",
-    "meaning": "高すぎます。",
+    "meaning": {
+      "ja": "高すぎます。",
+      "en": "That's too expensive."
+    },
     "category": "phrase",
     "typing": [
       [
@@ -852,7 +915,10 @@
     "id": "phrase-022",
     "hanzi": "我再考虑一下。",
     "pinyin": "Wǒ zài kǎolǜ yíxià.",
-    "meaning": "もう少し考えます。",
+    "meaning": {
+      "ja": "もう少し考えます。",
+      "en": "I'll think about it a bit more."
+    },
     "category": "phrase",
     "typing": [
       [
@@ -888,7 +954,10 @@
     "id": "phrase-023",
     "hanzi": "这个周末你有空吗?",
     "pinyin": "Zhège zhōumò nǐ yǒu kòng ma?",
-    "meaning": "今週末、時間はありますか?",
+    "meaning": {
+      "ja": "今週末、時間はありますか?",
+      "en": "Are you free this weekend?"
+    },
     "category": "phrase",
     "typing": [
       [
@@ -935,7 +1004,10 @@
     "id": "phrase-024",
     "hanzi": "我们一起去看电影吧。",
     "pinyin": "Wǒmen yìqǐ qù kàn diànyǐng ba.",
-    "meaning": "一緒に映画を見に行きましょう。",
+    "meaning": {
+      "ja": "一緒に映画を見に行きましょう。",
+      "en": "Let's go watch a movie together."
+    },
     "category": "phrase",
     "typing": [
       [
@@ -986,7 +1058,10 @@
     "id": "phrase-025",
     "hanzi": "你周末想做什么?",
     "pinyin": "Nǐ zhōumò xiǎng zuò shénme?",
-    "meaning": "週末は何をしたいですか?",
+    "meaning": {
+      "ja": "週末は何をしたいですか?",
+      "en": "What would you like to do this weekend?"
+    },
     "category": "phrase",
     "typing": [
       [
@@ -1031,7 +1106,10 @@
     "id": "phrase-026",
     "hanzi": "听起来不错。",
     "pinyin": "Tīng qǐlai búcuò.",
-    "meaning": "良さそうですね。",
+    "meaning": {
+      "ja": "良さそうですね。",
+      "en": "That sounds good."
+    },
     "category": "phrase",
     "typing": [
       [
@@ -1064,7 +1142,10 @@
     "id": "phrase-027",
     "hanzi": "我们几点见面?",
     "pinyin": "Wǒmen jǐ diǎn jiànmiàn?",
-    "meaning": "何時に会いましょうか?",
+    "meaning": {
+      "ja": "何時に会いましょうか?",
+      "en": "What time shall we meet?"
+    },
     "category": "phrase",
     "typing": [
       [
@@ -1104,7 +1185,10 @@
     "id": "phrase-028",
     "hanzi": "请出示您的护照。",
     "pinyin": "Qǐng chūshì nín de hùzhào.",
-    "meaning": "パスポートを提示してください。",
+    "meaning": {
+      "ja": "パスポートを提示してください。",
+      "en": "Please show your passport."
+    },
     "category": "phrase",
     "typing": [
       [
@@ -1148,7 +1232,10 @@
     "id": "phrase-029",
     "hanzi": "您来中国的目的是什么?",
     "pinyin": "Nín lái Zhōngguó de mùdì shì shénme?",
-    "meaning": "中国に来た目的は何ですか?",
+    "meaning": {
+      "ja": "中国に来た目的は何ですか?",
+      "en": "What is the purpose of your visit to China?"
+    },
     "category": "phrase",
     "typing": [
       [
@@ -1206,7 +1293,10 @@
     "id": "phrase-030",
     "hanzi": "我是来旅游的。",
     "pinyin": "Wǒ shì lái lǚyóu de.",
-    "meaning": "観光で来ました。",
+    "meaning": {
+      "ja": "観光で来ました。",
+      "en": "I'm here for sightseeing."
+    },
     "category": "phrase",
     "typing": [
       [
@@ -1242,7 +1332,10 @@
     "id": "phrase-031",
     "hanzi": "我打算住五天。",
     "pinyin": "Wǒ dǎsuàn zhù wǔ tiān.",
-    "meaning": "5日間滞在する予定です。",
+    "meaning": {
+      "ja": "5日間滞在する予定です。",
+      "en": "I plan to stay for five days."
+    },
     "category": "phrase",
     "typing": [
       [
@@ -1280,7 +1373,10 @@
     "id": "phrase-032",
     "hanzi": "祝您旅途愉快。",
     "pinyin": "Zhù nín lǚtú yúkuài.",
-    "meaning": "良い旅を。",
+    "meaning": {
+      "ja": "良い旅を。",
+      "en": "Have a good trip."
+    },
     "category": "phrase",
     "typing": [
       [
@@ -1317,7 +1413,10 @@
     "id": "phrase-033",
     "hanzi": "我要结账。",
     "pinyin": "Wǒ yào jiézhàng.",
-    "meaning": "会計をお願いします。",
+    "meaning": {
+      "ja": "会計をお願いします。",
+      "en": "Check, please."
+    },
     "category": "phrase",
     "typing": [
       [
@@ -1347,7 +1446,10 @@
     "id": "phrase-034",
     "hanzi": "这个能便宜点吗?",
     "pinyin": "Zhège néng piányi diǎn ma?",
-    "meaning": "これ、安くなりますか?",
+    "meaning": {
+      "ja": "これ、安くなりますか?",
+      "en": "Can you give me a discount on this?"
+    },
     "category": "phrase",
     "typing": [
       [
@@ -1391,7 +1493,10 @@
     "id": "phrase-035",
     "hanzi": "我想买这件衣服。",
     "pinyin": "Wǒ xiǎng mǎi zhè jiàn yīfu.",
-    "meaning": "この服を買いたいです。",
+    "meaning": {
+      "ja": "この服を買いたいです。",
+      "en": "I'd like to buy these clothes."
+    },
     "category": "phrase",
     "typing": [
       [
@@ -1435,7 +1540,10 @@
     "id": "phrase-036",
     "hanzi": "可以试穿吗?",
     "pinyin": "Kěyǐ shìchuān ma?",
-    "meaning": "試着できますか?",
+    "meaning": {
+      "ja": "試着できますか?",
+      "en": "Can I try this on?"
+    },
     "category": "phrase",
     "typing": [
       [
@@ -1468,7 +1576,10 @@
     "id": "phrase-037",
     "hanzi": "有大一点的吗?",
     "pinyin": "Yǒu dà yìdiǎn de ma?",
-    "meaning": "もう少し大きいのはありますか?",
+    "meaning": {
+      "ja": "もう少し大きいのはありますか?",
+      "en": "Do you have a bigger size?"
+    },
     "category": "phrase",
     "typing": [
       [
@@ -1504,7 +1615,10 @@
     "id": "phrase-038",
     "hanzi": "我在找洗手间。",
     "pinyin": "Wǒ zài zhǎo xǐshǒujiān.",
-    "meaning": "お手洗いを探しています。",
+    "meaning": {
+      "ja": "お手洗いを探しています。",
+      "en": "I'm looking for the restroom."
+    },
     "category": "phrase",
     "typing": [
       [
@@ -1544,7 +1658,10 @@
     "id": "phrase-039",
     "hanzi": "你会说英语吗?",
     "pinyin": "Nǐ huì shuō Yīngyǔ ma?",
-    "meaning": "英語は話せますか?",
+    "meaning": {
+      "ja": "英語は話せますか?",
+      "en": "Do you speak English?"
+    },
     "category": "phrase",
     "typing": [
       [
@@ -1582,7 +1699,10 @@
     "id": "phrase-040",
     "hanzi": "我不太会说汉语。",
     "pinyin": "Wǒ bú tài huì shuō Hànyǔ.",
-    "meaning": "中国語はあまり話せません。",
+    "meaning": {
+      "ja": "中国語はあまり話せません。",
+      "en": "I don't speak much Chinese."
+    },
     "category": "phrase",
     "typing": [
       [
@@ -1624,7 +1744,10 @@
     "id": "phrase-041",
     "hanzi": "请再说一遍。",
     "pinyin": "Qǐng zài shuō yí biàn.",
-    "meaning": "もう一度言ってください。",
+    "meaning": {
+      "ja": "もう一度言ってください。",
+      "en": "Could you say that again?"
+    },
     "category": "phrase",
     "typing": [
       [
@@ -1660,7 +1783,10 @@
     "id": "phrase-042",
     "hanzi": "请说慢一点。",
     "pinyin": "Qǐng shuō màn yìdiǎn.",
-    "meaning": "もう少しゆっくり話してください。",
+    "meaning": {
+      "ja": "もう少しゆっくり話してください。",
+      "en": "Could you speak a little more slowly?"
+    },
     "category": "phrase",
     "typing": [
       [
@@ -1696,7 +1822,10 @@
     "id": "phrase-043",
     "hanzi": "我听不懂。",
     "pinyin": "Wǒ tīng bu dǒng.",
-    "meaning": "聞き取れません。",
+    "meaning": {
+      "ja": "聞き取れません。",
+      "en": "I can't understand what you're saying."
+    },
     "category": "phrase",
     "typing": [
       [
@@ -1725,7 +1854,10 @@
     "id": "phrase-044",
     "hanzi": "没关系,慢慢来。",
     "pinyin": "Méi guānxi, mànmàn lái.",
-    "meaning": "大丈夫です、ゆっくりどうぞ。",
+    "meaning": {
+      "ja": "大丈夫です、ゆっくりどうぞ。",
+      "en": "It's okay, take your time."
+    },
     "category": "phrase",
     "typing": [
       [
@@ -1764,7 +1896,10 @@
     "id": "phrase-045",
     "hanzi": "祝你周末愉快。",
     "pinyin": "Zhù nǐ zhōumò yúkuài.",
-    "meaning": "良い週末を。",
+    "meaning": {
+      "ja": "良い週末を。",
+      "en": "Have a good weekend."
+    },
     "category": "phrase",
     "typing": [
       [
@@ -1802,7 +1937,10 @@
     "id": "phrase-046",
     "hanzi": "下雨了,我先走了。",
     "pinyin": "Xià yǔ le, wǒ xiān zǒu le.",
-    "meaning": "雨が降ってきたので、お先に失礼します。",
+    "meaning": {
+      "ja": "雨が降ってきたので、お先に失礼します。",
+      "en": "It's starting to rain, so I'll head out first."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -1843,7 +1981,10 @@
     "id": "phrase-047",
     "hanzi": "外面在下雨,你带伞了吗?",
     "pinyin": "Wàimiàn zài xià yǔ, nǐ dài sǎn le ma?",
-    "meaning": "外は雨が降っています、傘を持っていますか?",
+    "meaning": {
+      "ja": "外は雨が降っています、傘を持っていますか?",
+      "en": "It's raining outside. Do you have an umbrella?"
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -1899,7 +2040,10 @@
     "id": "phrase-048",
     "hanzi": "今天天气真好。",
     "pinyin": "Jīntiān tiānqì zhēn hǎo.",
-    "meaning": "今日は本当にいい天気ですね。",
+    "meaning": {
+      "ja": "今日は本当にいい天気ですね。",
+      "en": "The weather is really nice today, isn't it?"
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -1940,7 +2084,10 @@
     "id": "phrase-049",
     "hanzi": "明天会下雪吗?",
     "pinyin": "Míngtiān huì xià xuě ma?",
-    "meaning": "明日は雪が降りますか?",
+    "meaning": {
+      "ja": "明日は雪が降りますか?",
+      "en": "Will it snow tomorrow?"
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -1980,7 +2127,10 @@
     "id": "phrase-050",
     "hanzi": "天气预报说明天有台风。",
     "pinyin": "Tiānqì yùbào shuō míngtiān yǒu táifēng.",
-    "meaning": "天気予報によると明日は台風だそうです。",
+    "meaning": {
+      "ja": "天気予報によると明日は台風だそうです。",
+      "en": "According to the weather forecast, there will be a typhoon tomorrow."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -2042,7 +2192,10 @@
     "id": "phrase-051",
     "hanzi": "因为下雨,我们改天再去吧。",
     "pinyin": "Yīnwèi xià yǔ, wǒmen gǎitiān zài qù ba.",
-    "meaning": "雨だから、また別の日に行きましょう。",
+    "meaning": {
+      "ja": "雨だから、また別の日に行きましょう。",
+      "en": "It's raining, so let's go another day."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -2103,7 +2256,10 @@
     "id": "phrase-052",
     "hanzi": "刮风了,有点冷。",
     "pinyin": "Guā fēng le, yǒudiǎn lěng.",
-    "meaning": "風が吹いてきて、少し寒いです。",
+    "meaning": {
+      "ja": "風が吹いてきて、少し寒いです。",
+      "en": "The wind has picked up, and it's a bit cold."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -2144,7 +2300,10 @@
     "id": "phrase-053",
     "hanzi": "今天很晴朗。",
     "pinyin": "Jīntiān hěn qínglǎng.",
-    "meaning": "今日はとても晴れています。",
+    "meaning": {
+      "ja": "今日はとても晴れています。",
+      "en": "It's very sunny today."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -2181,7 +2340,10 @@
     "id": "phrase-054",
     "hanzi": "出门前看看天气吧。",
     "pinyin": "Chūmén qián kànkan tiānqì ba.",
-    "meaning": "出かける前に天気を見ましょう。",
+    "meaning": {
+      "ja": "出かける前に天気を見ましょう。",
+      "en": "Let's check the weather before we go out."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -2230,7 +2392,10 @@
     "id": "phrase-055",
     "hanzi": "雨停了,我们走吧。",
     "pinyin": "Yǔ tíng le, wǒmen zǒu ba.",
-    "meaning": "雨が止んだので、行きましょう。",
+    "meaning": {
+      "ja": "雨が止んだので、行きましょう。",
+      "en": "The rain has stopped, so let's go."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -2271,7 +2436,10 @@
     "id": "phrase-056",
     "hanzi": "我吃饱了,谢谢招待。",
     "pinyin": "Wǒ chībǎo le, xièxie zhāodài.",
-    "meaning": "お腹いっぱいです、ごちそうさまでした。",
+    "meaning": {
+      "ja": "お腹いっぱいです、ごちそうさまでした。",
+      "en": "I'm full. Thank you for the meal."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -2319,7 +2487,10 @@
     "id": "phrase-057",
     "hanzi": "我有点不舒服。",
     "pinyin": "Wǒ yǒudiǎn bù shūfu.",
-    "meaning": "少し体調が悪いです。",
+    "meaning": {
+      "ja": "少し体調が悪いです。",
+      "en": "I'm not feeling very well."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -2356,7 +2527,10 @@
     "id": "phrase-058",
     "hanzi": "我感冒了。",
     "pinyin": "Wǒ gǎnmào le.",
-    "meaning": "風邪をひきました。",
+    "meaning": {
+      "ja": "風邪をひきました。",
+      "en": "I've caught a cold."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -2383,7 +2557,10 @@
     "id": "phrase-059",
     "hanzi": "我今天很累,想早点休息。",
     "pinyin": "Wǒ jīntiān hěn lèi, xiǎng zǎodiǎn xiūxi.",
-    "meaning": "今日はとても疲れたので、早めに休みたいです。",
+    "meaning": {
+      "ja": "今日はとても疲れたので、早めに休みたいです。",
+      "en": "I'm really tired today, so I'd like to turn in early."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -2444,7 +2621,10 @@
     "id": "phrase-060",
     "hanzi": "我肚子疼。",
     "pinyin": "Wǒ dùzi téng.",
-    "meaning": "お腹が痛いです。",
+    "meaning": {
+      "ja": "お腹が痛いです。",
+      "en": "My stomach hurts."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -2471,7 +2651,10 @@
     "id": "phrase-061",
     "hanzi": "我很开心。",
     "pinyin": "Wǒ hěn kāixīn.",
-    "meaning": "とても嬉しいです。",
+    "meaning": {
+      "ja": "とても嬉しいです。",
+      "en": "I'm so happy."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -2499,7 +2682,10 @@
     "id": "phrase-062",
     "hanzi": "别担心,我没事。",
     "pinyin": "Bié dānxīn, wǒ méishì.",
-    "meaning": "心配しないで、大丈夫です。",
+    "meaning": {
+      "ja": "心配しないで、大丈夫です。",
+      "en": "Don't worry, it's fine."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -2537,7 +2723,10 @@
     "id": "phrase-063",
     "hanzi": "我有点紧张。",
     "pinyin": "Wǒ yǒudiǎn jǐnzhāng.",
-    "meaning": "少し緊張しています。",
+    "meaning": {
+      "ja": "少し緊張しています。",
+      "en": "I'm a little nervous."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -2573,7 +2762,10 @@
     "id": "phrase-064",
     "hanzi": "我饿了,想吃点东西。",
     "pinyin": "Wǒ è le, xiǎng chī diǎn dōngxi.",
-    "meaning": "お腹が空いたので、何か食べたいです。",
+    "meaning": {
+      "ja": "お腹が空いたので、何か食べたいです。",
+      "en": "I'm hungry, so I'd like to eat something."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -2621,7 +2813,10 @@
     "id": "phrase-065",
     "hanzi": "今天太热了,我想喝点冷饮。",
     "pinyin": "Jīntiān tài rè le, wǒ xiǎng hē diǎn lěngyǐn.",
-    "meaning": "今日は暑すぎるので、冷たい飲み物が飲みたいです。",
+    "meaning": {
+      "ja": "今日は暑すぎるので、冷たい飲み物が飲みたいです。",
+      "en": "It's too hot today, so I want something cold to drink."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -2686,7 +2881,10 @@
     "id": "phrase-066",
     "hanzi": "下次一起去吧。",
     "pinyin": "Xià cì yìqǐ qù ba.",
-    "meaning": "今度一緒に行きましょう。",
+    "meaning": {
+      "ja": "今度一緒に行きましょう。",
+      "en": "Let's go together sometime."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -2720,7 +2918,10 @@
     "id": "phrase-067",
     "hanzi": "今天不太方便,改天可以吗?",
     "pinyin": "Jīntiān bú tài fāngbiàn, gǎitiān kěyǐ ma?",
-    "meaning": "今日はあまり都合が良くないので、また別の日でもいいですか?",
+    "meaning": {
+      "ja": "今日はあまり都合が良くないので、また別の日でもいいですか?",
+      "en": "Today isn't very convenient for me. Could we make it another day?"
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -2784,7 +2985,10 @@
     "id": "phrase-068",
     "hanzi": "我们一起吃饭吧。",
     "pinyin": "Wǒmen yìqǐ chīfàn ba.",
-    "meaning": "一緒にご飯を食べましょう。",
+    "meaning": {
+      "ja": "一緒にご飯を食べましょう。",
+      "en": "Let's eat together."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -2824,7 +3028,10 @@
     "id": "phrase-069",
     "hanzi": "要不要一起去看电影?",
     "pinyin": "Yào bu yào yìqǐ qù kàn diànyǐng?",
-    "meaning": "一緒に映画を見に行きませんか?",
+    "meaning": {
+      "ja": "一緒に映画を見に行きませんか?",
+      "en": "Would you like to go see a movie together?"
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -2876,7 +3083,10 @@
     "id": "phrase-070",
     "hanzi": "不好意思,我今天有事。",
     "pinyin": "Bù hǎoyìsi, wǒ jīntiān yǒu shì.",
-    "meaning": "すみません、今日は用事があります。",
+    "meaning": {
+      "ja": "すみません、今日は用事があります。",
+      "en": "Sorry, I have something on today."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -2927,7 +3137,10 @@
     "id": "phrase-071",
     "hanzi": "好啊,几点见面?",
     "pinyin": "Hǎo a, jǐ diǎn jiànmiàn?",
-    "meaning": "いいですね、何時に会いましょうか?",
+    "meaning": {
+      "ja": "いいですね、何時に会いましょうか?",
+      "en": "Sounds good. What time should we meet?"
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -2966,7 +3179,10 @@
     "id": "phrase-072",
     "hanzi": "谢谢邀请,不过我不去了。",
     "pinyin": "Xièxie yāoqǐng, búguò wǒ bú qù le.",
-    "meaning": "お誘いありがとうございます、でも今回はやめておきます。",
+    "meaning": {
+      "ja": "お誘いありがとうございます、でも今回はやめておきます。",
+      "en": "Thanks for the invitation, but I'll pass this time."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -3021,7 +3237,10 @@
     "id": "phrase-073",
     "hanzi": "我们下周再约吧。",
     "pinyin": "Wǒmen xiàzhōu zài yuē ba.",
-    "meaning": "また来週約束しましょう。",
+    "meaning": {
+      "ja": "また来週約束しましょう。",
+      "en": "Let's make plans for next week."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -3064,7 +3283,10 @@
     "id": "phrase-074",
     "hanzi": "一起去逛街怎么样?",
     "pinyin": "Yìqǐ qù guàngjiē zěnmeyàng?",
-    "meaning": "一緒に買い物に行くのはどうですか?",
+    "meaning": {
+      "ja": "一緒に買い物に行くのはどうですか?",
+      "en": "How about we go shopping together?"
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -3112,7 +3334,10 @@
     "id": "phrase-075",
     "hanzi": "真可惜,下次一定要一起去。",
     "pinyin": "Zhēn kěxī, xiàcì yídìng yào yìqǐ qù.",
-    "meaning": "残念です、今度は必ず一緒に行きましょう。",
+    "meaning": {
+      "ja": "残念です、今度は必ず一緒に行きましょう。",
+      "en": "That's too bad. Let's definitely go together next time."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -3171,7 +3396,10 @@
     "id": "phrase-076",
     "hanzi": "真的吗?",
     "pinyin": "Zhēn de ma?",
-    "meaning": "本当ですか?",
+    "meaning": {
+      "ja": "本当ですか?",
+      "en": "Really?"
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -3194,7 +3422,10 @@
     "id": "phrase-077",
     "hanzi": "太好了!",
     "pinyin": "Tài hǎo le!",
-    "meaning": "良かったです!",
+    "meaning": {
+      "ja": "良かったです!",
+      "en": "That's great!"
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -3217,7 +3448,10 @@
     "id": "phrase-078",
     "hanzi": "真厉害!",
     "pinyin": "Zhēn lìhài!",
-    "meaning": "すごいですね!",
+    "meaning": {
+      "ja": "すごいですね!",
+      "en": "That's amazing!"
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -3241,7 +3475,10 @@
     "id": "phrase-079",
     "hanzi": "我也这么觉得。",
     "pinyin": "Wǒ yě zhème juéde.",
-    "meaning": "私もそう思います。",
+    "meaning": {
+      "ja": "私もそう思います。",
+      "en": "I think so too."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -3276,7 +3513,10 @@
     "id": "phrase-080",
     "hanzi": "原来如此。",
     "pinyin": "Yuánlái rúcǐ.",
-    "meaning": "なるほど。",
+    "meaning": {
+      "ja": "なるほど。",
+      "en": "I see."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -3304,7 +3544,10 @@
     "id": "phrase-081",
     "hanzi": "太辛苦了。",
     "pinyin": "Tài xīnkǔ le.",
-    "meaning": "大変でしたね。",
+    "meaning": {
+      "ja": "大変でしたね。",
+      "en": "That must have been rough."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -3331,7 +3574,10 @@
     "id": "phrase-082",
     "hanzi": "不会吧?",
     "pinyin": "Bú huì ba?",
-    "meaning": "まさか?",
+    "meaning": {
+      "ja": "まさか?",
+      "en": "No way!"
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -3353,7 +3599,10 @@
     "id": "phrase-083",
     "hanzi": "我明白了。",
     "pinyin": "Wǒ míngbai le.",
-    "meaning": "わかりました。",
+    "meaning": {
+      "ja": "わかりました。",
+      "en": "Got it."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -3381,7 +3630,10 @@
     "id": "phrase-084",
     "hanzi": "怎么了?",
     "pinyin": "Zěnme le?",
-    "meaning": "どうしたの?",
+    "meaning": {
+      "ja": "どうしたの?",
+      "en": "What's wrong?"
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -3403,7 +3655,10 @@
     "id": "phrase-085",
     "hanzi": "没事的。",
     "pinyin": "Méishì de.",
-    "meaning": "大丈夫ですよ。",
+    "meaning": {
+      "ja": "大丈夫ですよ。",
+      "en": "It's okay."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -3426,7 +3681,10 @@
     "id": "phrase-086",
     "hanzi": "可以帮我一个忙吗?",
     "pinyin": "Kěyǐ bāng wǒ yí ge máng ma?",
-    "meaning": "ちょっと手伝ってもらえますか?",
+    "meaning": {
+      "ja": "ちょっと手伝ってもらえますか?",
+      "en": "Could you help me out for a second?"
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -3471,7 +3729,10 @@
     "id": "phrase-087",
     "hanzi": "可以借用一下你的手机吗?",
     "pinyin": "Kěyǐ jièyòng yíxià nǐ de shǒujī ma?",
-    "meaning": "あなたの携帯を少し借りてもいいですか?",
+    "meaning": {
+      "ja": "あなたの携帯を少し借りてもいいですか?",
+      "en": "Could I borrow your phone for a moment?"
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -3530,7 +3791,10 @@
     "id": "phrase-088",
     "hanzi": "我可以坐这里吗?",
     "pinyin": "Wǒ kěyǐ zuò zhèlǐ ma?",
-    "meaning": "ここに座ってもいいですか?",
+    "meaning": {
+      "ja": "ここに座ってもいいですか?",
+      "en": "May I sit here?"
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -3569,7 +3833,10 @@
     "id": "phrase-089",
     "hanzi": "可以拍照吗?",
     "pinyin": "Kěyǐ pāizhào ma?",
-    "meaning": "写真を撮ってもいいですか?",
+    "meaning": {
+      "ja": "写真を撮ってもいいですか?",
+      "en": "May I take a photo?"
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -3601,7 +3868,10 @@
     "id": "phrase-090",
     "hanzi": "请等一下。",
     "pinyin": "Qǐng děng yíxià.",
-    "meaning": "少々お待ちください。",
+    "meaning": {
+      "ja": "少々お待ちください。",
+      "en": "Please wait a moment."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -3631,7 +3901,10 @@
     "id": "phrase-091",
     "hanzi": "可以帮我拿一下吗?",
     "pinyin": "Kěyǐ bāng wǒ ná yíxià ma?",
-    "meaning": "ちょっと持ってもらえますか?",
+    "meaning": {
+      "ja": "ちょっと持ってもらえますか?",
+      "en": "Could you hold this for a second?"
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -3675,7 +3948,10 @@
     "id": "phrase-092",
     "hanzi": "不好意思,可以让一下吗?",
     "pinyin": "Bù hǎoyìsi, kěyǐ ràng yíxià ma?",
-    "meaning": "すみません、少し通してもらえますか?",
+    "meaning": {
+      "ja": "すみません、少し通してもらえますか?",
+      "en": "Excuse me, could you let me through?"
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -3728,7 +4004,10 @@
     "id": "phrase-093",
     "hanzi": "可以给我一份吗?",
     "pinyin": "Kěyǐ gěi wǒ yí fèn ma?",
-    "meaning": "一つもらえますか?",
+    "meaning": {
+      "ja": "一つもらえますか?",
+      "en": "Could I have one?"
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -3767,7 +4046,10 @@
     "id": "phrase-094",
     "hanzi": "这个可以用吗?",
     "pinyin": "Zhège kěyǐ yòng ma?",
-    "meaning": "これは使ってもいいですか?",
+    "meaning": {
+      "ja": "これは使ってもいいですか?",
+      "en": "May I use this?"
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -3803,7 +4085,10 @@
     "id": "phrase-095",
     "hanzi": "麻烦让一下,谢谢。",
     "pinyin": "Máfan ràng yíxià, xièxie.",
-    "meaning": "すみません、通してください、ありがとう。",
+    "meaning": {
+      "ja": "すみません、通してください、ありがとう。",
+      "en": "Excuse me, coming through, thanks."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -3846,7 +4131,10 @@
     "id": "phrase-096",
     "hanzi": "你什么时候有空?",
     "pinyin": "Nǐ shénme shíhou yǒu kòng?",
-    "meaning": "いつ時間がありますか?",
+    "meaning": {
+      "ja": "いつ時間がありますか?",
+      "en": "When are you free?"
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -3890,7 +4178,10 @@
     "id": "phrase-097",
     "hanzi": "我们几点集合?",
     "pinyin": "Wǒmen jǐ diǎn jíhé?",
-    "meaning": "何時に集合しましょうか?",
+    "meaning": {
+      "ja": "何時に集合しましょうか?",
+      "en": "What time should we meet up?"
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -3926,7 +4217,10 @@
     "id": "phrase-098",
     "hanzi": "明天可以吗?",
     "pinyin": "Míngtiān kěyǐ ma?",
-    "meaning": "明日でもいいですか?",
+    "meaning": {
+      "ja": "明日でもいいですか?",
+      "en": "Is tomorrow okay?"
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -3959,7 +4253,10 @@
     "id": "phrase-099",
     "hanzi": "我可能会晚一点到。",
     "pinyin": "Wǒ kěnéng huì wǎn yìdiǎn dào.",
-    "meaning": "少し遅れて着くかもしれません。",
+    "meaning": {
+      "ja": "少し遅れて着くかもしれません。",
+      "en": "I might be a little late."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -4007,7 +4304,10 @@
     "id": "phrase-100",
     "hanzi": "时间来得及吗?",
     "pinyin": "Shíjiān láidejí ma?",
-    "meaning": "時間に間に合いますか?",
+    "meaning": {
+      "ja": "時間に間に合いますか?",
+      "en": "Will we make it in time?"
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -4044,7 +4344,10 @@
     "id": "phrase-101",
     "hanzi": "我们改成下午三点吧。",
     "pinyin": "Wǒmen gǎichéng xiàwǔ sān diǎn ba.",
-    "meaning": "午後3時に変更しましょう。",
+    "meaning": {
+      "ja": "午後3時に変更しましょう。",
+      "en": "Let's change it to 3 p.m."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -4098,7 +4401,10 @@
     "id": "phrase-102",
     "hanzi": "你先走吧,我随后就到。",
     "pinyin": "Nǐ xiān zǒu ba, wǒ suíhòu jiù dào.",
-    "meaning": "先に行ってください、後から着きます。",
+    "meaning": {
+      "ja": "先に行ってください、後から着きます。",
+      "en": "Go ahead without me, I'll catch up later."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -4150,7 +4456,10 @@
     "id": "phrase-103",
     "hanzi": "差不多该走了。",
     "pinyin": "Chàbuduō gāi zǒu le.",
-    "meaning": "そろそろ行かないと。",
+    "meaning": {
+      "ja": "そろそろ行かないと。",
+      "en": "I should get going soon."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -4187,7 +4496,10 @@
     "id": "phrase-104",
     "hanzi": "我们还有多少时间?",
     "pinyin": "Wǒmen hái yǒu duōshao shíjiān?",
-    "meaning": "あとどのくらい時間がありますか?",
+    "meaning": {
+      "ja": "あとどのくらい時間がありますか?",
+      "en": "How much time do we have left?"
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -4237,7 +4549,10 @@
     "id": "phrase-105",
     "hanzi": "抱歉,让你久等了。",
     "pinyin": "Bàoqiàn, ràng nǐ jiǔ děng le.",
-    "meaning": "すみません、お待たせしました。",
+    "meaning": {
+      "ja": "すみません、お待たせしました。",
+      "en": "Sorry to keep you waiting."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -4282,7 +4597,10 @@
     "id": "phrase-106",
     "hanzi": "最近怎么样?",
     "pinyin": "Zuìjìn zěnmeyàng?",
-    "meaning": "最近どう?",
+    "meaning": {
+      "ja": "最近どう?",
+      "en": "How's it going lately?"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -4316,7 +4634,10 @@
     "id": "phrase-107",
     "hanzi": "好久不见!",
     "pinyin": "Hǎojiǔ bújiàn!",
-    "meaning": "久しぶり!",
+    "meaning": {
+      "ja": "久しぶり!",
+      "en": "Long time no see!"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -4345,7 +4666,10 @@
     "id": "phrase-108",
     "hanzi": "你最近在忙什么?",
     "pinyin": "Nǐ zuìjìn zài máng shénme?",
-    "meaning": "最近何で忙しいの?",
+    "meaning": {
+      "ja": "最近何で忙しいの?",
+      "en": "What have you been busy with lately?"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -4389,7 +4713,10 @@
     "id": "phrase-109",
     "hanzi": "一切都好吗?",
     "pinyin": "Yíqiè dōu hǎo ma?",
-    "meaning": "全部順調?",
+    "meaning": {
+      "ja": "全部順調?",
+      "en": "Is everything going okay?"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -4421,7 +4748,10 @@
     "id": "phrase-110",
     "hanzi": "没什么变化。",
     "pinyin": "Méi shénme biànhuà.",
-    "meaning": "特に変わりないよ。",
+    "meaning": {
+      "ja": "特に変わりないよ。",
+      "en": "Nothing much has changed."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -4456,7 +4786,10 @@
     "id": "phrase-111",
     "hanzi": "你吃了吗?",
     "pinyin": "Nǐ chī le ma?",
-    "meaning": "ご飯食べた?(定番のあいさつ)",
+    "meaning": {
+      "ja": "ご飯食べた?(定番のあいさつ)",
+      "en": "Have you eaten yet? (a classic Chinese greeting)"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -4482,7 +4815,10 @@
     "id": "phrase-112",
     "hanzi": "最近工作顺利吗?",
     "pinyin": "Zuìjìn gōngzuò shùnlì ma?",
-    "meaning": "最近仕事は順調?",
+    "meaning": {
+      "ja": "最近仕事は順調?",
+      "en": "Is work going well lately?"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -4526,7 +4862,10 @@
     "id": "phrase-113",
     "hanzi": "你看起来气色不错。",
     "pinyin": "Nǐ kànqǐlai qìsè búcuò.",
-    "meaning": "顔色良さそうだね。",
+    "meaning": {
+      "ja": "顔色良さそうだね。",
+      "en": "You look great."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -4570,7 +4909,10 @@
     "id": "phrase-114",
     "hanzi": "我们好久没聚了。",
     "pinyin": "Wǒmen hǎojiǔ méi jù le.",
-    "meaning": "しばらく集まってなかったね。",
+    "meaning": {
+      "ja": "しばらく集まってなかったね。",
+      "en": "We haven't gotten together in a while."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -4611,7 +4953,10 @@
     "id": "phrase-115",
     "hanzi": "改天一起吃饭吧。",
     "pinyin": "Gǎitiān yìqǐ chīfàn ba.",
-    "meaning": "今度一緒にご飯食べようね。",
+    "meaning": {
+      "ja": "今度一緒にご飯食べようね。",
+      "en": "Let's grab a meal together sometime."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -4653,7 +4998,10 @@
     "id": "phrase-116",
     "hanzi": "加个微信吧。",
     "pinyin": "Jiā ge wēixìn ba.",
-    "meaning": "WeChat交換しよう。",
+    "meaning": {
+      "ja": "WeChat交換しよう。",
+      "en": "Let's exchange WeChat."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -4685,7 +5033,10 @@
     "id": "phrase-117",
     "hanzi": "我给你发消息。",
     "pinyin": "Wǒ gěi nǐ fā xiāoxi.",
-    "meaning": "メッセージ送るね。",
+    "meaning": {
+      "ja": "メッセージ送るね。",
+      "en": "I'll message you."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -4721,7 +5072,10 @@
     "id": "phrase-118",
     "hanzi": "你看到我的消息了吗?",
     "pinyin": "Nǐ kàndào wǒ de xiāoxi le ma?",
-    "meaning": "私のメッセージ見た?",
+    "meaning": {
+      "ja": "私のメッセージ見た?",
+      "en": "Did you see my message?"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -4770,7 +5124,10 @@
     "id": "phrase-119",
     "hanzi": "我等下回复你。",
     "pinyin": "Wǒ děng xià huífù nǐ.",
-    "meaning": "後で返信するね。",
+    "meaning": {
+      "ja": "後で返信するね。",
+      "en": "I'll reply later."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -4807,7 +5164,10 @@
     "id": "phrase-120",
     "hanzi": "手机没电了。",
     "pinyin": "Shǒujī méi diàn le.",
-    "meaning": "スマホの充電が切れた。",
+    "meaning": {
+      "ja": "スマホの充電が切れた。",
+      "en": "My phone's battery died."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -4841,7 +5201,10 @@
     "id": "phrase-121",
     "hanzi": "我给你打个电话。",
     "pinyin": "Wǒ gěi nǐ dǎ ge diànhuà.",
-    "meaning": "電話するね。",
+    "meaning": {
+      "ja": "電話するね。",
+      "en": "I'll give you a call."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -4882,7 +5245,10 @@
     "id": "phrase-122",
     "hanzi": "我发个定位给你。",
     "pinyin": "Wǒ fā ge dìngwèi gěi nǐ.",
-    "meaning": "位置情報を送るね。",
+    "meaning": {
+      "ja": "位置情報を送るね。",
+      "en": "I'll send you my location."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -4923,7 +5289,10 @@
     "id": "phrase-123",
     "hanzi": "视频通话方便吗?",
     "pinyin": "Shìpín tōnghuà fāngbiàn ma?",
-    "meaning": "ビデオ通話は都合いい?",
+    "meaning": {
+      "ja": "ビデオ通話は都合いい?",
+      "en": "Is now a good time for a video call?"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -4969,7 +5338,10 @@
     "id": "phrase-124",
     "hanzi": "太搞笑了!",
     "pinyin": "Tài gǎoxiào le!",
-    "meaning": "めっちゃ面白い!",
+    "meaning": {
+      "ja": "めっちゃ面白い!",
+      "en": "That's hilarious!"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -4998,7 +5370,10 @@
     "id": "phrase-125",
     "hanzi": "笑死我了。",
     "pinyin": "Xiào sǐ wǒ le.",
-    "meaning": "笑い死にそう。",
+    "meaning": {
+      "ja": "笑い死にそう。",
+      "en": "I'm dying of laughter."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5025,7 +5400,10 @@
     "id": "phrase-126",
     "hanzi": "我服了。",
     "pinyin": "Wǒ fú le.",
-    "meaning": "参ったよ、すごいな。",
+    "meaning": {
+      "ja": "参ったよ、すごいな。",
+      "en": "Wow, I'm impressed."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5046,7 +5424,10 @@
     "id": "phrase-127",
     "hanzi": "太离谱了吧。",
     "pinyin": "Tài lípǔ le ba.",
-    "meaning": "さすがにありえないでしょ。",
+    "meaning": {
+      "ja": "さすがにありえないでしょ。",
+      "en": "That's just too much, seriously."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5076,7 +5457,10 @@
     "id": "phrase-128",
     "hanzi": "有点尴尬。",
     "pinyin": "Yǒudiǎn gāngà.",
-    "meaning": "ちょっと気まずいね。",
+    "meaning": {
+      "ja": "ちょっと気まずいね。",
+      "en": "That's a bit awkward."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5105,7 +5489,10 @@
     "id": "phrase-129",
     "hanzi": "我太激动了!",
     "pinyin": "Wǒ tài jīdòng le!",
-    "meaning": "すごく興奮した!",
+    "meaning": {
+      "ja": "すごく興奮した!",
+      "en": "I was so excited!"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5137,7 +5524,10 @@
     "id": "phrase-130",
     "hanzi": "我太感动了。",
     "pinyin": "Wǒ tài gǎndòng le.",
-    "meaning": "すごく感動した。",
+    "meaning": {
+      "ja": "すごく感動した。",
+      "en": "I was really touched."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5170,7 +5560,10 @@
     "id": "phrase-131",
     "hanzi": "真的很无语。",
     "pinyin": "Zhēnde hěn wúyǔ.",
-    "meaning": "本当に呆れた。",
+    "meaning": {
+      "ja": "本当に呆れた。",
+      "en": "I'm honestly speechless."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5202,7 +5595,10 @@
     "id": "phrase-132",
     "hanzi": "我快崩溃了。",
     "pinyin": "Wǒ kuài bēngkuì le.",
-    "meaning": "もう限界だよ。",
+    "meaning": {
+      "ja": "もう限界だよ。",
+      "en": "I can't take it anymore."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5236,7 +5632,10 @@
     "id": "phrase-133",
     "hanzi": "太可爱了吧!",
     "pinyin": "Tài kě'ài le ba!",
-    "meaning": "めっちゃ可愛い!",
+    "meaning": {
+      "ja": "めっちゃ可愛い!",
+      "en": "So cute!"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5266,7 +5665,10 @@
     "id": "phrase-134",
     "hanzi": "走,一起去!",
     "pinyin": "Zǒu, yìqǐ qù!",
-    "meaning": "行こう、一緒に!",
+    "meaning": {
+      "ja": "行こう、一緒に!",
+      "en": "Come on, let's go together!"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5292,7 +5694,10 @@
     "id": "phrase-135",
     "hanzi": "有空一起玩吧。",
     "pinyin": "Yǒu kòng yìqǐ wán ba.",
-    "meaning": "時間あったら一緒に遊ぼう。",
+    "meaning": {
+      "ja": "時間あったら一緒に遊ぼう。",
+      "en": "Let's hang out together sometime if you're free."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5329,7 +5734,10 @@
     "id": "phrase-136",
     "hanzi": "要不要来我家?",
     "pinyin": "Yào bu yào lái wǒ jiā?",
-    "meaning": "うちに来ない?",
+    "meaning": {
+      "ja": "うちに来ない?",
+      "en": "Want to come over to my place?"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5366,7 +5774,10 @@
     "id": "phrase-137",
     "hanzi": "今晚一起吃火锅怎么样?",
     "pinyin": "Jīnwǎn yìqǐ chī huǒguō zěnmeyàng?",
-    "meaning": "今夜一緒に火鍋食べるのどう?",
+    "meaning": {
+      "ja": "今夜一緒に火鍋食べるのどう?",
+      "en": "How about hot pot together tonight?"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5423,7 +5834,10 @@
     "id": "phrase-138",
     "hanzi": "我请你吃饭。",
     "pinyin": "Wǒ qǐng nǐ chīfàn.",
-    "meaning": "私がご飯おごるよ。",
+    "meaning": {
+      "ja": "私がご飯おごるよ。",
+      "en": "I'll treat you to a meal."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5456,7 +5870,10 @@
     "id": "phrase-139",
     "hanzi": "AA制吧。",
     "pinyin": "AA zhì ba.",
-    "meaning": "割り勘にしよう。",
+    "meaning": {
+      "ja": "割り勘にしよう。",
+      "en": "Let's split the bill."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5478,7 +5895,10 @@
     "id": "phrase-140",
     "hanzi": "下次算我的。",
     "pinyin": "Xiàcì suàn wǒ de.",
-    "meaning": "次は私が払うね。",
+    "meaning": {
+      "ja": "次は私が払うね。",
+      "en": "I'll pay next time."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5510,7 +5930,10 @@
     "id": "phrase-141",
     "hanzi": "一起去唱歌吧。",
     "pinyin": "Yìqǐ qù chànggē ba.",
-    "meaning": "一緒にカラオケ行こう。",
+    "meaning": {
+      "ja": "一緒にカラオケ行こう。",
+      "en": "Let's go to karaoke together."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5546,7 +5969,10 @@
     "id": "phrase-142",
     "hanzi": "是嘛?",
     "pinyin": "Shì ma?",
-    "meaning": "そうなの?",
+    "meaning": {
+      "ja": "そうなの?",
+      "en": "Is that so?"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5564,7 +5990,10 @@
     "id": "phrase-143",
     "hanzi": "真的假的?",
     "pinyin": "Zhēn de jiǎ de?",
-    "meaning": "マジで?",
+    "meaning": {
+      "ja": "マジで?",
+      "en": "Seriously?"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5592,7 +6021,10 @@
     "id": "phrase-144",
     "hanzi": "牛啊!",
     "pinyin": "Niú a!",
-    "meaning": "すごいな!",
+    "meaning": {
+      "ja": "すごいな!",
+      "en": "Wow, amazing!"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5609,7 +6041,10 @@
     "id": "phrase-145",
     "hanzi": "厉害了!",
     "pinyin": "Lìhài le!",
-    "meaning": "すごいじゃん!",
+    "meaning": {
+      "ja": "すごいじゃん!",
+      "en": "That's amazing!"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5631,7 +6066,10 @@
     "id": "phrase-146",
     "hanzi": "随便你。",
     "pinyin": "Suíbiàn nǐ.",
-    "meaning": "あなた次第だよ、どっちでもいいよ。",
+    "meaning": {
+      "ja": "あなた次第だよ、どっちでもいいよ。",
+      "en": "It's up to you, either works for me."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5655,7 +6093,10 @@
     "id": "phrase-147",
     "hanzi": "无所谓。",
     "pinyin": "Wúsuǒwèi.",
-    "meaning": "どっちでもいい。",
+    "meaning": {
+      "ja": "どっちでもいい。",
+      "en": "Either is fine with me."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5678,7 +6119,10 @@
     "id": "phrase-148",
     "hanzi": "说得对。",
     "pinyin": "Shuō de duì.",
-    "meaning": "その通りだね。",
+    "meaning": {
+      "ja": "その通りだね。",
+      "en": "Exactly, that's right."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5702,7 +6146,10 @@
     "id": "phrase-149",
     "hanzi": "你说了算。",
     "pinyin": "Nǐ shuō le suàn.",
-    "meaning": "あなたが決めていいよ。",
+    "meaning": {
+      "ja": "あなたが決めていいよ。",
+      "en": "You can decide."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5731,7 +6178,10 @@
     "id": "phrase-150",
     "hanzi": "你真厉害!",
     "pinyin": "Nǐ zhēn lìhài!",
-    "meaning": "すごいね!",
+    "meaning": {
+      "ja": "すごいね!",
+      "en": "That's amazing!"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5759,7 +6209,10 @@
     "id": "phrase-151",
     "hanzi": "你今天很好看。",
     "pinyin": "Nǐ jīntiān hěn hǎokàn.",
-    "meaning": "今日素敵だね。",
+    "meaning": {
+      "ja": "今日素敵だね。",
+      "en": "You look great today."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5798,7 +6251,10 @@
     "id": "phrase-152",
     "hanzi": "别闹了。",
     "pinyin": "Bié nào le.",
-    "meaning": "からかわないで。",
+    "meaning": {
+      "ja": "からかわないで。",
+      "en": "Don't tease me."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5821,7 +6277,10 @@
     "id": "phrase-153",
     "hanzi": "我开玩笑的。",
     "pinyin": "Wǒ kāi wánxiào de.",
-    "meaning": "冗談だよ。",
+    "meaning": {
+      "ja": "冗談だよ。",
+      "en": "I'm just kidding."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5854,7 +6313,10 @@
     "id": "phrase-154",
     "hanzi": "你又胖了?",
     "pinyin": "Nǐ yòu pàng le?",
-    "meaning": "また太った?(親しい間柄の冗談)",
+    "meaning": {
+      "ja": "また太った?(親しい間柄の冗談)",
+      "en": "Did you gain weight again? (a joke between close friends)"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5882,7 +6344,10 @@
     "id": "phrase-155",
     "hanzi": "你少来了。",
     "pinyin": "Nǐ shǎo lái le.",
-    "meaning": "またまた、冗談やめてよ。",
+    "meaning": {
+      "ja": "またまた、冗談やめてよ。",
+      "en": "Oh come on, quit joking."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5910,7 +6375,10 @@
     "id": "phrase-156",
     "hanzi": "别不好意思。",
     "pinyin": "Bié bù hǎoyìsi.",
-    "meaning": "遠慮しないで。",
+    "meaning": {
+      "ja": "遠慮しないで。",
+      "en": "Don't be shy about it."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5941,7 +6409,10 @@
     "id": "phrase-157",
     "hanzi": "你太客气了。",
     "pinyin": "Nǐ tài kèqi le.",
-    "meaning": "気を使いすぎだよ。",
+    "meaning": {
+      "ja": "気を使いすぎだよ。",
+      "en": "You don't need to be so polite."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -5971,7 +6442,10 @@
     "id": "phrase-158",
     "hanzi": "帮我个忙呗。",
     "pinyin": "Bāng wǒ ge máng bei.",
-    "meaning": "ちょっと手伝ってよ。",
+    "meaning": {
+      "ja": "ちょっと手伝ってよ。",
+      "en": "Give me a hand, would you?"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -6005,7 +6479,10 @@
     "id": "phrase-159",
     "hanzi": "能不能借我用一下?",
     "pinyin": "Néng bu néng jiè wǒ yòng yíxià?",
-    "meaning": "ちょっと貸してくれる?",
+    "meaning": {
+      "ja": "ちょっと貸してくれる?",
+      "en": "Can you lend me that for a bit?"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -6054,7 +6531,10 @@
     "id": "phrase-160",
     "hanzi": "顺便帮我买一个。",
     "pinyin": "Shùnbiàn bāng wǒ mǎi yí ge.",
-    "meaning": "ついでに一つ買ってきて。",
+    "meaning": {
+      "ja": "ついでに一つ買ってきて。",
+      "en": "Pick one up for me while you're at it."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -6098,7 +6578,10 @@
     "id": "phrase-161",
     "hanzi": "拜托你了。",
     "pinyin": "Bàituō nǐ le.",
-    "meaning": "お願いね。",
+    "meaning": {
+      "ja": "お願いね。",
+      "en": "I'm counting on you."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -6125,7 +6608,10 @@
     "id": "phrase-162",
     "hanzi": "你能陪我去吗?",
     "pinyin": "Nǐ néng péi wǒ qù ma?",
-    "meaning": "一緒に付き合ってくれる?",
+    "meaning": {
+      "ja": "一緒に付き合ってくれる?",
+      "en": "Will you keep me company?"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -6161,7 +6647,10 @@
     "id": "phrase-163",
     "hanzi": "到时候叫我一声。",
     "pinyin": "Dào shíhou jiào wǒ yì shēng.",
-    "meaning": "その時になったら声かけてね。",
+    "meaning": {
+      "ja": "その時になったら声かけてね。",
+      "en": "Let me know when the time comes."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -6206,7 +6695,10 @@
     "id": "phrase-164",
     "hanzi": "你平时喜欢做什么?",
     "pinyin": "Nǐ píngshí xǐhuan zuò shénme?",
-    "meaning": "普段何するのが好き?",
+    "meaning": {
+      "ja": "普段何するのが好き?",
+      "en": "What do you usually like doing?"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -6255,7 +6747,10 @@
     "id": "phrase-165",
     "hanzi": "我喜欢打游戏。",
     "pinyin": "Wǒ xǐhuan dǎ yóuxì.",
-    "meaning": "ゲームするのが好き。",
+    "meaning": {
+      "ja": "ゲームするのが好き。",
+      "en": "I like playing games."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -6291,7 +6786,10 @@
     "id": "phrase-166",
     "hanzi": "最近在追什么剧?",
     "pinyin": "Zuìjìn zài zhuī shénme jù?",
-    "meaning": "最近何のドラマ見てる?",
+    "meaning": {
+      "ja": "最近何のドラマ見てる?",
+      "en": "What show have you been watching lately?"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -6335,7 +6833,10 @@
     "id": "phrase-167",
     "hanzi": "我们一起看电影吧。",
     "pinyin": "Wǒmen yìqǐ kàn diànyǐng ba.",
-    "meaning": "一緒に映画見よう。",
+    "meaning": {
+      "ja": "一緒に映画見よう。",
+      "en": "Let's watch a movie together."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -6382,7 +6883,10 @@
     "id": "phrase-168",
     "hanzi": "你会做饭吗?",
     "pinyin": "Nǐ huì zuòfàn ma?",
-    "meaning": "料理できる?",
+    "meaning": {
+      "ja": "料理できる?",
+      "en": "Can you cook?"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -6414,7 +6918,10 @@
     "id": "phrase-169",
     "hanzi": "周末有什么安排?",
     "pinyin": "Zhōumò yǒu shénme ānpái?",
-    "meaning": "週末何か予定ある?",
+    "meaning": {
+      "ja": "週末何か予定ある?",
+      "en": "Do you have any plans this weekend?"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -6457,7 +6964,10 @@
     "id": "phrase-170",
     "hanzi": "我最近迷上了一部剧。",
     "pinyin": "Wǒ zuìjìn míshàng le yí bù jù.",
-    "meaning": "最近あるドラマにハマってる。",
+    "meaning": {
+      "ja": "最近あるドラマにハマってる。",
+      "en": "I've been hooked on a show lately."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -6507,7 +7017,10 @@
     "id": "phrase-171",
     "hanzi": "你喜欢什么类型的音乐?",
     "pinyin": "Nǐ xǐhuan shénme lèixíng de yīnyuè?",
-    "meaning": "どんなジャンルの音楽が好き?",
+    "meaning": {
+      "ja": "どんなジャンルの音楽が好き?",
+      "en": "What kind of music do you like?"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -6565,7 +7078,10 @@
     "id": "phrase-172",
     "hanzi": "我先走了。",
     "pinyin": "Wǒ xiān zǒu le.",
-    "meaning": "先に行くね。",
+    "meaning": {
+      "ja": "先に行くね。",
+      "en": "I'll head out first."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -6593,7 +7109,10 @@
     "id": "phrase-173",
     "hanzi": "到家发个消息。",
     "pinyin": "Dào jiā fā ge xiāoxi.",
-    "meaning": "家に着いたらメッセージ送ってね。",
+    "meaning": {
+      "ja": "家に着いたらメッセージ送ってね。",
+      "en": "Text me once you get home."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -6630,7 +7149,10 @@
     "id": "phrase-174",
     "hanzi": "路上小心。",
     "pinyin": "Lùshang xiǎoxīn.",
-    "meaning": "気をつけてね。",
+    "meaning": {
+      "ja": "気をつけてね。",
+      "en": "Take care."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -6661,7 +7183,10 @@
     "id": "phrase-175",
     "hanzi": "下次再聊。",
     "pinyin": "Xiàcì zài liáo.",
-    "meaning": "また今度話そう。",
+    "meaning": {
+      "ja": "また今度話そう。",
+      "en": "Let's talk again another time."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -6690,7 +7215,10 @@
     "id": "phrase-176",
     "hanzi": "保持联系。",
     "pinyin": "Bǎochí liánxì.",
-    "meaning": "連絡取り合おうね。",
+    "meaning": {
+      "ja": "連絡取り合おうね。",
+      "en": "Let's keep in touch."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -6719,7 +7247,10 @@
     "id": "phrase-177",
     "hanzi": "有空常联系。",
     "pinyin": "Yǒu kòng cháng liánxì.",
-    "meaning": "時間あったら連絡してね。",
+    "meaning": {
+      "ja": "時間あったら連絡してね。",
+      "en": "Reach out when you have time."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -6756,7 +7287,10 @@
     "id": "workplace-phrase-001",
     "hanzi": "今天开会吗?",
     "pinyin": "Jīntiān kāihuì ma?",
-    "meaning": "今日は会議がありますか?",
+    "meaning": {
+      "ja": "今日は会議がありますか?",
+      "en": "Is there a meeting today?"
+    },
     "category": "workplace",
     "typing": [
       [
@@ -6790,7 +7324,10 @@
     "id": "workplace-phrase-002",
     "hanzi": "会议几点开始?",
     "pinyin": "Huìyì jǐ diǎn kāishǐ?",
-    "meaning": "会議は何時から始まりますか?",
+    "meaning": {
+      "ja": "会議は何時から始まりますか?",
+      "en": "What time does the meeting start?"
+    },
     "category": "workplace",
     "typing": [
       [
@@ -6828,7 +7365,10 @@
     "id": "workplace-phrase-003",
     "hanzi": "我今天要加班。",
     "pinyin": "Wǒ jīntiān yào jiābān.",
-    "meaning": "今日は残業しなければなりません。",
+    "meaning": {
+      "ja": "今日は残業しなければなりません。",
+      "en": "I have to work overtime today."
+    },
     "category": "workplace",
     "typing": [
       [
@@ -6867,7 +7407,10 @@
     "id": "workplace-phrase-004",
     "hanzi": "你什么时候下班?",
     "pinyin": "Nǐ shénme shíhou xiàbān?",
-    "meaning": "いつ退勤しますか?",
+    "meaning": {
+      "ja": "いつ退勤しますか?",
+      "en": "What time are you getting off work?"
+    },
     "category": "workplace",
     "typing": [
       [
@@ -6910,7 +7453,10 @@
     "id": "workplace-phrase-005",
     "hanzi": "这个项目什么时候截止?",
     "pinyin": "Zhège xiàngmù shénme shíhou jiézhǐ?",
-    "meaning": "このプロジェクトの締め切りはいつですか?",
+    "meaning": {
+      "ja": "このプロジェクトの締め切りはいつですか?",
+      "en": "When is the deadline for this project?"
+    },
     "category": "workplace",
     "typing": [
       [
@@ -6969,7 +7515,10 @@
     "id": "workplace-phrase-006",
     "hanzi": "我把邮件发给你了。",
     "pinyin": "Wǒ bǎ yóujiàn fā gěi nǐ le.",
-    "meaning": "メールを送りました。",
+    "meaning": {
+      "ja": "メールを送りました。",
+      "en": "I sent an email."
+    },
     "category": "workplace",
     "typing": [
       [
@@ -7014,7 +7563,10 @@
     "id": "workplace-phrase-007",
     "hanzi": "麻烦你帮我看一下这份报告。",
     "pinyin": "Máfan nǐ bāng wǒ kàn yíxià zhè fèn bàogào.",
-    "meaning": "この報告書を見ていただけますか。",
+    "meaning": {
+      "ja": "この報告書を見ていただけますか。",
+      "en": "Could you please take a look at this report?"
+    },
     "category": "workplace",
     "typing": [
       [
@@ -7080,7 +7632,10 @@
     "id": "workplace-phrase-008",
     "hanzi": "我可以请假吗?",
     "pinyin": "Wǒ kěyǐ qǐngjià ma?",
-    "meaning": "休暇を取ってもいいですか?",
+    "meaning": {
+      "ja": "休暇を取ってもいいですか?",
+      "en": "Can I take some time off?"
+    },
     "category": "workplace",
     "typing": [
       [
@@ -7116,7 +7671,10 @@
     "id": "workplace-phrase-009",
     "hanzi": "老板叫你去他办公室。",
     "pinyin": "Lǎobǎn jiào nǐ qù tā bàngōngshì.",
-    "meaning": "上司があなたを呼んでいます。",
+    "meaning": {
+      "ja": "上司があなたを呼んでいます。",
+      "en": "The boss is calling for you."
+    },
     "category": "workplace",
     "typing": [
       [
@@ -7169,7 +7727,10 @@
     "id": "workplace-phrase-010",
     "hanzi": "我们先休息十分钟吧。",
     "pinyin": "Wǒmen xiān xiūxi shí fēnzhōng ba.",
-    "meaning": "まず10分休憩しましょう。",
+    "meaning": {
+      "ja": "まず10分休憩しましょう。",
+      "en": "Let's take a 10-minute break first."
+    },
     "category": "workplace",
     "typing": [
       [
@@ -7223,7 +7784,10 @@
     "id": "workplace-phrase-011",
     "hanzi": "这周我要出差。",
     "pinyin": "Zhè zhōu wǒ yào chūchāi.",
-    "meaning": "今週は出張します。",
+    "meaning": {
+      "ja": "今週は出張します。",
+      "en": "I'm going on a business trip this week."
+    },
     "category": "workplace",
     "typing": [
       [
@@ -7263,7 +7827,10 @@
     "id": "workplace-phrase-012",
     "hanzi": "辛苦了!",
     "pinyin": "Xīnkǔ le!",
-    "meaning": "お疲れ様でした!",
+    "meaning": {
+      "ja": "お疲れ様でした!",
+      "en": "Great work today!"
+    },
     "category": "workplace",
     "typing": [
       [
@@ -7285,7 +7852,10 @@
     "id": "workplace-phrase-013",
     "hanzi": "明天几点上班?",
     "pinyin": "Míngtiān jǐ diǎn shàngbān?",
-    "meaning": "明日は何時に出勤ですか?",
+    "meaning": {
+      "ja": "明日は何時に出勤ですか?",
+      "en": "What time do you start work tomorrow?"
+    },
     "category": "workplace",
     "typing": [
       [
@@ -7328,7 +7898,10 @@
     "id": "workplace-phrase-014",
     "hanzi": "客户什么时候来?",
     "pinyin": "Kèhù shénme shíhou lái?",
-    "meaning": "顧客はいつ来ますか?",
+    "meaning": {
+      "ja": "顧客はいつ来ますか?",
+      "en": "When is the client coming?"
+    },
     "category": "workplace",
     "typing": [
       [
@@ -7370,7 +7943,10 @@
     "id": "workplace-phrase-015",
     "hanzi": "我先走了,明天见。",
     "pinyin": "Wǒ xiān zǒu le, míngtiān jiàn.",
-    "meaning": "お先に失礼します、また明日。",
+    "meaning": {
+      "ja": "お先に失礼します、また明日。",
+      "en": "I'm heading out now, see you tomorrow."
+    },
     "category": "workplace",
     "typing": [
       [
@@ -7416,7 +7992,10 @@
     "id": "workplace-phrase-016",
     "hanzi": "这份工作交给我吧。",
     "pinyin": "Zhè fèn gōngzuò jiāo gěi wǒ ba.",
-    "meaning": "この仕事は私に任せてください。",
+    "meaning": {
+      "ja": "この仕事は私に任せてください。",
+      "en": "Please leave this job to me."
+    },
     "category": "workplace",
     "typing": [
       [
@@ -7465,7 +8044,10 @@
     "id": "workplace-phrase-017",
     "hanzi": "有什么需要帮忙的吗?",
     "pinyin": "Yǒu shénme xūyào bāngmáng de ma?",
-    "meaning": "何か手伝うことはありますか?",
+    "meaning": {
+      "ja": "何か手伝うことはありますか?",
+      "en": "Is there anything I can help with?"
+    },
     "category": "workplace",
     "typing": [
       [
@@ -7518,7 +8100,10 @@
     "id": "workplace-phrase-018",
     "hanzi": "我今天身体不舒服,想请假。",
     "pinyin": "Wǒ jīntiān shēntǐ bù shūfu, xiǎng qǐngjià.",
-    "meaning": "今日は体調が悪いので、休みたいです。",
+    "meaning": {
+      "ja": "今日は体調が悪いので、休みたいです。",
+      "en": "I'm not feeling well today, so I'd like to take the day off."
+    },
     "category": "workplace",
     "typing": [
       [
@@ -7583,7 +8168,10 @@
     "id": "workplace-phrase-019",
     "hanzi": "项目进展得怎么样了?",
     "pinyin": "Xiàngmù jìnzhǎn de zěnmeyàng le?",
-    "meaning": "プロジェクトの進捗はどうですか?",
+    "meaning": {
+      "ja": "プロジェクトの進捗はどうですか?",
+      "en": "How is the project coming along?"
+    },
     "category": "workplace",
     "typing": [
       [
@@ -7637,7 +8225,10 @@
     "id": "workplace-phrase-020",
     "hanzi": "下班后一起吃饭吧。",
     "pinyin": "Xiàbān hòu yìqǐ chīfàn ba.",
-    "meaning": "退勤後、一緒にご飯を食べましょう。",
+    "meaning": {
+      "ja": "退勤後、一緒にご飯を食べましょう。",
+      "en": "Let's grab dinner together after work."
+    },
     "category": "workplace",
     "typing": [
       [
@@ -7683,7 +8274,10 @@
     "id": "mealtime-phrase-001",
     "hanzi": "你吃了什么?",
     "pinyin": "Nǐ chī le shénme?",
-    "meaning": "何を食べましたか?",
+    "meaning": {
+      "ja": "何を食べましたか?",
+      "en": "What did you eat?"
+    },
     "category": "mealtime",
     "typing": [
       [
@@ -7715,7 +8309,10 @@
     "id": "mealtime-phrase-002",
     "hanzi": "我什么都没吃。",
     "pinyin": "Wǒ shénme dōu méi chī.",
-    "meaning": "何も食べていません。",
+    "meaning": {
+      "ja": "何も食べていません。",
+      "en": "I haven't eaten anything."
+    },
     "category": "mealtime",
     "typing": [
       [
@@ -7753,7 +8350,10 @@
     "id": "mealtime-phrase-003",
     "hanzi": "真的吗?",
     "pinyin": "Zhēn de ma?",
-    "meaning": "本当ですか?",
+    "meaning": {
+      "ja": "本当ですか?",
+      "en": "Really?"
+    },
     "category": "mealtime",
     "typing": [
       [
@@ -7776,7 +8376,10 @@
     "id": "mealtime-phrase-004",
     "hanzi": "我们在哪儿吃?",
     "pinyin": "Wǒmen zài nǎr chī?",
-    "meaning": "どこで食べますか?",
+    "meaning": {
+      "ja": "どこで食べますか?",
+      "en": "Where shall we eat?"
+    },
     "category": "mealtime",
     "typing": [
       [
@@ -7809,7 +8412,10 @@
     "id": "mealtime-phrase-005",
     "hanzi": "今天有点冷,想吃点热的。",
     "pinyin": "Jīntiān yǒudiǎn lěng, xiǎng chī diǎn rè de.",
-    "meaning": "今日は少し寒いので、温かいものが食べたいです。",
+    "meaning": {
+      "ja": "今日は少し寒いので、温かいものが食べたいです。",
+      "en": "It's a bit cold today, so I'd like to eat something warm."
+    },
     "category": "mealtime",
     "typing": [
       [
@@ -7872,7 +8478,10 @@
     "id": "mealtime-phrase-006",
     "hanzi": "这个菜真好吃!",
     "pinyin": "Zhège cài zhēn hǎochī!",
-    "meaning": "この料理は本当においしいです!",
+    "meaning": {
+      "ja": "この料理は本当においしいです!",
+      "en": "This dish is really delicious!"
+    },
     "category": "mealtime",
     "typing": [
       [
@@ -7911,7 +8520,10 @@
     "id": "mealtime-phrase-007",
     "hanzi": "你尝尝这个。",
     "pinyin": "Nǐ chángchang zhège.",
-    "meaning": "これを味見してみてください。",
+    "meaning": {
+      "ja": "これを味見してみてください。",
+      "en": "Please try this."
+    },
     "category": "mealtime",
     "typing": [
       [
@@ -7947,7 +8559,10 @@
     "id": "mealtime-phrase-008",
     "hanzi": "我吃饱了。",
     "pinyin": "Wǒ chībǎo le.",
-    "meaning": "お腹いっぱいになりました。",
+    "meaning": {
+      "ja": "お腹いっぱいになりました。",
+      "en": "I'm full now."
+    },
     "category": "mealtime",
     "typing": [
       [
@@ -7974,7 +8589,10 @@
     "id": "mealtime-phrase-009",
     "hanzi": "还想吃点什么吗?",
     "pinyin": "Hái xiǎng chī diǎn shénme ma?",
-    "meaning": "他に何か食べたいものはありますか?",
+    "meaning": {
+      "ja": "他に何か食べたいものはありますか?",
+      "en": "Is there anything else you'd like to eat?"
+    },
     "category": "mealtime",
     "typing": [
       [
@@ -8020,7 +8638,10 @@
     "id": "mealtime-phrase-010",
     "hanzi": "有点辣,不过很好吃。",
     "pinyin": "Yǒudiǎn là, búguò hěn hǎochī.",
-    "meaning": "少し辛いですが、とてもおいしいです。",
+    "meaning": {
+      "ja": "少し辛いですが、とてもおいしいです。",
+      "en": "It's a bit spicy, but really delicious."
+    },
     "category": "mealtime",
     "typing": [
       [
@@ -8068,7 +8689,10 @@
     "id": "mealtime-phrase-011",
     "hanzi": "这个味道有点咸。",
     "pinyin": "Zhège wèidao yǒudiǎn xián.",
-    "meaning": "この味は少ししょっぱいです。",
+    "meaning": {
+      "ja": "この味は少ししょっぱいです。",
+      "en": "This tastes a little salty."
+    },
     "category": "mealtime",
     "typing": [
       [
@@ -8113,7 +8737,10 @@
     "id": "mealtime-phrase-012",
     "hanzi": "再来一碗米饭。",
     "pinyin": "Zài lái yì wǎn mǐfàn.",
-    "meaning": "ご飯をもう一杯ください。",
+    "meaning": {
+      "ja": "ご飯をもう一杯ください。",
+      "en": "Another bowl of rice, please."
+    },
     "category": "mealtime",
     "typing": [
       [
@@ -8150,7 +8777,10 @@
     "id": "mealtime-phrase-013",
     "hanzi": "干杯!",
     "pinyin": "Gānbēi!",
-    "meaning": "乾杯!",
+    "meaning": {
+      "ja": "乾杯!",
+      "en": "Cheers!"
+    },
     "category": "mealtime",
     "typing": [
       [
@@ -8169,7 +8799,10 @@
     "id": "mealtime-phrase-014",
     "hanzi": "你喜欢吃辣的吗?",
     "pinyin": "Nǐ xǐhuan chī là de ma?",
-    "meaning": "辛いものは好きですか?",
+    "meaning": {
+      "ja": "辛いものは好きですか?",
+      "en": "Do you like spicy food?"
+    },
     "category": "mealtime",
     "typing": [
       [
@@ -8209,7 +8842,10 @@
     "id": "mealtime-phrase-015",
     "hanzi": "我不太能吃辣。",
     "pinyin": "Wǒ bú tài néng chī là.",
-    "meaning": "私はあまり辛いものが得意ではありません。",
+    "meaning": {
+      "ja": "私はあまり辛いものが得意ではありません。",
+      "en": "I'm not very good with spicy food."
+    },
     "category": "mealtime",
     "typing": [
       [
@@ -8246,7 +8882,10 @@
     "id": "mealtime-phrase-016",
     "hanzi": "慢慢吃,别着急。",
     "pinyin": "Mànmàn chī, bié zháojí.",
-    "meaning": "ゆっくり食べて、急がなくていいですよ。",
+    "meaning": {
+      "ja": "ゆっくり食べて、急がなくていいですよ。",
+      "en": "Take your time eating, there's no need to rush."
+    },
     "category": "mealtime",
     "typing": [
       [
@@ -8285,7 +8924,10 @@
     "id": "mealtime-phrase-017",
     "hanzi": "我们AA制吧。",
     "pinyin": "Wǒmen AA zhì ba.",
-    "meaning": "割り勘にしましょう。",
+    "meaning": {
+      "ja": "割り勘にしましょう。",
+      "en": "Let's split the bill."
+    },
     "category": "mealtime",
     "typing": [
       [
@@ -8316,7 +8958,10 @@
     "id": "mealtime-phrase-018",
     "hanzi": "今天我请客。",
     "pinyin": "Jīntiān wǒ qǐngkè.",
-    "meaning": "今日は私がおごります。",
+    "meaning": {
+      "ja": "今日は私がおごります。",
+      "en": "It's my treat today."
+    },
     "category": "mealtime",
     "typing": [
       [
@@ -8350,7 +8995,10 @@
     "id": "mealtime-phrase-019",
     "hanzi": "你会用筷子吗?",
     "pinyin": "Nǐ huì yòng kuàizi ma?",
-    "meaning": "箸は使えますか?",
+    "meaning": {
+      "ja": "箸は使えますか?",
+      "en": "Can you use chopsticks?"
+    },
     "category": "mealtime",
     "typing": [
       [
@@ -8388,7 +9036,10 @@
     "id": "mealtime-phrase-020",
     "hanzi": "味道怎么样?",
     "pinyin": "Wèidao zěnmeyàng?",
-    "meaning": "味はどうですか?",
+    "meaning": {
+      "ja": "味はどうですか?",
+      "en": "How does it taste?"
+    },
     "category": "mealtime",
     "typing": [
       [
@@ -8422,7 +9073,10 @@
     "id": "small-talk-phrase-001",
     "hanzi": "你平时有什么爱好?",
     "pinyin": "Nǐ píngshí yǒu shénme àihào?",
-    "meaning": "普段どんな趣味がありますか?",
+    "meaning": {
+      "ja": "普段どんな趣味がありますか?",
+      "en": "What do you usually do for fun?"
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -8470,7 +9124,10 @@
     "id": "small-talk-phrase-002",
     "hanzi": "周末打算做什么?",
     "pinyin": "Zhōumò dǎsuàn zuò shénme?",
-    "meaning": "週末は何をする予定ですか?",
+    "meaning": {
+      "ja": "週末は何をする予定ですか?",
+      "en": "What are you doing this weekend?"
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -8514,7 +9171,10 @@
     "id": "small-talk-phrase-003",
     "hanzi": "你看新闻了吗?",
     "pinyin": "Nǐ kàn xīnwén le ma?",
-    "meaning": "ニュースを見ましたか?",
+    "meaning": {
+      "ja": "ニュースを見ましたか?",
+      "en": "Did you see the news?"
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -8550,7 +9210,10 @@
     "id": "small-talk-phrase-004",
     "hanzi": "最近有什么好看的电影吗?",
     "pinyin": "Zuìjìn yǒu shénme hǎokàn de diànyǐng ma?",
-    "meaning": "最近何かいい映画はありますか?",
+    "meaning": {
+      "ja": "最近何かいい映画はありますか?",
+      "en": "Have you seen any good movies lately?"
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -8614,7 +9277,10 @@
     "id": "small-talk-phrase-005",
     "hanzi": "你喜欢什么运动?",
     "pinyin": "Nǐ xǐhuan shénme yùndòng?",
-    "meaning": "どんなスポーツが好きですか?",
+    "meaning": {
+      "ja": "どんなスポーツが好きですか?",
+      "en": "What sports do you like?"
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -8658,7 +9324,10 @@
     "id": "small-talk-phrase-006",
     "hanzi": "你养宠物吗?",
     "pinyin": "Nǐ yǎng chǒngwù ma?",
-    "meaning": "ペットを飼っていますか?",
+    "meaning": {
+      "ja": "ペットを飼っていますか?",
+      "en": "Do you have any pets?"
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -8692,7 +9361,10 @@
     "id": "small-talk-phrase-007",
     "hanzi": "这部电视剧很有意思。",
     "pinyin": "Zhè bù diànshìjù hěn yǒuyìsi.",
-    "meaning": "このドラマはとても面白いです。",
+    "meaning": {
+      "ja": "このドラマはとても面白いです。",
+      "en": "This show is really interesting."
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -8743,7 +9415,10 @@
     "id": "small-talk-phrase-008",
     "hanzi": "我最近迷上了一部剧。",
     "pinyin": "Wǒ zuìjìn míshàng le yí bù jù.",
-    "meaning": "最近あるドラマにはまっています。",
+    "meaning": {
+      "ja": "最近あるドラマにはまっています。",
+      "en": "I've been really into a show lately."
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -8793,7 +9468,10 @@
     "id": "small-talk-phrase-009",
     "hanzi": "你听说了吗?",
     "pinyin": "Nǐ tīngshuō le ma?",
-    "meaning": "聞きましたか?",
+    "meaning": {
+      "ja": "聞きましたか?",
+      "en": "Did you hear about that?"
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -8826,7 +9504,10 @@
     "id": "small-talk-phrase-010",
     "hanzi": "真的假的?",
     "pinyin": "Zhēn de jiǎ de?",
-    "meaning": "本当?嘘でしょ?",
+    "meaning": {
+      "ja": "本当?嘘でしょ?",
+      "en": "Really? No way!"
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -8854,7 +9535,10 @@
     "id": "small-talk-phrase-011",
     "hanzi": "说起来,你最近怎么样?",
     "pinyin": "Shuō qǐlai, nǐ zuìjìn zěnmeyàng?",
-    "meaning": "そういえば、最近どうですか?",
+    "meaning": {
+      "ja": "そういえば、最近どうですか?",
+      "en": "By the way, how have you been lately?"
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -8907,7 +9591,10 @@
     "id": "small-talk-phrase-012",
     "hanzi": "我今天有点无聊。",
     "pinyin": "Wǒ jīntiān yǒudiǎn wúliáo.",
-    "meaning": "今日はちょっと退屈です。",
+    "meaning": {
+      "ja": "今日はちょっと退屈です。",
+      "en": "I'm a bit bored today."
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -8952,7 +9639,10 @@
     "id": "small-talk-phrase-013",
     "hanzi": "你平时几点睡觉?",
     "pinyin": "Nǐ píngshí jǐ diǎn shuìjiào?",
-    "meaning": "普段何時に寝ますか?",
+    "meaning": {
+      "ja": "普段何時に寝ますか?",
+      "en": "What time do you usually go to bed?"
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -8998,7 +9688,10 @@
     "id": "small-talk-phrase-014",
     "hanzi": "养成一个好习惯不容易。",
     "pinyin": "Yǎngchéng yí ge hǎo xíguàn bù róngyì.",
-    "meaning": "良い習慣を身につけるのは簡単ではありません。",
+    "meaning": {
+      "ja": "良い習慣を身につけるのは簡単ではありません。",
+      "en": "It's not easy to build good habits."
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -9057,7 +9750,10 @@
     "id": "small-talk-phrase-015",
     "hanzi": "你打算什么时候放假?",
     "pinyin": "Nǐ dǎsuàn shénme shíhou fàngjià?",
-    "meaning": "いつ休みを取る予定ですか?",
+    "meaning": {
+      "ja": "いつ休みを取る予定ですか?",
+      "en": "When are you planning to take some time off?"
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -9111,7 +9807,10 @@
     "id": "small-talk-phrase-016",
     "hanzi": "假期你有什么计划?",
     "pinyin": "Jiàqī nǐ yǒu shénme jìhuà?",
-    "meaning": "休暇中に何か計画はありますか?",
+    "meaning": {
+      "ja": "休暇中に何か計画はありますか?",
+      "en": "Do you have any plans for the holiday?"
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -9157,7 +9856,10 @@
     "id": "small-talk-phrase-017",
     "hanzi": "我们好久没聊天了。",
     "pinyin": "Wǒmen hǎojiǔ méi liáotiān le.",
-    "meaning": "久しくおしゃべりしていませんね。",
+    "meaning": {
+      "ja": "久しくおしゃべりしていませんね。",
+      "en": "We haven't chatted in a while."
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -9206,7 +9908,10 @@
     "id": "small-talk-phrase-018",
     "hanzi": "你喜欢听什么音乐?",
     "pinyin": "Nǐ xǐhuan tīng shénme yīnyuè?",
-    "meaning": "どんな音楽を聴くのが好きですか?",
+    "meaning": {
+      "ja": "どんな音楽を聴くのが好きですか?",
+      "en": "What kind of music do you like to listen to?"
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -9255,7 +9960,10 @@
     "id": "small-talk-phrase-019",
     "hanzi": "你去过日本以外的地方旅游吗?",
     "pinyin": "Nǐ qùguo Rìběn yǐwài de dìfang lǚyóu ma?",
-    "meaning": "日本以外の場所へ旅行したことはありますか?",
+    "meaning": {
+      "ja": "日本以外の場所へ旅行したことはありますか?",
+      "en": "Have you ever traveled outside Japan?"
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -9322,7 +10030,10 @@
     "id": "small-talk-phrase-020",
     "hanzi": "说到这个,我想起一件事。",
     "pinyin": "Shuō dào zhège, wǒ xiǎngqǐ yí jiàn shì.",
-    "meaning": "それで思い出したことがあります。",
+    "meaning": {
+      "ja": "それで思い出したことがあります。",
+      "en": "That reminds me of something."
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -9381,7 +10092,10 @@
     "id": "phrase-178",
     "hanzi": "你看到了我。",
     "pinyin": "Nǐ kàndào le wǒ.",
-    "meaning": "あなたは私を見かけました。",
+    "meaning": {
+      "ja": "あなたは私を見かけました。",
+      "en": "You saw me."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -9412,7 +10126,10 @@
     "id": "phrase-179",
     "hanzi": "但是你没认出来这是我。",
     "pinyin": "Dànshì nǐ méi rènchūlái zhè shì wǒ.",
-    "meaning": "でも、あなたはそれが私だと気づきませんでしたね。",
+    "meaning": {
+      "ja": "でも、あなたはそれが私だと気づきませんでしたね。",
+      "en": "But you didn't realize it was me."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -9469,7 +10186,10 @@
     "id": "phrase-180",
     "hanzi": "哈哈哈。",
     "pinyin": "Hā hā hā.",
-    "meaning": "あははは。",
+    "meaning": {
+      "ja": "あははは。",
+      "en": "Hahaha."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -9490,7 +10210,10 @@
     "id": "phrase-181",
     "hanzi": "回家吧。",
     "pinyin": "Huí jiā ba.",
-    "meaning": "家に帰ろう。",
+    "meaning": {
+      "ja": "家に帰ろう。",
+      "en": "Let's go home."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -9513,7 +10236,10 @@
     "id": "phrase-182",
     "hanzi": "不早了。",
     "pinyin": "Bù zǎo le.",
-    "meaning": "もう遅いですね。",
+    "meaning": {
+      "ja": "もう遅いですね。",
+      "en": "It's getting late."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -9535,7 +10261,10 @@
     "id": "phrase-183",
     "hanzi": "现在还早。",
     "pinyin": "Xiànzài hái zǎo.",
-    "meaning": "今はまだ早いです。",
+    "meaning": {
+      "ja": "今はまだ早いです。",
+      "en": "It's still early."
+    },
     "category": "daily-conversation",
     "typing": [
       [
@@ -9565,7 +10294,10 @@
     "id": "mealtime-phrase-021",
     "hanzi": "什么都不吃。",
     "pinyin": "Shénme dōu bù chī.",
-    "meaning": "何も食べません。",
+    "meaning": {
+      "ja": "何も食べません。",
+      "en": "I won't eat anything."
+    },
     "category": "mealtime",
     "typing": [
       [
@@ -9598,7 +10330,10 @@
     "id": "mealtime-phrase-022",
     "hanzi": "吃什么?",
     "pinyin": "Chī shénme?",
-    "meaning": "何を食べる?",
+    "meaning": {
+      "ja": "何を食べる?",
+      "en": "What are you going to eat?"
+    },
     "category": "mealtime",
     "typing": [
       [
@@ -9622,7 +10357,10 @@
     "id": "mealtime-phrase-023",
     "hanzi": "吃什么了?",
     "pinyin": "Chī shénme le?",
-    "meaning": "何を食べた?",
+    "meaning": {
+      "ja": "何を食べた?",
+      "en": "What'd you eat?"
+    },
     "category": "mealtime",
     "typing": [
       [
@@ -9650,7 +10388,10 @@
     "id": "mealtime-phrase-024",
     "hanzi": "你今天吃什么了?",
     "pinyin": "Nǐ jīntiān chī shénme le?",
-    "meaning": "今日何を食べましたか?",
+    "meaning": {
+      "ja": "今日何を食べましたか?",
+      "en": "What did you eat today?"
+    },
     "category": "mealtime",
     "typing": [
       [
@@ -9693,7 +10434,10 @@
     "id": "small-talk-phrase-021",
     "hanzi": "热吗?",
     "pinyin": "Rè ma?",
-    "meaning": "暑いですか?",
+    "meaning": {
+      "ja": "暑いですか?",
+      "en": "Is it hot?"
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -9710,7 +10454,10 @@
     "id": "small-talk-phrase-022",
     "hanzi": "冷吗?",
     "pinyin": "Lěng ma?",
-    "meaning": "寒いですか?",
+    "meaning": {
+      "ja": "寒いですか?",
+      "en": "Is it cold?"
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -9729,7 +10476,10 @@
     "id": "small-talk-phrase-023",
     "hanzi": "不冷。",
     "pinyin": "Bù lěng.",
-    "meaning": "寒くないです。",
+    "meaning": {
+      "ja": "寒くないです。",
+      "en": "It's not cold."
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -9748,7 +10498,10 @@
     "id": "workplace-phrase-021",
     "hanzi": "早上好!",
     "pinyin": "Zǎoshang hǎo!",
-    "meaning": "おはよう!",
+    "meaning": {
+      "ja": "おはよう!",
+      "en": "Good morning!"
+    },
     "category": "workplace",
     "typing": [
       [
@@ -9774,7 +10527,10 @@
     "id": "workplace-phrase-022",
     "hanzi": "周末过得怎么样?",
     "pinyin": "Zhōumò guò de zěnmeyàng?",
-    "meaning": "週末どうだった?",
+    "meaning": {
+      "ja": "週末どうだった?",
+      "en": "How was your weekend?"
+    },
     "category": "workplace",
     "typing": [
       [
@@ -9817,7 +10573,10 @@
     "id": "workplace-phrase-023",
     "hanzi": "星期一好累啊。",
     "pinyin": "Xīngqīyī hǎo lèi a.",
-    "meaning": "月曜日はほんとだるいね。",
+    "meaning": {
+      "ja": "月曜日はほんとだるいね。",
+      "en": "Mondays are really rough, huh."
+    },
     "category": "workplace",
     "typing": [
       [
@@ -9853,7 +10612,10 @@
     "id": "workplace-phrase-024",
     "hanzi": "终于到星期五了!",
     "pinyin": "Zhōngyú dào xīngqīwǔ le!",
-    "meaning": "やっと金曜日だ!",
+    "meaning": {
+      "ja": "やっと金曜日だ!",
+      "en": "Finally Friday!"
+    },
     "category": "workplace",
     "typing": [
       [
@@ -9896,7 +10658,10 @@
     "id": "workplace-phrase-025",
     "hanzi": "你有时间吗?我想问你个问题。",
     "pinyin": "Nǐ yǒu shíjiān ma? Wǒ xiǎng wèn nǐ ge wèntí.",
-    "meaning": "時間ある?ちょっと聞きたいことがあるんだけど。",
+    "meaning": {
+      "ja": "時間ある?ちょっと聞きたいことがあるんだけど。",
+      "en": "Got a minute? There's something I want to ask you."
+    },
     "category": "workplace",
     "typing": [
       [
@@ -9962,7 +10727,10 @@
     "id": "workplace-phrase-026",
     "hanzi": "这个你怎么看?",
     "pinyin": "Zhège nǐ zěnme kàn?",
-    "meaning": "これどう思う?",
+    "meaning": {
+      "ja": "これどう思う?",
+      "en": "What do you think of this?"
+    },
     "category": "workplace",
     "typing": [
       [
@@ -9998,7 +10766,10 @@
     "id": "workplace-phrase-027",
     "hanzi": "我不太懂,你能教我一下吗?",
     "pinyin": "Wǒ bú tài dǒng, nǐ néng jiāo wǒ yíxià ma?",
-    "meaning": "よくわからないので、教えてもらえる?",
+    "meaning": {
+      "ja": "よくわからないので、教えてもらえる?",
+      "en": "I don't quite get it, can you explain it to me?"
+    },
     "category": "workplace",
     "typing": [
       [
@@ -10059,7 +10830,10 @@
     "id": "workplace-phrase-028",
     "hanzi": "这个中文怎么说?",
     "pinyin": "Zhège Zhōngwén zěnme shuō?",
-    "meaning": "これは中国語で何と言いますか?",
+    "meaning": {
+      "ja": "これは中国語で何と言いますか?",
+      "en": "How do you say this in Chinese?"
+    },
     "category": "workplace",
     "typing": [
       [
@@ -10104,7 +10878,10 @@
     "id": "workplace-phrase-029",
     "hanzi": "谢谢你的帮助。",
     "pinyin": "Xièxie nǐ de bāngzhù.",
-    "meaning": "手伝ってくれてありがとう。",
+    "meaning": {
+      "ja": "手伝ってくれてありがとう。",
+      "en": "Thanks for your help."
+    },
     "category": "workplace",
     "typing": [
       [
@@ -10142,7 +10919,10 @@
     "id": "workplace-phrase-030",
     "hanzi": "一起去喝杯咖啡吧。",
     "pinyin": "Yìqǐ qù hē bēi kāfēi ba.",
-    "meaning": "一緒にコーヒー飲みに行こう。",
+    "meaning": {
+      "ja": "一緒にコーヒー飲みに行こう。",
+      "en": "Let's go grab a coffee together."
+    },
     "category": "workplace",
     "typing": [
       [
@@ -10185,7 +10965,10 @@
     "id": "workplace-phrase-031",
     "hanzi": "我去买杯咖啡,你要吗?",
     "pinyin": "Wǒ qù mǎi bēi kāfēi, nǐ yào ma?",
-    "meaning": "コーヒー買いに行くけど、いる?",
+    "meaning": {
+      "ja": "コーヒー買いに行くけど、いる?",
+      "en": "I'm going to get coffee, do you want some?"
+    },
     "category": "workplace",
     "typing": [
       [
@@ -10234,7 +11017,10 @@
     "id": "workplace-phrase-032",
     "hanzi": "今天先到这里吧。",
     "pinyin": "Jīntiān xiān dào zhèlǐ ba.",
-    "meaning": "今日はここまでにしよう。",
+    "meaning": {
+      "ja": "今日はここまでにしよう。",
+      "en": "Let's call it a day."
+    },
     "category": "workplace",
     "typing": [
       [
@@ -10278,7 +11064,10 @@
     "id": "workplace-phrase-033",
     "hanzi": "早点回去休息吧。",
     "pinyin": "Zǎodiǎn huíqù xiūxi ba.",
-    "meaning": "早く帰って休んでね。",
+    "meaning": {
+      "ja": "早く帰って休んでね。",
+      "en": "Head home early and get some rest."
+    },
     "category": "workplace",
     "typing": [
       [
@@ -10320,7 +11109,10 @@
     "id": "workplace-phrase-034",
     "hanzi": "打扰一下,可以问你个问题吗?",
     "pinyin": "Dǎrǎo yíxià, kěyǐ wèn nǐ ge wèntí ma?",
-    "meaning": "お邪魔します、ちょっと聞いてもいいですか?",
+    "meaning": {
+      "ja": "お邪魔します、ちょっと聞いてもいいですか?",
+      "en": "Sorry to bother you, can I ask you something?"
+    },
     "category": "workplace",
     "typing": [
       [
@@ -10381,7 +11173,10 @@
     "id": "workplace-phrase-035",
     "hanzi": "没问题,交给我吧。",
     "pinyin": "Méi wèntí, jiāo gěi wǒ ba.",
-    "meaning": "大丈夫、任せて。",
+    "meaning": {
+      "ja": "大丈夫、任せて。",
+      "en": "Don't worry, leave it to me."
+    },
     "category": "workplace",
     "typing": [
       [
@@ -10423,7 +11218,10 @@
     "id": "small-talk-phrase-024",
     "hanzi": "是这样啊。",
     "pinyin": "Shì zhèyàng a.",
-    "meaning": "そうなんだ。",
+    "meaning": {
+      "ja": "そうなんだ。",
+      "en": "Oh, I see."
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -10451,7 +11249,10 @@
     "id": "small-talk-phrase-025",
     "hanzi": "我懂你的意思。",
     "pinyin": "Wǒ dǒng nǐ de yìsi.",
-    "meaning": "言いたいことわかるよ。",
+    "meaning": {
+      "ja": "言いたいことわかるよ。",
+      "en": "I get what you mean."
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -10486,7 +11287,10 @@
     "id": "small-talk-phrase-026",
     "hanzi": "完全同意。",
     "pinyin": "Wánquán tóngyì.",
-    "meaning": "完全に同意。",
+    "meaning": {
+      "ja": "完全に同意。",
+      "en": "I totally agree."
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -10516,7 +11320,10 @@
     "id": "small-talk-phrase-027",
     "hanzi": "有道理。",
     "pinyin": "Yǒu dàolǐ.",
-    "meaning": "一理あるね。",
+    "meaning": {
+      "ja": "一理あるね。",
+      "en": "You've got a point."
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -10539,7 +11346,10 @@
     "id": "small-talk-phrase-028",
     "hanzi": "我也是这么想的。",
     "pinyin": "Wǒ yě shì zhème xiǎng de.",
-    "meaning": "私もそう思う。",
+    "meaning": {
+      "ja": "私もそう思う。",
+      "en": "I think so too."
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -10581,7 +11391,10 @@
     "id": "small-talk-phrase-029",
     "hanzi": "我在学中文。",
     "pinyin": "Wǒ zài xué Zhōngwén.",
-    "meaning": "中国語を勉強してるよ。",
+    "meaning": {
+      "ja": "中国語を勉強してるよ。",
+      "en": "I'm learning Chinese."
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -10616,7 +11429,10 @@
     "id": "small-talk-phrase-030",
     "hanzi": "你能教我说中文吗?",
     "pinyin": "Nǐ néng jiāo wǒ shuō Zhōngwén ma?",
-    "meaning": "中国語教えてくれる?",
+    "meaning": {
+      "ja": "中国語教えてくれる?",
+      "en": "Can you teach me Chinese?"
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -10667,7 +11483,10 @@
     "id": "small-talk-phrase-031",
     "hanzi": "这句话是什么意思?",
     "pinyin": "Zhè jù huà shì shénme yìsi?",
-    "meaning": "この言葉はどういう意味?",
+    "meaning": {
+      "ja": "この言葉はどういう意味?",
+      "en": "What does this word mean?"
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -10713,7 +11532,10 @@
     "id": "small-talk-phrase-032",
     "hanzi": "中国人平时也这么说吗?",
     "pinyin": "Zhōngguórén píngshí yě zhème shuō ma?",
-    "meaning": "中国人も普段こう言うの?",
+    "meaning": {
+      "ja": "中国人も普段こう言うの?",
+      "en": "Do Chinese people usually say this too?"
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -10773,7 +11595,10 @@
     "id": "small-talk-phrase-033",
     "hanzi": "日本和中国有什么不一样?",
     "pinyin": "Rìběn hé Zhōngguó yǒu shénme bù yíyàng?",
-    "meaning": "日本と中国はどう違うの?",
+    "meaning": {
+      "ja": "日本と中国はどう違うの?",
+      "en": "How is Japan different from China?"
+    },
     "category": "small-talk",
     "typing": [
       [
@@ -10836,7 +11661,10 @@
     "id": "phrase-184",
     "hanzi": "下班一起喝一杯吧。",
     "pinyin": "Xiàbān yìqǐ hē yì bēi ba.",
-    "meaning": "退勤後一緒に一杯飲もう。",
+    "meaning": {
+      "ja": "退勤後一緒に一杯飲もう。",
+      "en": "Let's grab a drink together after work."
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -10880,7 +11708,10 @@
     "id": "phrase-185",
     "hanzi": "有推荐的中国菜吗?",
     "pinyin": "Yǒu tuījiàn de Zhōngguó cài ma?",
-    "meaning": "おすすめの中国料理ある?",
+    "meaning": {
+      "ja": "おすすめの中国料理ある?",
+      "en": "Do you have any Chinese food recommendations?"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -10930,7 +11761,10 @@
     "id": "phrase-186",
     "hanzi": "周末愉快!",
     "pinyin": "Zhōumò yúkuài!",
-    "meaning": "良い週末を!",
+    "meaning": {
+      "ja": "良い週末を!",
+      "en": "Have a great weekend!"
+    },
     "category": "friend-chat",
     "typing": [
       [
@@ -10959,7 +11793,10 @@
     "id": "phrase-187",
     "hanzi": "你中文说得真好。",
     "pinyin": "Nǐ Zhōngwén shuō de zhēn hǎo.",
-    "meaning": "中国語上手だね。",
+    "meaning": {
+      "ja": "中国語上手だね。",
+      "en": "Your Chinese is really good."
+    },
     "category": "friend-chat",
     "typing": [
       [

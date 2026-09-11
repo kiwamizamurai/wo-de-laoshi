@@ -1,3 +1,5 @@
+import { CopyButton } from '../../components/CopyButton';
+import { SpeakButton } from '../../components/SpeakButton';
 import type { VocabItem } from '../../data/types';
 import { PinyinKeyboard } from './PinyinKeyboard';
 import { TypingProgress } from './TypingProgress';
@@ -37,9 +39,13 @@ export function TypingPractice({ items }: TypingPracticeProps) {
       style={{ display: 'flex', flexDirection: 'column', gap: '1rem', padding: '1.2rem' }}
     >
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.3rem' }}>
-        <span className="hanzi" style={{ fontSize: 'clamp(1.8rem, 9vw, 2.4rem)', fontWeight: 700 }}>
-          {current.hanzi}
-        </span>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+          <span className="hanzi" style={{ fontSize: 'clamp(1.8rem, 9vw, 2.4rem)', fontWeight: 700 }}>
+            {current.hanzi}
+          </span>
+          <SpeakButton text={current.hanzi} />
+          <CopyButton text={current.hanzi} />
+        </div>
         <span className="muted">{current.pinyin}</span>
         <span className="muted">{current.meaning}</span>
       </div>

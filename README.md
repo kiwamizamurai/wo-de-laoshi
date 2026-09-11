@@ -1,6 +1,20 @@
-# wo-de-laoshi (我的老师)
+<p align="center">
+  <img src="public/icon.svg" width="96" height="96" alt="" />
+</p>
 
-A Chinese learning app that runs entirely in the browser using Chrome's Built-in AI (Gemini Nano). No backend — it's a static single-page app deployed to GitHub Pages.
+<h1 align="center">wo-de-laoshi (我的老师)</h1>
+
+<p align="center">
+  <a href="https://github.com/kiwamizamurai/wo-de-laoshi/actions/workflows/deploy.yml"><img src="https://github.com/kiwamizamurai/wo-de-laoshi/actions/workflows/deploy.yml/badge.svg" alt="Deploy status" /></a>
+  <img src="https://img.shields.io/badge/Chrome-138%2B-4285F4?logo=googlechrome&logoColor=white" alt="Chrome 138+" />
+  <img src="https://img.shields.io/badge/Gemini%20Nano-Built--in%20AI-886FBF?logo=googlegemini&logoColor=white" alt="Gemini Nano" />
+  <img src="https://img.shields.io/badge/PWA-Installable-5A0FC8?logo=pwa&logoColor=white" alt="PWA" />
+  <img src="https://img.shields.io/badge/Hono-E36002?logo=hono&logoColor=white" alt="Hono" />
+</p>
+
+<p align="center">A Chinese learning app that runs entirely in the browser using Chrome's Built-in AI (Gemini Nano). No backend — it's a static single-page app deployed to GitHub Pages.</p>
+
+<p align="center"><a href="https://kiwamizamurai.github.io/wo-de-laoshi/">🔗 Live Demo</a></p>
 
 ## Features
 

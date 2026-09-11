@@ -70,15 +70,15 @@ export function Card({ item, revealed, onReveal, bookmarked, onToggleBookmark, e
             <span className="hanzi">{item.hanzi}</span> {item.pinyin}
           </span>
           <strong style={{ fontSize: '1.2rem' }}>{item.meaning}</strong>
-          {item.exampleSentence ? (
+          {item.example ? (
             <div style={{ marginTop: '0.6rem', fontSize: '0.9rem' }}>
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.4rem' }}>
-                <span className="hanzi">{item.exampleSentence}</span>
-                <SpeakButton text={item.exampleSentence} />
-                <CopyButton text={item.exampleSentence} />
+                <span className="hanzi">{item.example.sentence}</span>
+                <SpeakButton text={item.example.sentence} />
+                <CopyButton text={item.example.sentence} />
               </div>
-              <div className="muted">{item.exampleSentencePinyin}</div>
-              <div className="muted">{item.exampleSentenceMeaning}</div>
+              <div className="muted">{item.example.pinyin}</div>
+              <div className="muted">{item.example.meaning}</div>
             </div>
           ) : null}
         </div>

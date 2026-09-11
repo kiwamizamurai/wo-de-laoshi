@@ -5,7 +5,37 @@
     "pinyin": "Nǐ hǎo, wǒ yào diǎn cài.",
     "meaning": "こんにちは、注文したいです。",
     "category": "phrase",
-    "hskLevel": 1
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "y",
+        "a",
+        "o"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "c",
+        "a",
+        "i"
+      ]
+    ]
   },
   {
     "id": "phrase-002",
@@ -13,7 +43,35 @@
     "pinyin": "Wǒ yào yì bēi kāfēi.",
     "meaning": "コーヒーを一杯ください。",
     "category": "phrase",
-    "hskLevel": 1
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "y",
+        "a",
+        "o"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "b",
+        "e",
+        "i"
+      ],
+      [
+        "k",
+        "a"
+      ],
+      [
+        "f",
+        "e",
+        "i"
+      ]
+    ]
   },
   {
     "id": "phrase-003",
@@ -21,7 +79,25 @@
     "pinyin": "Duōshao qián?",
     "meaning": "いくらですか?",
     "category": "phrase",
-    "hskLevel": 1
+    "typing": [
+      [
+        "d",
+        "u",
+        "o"
+      ],
+      [
+        "s",
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "q",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "phrase-004",
@@ -29,7 +105,46 @@
     "pinyin": "Tài guì le, piányi yìdiǎn ba.",
     "meaning": "高すぎます、少し安くしてください。",
     "category": "phrase",
-    "hskLevel": 2
+    "typing": [
+      [
+        "t",
+        "a",
+        "i"
+      ],
+      [
+        "g",
+        "u",
+        "i"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "p",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "b",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-005",
@@ -37,7 +152,48 @@
     "pinyin": "Qǐngwèn xǐshǒujiān zài nǎlǐ?",
     "meaning": "お手洗いはどこですか?",
     "category": "phrase",
-    "hskLevel": 1
+    "typing": [
+      [
+        "q",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "w",
+        "e",
+        "n"
+      ],
+      [
+        "x",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "o",
+        "u"
+      ],
+      [
+        "j",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "z",
+        "a",
+        "i"
+      ],
+      [
+        "n",
+        "a"
+      ],
+      [
+        "l",
+        "i"
+      ]
+    ]
   },
   {
     "id": "phrase-006",
@@ -45,7 +201,34 @@
     "pinyin": "Wǒ kěyǐ shuākǎ ma?",
     "meaning": "カードは使えますか?",
     "category": "phrase",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "k",
+        "e"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "u",
+        "a"
+      ],
+      [
+        "k",
+        "a"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-007",
@@ -53,7 +236,43 @@
     "pinyin": "Qǐng gěi wǒ kànkan càidān.",
     "meaning": "メニューを見せてください。",
     "category": "phrase",
-    "hskLevel": 2
+    "typing": [
+      [
+        "q",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "g",
+        "e",
+        "i"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "k",
+        "a",
+        "n"
+      ],
+      [
+        "k",
+        "a",
+        "n"
+      ],
+      [
+        "c",
+        "a",
+        "i"
+      ],
+      [
+        "d",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "phrase-008",
@@ -61,7 +280,26 @@
     "pinyin": "Wǒ yào zhège.",
     "meaning": "これをください。",
     "category": "phrase",
-    "hskLevel": 1
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "y",
+        "a",
+        "o"
+      ],
+      [
+        "z",
+        "h",
+        "e"
+      ],
+      [
+        "g",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-009",
@@ -69,7 +307,54 @@
     "pinyin": "Wǒ jiào Tiánzhōng, qǐng duō guānzhào.",
     "meaning": "田中と申します、よろしくお願いします。",
     "category": "phrase",
-    "hskLevel": 1
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "j",
+        "i",
+        "a",
+        "o"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "z",
+        "h",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "q",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "d",
+        "u",
+        "o"
+      ],
+      [
+        "g",
+        "u",
+        "a",
+        "n"
+      ],
+      [
+        "z",
+        "h",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "phrase-010",
@@ -77,7 +362,38 @@
     "pinyin": "Hěn gāoxìng rènshi nǐ.",
     "meaning": "お会いできて嬉しいです。",
     "category": "phrase",
-    "hskLevel": 2
+    "typing": [
+      [
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "g",
+        "a",
+        "o"
+      ],
+      [
+        "x",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "r",
+        "e",
+        "n"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "n",
+        "i"
+      ]
+    ]
   },
   {
     "id": "phrase-011",
@@ -85,7 +401,41 @@
     "pinyin": "Wǒ shì cóng Rìběn lái de.",
     "meaning": "私は日本から来ました。",
     "category": "phrase",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "c",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "r",
+        "i"
+      ],
+      [
+        "b",
+        "e",
+        "n"
+      ],
+      [
+        "l",
+        "a",
+        "i"
+      ],
+      [
+        "d",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-012",
@@ -93,7 +443,49 @@
     "pinyin": "Qǐngwèn, dào jīchǎng zěnme zǒu?",
     "meaning": "空港へはどう行きますか?",
     "category": "phrase",
-    "hskLevel": 2
+    "typing": [
+      [
+        "q",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "w",
+        "e",
+        "n"
+      ],
+      [
+        "d",
+        "a",
+        "o"
+      ],
+      [
+        "j",
+        "i"
+      ],
+      [
+        "c",
+        "h",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "z",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "z",
+        "o",
+        "u"
+      ]
+    ]
   },
   {
     "id": "phrase-013",
@@ -101,7 +493,37 @@
     "pinyin": "Qǐng dào zhège dìzhǐ.",
     "meaning": "この住所までお願いします。",
     "category": "phrase",
-    "hskLevel": 2
+    "typing": [
+      [
+        "q",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "d",
+        "a",
+        "o"
+      ],
+      [
+        "z",
+        "h",
+        "e"
+      ],
+      [
+        "g",
+        "e"
+      ],
+      [
+        "d",
+        "i"
+      ],
+      [
+        "z",
+        "h",
+        "i"
+      ]
+    ]
   },
   {
     "id": "phrase-014",
@@ -109,7 +531,40 @@
     "pinyin": "Qǐng kāi yíxià kōngtiáo.",
     "meaning": "エアコンをつけてください。",
     "category": "phrase",
-    "hskLevel": 2
+    "typing": [
+      [
+        "q",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "k",
+        "a",
+        "i"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "x",
+        "i",
+        "a"
+      ],
+      [
+        "k",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "phrase-015",
@@ -117,7 +572,36 @@
     "pinyin": "Dào le qǐng gàosu wǒ.",
     "meaning": "着いたら教えてください。",
     "category": "phrase",
-    "hskLevel": 2
+    "typing": [
+      [
+        "d",
+        "a",
+        "o"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "q",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "g",
+        "a",
+        "o"
+      ],
+      [
+        "s",
+        "u"
+      ],
+      [
+        "w",
+        "o"
+      ]
+    ]
   },
   {
     "id": "phrase-016",
@@ -125,7 +609,49 @@
     "pinyin": "Wǒ xiǎng yùdìng yí ge fángjiān.",
     "meaning": "部屋を予約したいです。",
     "category": "phrase",
-    "hskLevel": 3
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "x",
+        "i",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "y",
+        "u"
+      ],
+      [
+        "d",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "g",
+        "e"
+      ],
+      [
+        "f",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "j",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "phrase-017",
@@ -133,7 +659,37 @@
     "pinyin": "Wǒ xiǎng bànlǐ rùzhù.",
     "meaning": "チェックインしたいです。",
     "category": "phrase",
-    "hskLevel": 3
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "x",
+        "i",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "b",
+        "a",
+        "n"
+      ],
+      [
+        "l",
+        "i"
+      ],
+      [
+        "r",
+        "u"
+      ],
+      [
+        "z",
+        "h",
+        "u"
+      ]
+    ]
   },
   {
     "id": "phrase-018",
@@ -141,7 +697,49 @@
     "pinyin": "Wǒ de fángjiān hào shì duōshao?",
     "meaning": "私の部屋番号は何番ですか?",
     "category": "phrase",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "d",
+        "e"
+      ],
+      [
+        "f",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "j",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "d",
+        "u",
+        "o"
+      ],
+      [
+        "s",
+        "h",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "phrase-019",
@@ -149,7 +747,37 @@
     "pinyin": "Jǐ diǎn kěyǐ tuìfáng?",
     "meaning": "何時にチェックアウトできますか?",
     "category": "phrase",
-    "hskLevel": 3
+    "typing": [
+      [
+        "j",
+        "i"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "k",
+        "e"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "t",
+        "u",
+        "i"
+      ],
+      [
+        "f",
+        "a",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "phrase-020",
@@ -157,7 +785,45 @@
     "pinyin": "Kěyǐ zài piányi yìdiǎn ma?",
     "meaning": "もう少し安くできますか?",
     "category": "phrase",
-    "hskLevel": 2
+    "typing": [
+      [
+        "k",
+        "e"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "z",
+        "a",
+        "i"
+      ],
+      [
+        "p",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-021",
@@ -165,7 +831,22 @@
     "pinyin": "Tài guì le.",
     "meaning": "高すぎます。",
     "category": "phrase",
-    "hskLevel": 1
+    "typing": [
+      [
+        "t",
+        "a",
+        "i"
+      ],
+      [
+        "g",
+        "u",
+        "i"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-022",
@@ -173,7 +854,35 @@
     "pinyin": "Wǒ zài kǎolǜ yíxià.",
     "meaning": "もう少し考えます。",
     "category": "phrase",
-    "hskLevel": 3
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "z",
+        "a",
+        "i"
+      ],
+      [
+        "k",
+        "a",
+        "o"
+      ],
+      [
+        "l",
+        "v"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "x",
+        "i",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-023",
@@ -181,7 +890,46 @@
     "pinyin": "Zhège zhōumò nǐ yǒu kòng ma?",
     "meaning": "今週末、時間はありますか?",
     "category": "phrase",
-    "hskLevel": 2
+    "typing": [
+      [
+        "z",
+        "h",
+        "e"
+      ],
+      [
+        "g",
+        "e"
+      ],
+      [
+        "z",
+        "h",
+        "o",
+        "u"
+      ],
+      [
+        "m",
+        "o"
+      ],
+      [
+        "n",
+        "i"
+      ],
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "k",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-024",
@@ -189,7 +937,50 @@
     "pinyin": "Wǒmen yìqǐ qù kàn diànyǐng ba.",
     "meaning": "一緒に映画を見に行きましょう。",
     "category": "phrase",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "m",
+        "e",
+        "n"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "q",
+        "i"
+      ],
+      [
+        "q",
+        "u"
+      ],
+      [
+        "k",
+        "a",
+        "n"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "y",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "b",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-025",
@@ -197,7 +988,44 @@
     "pinyin": "Nǐ zhōumò xiǎng zuò shénme?",
     "meaning": "週末は何をしたいですか?",
     "category": "phrase",
-    "hskLevel": 2
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "z",
+        "h",
+        "o",
+        "u"
+      ],
+      [
+        "m",
+        "o"
+      ],
+      [
+        "x",
+        "i",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "z",
+        "u",
+        "o"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-026",
@@ -205,7 +1033,32 @@
     "pinyin": "Tīng qǐlai búcuò.",
     "meaning": "良さそうですね。",
     "category": "phrase",
-    "hskLevel": 3
+    "typing": [
+      [
+        "t",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "q",
+        "i"
+      ],
+      [
+        "l",
+        "a",
+        "i"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "c",
+        "u",
+        "o"
+      ]
+    ]
   },
   {
     "id": "phrase-027",
@@ -213,7 +1066,39 @@
     "pinyin": "Wǒmen jǐ diǎn jiànmiàn?",
     "meaning": "何時に会いましょうか?",
     "category": "phrase",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "m",
+        "e",
+        "n"
+      ],
+      [
+        "j",
+        "i"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "j",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "m",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "phrase-028",
@@ -221,7 +1106,43 @@
     "pinyin": "Qǐng chūshì nín de hùzhào.",
     "meaning": "パスポートを提示してください。",
     "category": "phrase",
-    "hskLevel": 3
+    "typing": [
+      [
+        "q",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "c",
+        "h",
+        "u"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "n",
+        "i",
+        "n"
+      ],
+      [
+        "d",
+        "e"
+      ],
+      [
+        "h",
+        "u"
+      ],
+      [
+        "z",
+        "h",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "phrase-029",
@@ -229,7 +1150,57 @@
     "pinyin": "Nín lái Zhōngguó de mùdì shì shénme?",
     "meaning": "中国に来た目的は何ですか?",
     "category": "phrase",
-    "hskLevel": 3
+    "typing": [
+      [
+        "n",
+        "i",
+        "n"
+      ],
+      [
+        "l",
+        "a",
+        "i"
+      ],
+      [
+        "z",
+        "h",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "g",
+        "u",
+        "o"
+      ],
+      [
+        "d",
+        "e"
+      ],
+      [
+        "m",
+        "u"
+      ],
+      [
+        "d",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-030",
@@ -237,7 +1208,35 @@
     "pinyin": "Wǒ shì lái lǚyóu de.",
     "meaning": "観光で来ました。",
     "category": "phrase",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "l",
+        "a",
+        "i"
+      ],
+      [
+        "l",
+        "v"
+      ],
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "d",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-031",
@@ -245,7 +1244,37 @@
     "pinyin": "Wǒ dǎsuàn zhù wǔ tiān.",
     "meaning": "5日間滞在する予定です。",
     "category": "phrase",
-    "hskLevel": 3
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "d",
+        "a"
+      ],
+      [
+        "s",
+        "u",
+        "a",
+        "n"
+      ],
+      [
+        "z",
+        "h",
+        "u"
+      ],
+      [
+        "w",
+        "u"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "phrase-032",
@@ -253,7 +1282,36 @@
     "pinyin": "Zhù nín lǚtú yúkuài.",
     "meaning": "良い旅を。",
     "category": "phrase",
-    "hskLevel": 3
+    "typing": [
+      [
+        "z",
+        "h",
+        "u"
+      ],
+      [
+        "n",
+        "i",
+        "n"
+      ],
+      [
+        "l",
+        "v"
+      ],
+      [
+        "t",
+        "u"
+      ],
+      [
+        "y",
+        "u"
+      ],
+      [
+        "k",
+        "u",
+        "a",
+        "i"
+      ]
+    ]
   },
   {
     "id": "phrase-033",
@@ -261,7 +1319,29 @@
     "pinyin": "Wǒ yào jiézhàng.",
     "meaning": "会計をお願いします。",
     "category": "phrase",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "y",
+        "a",
+        "o"
+      ],
+      [
+        "j",
+        "i",
+        "e"
+      ],
+      [
+        "z",
+        "h",
+        "a",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "phrase-034",
@@ -269,7 +1349,43 @@
     "pinyin": "Zhège néng piányi diǎn ma?",
     "meaning": "これ、安くなりますか?",
     "category": "phrase",
-    "hskLevel": 2
+    "typing": [
+      [
+        "z",
+        "h",
+        "e"
+      ],
+      [
+        "g",
+        "e"
+      ],
+      [
+        "n",
+        "e",
+        "n",
+        "g"
+      ],
+      [
+        "p",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-035",
@@ -277,7 +1393,43 @@
     "pinyin": "Wǒ xiǎng mǎi zhè jiàn yīfu.",
     "meaning": "この服を買いたいです。",
     "category": "phrase",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "x",
+        "i",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "m",
+        "a",
+        "i"
+      ],
+      [
+        "z",
+        "h",
+        "e"
+      ],
+      [
+        "j",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "f",
+        "u"
+      ]
+    ]
   },
   {
     "id": "phrase-036",
@@ -285,7 +1437,32 @@
     "pinyin": "Kěyǐ shìchuān ma?",
     "meaning": "試着できますか?",
     "category": "phrase",
-    "hskLevel": 2
+    "typing": [
+      [
+        "k",
+        "e"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "c",
+        "h",
+        "u",
+        "a",
+        "n"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-037",
@@ -293,7 +1470,35 @@
     "pinyin": "Yǒu dà yìdiǎn de ma?",
     "meaning": "もう少し大きいのはありますか?",
     "category": "phrase",
-    "hskLevel": 3
+    "typing": [
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "d",
+        "a"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "d",
+        "e"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-038",
@@ -301,7 +1506,39 @@
     "pinyin": "Wǒ zài zhǎo xǐshǒujiān.",
     "meaning": "お手洗いを探しています。",
     "category": "phrase",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "z",
+        "a",
+        "i"
+      ],
+      [
+        "z",
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "x",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "o",
+        "u"
+      ],
+      [
+        "j",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "phrase-039",
@@ -309,7 +1546,37 @@
     "pinyin": "Nǐ huì shuō Yīngyǔ ma?",
     "meaning": "英語は話せますか?",
     "category": "phrase",
-    "hskLevel": 2
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "h",
+        "u",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "u",
+        "o"
+      ],
+      [
+        "y",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "y",
+        "u"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-040",
@@ -317,7 +1584,41 @@
     "pinyin": "Wǒ bú tài huì shuō Hànyǔ.",
     "meaning": "中国語はあまり話せません。",
     "category": "phrase",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "t",
+        "a",
+        "i"
+      ],
+      [
+        "h",
+        "u",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "u",
+        "o"
+      ],
+      [
+        "h",
+        "a",
+        "n"
+      ],
+      [
+        "y",
+        "u"
+      ]
+    ]
   },
   {
     "id": "phrase-041",
@@ -325,7 +1626,35 @@
     "pinyin": "Qǐng zài shuō yí biàn.",
     "meaning": "もう一度言ってください。",
     "category": "phrase",
-    "hskLevel": 2
+    "typing": [
+      [
+        "q",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "z",
+        "a",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "u",
+        "o"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "b",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "phrase-042",
@@ -333,7 +1662,35 @@
     "pinyin": "Qǐng shuō màn yìdiǎn.",
     "meaning": "もう少しゆっくり話してください。",
     "category": "phrase",
-    "hskLevel": 2
+    "typing": [
+      [
+        "q",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "s",
+        "h",
+        "u",
+        "o"
+      ],
+      [
+        "m",
+        "a",
+        "n"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "phrase-043",
@@ -341,7 +1698,28 @@
     "pinyin": "Wǒ tīng bu dǒng.",
     "meaning": "聞き取れません。",
     "category": "phrase",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "t",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "d",
+        "o",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "phrase-044",
@@ -349,7 +1727,38 @@
     "pinyin": "Méi guānxi, mànmàn lái.",
     "meaning": "大丈夫です、ゆっくりどうぞ。",
     "category": "phrase",
-    "hskLevel": 2
+    "typing": [
+      [
+        "m",
+        "e",
+        "i"
+      ],
+      [
+        "g",
+        "u",
+        "a",
+        "n"
+      ],
+      [
+        "x",
+        "i"
+      ],
+      [
+        "m",
+        "a",
+        "n"
+      ],
+      [
+        "m",
+        "a",
+        "n"
+      ],
+      [
+        "l",
+        "a",
+        "i"
+      ]
+    ]
   },
   {
     "id": "phrase-045",
@@ -357,7 +1766,37 @@
     "pinyin": "Zhù nǐ zhōumò yúkuài.",
     "meaning": "良い週末を。",
     "category": "phrase",
-    "hskLevel": 2
+    "typing": [
+      [
+        "z",
+        "h",
+        "u"
+      ],
+      [
+        "n",
+        "i"
+      ],
+      [
+        "z",
+        "h",
+        "o",
+        "u"
+      ],
+      [
+        "m",
+        "o"
+      ],
+      [
+        "y",
+        "u"
+      ],
+      [
+        "k",
+        "u",
+        "a",
+        "i"
+      ]
+    ]
   },
   {
     "id": "phrase-046",
@@ -365,7 +1804,40 @@
     "pinyin": "Xià yǔ le, wǒ xiān zǒu le.",
     "meaning": "雨が降ってきたので、お先に失礼します。",
     "category": "daily-conversation",
-    "hskLevel": 3
+    "typing": [
+      [
+        "x",
+        "i",
+        "a"
+      ],
+      [
+        "y",
+        "u"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "x",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "z",
+        "o",
+        "u"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-047",
@@ -373,7 +1845,55 @@
     "pinyin": "Wàimiàn zài xià yǔ, nǐ dài sǎn le ma?",
     "meaning": "外は雨が降っています、傘を持っていますか?",
     "category": "daily-conversation",
-    "hskLevel": 3
+    "typing": [
+      [
+        "w",
+        "a",
+        "i"
+      ],
+      [
+        "m",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "z",
+        "a",
+        "i"
+      ],
+      [
+        "x",
+        "i",
+        "a"
+      ],
+      [
+        "y",
+        "u"
+      ],
+      [
+        "n",
+        "i"
+      ],
+      [
+        "d",
+        "a",
+        "i"
+      ],
+      [
+        "s",
+        "a",
+        "n"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-048",
@@ -381,7 +1901,40 @@
     "pinyin": "Jīntiān tiānqì zhēn hǎo.",
     "meaning": "今日は本当にいい天気ですね。",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "q",
+        "i"
+      ],
+      [
+        "z",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "h",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "phrase-049",
@@ -389,7 +1942,39 @@
     "pinyin": "Míngtiān huì xià xuě ma?",
     "meaning": "明日は雪が降りますか?",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "m",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "h",
+        "u",
+        "i"
+      ],
+      [
+        "x",
+        "i",
+        "a"
+      ],
+      [
+        "x",
+        "u",
+        "e"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-050",
@@ -397,7 +1982,61 @@
     "pinyin": "Tiānqì yùbào shuō míngtiān yǒu táifēng.",
     "meaning": "天気予報によると明日は台風だそうです。",
     "category": "daily-conversation",
-    "hskLevel": 3
+    "typing": [
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "q",
+        "i"
+      ],
+      [
+        "y",
+        "u"
+      ],
+      [
+        "b",
+        "a",
+        "o"
+      ],
+      [
+        "s",
+        "h",
+        "u",
+        "o"
+      ],
+      [
+        "m",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "t",
+        "a",
+        "i"
+      ],
+      [
+        "f",
+        "e",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "phrase-051",
@@ -405,7 +2044,60 @@
     "pinyin": "Yīnwèi xià yǔ, wǒmen gǎitiān zài qù ba.",
     "meaning": "雨だから、また別の日に行きましょう。",
     "category": "daily-conversation",
-    "hskLevel": 3
+    "typing": [
+      [
+        "y",
+        "i",
+        "n"
+      ],
+      [
+        "w",
+        "e",
+        "i"
+      ],
+      [
+        "x",
+        "i",
+        "a"
+      ],
+      [
+        "y",
+        "u"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "m",
+        "e",
+        "n"
+      ],
+      [
+        "g",
+        "a",
+        "i"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "z",
+        "a",
+        "i"
+      ],
+      [
+        "q",
+        "u"
+      ],
+      [
+        "b",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-052",
@@ -413,7 +2105,40 @@
     "pinyin": "Guā fēng le, yǒudiǎn lěng.",
     "meaning": "風が吹いてきて、少し寒いです。",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "g",
+        "u",
+        "a"
+      ],
+      [
+        "f",
+        "e",
+        "n",
+        "g"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "l",
+        "e",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "phrase-053",
@@ -421,7 +2146,36 @@
     "pinyin": "Jīntiān hěn qínglǎng.",
     "meaning": "今日はとても晴れています。",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "q",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "l",
+        "a",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "phrase-054",
@@ -429,7 +2183,48 @@
     "pinyin": "Chūmén qián kànkan tiānqì ba.",
     "meaning": "出かける前に天気を見ましょう。",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "c",
+        "h",
+        "u"
+      ],
+      [
+        "m",
+        "e",
+        "n"
+      ],
+      [
+        "q",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "k",
+        "a",
+        "n"
+      ],
+      [
+        "k",
+        "a",
+        "n"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "q",
+        "i"
+      ],
+      [
+        "b",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-055",
@@ -437,7 +2232,40 @@
     "pinyin": "Yǔ tíng le, wǒmen zǒu ba.",
     "meaning": "雨が止んだので、行きましょう。",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "y",
+        "u"
+      ],
+      [
+        "t",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "m",
+        "e",
+        "n"
+      ],
+      [
+        "z",
+        "o",
+        "u"
+      ],
+      [
+        "b",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-056",
@@ -445,7 +2273,47 @@
     "pinyin": "Wǒ chībǎo le, xièxie zhāodài.",
     "meaning": "お腹いっぱいです、ごちそうさまでした。",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "c",
+        "h",
+        "i"
+      ],
+      [
+        "b",
+        "a",
+        "o"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "x",
+        "i",
+        "e"
+      ],
+      [
+        "x",
+        "i",
+        "e"
+      ],
+      [
+        "z",
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "d",
+        "a",
+        "i"
+      ]
+    ]
   },
   {
     "id": "phrase-057",
@@ -453,7 +2321,36 @@
     "pinyin": "Wǒ yǒudiǎn bù shūfu.",
     "meaning": "少し体調が悪いです。",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "s",
+        "h",
+        "u"
+      ],
+      [
+        "f",
+        "u"
+      ]
+    ]
   },
   {
     "id": "phrase-058",
@@ -461,7 +2358,26 @@
     "pinyin": "Wǒ gǎnmào le.",
     "meaning": "風邪をひきました。",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "g",
+        "a",
+        "n"
+      ],
+      [
+        "m",
+        "a",
+        "o"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-059",
@@ -469,7 +2385,60 @@
     "pinyin": "Wǒ jīntiān hěn lèi, xiǎng zǎodiǎn xiūxi.",
     "meaning": "今日はとても疲れたので、早めに休みたいです。",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "l",
+        "e",
+        "i"
+      ],
+      [
+        "x",
+        "i",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "z",
+        "a",
+        "o"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "x",
+        "i",
+        "u"
+      ],
+      [
+        "x",
+        "i"
+      ]
+    ]
   },
   {
     "id": "phrase-060",
@@ -477,7 +2446,26 @@
     "pinyin": "Wǒ dùzi téng.",
     "meaning": "お腹が痛いです。",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "d",
+        "u"
+      ],
+      [
+        "z",
+        "i"
+      ],
+      [
+        "t",
+        "e",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "phrase-061",
@@ -485,7 +2473,27 @@
     "pinyin": "Wǒ hěn kāixīn.",
     "meaning": "とても嬉しいです。",
     "category": "daily-conversation",
-    "hskLevel": 1
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "k",
+        "a",
+        "i"
+      ],
+      [
+        "x",
+        "i",
+        "n"
+      ]
+    ]
   },
   {
     "id": "phrase-062",
@@ -493,7 +2501,37 @@
     "pinyin": "Bié dānxīn, wǒ méishì.",
     "meaning": "心配しないで、大丈夫です。",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "b",
+        "i",
+        "e"
+      ],
+      [
+        "d",
+        "a",
+        "n"
+      ],
+      [
+        "x",
+        "i",
+        "n"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "m",
+        "e",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ]
+    ]
   },
   {
     "id": "phrase-063",
@@ -501,7 +2539,35 @@
     "pinyin": "Wǒ yǒudiǎn jǐnzhāng.",
     "meaning": "少し緊張しています。",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "z",
+        "h",
+        "a",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "phrase-064",
@@ -509,7 +2575,47 @@
     "pinyin": "Wǒ è le, xiǎng chī diǎn dōngxi.",
     "meaning": "お腹が空いたので、何か食べたいです。",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "e"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "x",
+        "i",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "c",
+        "h",
+        "i"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "d",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "x",
+        "i"
+      ]
+    ]
   },
   {
     "id": "phrase-065",
@@ -517,7 +2623,64 @@
     "pinyin": "Jīntiān tài rè le, wǒ xiǎng hē diǎn lěngyǐn.",
     "meaning": "今日は暑すぎるので、冷たい飲み物が飲みたいです。",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "t",
+        "a",
+        "i"
+      ],
+      [
+        "r",
+        "e"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "x",
+        "i",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "h",
+        "e"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "l",
+        "e",
+        "n",
+        "g"
+      ],
+      [
+        "y",
+        "i",
+        "n"
+      ]
+    ]
   },
   {
     "id": "phrase-066",
@@ -525,7 +2688,33 @@
     "pinyin": "Xià cì yìqǐ qù ba.",
     "meaning": "今度一緒に行きましょう。",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "x",
+        "i",
+        "a"
+      ],
+      [
+        "c",
+        "i"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "q",
+        "i"
+      ],
+      [
+        "q",
+        "u"
+      ],
+      [
+        "b",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-067",
@@ -533,7 +2722,63 @@
     "pinyin": "Jīntiān bú tài fāngbiàn, gǎitiān kěyǐ ma?",
     "meaning": "今日はあまり都合が良くないので、また別の日でもいいですか?",
     "category": "daily-conversation",
-    "hskLevel": 3
+    "typing": [
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "t",
+        "a",
+        "i"
+      ],
+      [
+        "f",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "b",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "g",
+        "a",
+        "i"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "k",
+        "e"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-068",
@@ -541,7 +2786,39 @@
     "pinyin": "Wǒmen yìqǐ chīfàn ba.",
     "meaning": "一緒にご飯を食べましょう。",
     "category": "daily-conversation",
-    "hskLevel": 1
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "m",
+        "e",
+        "n"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "q",
+        "i"
+      ],
+      [
+        "c",
+        "h",
+        "i"
+      ],
+      [
+        "f",
+        "a",
+        "n"
+      ],
+      [
+        "b",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-069",
@@ -549,7 +2826,51 @@
     "pinyin": "Yào bu yào yìqǐ qù kàn diànyǐng?",
     "meaning": "一緒に映画を見に行きませんか?",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "y",
+        "a",
+        "o"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "y",
+        "a",
+        "o"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "q",
+        "i"
+      ],
+      [
+        "q",
+        "u"
+      ],
+      [
+        "k",
+        "a",
+        "n"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "y",
+        "i",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "phrase-070",
@@ -557,7 +2878,50 @@
     "pinyin": "Bù hǎoyìsi, wǒ jīntiān yǒu shì.",
     "meaning": "すみません、今日は用事があります。",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "b",
+        "u"
+      ],
+      [
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "s",
+        "i"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ]
+    ]
   },
   {
     "id": "phrase-071",
@@ -565,7 +2929,38 @@
     "pinyin": "Hǎo a, jǐ diǎn jiànmiàn?",
     "meaning": "いいですね、何時に会いましょうか?",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "a"
+      ],
+      [
+        "j",
+        "i"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "j",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "m",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "phrase-072",
@@ -573,7 +2968,54 @@
     "pinyin": "Xièxie yāoqǐng, búguò wǒ bú qù le.",
     "meaning": "お誘いありがとうございます、でも今回はやめておきます。",
     "category": "daily-conversation",
-    "hskLevel": 3
+    "typing": [
+      [
+        "x",
+        "i",
+        "e"
+      ],
+      [
+        "x",
+        "i",
+        "e"
+      ],
+      [
+        "y",
+        "a",
+        "o"
+      ],
+      [
+        "q",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "g",
+        "u",
+        "o"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "q",
+        "u"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-073",
@@ -581,7 +3023,42 @@
     "pinyin": "Wǒmen xiàzhōu zài yuē ba.",
     "meaning": "また来週約束しましょう。",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "m",
+        "e",
+        "n"
+      ],
+      [
+        "x",
+        "i",
+        "a"
+      ],
+      [
+        "z",
+        "h",
+        "o",
+        "u"
+      ],
+      [
+        "z",
+        "a",
+        "i"
+      ],
+      [
+        "y",
+        "u",
+        "e"
+      ],
+      [
+        "b",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-074",
@@ -589,7 +3066,47 @@
     "pinyin": "Yìqǐ qù guàngjiē zěnmeyàng?",
     "meaning": "一緒に買い物に行くのはどうですか?",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "y",
+        "i"
+      ],
+      [
+        "q",
+        "i"
+      ],
+      [
+        "q",
+        "u"
+      ],
+      [
+        "g",
+        "u",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "j",
+        "i",
+        "e"
+      ],
+      [
+        "z",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "y",
+        "a",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "phrase-075",
@@ -597,7 +3114,58 @@
     "pinyin": "Zhēn kěxī, xiàcì yídìng yào yìqǐ qù.",
     "meaning": "残念です、今度は必ず一緒に行きましょう。",
     "category": "daily-conversation",
-    "hskLevel": 3
+    "typing": [
+      [
+        "z",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "k",
+        "e"
+      ],
+      [
+        "x",
+        "i"
+      ],
+      [
+        "x",
+        "i",
+        "a"
+      ],
+      [
+        "c",
+        "i"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "d",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "y",
+        "a",
+        "o"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "q",
+        "i"
+      ],
+      [
+        "q",
+        "u"
+      ]
+    ]
   },
   {
     "id": "phrase-076",
@@ -605,7 +3173,22 @@
     "pinyin": "Zhēn de ma?",
     "meaning": "本当ですか?",
     "category": "daily-conversation",
-    "hskLevel": 1
+    "typing": [
+      [
+        "z",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "d",
+        "e"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-077",
@@ -613,7 +3196,22 @@
     "pinyin": "Tài hǎo le!",
     "meaning": "良かったです!",
     "category": "daily-conversation",
-    "hskLevel": 1
+    "typing": [
+      [
+        "t",
+        "a",
+        "i"
+      ],
+      [
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-078",
@@ -621,7 +3219,23 @@
     "pinyin": "Zhēn lìhài!",
     "meaning": "すごいですね!",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "z",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "l",
+        "i"
+      ],
+      [
+        "h",
+        "a",
+        "i"
+      ]
+    ]
   },
   {
     "id": "phrase-079",
@@ -629,7 +3243,34 @@
     "pinyin": "Wǒ yě zhème juéde.",
     "meaning": "私もそう思います。",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "y",
+        "e"
+      ],
+      [
+        "z",
+        "h",
+        "e"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "j",
+        "u",
+        "e"
+      ],
+      [
+        "d",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-080",
@@ -637,7 +3278,27 @@
     "pinyin": "Yuánlái rúcǐ.",
     "meaning": "なるほど。",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "y",
+        "u",
+        "a",
+        "n"
+      ],
+      [
+        "l",
+        "a",
+        "i"
+      ],
+      [
+        "r",
+        "u"
+      ],
+      [
+        "c",
+        "i"
+      ]
+    ]
   },
   {
     "id": "phrase-081",
@@ -645,7 +3306,26 @@
     "pinyin": "Tài xīnkǔ le.",
     "meaning": "大変でしたね。",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "t",
+        "a",
+        "i"
+      ],
+      [
+        "x",
+        "i",
+        "n"
+      ],
+      [
+        "k",
+        "u"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-082",
@@ -653,7 +3333,21 @@
     "pinyin": "Bú huì ba?",
     "meaning": "まさか?",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "b",
+        "u"
+      ],
+      [
+        "h",
+        "u",
+        "i"
+      ],
+      [
+        "b",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-083",
@@ -661,7 +3355,27 @@
     "pinyin": "Wǒ míngbai le.",
     "meaning": "わかりました。",
     "category": "daily-conversation",
-    "hskLevel": 1
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "m",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "b",
+        "a",
+        "i"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-084",
@@ -669,7 +3383,21 @@
     "pinyin": "Zěnme le?",
     "meaning": "どうしたの?",
     "category": "daily-conversation",
-    "hskLevel": 1
+    "typing": [
+      [
+        "z",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-085",
@@ -677,7 +3405,22 @@
     "pinyin": "Méishì de.",
     "meaning": "大丈夫ですよ。",
     "category": "daily-conversation",
-    "hskLevel": 1
+    "typing": [
+      [
+        "m",
+        "e",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "d",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-086",
@@ -685,7 +3428,44 @@
     "pinyin": "Kěyǐ bāng wǒ yí ge máng ma?",
     "meaning": "ちょっと手伝ってもらえますか?",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "k",
+        "e"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "b",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "g",
+        "e"
+      ],
+      [
+        "m",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-087",
@@ -693,7 +3473,58 @@
     "pinyin": "Kěyǐ jièyòng yíxià nǐ de shǒujī ma?",
     "meaning": "あなたの携帯を少し借りてもいいですか?",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "k",
+        "e"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "j",
+        "i",
+        "e"
+      ],
+      [
+        "y",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "x",
+        "i",
+        "a"
+      ],
+      [
+        "n",
+        "i"
+      ],
+      [
+        "d",
+        "e"
+      ],
+      [
+        "s",
+        "h",
+        "o",
+        "u"
+      ],
+      [
+        "j",
+        "i"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-088",
@@ -701,7 +3532,38 @@
     "pinyin": "Wǒ kěyǐ zuò zhèlǐ ma?",
     "meaning": "ここに座ってもいいですか?",
     "category": "daily-conversation",
-    "hskLevel": 1
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "k",
+        "e"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "z",
+        "u",
+        "o"
+      ],
+      [
+        "z",
+        "h",
+        "e"
+      ],
+      [
+        "l",
+        "i"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-089",
@@ -709,7 +3571,31 @@
     "pinyin": "Kěyǐ pāizhào ma?",
     "meaning": "写真を撮ってもいいですか?",
     "category": "daily-conversation",
-    "hskLevel": 1
+    "typing": [
+      [
+        "k",
+        "e"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "p",
+        "a",
+        "i"
+      ],
+      [
+        "z",
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-090",
@@ -717,7 +3603,29 @@
     "pinyin": "Qǐng děng yíxià.",
     "meaning": "少々お待ちください。",
     "category": "daily-conversation",
-    "hskLevel": 1
+    "typing": [
+      [
+        "q",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "d",
+        "e",
+        "n",
+        "g"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "x",
+        "i",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-091",
@@ -725,7 +3633,43 @@
     "pinyin": "Kěyǐ bāng wǒ ná yíxià ma?",
     "meaning": "ちょっと持ってもらえますか?",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "k",
+        "e"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "b",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "n",
+        "a"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "x",
+        "i",
+        "a"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-092",
@@ -733,7 +3677,52 @@
     "pinyin": "Bù hǎoyìsi, kěyǐ ràng yíxià ma?",
     "meaning": "すみません、少し通してもらえますか?",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "b",
+        "u"
+      ],
+      [
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "s",
+        "i"
+      ],
+      [
+        "k",
+        "e"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "r",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "x",
+        "i",
+        "a"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-093",
@@ -741,7 +3730,38 @@
     "pinyin": "Kěyǐ gěi wǒ yí fèn ma?",
     "meaning": "一つもらえますか?",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "k",
+        "e"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "g",
+        "e",
+        "i"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "f",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-094",
@@ -749,7 +3769,35 @@
     "pinyin": "Zhège kěyǐ yòng ma?",
     "meaning": "これは使ってもいいですか?",
     "category": "daily-conversation",
-    "hskLevel": 1
+    "typing": [
+      [
+        "z",
+        "h",
+        "e"
+      ],
+      [
+        "g",
+        "e"
+      ],
+      [
+        "k",
+        "e"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "y",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-095",
@@ -757,7 +3805,42 @@
     "pinyin": "Máfan ràng yíxià, xièxie.",
     "meaning": "すみません、通してください、ありがとう。",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "m",
+        "a"
+      ],
+      [
+        "f",
+        "a",
+        "n"
+      ],
+      [
+        "r",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "x",
+        "i",
+        "a"
+      ],
+      [
+        "x",
+        "i",
+        "e"
+      ],
+      [
+        "x",
+        "i",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-096",
@@ -765,7 +3848,43 @@
     "pinyin": "Nǐ shénme shíhou yǒu kòng?",
     "meaning": "いつ時間がありますか?",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "h",
+        "o",
+        "u"
+      ],
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "k",
+        "o",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "phrase-097",
@@ -773,7 +3892,35 @@
     "pinyin": "Wǒmen jǐ diǎn jíhé?",
     "meaning": "何時に集合しましょうか?",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "m",
+        "e",
+        "n"
+      ],
+      [
+        "j",
+        "i"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "j",
+        "i"
+      ],
+      [
+        "h",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-098",
@@ -781,7 +3928,32 @@
     "pinyin": "Míngtiān kěyǐ ma?",
     "meaning": "明日でもいいですか?",
     "category": "daily-conversation",
-    "hskLevel": 1
+    "typing": [
+      [
+        "m",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "k",
+        "e"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-099",
@@ -789,7 +3961,47 @@
     "pinyin": "Wǒ kěnéng huì wǎn yìdiǎn dào.",
     "meaning": "少し遅れて着くかもしれません。",
     "category": "daily-conversation",
-    "hskLevel": 3
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "k",
+        "e"
+      ],
+      [
+        "n",
+        "e",
+        "n",
+        "g"
+      ],
+      [
+        "h",
+        "u",
+        "i"
+      ],
+      [
+        "w",
+        "a",
+        "n"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "d",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "phrase-100",
@@ -797,7 +4009,36 @@
     "pinyin": "Shíjiān láidejí ma?",
     "meaning": "時間に間に合いますか?",
     "category": "daily-conversation",
-    "hskLevel": 3
+    "typing": [
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "j",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "l",
+        "a",
+        "i"
+      ],
+      [
+        "d",
+        "e"
+      ],
+      [
+        "j",
+        "i"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-101",
@@ -805,7 +4046,53 @@
     "pinyin": "Wǒmen gǎichéng xiàwǔ sān diǎn ba.",
     "meaning": "午後3時に変更しましょう。",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "m",
+        "e",
+        "n"
+      ],
+      [
+        "g",
+        "a",
+        "i"
+      ],
+      [
+        "c",
+        "h",
+        "e",
+        "n",
+        "g"
+      ],
+      [
+        "x",
+        "i",
+        "a"
+      ],
+      [
+        "w",
+        "u"
+      ],
+      [
+        "s",
+        "a",
+        "n"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "b",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-102",
@@ -813,7 +4100,51 @@
     "pinyin": "Nǐ xiān zǒu ba, wǒ suíhòu jiù dào.",
     "meaning": "先に行ってください、後から着きます。",
     "category": "daily-conversation",
-    "hskLevel": 3
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "x",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "z",
+        "o",
+        "u"
+      ],
+      [
+        "b",
+        "a"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "s",
+        "u",
+        "i"
+      ],
+      [
+        "h",
+        "o",
+        "u"
+      ],
+      [
+        "j",
+        "i",
+        "u"
+      ],
+      [
+        "d",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "phrase-103",
@@ -821,7 +4152,36 @@
     "pinyin": "Chàbuduō gāi zǒu le.",
     "meaning": "そろそろ行かないと。",
     "category": "daily-conversation",
-    "hskLevel": 3
+    "typing": [
+      [
+        "c",
+        "h",
+        "a"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "d",
+        "u",
+        "o"
+      ],
+      [
+        "g",
+        "a",
+        "i"
+      ],
+      [
+        "z",
+        "o",
+        "u"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-104",
@@ -829,7 +4189,49 @@
     "pinyin": "Wǒmen hái yǒu duōshao shíjiān?",
     "meaning": "あとどのくらい時間がありますか?",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "m",
+        "e",
+        "n"
+      ],
+      [
+        "h",
+        "a",
+        "i"
+      ],
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "d",
+        "u",
+        "o"
+      ],
+      [
+        "s",
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "j",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "phrase-105",
@@ -837,7 +4239,44 @@
     "pinyin": "Bàoqiàn, ràng nǐ jiǔ děng le.",
     "meaning": "すみません、お待たせしました。",
     "category": "daily-conversation",
-    "hskLevel": 2
+    "typing": [
+      [
+        "b",
+        "a",
+        "o"
+      ],
+      [
+        "q",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "r",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "n",
+        "i"
+      ],
+      [
+        "j",
+        "i",
+        "u"
+      ],
+      [
+        "d",
+        "e",
+        "n",
+        "g"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-106",
@@ -845,7 +4284,33 @@
     "pinyin": "Zuìjìn zěnmeyàng?",
     "meaning": "最近どう?",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "z",
+        "u",
+        "i"
+      ],
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "z",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "y",
+        "a",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "phrase-107",
@@ -853,7 +4318,28 @@
     "pinyin": "Hǎojiǔ bújiàn!",
     "meaning": "久しぶり!",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "j",
+        "i",
+        "u"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "j",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "phrase-108",
@@ -861,7 +4347,43 @@
     "pinyin": "Nǐ zuìjìn zài máng shénme?",
     "meaning": "最近何で忙しいの?",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "z",
+        "u",
+        "i"
+      ],
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "z",
+        "a",
+        "i"
+      ],
+      [
+        "m",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-109",
@@ -869,7 +4391,31 @@
     "pinyin": "Yíqiè dōu hǎo ma?",
     "meaning": "全部順調?",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "y",
+        "i"
+      ],
+      [
+        "q",
+        "i",
+        "e"
+      ],
+      [
+        "d",
+        "o",
+        "u"
+      ],
+      [
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-110",
@@ -877,7 +4423,34 @@
     "pinyin": "Méi shénme biànhuà.",
     "meaning": "特に変わりないよ。",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "m",
+        "e",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "b",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "h",
+        "u",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-111",
@@ -885,7 +4458,25 @@
     "pinyin": "Nǐ chī le ma?",
     "meaning": "ご飯食べた?(定番のあいさつ)",
     "category": "friend-chat",
-    "hskLevel": 1
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "c",
+        "h",
+        "i"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-112",
@@ -893,7 +4484,43 @@
     "pinyin": "Zuìjìn gōngzuò shùnlì ma?",
     "meaning": "最近仕事は順調?",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "z",
+        "u",
+        "i"
+      ],
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "g",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "z",
+        "u",
+        "o"
+      ],
+      [
+        "s",
+        "h",
+        "u",
+        "n"
+      ],
+      [
+        "l",
+        "i"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-113",
@@ -901,7 +4528,43 @@
     "pinyin": "Nǐ kànqǐlai qìsè búcuò.",
     "meaning": "顔色良さそうだね。",
     "category": "friend-chat",
-    "hskLevel": 3
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "k",
+        "a",
+        "n"
+      ],
+      [
+        "q",
+        "i"
+      ],
+      [
+        "l",
+        "a",
+        "i"
+      ],
+      [
+        "q",
+        "i"
+      ],
+      [
+        "s",
+        "e"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "c",
+        "u",
+        "o"
+      ]
+    ]
   },
   {
     "id": "phrase-114",
@@ -909,7 +4572,40 @@
     "pinyin": "Wǒmen hǎojiǔ méi jù le.",
     "meaning": "しばらく集まってなかったね。",
     "category": "friend-chat",
-    "hskLevel": 3
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "m",
+        "e",
+        "n"
+      ],
+      [
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "j",
+        "i",
+        "u"
+      ],
+      [
+        "m",
+        "e",
+        "i"
+      ],
+      [
+        "j",
+        "u"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-115",
@@ -917,7 +4613,41 @@
     "pinyin": "Gǎitiān yìqǐ chīfàn ba.",
     "meaning": "今度一緒にご飯食べようね。",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "g",
+        "a",
+        "i"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "q",
+        "i"
+      ],
+      [
+        "c",
+        "h",
+        "i"
+      ],
+      [
+        "f",
+        "a",
+        "n"
+      ],
+      [
+        "b",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-116",
@@ -925,7 +4655,31 @@
     "pinyin": "Jiā ge wēixìn ba.",
     "meaning": "WeChat交換しよう。",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "j",
+        "i",
+        "a"
+      ],
+      [
+        "g",
+        "e"
+      ],
+      [
+        "w",
+        "e",
+        "i"
+      ],
+      [
+        "x",
+        "i",
+        "n"
+      ],
+      [
+        "b",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-117",
@@ -933,7 +4687,35 @@
     "pinyin": "Wǒ gěi nǐ fā xiāoxi.",
     "meaning": "メッセージ送るね。",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "g",
+        "e",
+        "i"
+      ],
+      [
+        "n",
+        "i"
+      ],
+      [
+        "f",
+        "a"
+      ],
+      [
+        "x",
+        "i",
+        "a",
+        "o"
+      ],
+      [
+        "x",
+        "i"
+      ]
+    ]
   },
   {
     "id": "phrase-118",
@@ -941,7 +4723,48 @@
     "pinyin": "Nǐ kàndào wǒ de xiāoxi le ma?",
     "meaning": "私のメッセージ見た?",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "k",
+        "a",
+        "n"
+      ],
+      [
+        "d",
+        "a",
+        "o"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "d",
+        "e"
+      ],
+      [
+        "x",
+        "i",
+        "a",
+        "o"
+      ],
+      [
+        "x",
+        "i"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-119",
@@ -949,7 +4772,36 @@
     "pinyin": "Wǒ děng xià huífù nǐ.",
     "meaning": "後で返信するね。",
     "category": "friend-chat",
-    "hskLevel": 3
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "d",
+        "e",
+        "n",
+        "g"
+      ],
+      [
+        "x",
+        "i",
+        "a"
+      ],
+      [
+        "h",
+        "u",
+        "i"
+      ],
+      [
+        "f",
+        "u"
+      ],
+      [
+        "n",
+        "i"
+      ]
+    ]
   },
   {
     "id": "phrase-120",
@@ -957,7 +4809,33 @@
     "pinyin": "Shǒujī méi diàn le.",
     "meaning": "スマホの充電が切れた。",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "s",
+        "h",
+        "o",
+        "u"
+      ],
+      [
+        "j",
+        "i"
+      ],
+      [
+        "m",
+        "e",
+        "i"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-121",
@@ -965,7 +4843,40 @@
     "pinyin": "Wǒ gěi nǐ dǎ ge diànhuà.",
     "meaning": "電話するね。",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "g",
+        "e",
+        "i"
+      ],
+      [
+        "n",
+        "i"
+      ],
+      [
+        "d",
+        "a"
+      ],
+      [
+        "g",
+        "e"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "h",
+        "u",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-122",
@@ -973,7 +4884,40 @@
     "pinyin": "Wǒ fā ge dìngwèi gěi nǐ.",
     "meaning": "位置情報を送るね。",
     "category": "friend-chat",
-    "hskLevel": 3
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "f",
+        "a"
+      ],
+      [
+        "g",
+        "e"
+      ],
+      [
+        "d",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "w",
+        "e",
+        "i"
+      ],
+      [
+        "g",
+        "e",
+        "i"
+      ],
+      [
+        "n",
+        "i"
+      ]
+    ]
   },
   {
     "id": "phrase-123",
@@ -981,7 +4925,45 @@
     "pinyin": "Shìpín tōnghuà fāngbiàn ma?",
     "meaning": "ビデオ通話は都合いい?",
     "category": "friend-chat",
-    "hskLevel": 3
+    "typing": [
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "p",
+        "i",
+        "n"
+      ],
+      [
+        "t",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "h",
+        "u",
+        "a"
+      ],
+      [
+        "f",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "b",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-124",
@@ -989,7 +4971,28 @@
     "pinyin": "Tài gǎoxiào le!",
     "meaning": "めっちゃ面白い!",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "t",
+        "a",
+        "i"
+      ],
+      [
+        "g",
+        "a",
+        "o"
+      ],
+      [
+        "x",
+        "i",
+        "a",
+        "o"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-125",
@@ -997,7 +5000,26 @@
     "pinyin": "Xiào sǐ wǒ le.",
     "meaning": "笑い死にそう。",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "x",
+        "i",
+        "a",
+        "o"
+      ],
+      [
+        "s",
+        "i"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-126",
@@ -1005,7 +5027,20 @@
     "pinyin": "Wǒ fú le.",
     "meaning": "参ったよ、すごいな。",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "f",
+        "u"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-127",
@@ -1013,7 +5048,29 @@
     "pinyin": "Tài lípǔ le ba.",
     "meaning": "さすがにありえないでしょ。",
     "category": "friend-chat",
-    "hskLevel": 3
+    "typing": [
+      [
+        "t",
+        "a",
+        "i"
+      ],
+      [
+        "l",
+        "i"
+      ],
+      [
+        "p",
+        "u"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "b",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-128",
@@ -1021,7 +5078,28 @@
     "pinyin": "Yǒudiǎn gāngà.",
     "meaning": "ちょっと気まずいね。",
     "category": "friend-chat",
-    "hskLevel": 3
+    "typing": [
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "g",
+        "a",
+        "n"
+      ],
+      [
+        "g",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-129",
@@ -1029,7 +5107,31 @@
     "pinyin": "Wǒ tài jīdòng le!",
     "meaning": "すごく興奮した!",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "t",
+        "a",
+        "i"
+      ],
+      [
+        "j",
+        "i"
+      ],
+      [
+        "d",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-130",
@@ -1037,7 +5139,32 @@
     "pinyin": "Wǒ tài gǎndòng le.",
     "meaning": "すごく感動した。",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "t",
+        "a",
+        "i"
+      ],
+      [
+        "g",
+        "a",
+        "n"
+      ],
+      [
+        "d",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-131",
@@ -1045,7 +5172,31 @@
     "pinyin": "Zhēnde hěn wúyǔ.",
     "meaning": "本当に呆れた。",
     "category": "friend-chat",
-    "hskLevel": 3
+    "typing": [
+      [
+        "z",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "d",
+        "e"
+      ],
+      [
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "w",
+        "u"
+      ],
+      [
+        "y",
+        "u"
+      ]
+    ]
   },
   {
     "id": "phrase-132",
@@ -1053,7 +5204,33 @@
     "pinyin": "Wǒ kuài bēngkuì le.",
     "meaning": "もう限界だよ。",
     "category": "friend-chat",
-    "hskLevel": 3
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "k",
+        "u",
+        "a",
+        "i"
+      ],
+      [
+        "b",
+        "e",
+        "n",
+        "g"
+      ],
+      [
+        "k",
+        "u",
+        "i"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-133",
@@ -1061,7 +5238,29 @@
     "pinyin": "Tài kě'ài le ba!",
     "meaning": "めっちゃ可愛い!",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "t",
+        "a",
+        "i"
+      ],
+      [
+        "k",
+        "e"
+      ],
+      [
+        "a",
+        "i"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "b",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-134",
@@ -1069,7 +5268,25 @@
     "pinyin": "Zǒu, yìqǐ qù!",
     "meaning": "行こう、一緒に!",
     "category": "friend-chat",
-    "hskLevel": 1
+    "typing": [
+      [
+        "z",
+        "o",
+        "u"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "q",
+        "i"
+      ],
+      [
+        "q",
+        "u"
+      ]
+    ]
   },
   {
     "id": "phrase-135",
@@ -1077,7 +5294,36 @@
     "pinyin": "Yǒu kòng yìqǐ wán ba.",
     "meaning": "時間あったら一緒に遊ぼう。",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "k",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "q",
+        "i"
+      ],
+      [
+        "w",
+        "a",
+        "n"
+      ],
+      [
+        "b",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-136",
@@ -1085,7 +5331,36 @@
     "pinyin": "Yào bu yào lái wǒ jiā?",
     "meaning": "うちに来ない?",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "y",
+        "a",
+        "o"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "y",
+        "a",
+        "o"
+      ],
+      [
+        "l",
+        "a",
+        "i"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "j",
+        "i",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-137",
@@ -1093,7 +5368,56 @@
     "pinyin": "Jīnwǎn yìqǐ chī huǒguō zěnmeyàng?",
     "meaning": "今夜一緒に火鍋食べるのどう?",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "w",
+        "a",
+        "n"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "q",
+        "i"
+      ],
+      [
+        "c",
+        "h",
+        "i"
+      ],
+      [
+        "h",
+        "u",
+        "o"
+      ],
+      [
+        "g",
+        "u",
+        "o"
+      ],
+      [
+        "z",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "y",
+        "a",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "phrase-138",
@@ -1101,7 +5425,32 @@
     "pinyin": "Wǒ qǐng nǐ chīfàn.",
     "meaning": "私がご飯おごるよ。",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "q",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "n",
+        "i"
+      ],
+      [
+        "c",
+        "h",
+        "i"
+      ],
+      [
+        "f",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "phrase-139",
@@ -1109,7 +5458,21 @@
     "pinyin": "AA zhì ba.",
     "meaning": "割り勘にしよう。",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "a",
+        "a"
+      ],
+      [
+        "z",
+        "h",
+        "i"
+      ],
+      [
+        "b",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-140",
@@ -1117,7 +5480,31 @@
     "pinyin": "Xiàcì suàn wǒ de.",
     "meaning": "次は私が払うね。",
     "category": "friend-chat",
-    "hskLevel": 3
+    "typing": [
+      [
+        "x",
+        "i",
+        "a"
+      ],
+      [
+        "c",
+        "i"
+      ],
+      [
+        "s",
+        "u",
+        "a",
+        "n"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "d",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-141",
@@ -1125,7 +5512,35 @@
     "pinyin": "Yìqǐ qù chànggē ba.",
     "meaning": "一緒にカラオケ行こう。",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "y",
+        "i"
+      ],
+      [
+        "q",
+        "i"
+      ],
+      [
+        "q",
+        "u"
+      ],
+      [
+        "c",
+        "h",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "g",
+        "e"
+      ],
+      [
+        "b",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-142",
@@ -1133,7 +5548,17 @@
     "pinyin": "Shì ma?",
     "meaning": "そうなの?",
     "category": "friend-chat",
-    "hskLevel": 1
+    "typing": [
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-143",
@@ -1141,7 +5566,27 @@
     "pinyin": "Zhēn de jiǎ de?",
     "meaning": "マジで?",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "z",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "d",
+        "e"
+      ],
+      [
+        "j",
+        "i",
+        "a"
+      ],
+      [
+        "d",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-144",
@@ -1149,7 +5594,16 @@
     "pinyin": "Niú a!",
     "meaning": "すごいな!",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "n",
+        "i",
+        "u"
+      ],
+      [
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-145",
@@ -1157,7 +5611,21 @@
     "pinyin": "Lìhài le!",
     "meaning": "すごいじゃん!",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "l",
+        "i"
+      ],
+      [
+        "h",
+        "a",
+        "i"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-146",
@@ -1165,7 +5633,23 @@
     "pinyin": "Suíbiàn nǐ.",
     "meaning": "あなた次第だよ、どっちでもいいよ。",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "s",
+        "u",
+        "i"
+      ],
+      [
+        "b",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "n",
+        "i"
+      ]
+    ]
   },
   {
     "id": "phrase-147",
@@ -1173,7 +5657,22 @@
     "pinyin": "Wúsuǒwèi.",
     "meaning": "どっちでもいい。",
     "category": "friend-chat",
-    "hskLevel": 3
+    "typing": [
+      [
+        "w",
+        "u"
+      ],
+      [
+        "s",
+        "u",
+        "o"
+      ],
+      [
+        "w",
+        "e",
+        "i"
+      ]
+    ]
   },
   {
     "id": "phrase-148",
@@ -1181,7 +5680,23 @@
     "pinyin": "Shuō de duì.",
     "meaning": "その通りだね。",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "s",
+        "h",
+        "u",
+        "o"
+      ],
+      [
+        "d",
+        "e"
+      ],
+      [
+        "d",
+        "u",
+        "i"
+      ]
+    ]
   },
   {
     "id": "phrase-149",
@@ -1189,7 +5704,28 @@
     "pinyin": "Nǐ shuō le suàn.",
     "meaning": "あなたが決めていいよ。",
     "category": "friend-chat",
-    "hskLevel": 3
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "u",
+        "o"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "s",
+        "u",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "phrase-150",
@@ -1197,7 +5733,27 @@
     "pinyin": "Nǐ zhēn lìhài!",
     "meaning": "すごいね!",
     "category": "friend-chat",
-    "hskLevel": 1
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "z",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "l",
+        "i"
+      ],
+      [
+        "h",
+        "a",
+        "i"
+      ]
+    ]
   },
   {
     "id": "phrase-151",
@@ -1205,7 +5761,38 @@
     "pinyin": "Nǐ jīntiān hěn hǎokàn.",
     "meaning": "今日素敵だね。",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "k",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "phrase-152",
@@ -1213,7 +5800,22 @@
     "pinyin": "Bié nào le.",
     "meaning": "からかわないで。",
     "category": "friend-chat",
-    "hskLevel": 3
+    "typing": [
+      [
+        "b",
+        "i",
+        "e"
+      ],
+      [
+        "n",
+        "a",
+        "o"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-153",
@@ -1221,7 +5823,32 @@
     "pinyin": "Wǒ kāi wánxiào de.",
     "meaning": "冗談だよ。",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "k",
+        "a",
+        "i"
+      ],
+      [
+        "w",
+        "a",
+        "n"
+      ],
+      [
+        "x",
+        "i",
+        "a",
+        "o"
+      ],
+      [
+        "d",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-154",
@@ -1229,7 +5856,27 @@
     "pinyin": "Nǐ yòu pàng le?",
     "meaning": "また太った?(親しい間柄の冗談)",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "p",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-155",
@@ -1237,7 +5884,27 @@
     "pinyin": "Nǐ shǎo lái le.",
     "meaning": "またまた、冗談やめてよ。",
     "category": "friend-chat",
-    "hskLevel": 3
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "l",
+        "a",
+        "i"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-156",
@@ -1245,7 +5912,30 @@
     "pinyin": "Bié bù hǎoyìsi.",
     "meaning": "遠慮しないで。",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "b",
+        "i",
+        "e"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "s",
+        "i"
+      ]
+    ]
   },
   {
     "id": "phrase-157",
@@ -1253,7 +5943,29 @@
     "pinyin": "Nǐ tài kèqi le.",
     "meaning": "気を使いすぎだよ。",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "t",
+        "a",
+        "i"
+      ],
+      [
+        "k",
+        "e"
+      ],
+      [
+        "q",
+        "i"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-158",
@@ -1261,7 +5973,33 @@
     "pinyin": "Bāng wǒ ge máng bei.",
     "meaning": "ちょっと手伝ってよ。",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "b",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "g",
+        "e"
+      ],
+      [
+        "m",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "b",
+        "e",
+        "i"
+      ]
+    ]
   },
   {
     "id": "phrase-159",
@@ -1269,7 +6007,48 @@
     "pinyin": "Néng bu néng jiè wǒ yòng yíxià?",
     "meaning": "ちょっと貸してくれる?",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "n",
+        "e",
+        "n",
+        "g"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "n",
+        "e",
+        "n",
+        "g"
+      ],
+      [
+        "j",
+        "i",
+        "e"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "y",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "x",
+        "i",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-160",
@@ -1277,7 +6056,43 @@
     "pinyin": "Shùnbiàn bāng wǒ mǎi yí ge.",
     "meaning": "ついでに一つ買ってきて。",
     "category": "friend-chat",
-    "hskLevel": 3
+    "typing": [
+      [
+        "s",
+        "h",
+        "u",
+        "n"
+      ],
+      [
+        "b",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "b",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "m",
+        "a",
+        "i"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "g",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-161",
@@ -1285,7 +6100,26 @@
     "pinyin": "Bàituō nǐ le.",
     "meaning": "お願いね。",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "b",
+        "a",
+        "i"
+      ],
+      [
+        "t",
+        "u",
+        "o"
+      ],
+      [
+        "n",
+        "i"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-162",
@@ -1293,7 +6127,35 @@
     "pinyin": "Nǐ néng péi wǒ qù ma?",
     "meaning": "一緒に付き合ってくれる?",
     "category": "friend-chat",
-    "hskLevel": 3
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "n",
+        "e",
+        "n",
+        "g"
+      ],
+      [
+        "p",
+        "e",
+        "i"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "q",
+        "u"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-163",
@@ -1301,7 +6163,44 @@
     "pinyin": "Dào shíhou jiào wǒ yì shēng.",
     "meaning": "その時になったら声かけてね。",
     "category": "friend-chat",
-    "hskLevel": 3
+    "typing": [
+      [
+        "d",
+        "a",
+        "o"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "h",
+        "o",
+        "u"
+      ],
+      [
+        "j",
+        "i",
+        "a",
+        "o"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "phrase-164",
@@ -1309,7 +6208,48 @@
     "pinyin": "Nǐ píngshí xǐhuan zuò shénme?",
     "meaning": "普段何するのが好き?",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "p",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "x",
+        "i"
+      ],
+      [
+        "h",
+        "u",
+        "a",
+        "n"
+      ],
+      [
+        "z",
+        "u",
+        "o"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-165",
@@ -1317,7 +6257,35 @@
     "pinyin": "Wǒ xǐhuan dǎ yóuxì.",
     "meaning": "ゲームするのが好き。",
     "category": "friend-chat",
-    "hskLevel": 1
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "x",
+        "i"
+      ],
+      [
+        "h",
+        "u",
+        "a",
+        "n"
+      ],
+      [
+        "d",
+        "a"
+      ],
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "x",
+        "i"
+      ]
+    ]
   },
   {
     "id": "phrase-166",
@@ -1325,7 +6293,43 @@
     "pinyin": "Zuìjìn zài zhuī shénme jù?",
     "meaning": "最近何のドラマ見てる?",
     "category": "friend-chat",
-    "hskLevel": 3
+    "typing": [
+      [
+        "z",
+        "u",
+        "i"
+      ],
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "z",
+        "a",
+        "i"
+      ],
+      [
+        "z",
+        "h",
+        "u",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "j",
+        "u"
+      ]
+    ]
   },
   {
     "id": "phrase-167",
@@ -1333,7 +6337,46 @@
     "pinyin": "Wǒmen yìqǐ kàn diànyǐng ba.",
     "meaning": "一緒に映画見よう。",
     "category": "friend-chat",
-    "hskLevel": 1
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "m",
+        "e",
+        "n"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "q",
+        "i"
+      ],
+      [
+        "k",
+        "a",
+        "n"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "y",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "b",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-168",
@@ -1341,7 +6384,31 @@
     "pinyin": "Nǐ huì zuòfàn ma?",
     "meaning": "料理できる?",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "h",
+        "u",
+        "i"
+      ],
+      [
+        "z",
+        "u",
+        "o"
+      ],
+      [
+        "f",
+        "a",
+        "n"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "phrase-169",
@@ -1349,7 +6416,42 @@
     "pinyin": "Zhōumò yǒu shénme ānpái?",
     "meaning": "週末何か予定ある?",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "z",
+        "h",
+        "o",
+        "u"
+      ],
+      [
+        "m",
+        "o"
+      ],
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "a",
+        "n"
+      ],
+      [
+        "p",
+        "a",
+        "i"
+      ]
+    ]
   },
   {
     "id": "phrase-170",
@@ -1357,7 +6459,49 @@
     "pinyin": "Wǒ zuìjìn míshàng le yí bù jù.",
     "meaning": "最近あるドラマにハマってる。",
     "category": "friend-chat",
-    "hskLevel": 3
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "z",
+        "u",
+        "i"
+      ],
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "m",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "j",
+        "u"
+      ]
+    ]
   },
   {
     "id": "phrase-171",
@@ -1365,7 +6509,57 @@
     "pinyin": "Nǐ xǐhuan shénme lèixíng de yīnyuè?",
     "meaning": "どんなジャンルの音楽が好き?",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "x",
+        "i"
+      ],
+      [
+        "h",
+        "u",
+        "a",
+        "n"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "l",
+        "e",
+        "i"
+      ],
+      [
+        "x",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "d",
+        "e"
+      ],
+      [
+        "y",
+        "i",
+        "n"
+      ],
+      [
+        "y",
+        "u",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-172",
@@ -1373,7 +6567,27 @@
     "pinyin": "Wǒ xiān zǒu le.",
     "meaning": "先に行くね。",
     "category": "friend-chat",
-    "hskLevel": 1
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "x",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "z",
+        "o",
+        "u"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "phrase-173",
@@ -1381,7 +6595,36 @@
     "pinyin": "Dào jiā fā ge xiāoxi.",
     "meaning": "家に着いたらメッセージ送ってね。",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "d",
+        "a",
+        "o"
+      ],
+      [
+        "j",
+        "i",
+        "a"
+      ],
+      [
+        "f",
+        "a"
+      ],
+      [
+        "g",
+        "e"
+      ],
+      [
+        "x",
+        "i",
+        "a",
+        "o"
+      ],
+      [
+        "x",
+        "i"
+      ]
+    ]
   },
   {
     "id": "phrase-174",
@@ -1389,7 +6632,30 @@
     "pinyin": "Lùshang xiǎoxīn.",
     "meaning": "気をつけてね。",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "l",
+        "u"
+      ],
+      [
+        "s",
+        "h",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "x",
+        "i",
+        "a",
+        "o"
+      ],
+      [
+        "x",
+        "i",
+        "n"
+      ]
+    ]
   },
   {
     "id": "phrase-175",
@@ -1397,7 +6663,28 @@
     "pinyin": "Xiàcì zài liáo.",
     "meaning": "また今度話そう。",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "x",
+        "i",
+        "a"
+      ],
+      [
+        "c",
+        "i"
+      ],
+      [
+        "z",
+        "a",
+        "i"
+      ],
+      [
+        "l",
+        "i",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "phrase-176",
@@ -1405,7 +6692,28 @@
     "pinyin": "Bǎochí liánxì.",
     "meaning": "連絡取り合おうね。",
     "category": "friend-chat",
-    "hskLevel": 2
+    "typing": [
+      [
+        "b",
+        "a",
+        "o"
+      ],
+      [
+        "c",
+        "h",
+        "i"
+      ],
+      [
+        "l",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "x",
+        "i"
+      ]
+    ]
   },
   {
     "id": "phrase-177",
@@ -1413,7 +6721,36 @@
     "pinyin": "Yǒu kòng cháng liánxì.",
     "meaning": "時間あったら連絡してね。",
     "category": "friend-chat",
-    "hskLevel": 3
+    "typing": [
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "k",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "c",
+        "h",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "l",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "x",
+        "i"
+      ]
+    ]
   },
   {
     "id": "workplace-phrase-001",
@@ -1421,7 +6758,33 @@
     "pinyin": "Jīntiān kāihuì ma?",
     "meaning": "今日は会議がありますか?",
     "category": "workplace",
-    "hskLevel": 2
+    "typing": [
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "k",
+        "a",
+        "i"
+      ],
+      [
+        "h",
+        "u",
+        "i"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "workplace-phrase-002",
@@ -1429,7 +6792,37 @@
     "pinyin": "Huìyì jǐ diǎn kāishǐ?",
     "meaning": "会議は何時から始まりますか?",
     "category": "workplace",
-    "hskLevel": 2
+    "typing": [
+      [
+        "h",
+        "u",
+        "i"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "j",
+        "i"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "k",
+        "a",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ]
+    ]
   },
   {
     "id": "workplace-phrase-003",
@@ -1437,7 +6830,38 @@
     "pinyin": "Wǒ jīntiān yào jiābān.",
     "meaning": "今日は残業しなければなりません。",
     "category": "workplace",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "y",
+        "a",
+        "o"
+      ],
+      [
+        "j",
+        "i",
+        "a"
+      ],
+      [
+        "b",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "workplace-phrase-004",
@@ -1445,7 +6869,42 @@
     "pinyin": "Nǐ shénme shíhou xiàbān?",
     "meaning": "いつ退勤しますか?",
     "category": "workplace",
-    "hskLevel": 1
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "h",
+        "o",
+        "u"
+      ],
+      [
+        "x",
+        "i",
+        "a"
+      ],
+      [
+        "b",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "workplace-phrase-005",
@@ -1453,7 +6912,58 @@
     "pinyin": "Zhège xiàngmù shénme shíhou jiézhǐ?",
     "meaning": "このプロジェクトの締め切りはいつですか?",
     "category": "workplace",
-    "hskLevel": 3
+    "typing": [
+      [
+        "z",
+        "h",
+        "e"
+      ],
+      [
+        "g",
+        "e"
+      ],
+      [
+        "x",
+        "i",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "m",
+        "u"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "h",
+        "o",
+        "u"
+      ],
+      [
+        "j",
+        "i",
+        "e"
+      ],
+      [
+        "z",
+        "h",
+        "i"
+      ]
+    ]
   },
   {
     "id": "workplace-phrase-006",
@@ -1461,7 +6971,44 @@
     "pinyin": "Wǒ bǎ yóujiàn fā gěi nǐ le.",
     "meaning": "メールを送りました。",
     "category": "workplace",
-    "hskLevel": 3
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "b",
+        "a"
+      ],
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "j",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "f",
+        "a"
+      ],
+      [
+        "g",
+        "e",
+        "i"
+      ],
+      [
+        "n",
+        "i"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "workplace-phrase-007",
@@ -1469,7 +7016,65 @@
     "pinyin": "Máfan nǐ bāng wǒ kàn yíxià zhè fèn bàogào.",
     "meaning": "この報告書を見ていただけますか。",
     "category": "workplace",
-    "hskLevel": 3
+    "typing": [
+      [
+        "m",
+        "a"
+      ],
+      [
+        "f",
+        "a",
+        "n"
+      ],
+      [
+        "n",
+        "i"
+      ],
+      [
+        "b",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "k",
+        "a",
+        "n"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "x",
+        "i",
+        "a"
+      ],
+      [
+        "z",
+        "h",
+        "e"
+      ],
+      [
+        "f",
+        "e",
+        "n"
+      ],
+      [
+        "b",
+        "a",
+        "o"
+      ],
+      [
+        "g",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "workplace-phrase-008",
@@ -1477,7 +7082,35 @@
     "pinyin": "Wǒ kěyǐ qǐngjià ma?",
     "meaning": "休暇を取ってもいいですか?",
     "category": "workplace",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "k",
+        "e"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "q",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "j",
+        "i",
+        "a"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "workplace-phrase-009",
@@ -1485,7 +7118,52 @@
     "pinyin": "Lǎobǎn jiào nǐ qù tā bàngōngshì.",
     "meaning": "上司があなたを呼んでいます。",
     "category": "workplace",
-    "hskLevel": 2
+    "typing": [
+      [
+        "l",
+        "a",
+        "o"
+      ],
+      [
+        "b",
+        "a",
+        "n"
+      ],
+      [
+        "j",
+        "i",
+        "a",
+        "o"
+      ],
+      [
+        "n",
+        "i"
+      ],
+      [
+        "q",
+        "u"
+      ],
+      [
+        "t",
+        "a"
+      ],
+      [
+        "b",
+        "a",
+        "n"
+      ],
+      [
+        "g",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ]
+    ]
   },
   {
     "id": "workplace-phrase-010",
@@ -1493,7 +7171,53 @@
     "pinyin": "Wǒmen xiān xiūxi shí fēnzhōng ba.",
     "meaning": "まず10分休憩しましょう。",
     "category": "workplace",
-    "hskLevel": 1
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "m",
+        "e",
+        "n"
+      ],
+      [
+        "x",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "x",
+        "i",
+        "u"
+      ],
+      [
+        "x",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "f",
+        "e",
+        "n"
+      ],
+      [
+        "z",
+        "h",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "b",
+        "a"
+      ]
+    ]
   },
   {
     "id": "workplace-phrase-011",
@@ -1501,7 +7225,39 @@
     "pinyin": "Zhè zhōu wǒ yào chūchāi.",
     "meaning": "今週は出張します。",
     "category": "workplace",
-    "hskLevel": 3
+    "typing": [
+      [
+        "z",
+        "h",
+        "e"
+      ],
+      [
+        "z",
+        "h",
+        "o",
+        "u"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "y",
+        "a",
+        "o"
+      ],
+      [
+        "c",
+        "h",
+        "u"
+      ],
+      [
+        "c",
+        "h",
+        "a",
+        "i"
+      ]
+    ]
   },
   {
     "id": "workplace-phrase-012",
@@ -1509,7 +7265,21 @@
     "pinyin": "Xīnkǔ le!",
     "meaning": "お疲れ様でした!",
     "category": "workplace",
-    "hskLevel": 2
+    "typing": [
+      [
+        "x",
+        "i",
+        "n"
+      ],
+      [
+        "k",
+        "u"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "workplace-phrase-013",
@@ -1517,7 +7287,42 @@
     "pinyin": "Míngtiān jǐ diǎn shàngbān?",
     "meaning": "明日は何時に出勤ですか?",
     "category": "workplace",
-    "hskLevel": 1
+    "typing": [
+      [
+        "m",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "j",
+        "i"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "s",
+        "h",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "b",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "workplace-phrase-014",
@@ -1525,7 +7330,41 @@
     "pinyin": "Kèhù shénme shíhou lái?",
     "meaning": "顧客はいつ来ますか?",
     "category": "workplace",
-    "hskLevel": 3
+    "typing": [
+      [
+        "k",
+        "e"
+      ],
+      [
+        "h",
+        "u"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "h",
+        "o",
+        "u"
+      ],
+      [
+        "l",
+        "a",
+        "i"
+      ]
+    ]
   },
   {
     "id": "workplace-phrase-015",
@@ -1533,7 +7372,45 @@
     "pinyin": "Wǒ xiān zǒu le, míngtiān jiàn.",
     "meaning": "お先に失礼します、また明日。",
     "category": "workplace",
-    "hskLevel": 1
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "x",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "z",
+        "o",
+        "u"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "m",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "j",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "workplace-phrase-016",
@@ -1541,7 +7418,48 @@
     "pinyin": "Zhè fèn gōngzuò jiāo gěi wǒ ba.",
     "meaning": "この仕事は私に任せてください。",
     "category": "workplace",
-    "hskLevel": 3
+    "typing": [
+      [
+        "z",
+        "h",
+        "e"
+      ],
+      [
+        "f",
+        "e",
+        "n"
+      ],
+      [
+        "g",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "z",
+        "u",
+        "o"
+      ],
+      [
+        "j",
+        "i",
+        "a",
+        "o"
+      ],
+      [
+        "g",
+        "e",
+        "i"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "b",
+        "a"
+      ]
+    ]
   },
   {
     "id": "workplace-phrase-017",
@@ -1549,7 +7467,52 @@
     "pinyin": "Yǒu shénme xūyào bāngmáng de ma?",
     "meaning": "何か手伝うことはありますか?",
     "category": "workplace",
-    "hskLevel": 2
+    "typing": [
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "x",
+        "u"
+      ],
+      [
+        "y",
+        "a",
+        "o"
+      ],
+      [
+        "b",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "m",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "d",
+        "e"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "workplace-phrase-018",
@@ -1557,7 +7520,64 @@
     "pinyin": "Wǒ jīntiān shēntǐ bù shūfu, xiǎng qǐngjià.",
     "meaning": "今日は体調が悪いので、休みたいです。",
     "category": "workplace",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "t",
+        "i"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "s",
+        "h",
+        "u"
+      ],
+      [
+        "f",
+        "u"
+      ],
+      [
+        "x",
+        "i",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "q",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "j",
+        "i",
+        "a"
+      ]
+    ]
   },
   {
     "id": "workplace-phrase-019",
@@ -1565,7 +7585,53 @@
     "pinyin": "Xiàngmù jìnzhǎn de zěnmeyàng le?",
     "meaning": "プロジェクトの進捗はどうですか?",
     "category": "workplace",
-    "hskLevel": 3
+    "typing": [
+      [
+        "x",
+        "i",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "m",
+        "u"
+      ],
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "z",
+        "h",
+        "a",
+        "n"
+      ],
+      [
+        "d",
+        "e"
+      ],
+      [
+        "z",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "y",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "workplace-phrase-020",
@@ -1573,7 +7639,45 @@
     "pinyin": "Xiàbān hòu yìqǐ chīfàn ba.",
     "meaning": "退勤後、一緒にご飯を食べましょう。",
     "category": "workplace",
-    "hskLevel": 2
+    "typing": [
+      [
+        "x",
+        "i",
+        "a"
+      ],
+      [
+        "b",
+        "a",
+        "n"
+      ],
+      [
+        "h",
+        "o",
+        "u"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "q",
+        "i"
+      ],
+      [
+        "c",
+        "h",
+        "i"
+      ],
+      [
+        "f",
+        "a",
+        "n"
+      ],
+      [
+        "b",
+        "a"
+      ]
+    ]
   },
   {
     "id": "mealtime-phrase-001",
@@ -1581,7 +7685,31 @@
     "pinyin": "Nǐ chī le shénme?",
     "meaning": "何を食べましたか?",
     "category": "mealtime",
-    "hskLevel": 1
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "c",
+        "h",
+        "i"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ]
+    ]
   },
   {
     "id": "mealtime-phrase-002",
@@ -1589,7 +7717,37 @@
     "pinyin": "Wǒ shénme dōu méi chī.",
     "meaning": "何も食べていません。",
     "category": "mealtime",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "d",
+        "o",
+        "u"
+      ],
+      [
+        "m",
+        "e",
+        "i"
+      ],
+      [
+        "c",
+        "h",
+        "i"
+      ]
+    ]
   },
   {
     "id": "mealtime-phrase-003",
@@ -1597,7 +7755,22 @@
     "pinyin": "Zhēn de ma?",
     "meaning": "本当ですか?",
     "category": "mealtime",
-    "hskLevel": 1
+    "typing": [
+      [
+        "z",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "d",
+        "e"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "mealtime-phrase-004",
@@ -1605,7 +7778,32 @@
     "pinyin": "Wǒmen zài nǎr chī?",
     "meaning": "どこで食べますか?",
     "category": "mealtime",
-    "hskLevel": 1
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "m",
+        "e",
+        "n"
+      ],
+      [
+        "z",
+        "a",
+        "i"
+      ],
+      [
+        "n",
+        "a",
+        "r"
+      ],
+      [
+        "c",
+        "h",
+        "i"
+      ]
+    ]
   },
   {
     "id": "mealtime-phrase-005",
@@ -1613,7 +7811,62 @@
     "pinyin": "Jīntiān yǒudiǎn lěng, xiǎng chī diǎn rè de.",
     "meaning": "今日は少し寒いので、温かいものが食べたいです。",
     "category": "mealtime",
-    "hskLevel": 2
+    "typing": [
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "l",
+        "e",
+        "n",
+        "g"
+      ],
+      [
+        "x",
+        "i",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "c",
+        "h",
+        "i"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "r",
+        "e"
+      ],
+      [
+        "d",
+        "e"
+      ]
+    ]
   },
   {
     "id": "mealtime-phrase-006",
@@ -1621,7 +7874,38 @@
     "pinyin": "Zhège cài zhēn hǎochī!",
     "meaning": "この料理は本当においしいです!",
     "category": "mealtime",
-    "hskLevel": 1
+    "typing": [
+      [
+        "z",
+        "h",
+        "e"
+      ],
+      [
+        "g",
+        "e"
+      ],
+      [
+        "c",
+        "a",
+        "i"
+      ],
+      [
+        "z",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "c",
+        "h",
+        "i"
+      ]
+    ]
   },
   {
     "id": "mealtime-phrase-007",
@@ -1629,7 +7913,35 @@
     "pinyin": "Nǐ chángchang zhège.",
     "meaning": "これを味見してみてください。",
     "category": "mealtime",
-    "hskLevel": 2
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "c",
+        "h",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "c",
+        "h",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "z",
+        "h",
+        "e"
+      ],
+      [
+        "g",
+        "e"
+      ]
+    ]
   },
   {
     "id": "mealtime-phrase-008",
@@ -1637,7 +7949,26 @@
     "pinyin": "Wǒ chībǎo le.",
     "meaning": "お腹いっぱいになりました。",
     "category": "mealtime",
-    "hskLevel": 1
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "c",
+        "h",
+        "i"
+      ],
+      [
+        "b",
+        "a",
+        "o"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "mealtime-phrase-009",
@@ -1645,7 +7976,45 @@
     "pinyin": "Hái xiǎng chī diǎn shénme ma?",
     "meaning": "他に何か食べたいものはありますか?",
     "category": "mealtime",
-    "hskLevel": 2
+    "typing": [
+      [
+        "h",
+        "a",
+        "i"
+      ],
+      [
+        "x",
+        "i",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "c",
+        "h",
+        "i"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "mealtime-phrase-010",
@@ -1653,7 +8022,47 @@
     "pinyin": "Yǒudiǎn là, búguò hěn hǎochī.",
     "meaning": "少し辛いですが、とてもおいしいです。",
     "category": "mealtime",
-    "hskLevel": 2
+    "typing": [
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "l",
+        "a"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "g",
+        "u",
+        "o"
+      ],
+      [
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "c",
+        "h",
+        "i"
+      ]
+    ]
   },
   {
     "id": "mealtime-phrase-011",
@@ -1661,7 +8070,44 @@
     "pinyin": "Zhège wèidao yǒudiǎn xián.",
     "meaning": "この味は少ししょっぱいです。",
     "category": "mealtime",
-    "hskLevel": 2
+    "typing": [
+      [
+        "z",
+        "h",
+        "e"
+      ],
+      [
+        "g",
+        "e"
+      ],
+      [
+        "w",
+        "e",
+        "i"
+      ],
+      [
+        "d",
+        "a",
+        "o"
+      ],
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "x",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "mealtime-phrase-012",
@@ -1669,7 +8115,36 @@
     "pinyin": "Zài lái yì wǎn mǐfàn.",
     "meaning": "ご飯をもう一杯ください。",
     "category": "mealtime",
-    "hskLevel": 1
+    "typing": [
+      [
+        "z",
+        "a",
+        "i"
+      ],
+      [
+        "l",
+        "a",
+        "i"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "w",
+        "a",
+        "n"
+      ],
+      [
+        "m",
+        "i"
+      ],
+      [
+        "f",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "mealtime-phrase-013",
@@ -1677,7 +8152,18 @@
     "pinyin": "Gānbēi!",
     "meaning": "乾杯!",
     "category": "mealtime",
-    "hskLevel": 1
+    "typing": [
+      [
+        "g",
+        "a",
+        "n"
+      ],
+      [
+        "b",
+        "e",
+        "i"
+      ]
+    ]
   },
   {
     "id": "mealtime-phrase-014",
@@ -1685,7 +8171,39 @@
     "pinyin": "Nǐ xǐhuan chī là de ma?",
     "meaning": "辛いものは好きですか?",
     "category": "mealtime",
-    "hskLevel": 2
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "x",
+        "i"
+      ],
+      [
+        "h",
+        "u",
+        "a",
+        "n"
+      ],
+      [
+        "c",
+        "h",
+        "i"
+      ],
+      [
+        "l",
+        "a"
+      ],
+      [
+        "d",
+        "e"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "mealtime-phrase-015",
@@ -1693,7 +8211,36 @@
     "pinyin": "Wǒ bú tài néng chī là.",
     "meaning": "私はあまり辛いものが得意ではありません。",
     "category": "mealtime",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "t",
+        "a",
+        "i"
+      ],
+      [
+        "n",
+        "e",
+        "n",
+        "g"
+      ],
+      [
+        "c",
+        "h",
+        "i"
+      ],
+      [
+        "l",
+        "a"
+      ]
+    ]
   },
   {
     "id": "mealtime-phrase-016",
@@ -1701,7 +8248,38 @@
     "pinyin": "Mànmàn chī, bié zháojí.",
     "meaning": "ゆっくり食べて、急がなくていいですよ。",
     "category": "mealtime",
-    "hskLevel": 2
+    "typing": [
+      [
+        "m",
+        "a",
+        "n"
+      ],
+      [
+        "m",
+        "a",
+        "n"
+      ],
+      [
+        "c",
+        "h",
+        "i"
+      ],
+      [
+        "b",
+        "i",
+        "e"
+      ],
+      [
+        "z",
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "j",
+        "i"
+      ]
+    ]
   },
   {
     "id": "mealtime-phrase-017",
@@ -1709,7 +8287,30 @@
     "pinyin": "Wǒmen AA zhì ba.",
     "meaning": "割り勘にしましょう。",
     "category": "mealtime",
-    "hskLevel": 3
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "m",
+        "e",
+        "n"
+      ],
+      [
+        "a",
+        "a"
+      ],
+      [
+        "z",
+        "h",
+        "i"
+      ],
+      [
+        "b",
+        "a"
+      ]
+    ]
   },
   {
     "id": "mealtime-phrase-018",
@@ -1717,7 +8318,33 @@
     "pinyin": "Jīntiān wǒ qǐngkè.",
     "meaning": "今日は私がおごります。",
     "category": "mealtime",
-    "hskLevel": 2
+    "typing": [
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "q",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "k",
+        "e"
+      ]
+    ]
   },
   {
     "id": "mealtime-phrase-019",
@@ -1725,7 +8352,37 @@
     "pinyin": "Nǐ huì yòng kuàizi ma?",
     "meaning": "箸は使えますか?",
     "category": "mealtime",
-    "hskLevel": 1
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "h",
+        "u",
+        "i"
+      ],
+      [
+        "y",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "k",
+        "u",
+        "a",
+        "i"
+      ],
+      [
+        "z",
+        "i"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "mealtime-phrase-020",
@@ -1733,7 +8390,33 @@
     "pinyin": "Wèidao zěnmeyàng?",
     "meaning": "味はどうですか?",
     "category": "mealtime",
-    "hskLevel": 1
+    "typing": [
+      [
+        "w",
+        "e",
+        "i"
+      ],
+      [
+        "d",
+        "a",
+        "o"
+      ],
+      [
+        "z",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "y",
+        "a",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "small-talk-phrase-001",
@@ -1741,7 +8424,47 @@
     "pinyin": "Nǐ píngshí yǒu shénme àihào?",
     "meaning": "普段どんな趣味がありますか?",
     "category": "small-talk",
-    "hskLevel": 2
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "p",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "a",
+        "i"
+      ],
+      [
+        "h",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "small-talk-phrase-002",
@@ -1749,7 +8472,43 @@
     "pinyin": "Zhōumò dǎsuàn zuò shénme?",
     "meaning": "週末は何をする予定ですか?",
     "category": "small-talk",
-    "hskLevel": 2
+    "typing": [
+      [
+        "z",
+        "h",
+        "o",
+        "u"
+      ],
+      [
+        "m",
+        "o"
+      ],
+      [
+        "d",
+        "a"
+      ],
+      [
+        "s",
+        "u",
+        "a",
+        "n"
+      ],
+      [
+        "z",
+        "u",
+        "o"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ]
+    ]
   },
   {
     "id": "small-talk-phrase-003",
@@ -1757,7 +8516,35 @@
     "pinyin": "Nǐ kàn xīnwén le ma?",
     "meaning": "ニュースを見ましたか?",
     "category": "small-talk",
-    "hskLevel": 2
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "k",
+        "a",
+        "n"
+      ],
+      [
+        "x",
+        "i",
+        "n"
+      ],
+      [
+        "w",
+        "e",
+        "n"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "small-talk-phrase-004",
@@ -1765,7 +8552,63 @@
     "pinyin": "Zuìjìn yǒu shénme hǎokàn de diànyǐng ma?",
     "meaning": "最近何かいい映画はありますか?",
     "category": "small-talk",
-    "hskLevel": 2
+    "typing": [
+      [
+        "z",
+        "u",
+        "i"
+      ],
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "k",
+        "a",
+        "n"
+      ],
+      [
+        "d",
+        "e"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "y",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "small-talk-phrase-005",
@@ -1773,7 +8616,43 @@
     "pinyin": "Nǐ xǐhuan shénme yùndòng?",
     "meaning": "どんなスポーツが好きですか?",
     "category": "small-talk",
-    "hskLevel": 2
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "x",
+        "i"
+      ],
+      [
+        "h",
+        "u",
+        "a",
+        "n"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "y",
+        "u",
+        "n"
+      ],
+      [
+        "d",
+        "o",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "small-talk-phrase-006",
@@ -1781,7 +8660,33 @@
     "pinyin": "Nǐ yǎng chǒngwù ma?",
     "meaning": "ペットを飼っていますか?",
     "category": "small-talk",
-    "hskLevel": 2
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "y",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "c",
+        "h",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "w",
+        "u"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "small-talk-phrase-007",
@@ -1789,7 +8694,50 @@
     "pinyin": "Zhè bù diànshìjù hěn yǒuyìsi.",
     "meaning": "このドラマはとても面白いです。",
     "category": "small-talk",
-    "hskLevel": 2
+    "typing": [
+      [
+        "z",
+        "h",
+        "e"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "j",
+        "u"
+      ],
+      [
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "s",
+        "i"
+      ]
+    ]
   },
   {
     "id": "small-talk-phrase-008",
@@ -1797,7 +8745,49 @@
     "pinyin": "Wǒ zuìjìn míshàng le yí bù jù.",
     "meaning": "最近あるドラマにはまっています。",
     "category": "small-talk",
-    "hskLevel": 3
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "z",
+        "u",
+        "i"
+      ],
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "m",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "j",
+        "u"
+      ]
+    ]
   },
   {
     "id": "small-talk-phrase-009",
@@ -1805,7 +8795,32 @@
     "pinyin": "Nǐ tīngshuō le ma?",
     "meaning": "聞きましたか?",
     "category": "small-talk",
-    "hskLevel": 2
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "t",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "s",
+        "h",
+        "u",
+        "o"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "small-talk-phrase-010",
@@ -1813,7 +8828,27 @@
     "pinyin": "Zhēn de jiǎ de?",
     "meaning": "本当?嘘でしょ?",
     "category": "small-talk",
-    "hskLevel": 2
+    "typing": [
+      [
+        "z",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "d",
+        "e"
+      ],
+      [
+        "j",
+        "i",
+        "a"
+      ],
+      [
+        "d",
+        "e"
+      ]
+    ]
   },
   {
     "id": "small-talk-phrase-011",
@@ -1821,7 +8856,52 @@
     "pinyin": "Shuō qǐlai, nǐ zuìjìn zěnmeyàng?",
     "meaning": "そういえば、最近どうですか?",
     "category": "small-talk",
-    "hskLevel": 2
+    "typing": [
+      [
+        "s",
+        "h",
+        "u",
+        "o"
+      ],
+      [
+        "q",
+        "i"
+      ],
+      [
+        "l",
+        "a",
+        "i"
+      ],
+      [
+        "n",
+        "i"
+      ],
+      [
+        "z",
+        "u",
+        "i"
+      ],
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "z",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "y",
+        "a",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "small-talk-phrase-012",
@@ -1829,7 +8909,44 @@
     "pinyin": "Wǒ jīntiān yǒudiǎn wúliáo.",
     "meaning": "今日はちょっと退屈です。",
     "category": "small-talk",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "w",
+        "u"
+      ],
+      [
+        "l",
+        "i",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "small-talk-phrase-013",
@@ -1837,7 +8954,45 @@
     "pinyin": "Nǐ píngshí jǐ diǎn shuìjiào?",
     "meaning": "普段何時に寝ますか?",
     "category": "small-talk",
-    "hskLevel": 1
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "p",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "j",
+        "i"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "s",
+        "h",
+        "u",
+        "i"
+      ],
+      [
+        "j",
+        "i",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "small-talk-phrase-014",
@@ -1845,7 +9000,58 @@
     "pinyin": "Yǎngchéng yí ge hǎo xíguàn bù róngyì.",
     "meaning": "良い習慣を身につけるのは簡単ではありません。",
     "category": "small-talk",
-    "hskLevel": 3
+    "typing": [
+      [
+        "y",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "c",
+        "h",
+        "e",
+        "n",
+        "g"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "g",
+        "e"
+      ],
+      [
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "x",
+        "i"
+      ],
+      [
+        "g",
+        "u",
+        "a",
+        "n"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "r",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "y",
+        "i"
+      ]
+    ]
   },
   {
     "id": "small-talk-phrase-015",
@@ -1853,7 +9059,53 @@
     "pinyin": "Nǐ dǎsuàn shénme shíhou fàngjià?",
     "meaning": "いつ休みを取る予定ですか?",
     "category": "small-talk",
-    "hskLevel": 2
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "d",
+        "a"
+      ],
+      [
+        "s",
+        "u",
+        "a",
+        "n"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "h",
+        "o",
+        "u"
+      ],
+      [
+        "f",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "j",
+        "i",
+        "a"
+      ]
+    ]
   },
   {
     "id": "small-talk-phrase-016",
@@ -1861,7 +9113,45 @@
     "pinyin": "Jiàqī nǐ yǒu shénme jìhuà?",
     "meaning": "休暇中に何か計画はありますか?",
     "category": "small-talk",
-    "hskLevel": 2
+    "typing": [
+      [
+        "j",
+        "i",
+        "a"
+      ],
+      [
+        "q",
+        "i"
+      ],
+      [
+        "n",
+        "i"
+      ],
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "j",
+        "i"
+      ],
+      [
+        "h",
+        "u",
+        "a"
+      ]
+    ]
   },
   {
     "id": "small-talk-phrase-017",
@@ -1869,7 +9159,48 @@
     "pinyin": "Wǒmen hǎojiǔ méi liáotiān le.",
     "meaning": "久しくおしゃべりしていませんね。",
     "category": "small-talk",
-    "hskLevel": 2
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "m",
+        "e",
+        "n"
+      ],
+      [
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "j",
+        "i",
+        "u"
+      ],
+      [
+        "m",
+        "e",
+        "i"
+      ],
+      [
+        "l",
+        "i",
+        "a",
+        "o"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "small-talk-phrase-018",
@@ -1877,7 +9208,48 @@
     "pinyin": "Nǐ xǐhuan tīng shénme yīnyuè?",
     "meaning": "どんな音楽を聴くのが好きですか?",
     "category": "small-talk",
-    "hskLevel": 1
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "x",
+        "i"
+      ],
+      [
+        "h",
+        "u",
+        "a",
+        "n"
+      ],
+      [
+        "t",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "y",
+        "i",
+        "n"
+      ],
+      [
+        "y",
+        "u",
+        "e"
+      ]
+    ]
   },
   {
     "id": "small-talk-phrase-019",
@@ -1885,7 +9257,66 @@
     "pinyin": "Nǐ qùguo Rìběn yǐwài de dìfang lǚyóu ma?",
     "meaning": "日本以外の場所へ旅行したことはありますか?",
     "category": "small-talk",
-    "hskLevel": 3
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "q",
+        "u"
+      ],
+      [
+        "g",
+        "u",
+        "o"
+      ],
+      [
+        "r",
+        "i"
+      ],
+      [
+        "b",
+        "e",
+        "n"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "w",
+        "a",
+        "i"
+      ],
+      [
+        "d",
+        "e"
+      ],
+      [
+        "d",
+        "i"
+      ],
+      [
+        "f",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "l",
+        "v"
+      ],
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "small-talk-phrase-020",
@@ -1893,6 +9324,57 @@
     "pinyin": "Shuō dào zhège, wǒ xiǎngqǐ yí jiàn shì.",
     "meaning": "それで思い出したことがあります。",
     "category": "small-talk",
-    "hskLevel": 3
+    "typing": [
+      [
+        "s",
+        "h",
+        "u",
+        "o"
+      ],
+      [
+        "d",
+        "a",
+        "o"
+      ],
+      [
+        "z",
+        "h",
+        "e"
+      ],
+      [
+        "g",
+        "e"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "x",
+        "i",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "q",
+        "i"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "j",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ]
+    ]
   }
 ]

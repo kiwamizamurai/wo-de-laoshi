@@ -52,11 +52,11 @@ export function SearchResultRow({ item, bookmarked, onToggleBookmark, index = 0 
         {item.pinyin}
       </span>
       <strong style={{ fontSize: '1rem' }}>{item.meaning}</strong>
-      {item.exampleSentence ? (
+      {item.example ? (
         <div style={{ marginTop: '0.3rem', fontSize: '0.85rem' }}>
-          <span className="hanzi">{item.exampleSentence}</span>
-          <div className="muted">{item.exampleSentencePinyin}</div>
-          <div className="muted">{item.exampleSentenceMeaning}</div>
+          <span className="hanzi">{item.example.sentence}</span>
+          <div className="muted">{item.example.pinyin}</div>
+          <div className="muted">{item.example.meaning}</div>
         </div>
       ) : null}
     </div>

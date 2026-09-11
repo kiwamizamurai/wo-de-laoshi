@@ -5,10 +5,22 @@
     "pinyin": "nǐ hǎo",
     "meaning": "こんにちは",
     "category": "greetings",
-    "hskLevel": 1,
-    "exampleSentence": "你好,我是日本人。",
-    "exampleSentencePinyin": "Nǐ hǎo, wǒ shì Rìběnrén.",
-    "exampleSentenceMeaning": "こんにちは、私は日本人です。"
+    "example": {
+      "sentence": "你好,我是日本人。",
+      "pinyin": "Nǐ hǎo, wǒ shì Rìběnrén.",
+      "meaning": "こんにちは、私は日本人です。"
+    },
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "h",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "greetings-002",
@@ -16,10 +28,27 @@
     "pinyin": "nǐmen hǎo",
     "meaning": "皆さんこんにちは",
     "category": "greetings",
-    "hskLevel": 1,
-    "exampleSentence": "老师,你们好!",
-    "exampleSentencePinyin": "Lǎoshī, nǐmen hǎo!",
-    "exampleSentenceMeaning": "先生方、こんにちは!"
+    "example": {
+      "sentence": "老师,你们好!",
+      "pinyin": "Lǎoshī, nǐmen hǎo!",
+      "meaning": "先生方、こんにちは!"
+    },
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "m",
+        "e",
+        "n"
+      ],
+      [
+        "h",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "greetings-003",
@@ -27,10 +56,30 @@
     "pinyin": "zǎoshang hǎo",
     "meaning": "おはようございます",
     "category": "greetings",
-    "hskLevel": 1,
-    "exampleSentence": "早上好,你吃饭了吗?",
-    "exampleSentencePinyin": "Zǎoshang hǎo, nǐ chīfàn le ma?",
-    "exampleSentenceMeaning": "おはようございます、朝ごはんは食べましたか?"
+    "example": {
+      "sentence": "早上好,你吃饭了吗?",
+      "pinyin": "Zǎoshang hǎo, nǐ chīfàn le ma?",
+      "meaning": "おはようございます、朝ごはんは食べましたか?"
+    },
+    "typing": [
+      [
+        "z",
+        "a",
+        "o"
+      ],
+      [
+        "s",
+        "h",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "h",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "greetings-004",
@@ -38,10 +87,30 @@
     "pinyin": "wǎnshang hǎo",
     "meaning": "こんばんは",
     "category": "greetings",
-    "hskLevel": 1,
-    "exampleSentence": "晚上好,大家辛苦了。",
-    "exampleSentencePinyin": "Wǎnshang hǎo, dàjiā xīnkǔ le.",
-    "exampleSentenceMeaning": "こんばんは、皆さんお疲れ様です。"
+    "example": {
+      "sentence": "晚上好,大家辛苦了。",
+      "pinyin": "Wǎnshang hǎo, dàjiā xīnkǔ le.",
+      "meaning": "こんばんは、皆さんお疲れ様です。"
+    },
+    "typing": [
+      [
+        "w",
+        "a",
+        "n"
+      ],
+      [
+        "s",
+        "h",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "h",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "greetings-005",
@@ -49,10 +118,24 @@
     "pinyin": "zàijiàn",
     "meaning": "さようなら",
     "category": "greetings",
-    "hskLevel": 1,
-    "exampleSentence": "明天见,再见!",
-    "exampleSentencePinyin": "Míngtiān jiàn, zàijiàn!",
-    "exampleSentenceMeaning": "また明日、さようなら!"
+    "example": {
+      "sentence": "明天见,再见!",
+      "pinyin": "Míngtiān jiàn, zàijiàn!",
+      "meaning": "また明日、さようなら!"
+    },
+    "typing": [
+      [
+        "z",
+        "a",
+        "i"
+      ],
+      [
+        "j",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "greetings-006",
@@ -60,10 +143,23 @@
     "pinyin": "xièxie",
     "meaning": "ありがとう",
     "category": "greetings",
-    "hskLevel": 1,
-    "exampleSentence": "谢谢你的帮助。",
-    "exampleSentencePinyin": "Xièxie nǐ de bāngzhù.",
-    "exampleSentenceMeaning": "手伝ってくれてありがとう。"
+    "example": {
+      "sentence": "谢谢你的帮助。",
+      "pinyin": "Xièxie nǐ de bāngzhù.",
+      "meaning": "手伝ってくれてありがとう。"
+    },
+    "typing": [
+      [
+        "x",
+        "i",
+        "e"
+      ],
+      [
+        "x",
+        "i",
+        "e"
+      ]
+    ]
   },
   {
     "id": "greetings-007",
@@ -71,10 +167,25 @@
     "pinyin": "bú kèqi",
     "meaning": "どういたしまして",
     "category": "greetings",
-    "hskLevel": 1,
-    "exampleSentence": "不客气,应该的。",
-    "exampleSentencePinyin": "Bú kèqi, yīnggāi de.",
-    "exampleSentenceMeaning": "どういたしまして、当然のことです。"
+    "example": {
+      "sentence": "不客气,应该的。",
+      "pinyin": "Bú kèqi, yīnggāi de.",
+      "meaning": "どういたしまして、当然のことです。"
+    },
+    "typing": [
+      [
+        "b",
+        "u"
+      ],
+      [
+        "k",
+        "e"
+      ],
+      [
+        "q",
+        "i"
+      ]
+    ]
   },
   {
     "id": "greetings-008",
@@ -82,10 +193,26 @@
     "pinyin": "duìbuqǐ",
     "meaning": "ごめんなさい",
     "category": "greetings",
-    "hskLevel": 1,
-    "exampleSentence": "对不起,我迟到了。",
-    "exampleSentencePinyin": "Duìbuqǐ, wǒ chídào le.",
-    "exampleSentenceMeaning": "すみません、遅刻しました。"
+    "example": {
+      "sentence": "对不起,我迟到了。",
+      "pinyin": "Duìbuqǐ, wǒ chídào le.",
+      "meaning": "すみません、遅刻しました。"
+    },
+    "typing": [
+      [
+        "d",
+        "u",
+        "i"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "q",
+        "i"
+      ]
+    ]
   },
   {
     "id": "greetings-009",
@@ -93,10 +220,28 @@
     "pinyin": "méi guānxi",
     "meaning": "大丈夫です",
     "category": "greetings",
-    "hskLevel": 1,
-    "exampleSentence": "没关系,不用担心。",
-    "exampleSentencePinyin": "Méi guānxi, búyòng dānxīn.",
-    "exampleSentenceMeaning": "大丈夫です、心配しないでください。"
+    "example": {
+      "sentence": "没关系,不用担心。",
+      "pinyin": "Méi guānxi, búyòng dānxīn.",
+      "meaning": "大丈夫です、心配しないでください。"
+    },
+    "typing": [
+      [
+        "m",
+        "e",
+        "i"
+      ],
+      [
+        "g",
+        "u",
+        "a",
+        "n"
+      ],
+      [
+        "x",
+        "i"
+      ]
+    ]
   },
   {
     "id": "greetings-010",
@@ -104,10 +249,19 @@
     "pinyin": "qǐng",
     "meaning": "どうぞ",
     "category": "greetings",
-    "hskLevel": 1,
-    "exampleSentence": "请坐。",
-    "exampleSentencePinyin": "Qǐng zuò.",
-    "exampleSentenceMeaning": "どうぞお座りください。"
+    "example": {
+      "sentence": "请坐。",
+      "pinyin": "Qǐng zuò.",
+      "meaning": "どうぞお座りください。"
+    },
+    "typing": [
+      [
+        "q",
+        "i",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "greetings-011",
@@ -115,10 +269,24 @@
     "pinyin": "qǐngwèn",
     "meaning": "お尋ねしますが",
     "category": "greetings",
-    "hskLevel": 2,
-    "exampleSentence": "请问,洗手间在哪里?",
-    "exampleSentencePinyin": "Qǐngwèn, xǐshǒujiān zài nǎlǐ?",
-    "exampleSentenceMeaning": "お尋ねしますが、お手洗いはどこですか?"
+    "example": {
+      "sentence": "请问,洗手间在哪里?",
+      "pinyin": "Qǐngwèn, xǐshǒujiān zài nǎlǐ?",
+      "meaning": "お尋ねしますが、お手洗いはどこですか?"
+    },
+    "typing": [
+      [
+        "q",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "w",
+        "e",
+        "n"
+      ]
+    ]
   },
   {
     "id": "greetings-012",
@@ -126,10 +294,26 @@
     "pinyin": "máfan nǐ",
     "meaning": "お手数ですが",
     "category": "greetings",
-    "hskLevel": 2,
-    "exampleSentence": "麻烦你帮我一下。",
-    "exampleSentencePinyin": "Máfan nǐ bāng wǒ yíxià.",
-    "exampleSentenceMeaning": "お手数ですが、少し手伝ってください。"
+    "example": {
+      "sentence": "麻烦你帮我一下。",
+      "pinyin": "Máfan nǐ bāng wǒ yíxià.",
+      "meaning": "お手数ですが、少し手伝ってください。"
+    },
+    "typing": [
+      [
+        "m",
+        "a"
+      ],
+      [
+        "f",
+        "a",
+        "n"
+      ],
+      [
+        "n",
+        "i"
+      ]
+    ]
   },
   {
     "id": "greetings-013",
@@ -137,10 +321,25 @@
     "pinyin": "huānyíng",
     "meaning": "ようこそ",
     "category": "greetings",
-    "hskLevel": 1,
-    "exampleSentence": "欢迎光临。",
-    "exampleSentencePinyin": "Huānyíng guānglín.",
-    "exampleSentenceMeaning": "いらっしゃいませ。"
+    "example": {
+      "sentence": "欢迎光临。",
+      "pinyin": "Huānyíng guānglín.",
+      "meaning": "いらっしゃいませ。"
+    },
+    "typing": [
+      [
+        "h",
+        "u",
+        "a",
+        "n"
+      ],
+      [
+        "y",
+        "i",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "greetings-014",
@@ -148,10 +347,23 @@
     "pinyin": "màn zǒu",
     "meaning": "お気をつけて(見送り)",
     "category": "greetings",
-    "hskLevel": 2,
-    "exampleSentence": "您慢走。",
-    "exampleSentencePinyin": "Nín màn zǒu.",
-    "exampleSentenceMeaning": "お気をつけてお帰りください。"
+    "example": {
+      "sentence": "您慢走。",
+      "pinyin": "Nín màn zǒu.",
+      "meaning": "お気をつけてお帰りください。"
+    },
+    "typing": [
+      [
+        "m",
+        "a",
+        "n"
+      ],
+      [
+        "z",
+        "o",
+        "u"
+      ]
+    ]
   },
   {
     "id": "greetings-015",
@@ -159,10 +371,22 @@
     "pinyin": "wǎn'ān",
     "meaning": "おやすみなさい",
     "category": "greetings",
-    "hskLevel": 1,
-    "exampleSentence": "晚安,做个好梦。",
-    "exampleSentencePinyin": "Wǎn'ān, zuò ge hǎo mèng.",
-    "exampleSentenceMeaning": "おやすみなさい、いい夢を。"
+    "example": {
+      "sentence": "晚安,做个好梦。",
+      "pinyin": "Wǎn'ān, zuò ge hǎo mèng.",
+      "meaning": "おやすみなさい、いい夢を。"
+    },
+    "typing": [
+      [
+        "w",
+        "a",
+        "n"
+      ],
+      [
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "greetings-016",
@@ -170,10 +394,18 @@
     "pinyin": "shì",
     "meaning": "はい/そうです",
     "category": "greetings",
-    "hskLevel": 1,
-    "exampleSentence": "是,我知道了。",
-    "exampleSentencePinyin": "Shì, wǒ zhīdào le.",
-    "exampleSentenceMeaning": "はい、分かりました。"
+    "example": {
+      "sentence": "是,我知道了。",
+      "pinyin": "Shì, wǒ zhīdào le.",
+      "meaning": "はい、分かりました。"
+    },
+    "typing": [
+      [
+        "s",
+        "h",
+        "i"
+      ]
+    ]
   },
   {
     "id": "greetings-017",
@@ -181,10 +413,22 @@
     "pinyin": "bú shì",
     "meaning": "いいえ/違います",
     "category": "greetings",
-    "hskLevel": 1,
-    "exampleSentence": "不是,我不是学生。",
-    "exampleSentencePinyin": "Bú shì, wǒ bú shì xuésheng.",
-    "exampleSentenceMeaning": "いいえ、私は学生ではありません。"
+    "example": {
+      "sentence": "不是,我不是学生。",
+      "pinyin": "Bú shì, wǒ bú shì xuésheng.",
+      "meaning": "いいえ、私は学生ではありません。"
+    },
+    "typing": [
+      [
+        "b",
+        "u"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ]
+    ]
   },
   {
     "id": "greetings-018",
@@ -192,10 +436,22 @@
     "pinyin": "hǎo de",
     "meaning": "分かりました/OK",
     "category": "greetings",
-    "hskLevel": 1,
-    "exampleSentence": "好的,没问题。",
-    "exampleSentencePinyin": "Hǎo de, méi wèntí.",
-    "exampleSentenceMeaning": "分かりました、問題ありません。"
+    "example": {
+      "sentence": "好的,没问题。",
+      "pinyin": "Hǎo de, méi wèntí.",
+      "meaning": "分かりました、問題ありません。"
+    },
+    "typing": [
+      [
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "d",
+        "e"
+      ]
+    ]
   },
   {
     "id": "greetings-019",
@@ -203,10 +459,27 @@
     "pinyin": "méi wèntí",
     "meaning": "問題ありません",
     "category": "greetings",
-    "hskLevel": 1,
-    "exampleSentence": "这个没问题。",
-    "exampleSentencePinyin": "Zhège méi wèntí.",
-    "exampleSentenceMeaning": "これは問題ありません。"
+    "example": {
+      "sentence": "这个没问题。",
+      "pinyin": "Zhège méi wèntí.",
+      "meaning": "これは問題ありません。"
+    },
+    "typing": [
+      [
+        "m",
+        "e",
+        "i"
+      ],
+      [
+        "w",
+        "e",
+        "n"
+      ],
+      [
+        "t",
+        "i"
+      ]
+    ]
   },
   {
     "id": "greetings-020",
@@ -214,10 +487,26 @@
     "pinyin": "xīnkǔ le",
     "meaning": "お疲れ様でした",
     "category": "greetings",
-    "hskLevel": 2,
-    "exampleSentence": "今天辛苦了。",
-    "exampleSentencePinyin": "Jīntiān xīnkǔ le.",
-    "exampleSentenceMeaning": "今日はお疲れ様でした。"
+    "example": {
+      "sentence": "今天辛苦了。",
+      "pinyin": "Jīntiān xīnkǔ le.",
+      "meaning": "今日はお疲れ様でした。"
+    },
+    "typing": [
+      [
+        "x",
+        "i",
+        "n"
+      ],
+      [
+        "k",
+        "u"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   },
   {
     "id": "self-intro-001",
@@ -225,10 +514,17 @@
     "pinyin": "wǒ",
     "meaning": "私",
     "category": "self-intro",
-    "hskLevel": 1,
-    "exampleSentence": "我是学生。",
-    "exampleSentencePinyin": "Wǒ shì xuésheng.",
-    "exampleSentenceMeaning": "私は学生です。"
+    "example": {
+      "sentence": "我是学生。",
+      "pinyin": "Wǒ shì xuésheng.",
+      "meaning": "私は学生です。"
+    },
+    "typing": [
+      [
+        "w",
+        "o"
+      ]
+    ]
   },
   {
     "id": "self-intro-002",
@@ -236,10 +532,17 @@
     "pinyin": "nǐ",
     "meaning": "あなた",
     "category": "self-intro",
-    "hskLevel": 1,
-    "exampleSentence": "你叫什么名字?",
-    "exampleSentencePinyin": "Nǐ jiào shénme míngzi?",
-    "exampleSentenceMeaning": "あなたの名前は何ですか?"
+    "example": {
+      "sentence": "你叫什么名字?",
+      "pinyin": "Nǐ jiào shénme míngzi?",
+      "meaning": "あなたの名前は何ですか?"
+    },
+    "typing": [
+      [
+        "n",
+        "i"
+      ]
+    ]
   },
   {
     "id": "self-intro-003",
@@ -247,10 +550,17 @@
     "pinyin": "tā",
     "meaning": "彼",
     "category": "self-intro",
-    "hskLevel": 1,
-    "exampleSentence": "他是我的朋友。",
-    "exampleSentencePinyin": "Tā shì wǒ de péngyou.",
-    "exampleSentenceMeaning": "彼は私の友達です。"
+    "example": {
+      "sentence": "他是我的朋友。",
+      "pinyin": "Tā shì wǒ de péngyou.",
+      "meaning": "彼は私の友達です。"
+    },
+    "typing": [
+      [
+        "t",
+        "a"
+      ]
+    ]
   },
   {
     "id": "self-intro-004",
@@ -258,10 +568,17 @@
     "pinyin": "tā",
     "meaning": "彼女",
     "category": "self-intro",
-    "hskLevel": 1,
-    "exampleSentence": "她是老师。",
-    "exampleSentencePinyin": "Tā shì lǎoshī.",
-    "exampleSentenceMeaning": "彼女は先生です。"
+    "example": {
+      "sentence": "她是老师。",
+      "pinyin": "Tā shì lǎoshī.",
+      "meaning": "彼女は先生です。"
+    },
+    "typing": [
+      [
+        "t",
+        "a"
+      ]
+    ]
   },
   {
     "id": "self-intro-005",
@@ -269,10 +586,23 @@
     "pinyin": "míngzi",
     "meaning": "名前",
     "category": "self-intro",
-    "hskLevel": 1,
-    "exampleSentence": "我的名字是田中。",
-    "exampleSentencePinyin": "Wǒ de míngzi shì Tiánzhōng.",
-    "exampleSentenceMeaning": "私の名前は田中です。"
+    "example": {
+      "sentence": "我的名字是田中。",
+      "pinyin": "Wǒ de míngzi shì Tiánzhōng.",
+      "meaning": "私の名前は田中です。"
+    },
+    "typing": [
+      [
+        "m",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "z",
+        "i"
+      ]
+    ]
   },
   {
     "id": "self-intro-006",
@@ -280,10 +610,19 @@
     "pinyin": "jiào",
     "meaning": "〜という(名前)",
     "category": "self-intro",
-    "hskLevel": 1,
-    "exampleSentence": "我叫田中。",
-    "exampleSentencePinyin": "Wǒ jiào Tiánzhōng.",
-    "exampleSentenceMeaning": "私は田中といいます。"
+    "example": {
+      "sentence": "我叫田中。",
+      "pinyin": "Wǒ jiào Tiánzhōng.",
+      "meaning": "私は田中といいます。"
+    },
+    "typing": [
+      [
+        "j",
+        "i",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "self-intro-007",
@@ -291,10 +630,19 @@
     "pinyin": "xìng",
     "meaning": "苗字",
     "category": "self-intro",
-    "hskLevel": 2,
-    "exampleSentence": "我姓田中。",
-    "exampleSentencePinyin": "Wǒ xìng Tiánzhōng.",
-    "exampleSentenceMeaning": "私は田中と申します。"
+    "example": {
+      "sentence": "我姓田中。",
+      "pinyin": "Wǒ xìng Tiánzhōng.",
+      "meaning": "私は田中と申します。"
+    },
+    "typing": [
+      [
+        "x",
+        "i",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "self-intro-008",
@@ -302,10 +650,27 @@
     "pinyin": "Rìběnrén",
     "meaning": "日本人",
     "category": "self-intro",
-    "hskLevel": 1,
-    "exampleSentence": "我是日本人。",
-    "exampleSentencePinyin": "Wǒ shì Rìběnrén.",
-    "exampleSentenceMeaning": "私は日本人です。"
+    "example": {
+      "sentence": "我是日本人。",
+      "pinyin": "Wǒ shì Rìběnrén.",
+      "meaning": "私は日本人です。"
+    },
+    "typing": [
+      [
+        "r",
+        "i"
+      ],
+      [
+        "b",
+        "e",
+        "n"
+      ],
+      [
+        "r",
+        "e",
+        "n"
+      ]
+    ]
   },
   {
     "id": "self-intro-009",
@@ -313,10 +678,30 @@
     "pinyin": "Zhōngguórén",
     "meaning": "中国人",
     "category": "self-intro",
-    "hskLevel": 1,
-    "exampleSentence": "他是中国人。",
-    "exampleSentencePinyin": "Tā shì Zhōngguórén.",
-    "exampleSentenceMeaning": "彼は中国人です。"
+    "example": {
+      "sentence": "他是中国人。",
+      "pinyin": "Tā shì Zhōngguórén.",
+      "meaning": "彼は中国人です。"
+    },
+    "typing": [
+      [
+        "z",
+        "h",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "g",
+        "u",
+        "o"
+      ],
+      [
+        "r",
+        "e",
+        "n"
+      ]
+    ]
   },
   {
     "id": "self-intro-010",
@@ -324,10 +709,25 @@
     "pinyin": "xuésheng",
     "meaning": "学生",
     "category": "self-intro",
-    "hskLevel": 1,
-    "exampleSentence": "我是大学生。",
-    "exampleSentencePinyin": "Wǒ shì dàxuéshēng.",
-    "exampleSentenceMeaning": "私は大学生です。"
+    "example": {
+      "sentence": "我是大学生。",
+      "pinyin": "Wǒ shì dàxuéshēng.",
+      "meaning": "私は大学生です。"
+    },
+    "typing": [
+      [
+        "x",
+        "u",
+        "e"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "self-intro-011",
@@ -335,10 +735,23 @@
     "pinyin": "lǎoshī",
     "meaning": "先生",
     "category": "self-intro",
-    "hskLevel": 1,
-    "exampleSentence": "她是汉语老师。",
-    "exampleSentencePinyin": "Tā shì Hànyǔ lǎoshī.",
-    "exampleSentenceMeaning": "彼女は中国語の先生です。"
+    "example": {
+      "sentence": "她是汉语老师。",
+      "pinyin": "Tā shì Hànyǔ lǎoshī.",
+      "meaning": "彼女は中国語の先生です。"
+    },
+    "typing": [
+      [
+        "l",
+        "a",
+        "o"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ]
+    ]
   },
   {
     "id": "self-intro-012",
@@ -346,10 +759,24 @@
     "pinyin": "gōngzuò",
     "meaning": "仕事/働く",
     "category": "self-intro",
-    "hskLevel": 1,
-    "exampleSentence": "我在东京工作。",
-    "exampleSentencePinyin": "Wǒ zài Dōngjīng gōngzuò.",
-    "exampleSentenceMeaning": "私は東京で働いています。"
+    "example": {
+      "sentence": "我在东京工作。",
+      "pinyin": "Wǒ zài Dōngjīng gōngzuò.",
+      "meaning": "私は東京で働いています。"
+    },
+    "typing": [
+      [
+        "g",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "z",
+        "u",
+        "o"
+      ]
+    ]
   },
   {
     "id": "self-intro-013",
@@ -357,10 +784,23 @@
     "pinyin": "gōngsī",
     "meaning": "会社",
     "category": "self-intro",
-    "hskLevel": 2,
-    "exampleSentence": "我在一家公司工作。",
-    "exampleSentencePinyin": "Wǒ zài yì jiā gōngsī gōngzuò.",
-    "exampleSentenceMeaning": "私はある会社で働いています。"
+    "example": {
+      "sentence": "我在一家公司工作。",
+      "pinyin": "Wǒ zài yì jiā gōngsī gōngzuò.",
+      "meaning": "私はある会社で働いています。"
+    },
+    "typing": [
+      [
+        "g",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "s",
+        "i"
+      ]
+    ]
   },
   {
     "id": "self-intro-014",
@@ -368,10 +808,18 @@
     "pinyin": "jiā",
     "meaning": "家/家族",
     "category": "self-intro",
-    "hskLevel": 1,
-    "exampleSentence": "我家有三个人。",
-    "exampleSentencePinyin": "Wǒ jiā yǒu sān ge rén.",
-    "exampleSentenceMeaning": "私の家族は3人です。"
+    "example": {
+      "sentence": "我家有三个人。",
+      "pinyin": "Wǒ jiā yǒu sān ge rén.",
+      "meaning": "私の家族は3人です。"
+    },
+    "typing": [
+      [
+        "j",
+        "i",
+        "a"
+      ]
+    ]
   },
   {
     "id": "self-intro-015",
@@ -379,10 +827,24 @@
     "pinyin": "péngyou",
     "meaning": "友達",
     "category": "self-intro",
-    "hskLevel": 1,
-    "exampleSentence": "他是我的好朋友。",
-    "exampleSentencePinyin": "Tā shì wǒ de hǎo péngyou.",
-    "exampleSentenceMeaning": "彼は私の親友です。"
+    "example": {
+      "sentence": "他是我的好朋友。",
+      "pinyin": "Tā shì wǒ de hǎo péngyou.",
+      "meaning": "彼は私の親友です。"
+    },
+    "typing": [
+      [
+        "p",
+        "e",
+        "n",
+        "g"
+      ],
+      [
+        "y",
+        "o",
+        "u"
+      ]
+    ]
   },
   {
     "id": "self-intro-016",
@@ -390,10 +852,18 @@
     "pinyin": "suì",
     "meaning": "〜歳",
     "category": "self-intro",
-    "hskLevel": 1,
-    "exampleSentence": "我二十岁了。",
-    "exampleSentencePinyin": "Wǒ èrshí suì le.",
-    "exampleSentenceMeaning": "私は20歳になりました。"
+    "example": {
+      "sentence": "我二十岁了。",
+      "pinyin": "Wǒ èrshí suì le.",
+      "meaning": "私は20歳になりました。"
+    },
+    "typing": [
+      [
+        "s",
+        "u",
+        "i"
+      ]
+    ]
   },
   {
     "id": "self-intro-017",
@@ -401,10 +871,22 @@
     "pinyin": "duō dà",
     "meaning": "(年齢が)どのくらい",
     "category": "self-intro",
-    "hskLevel": 2,
-    "exampleSentence": "你多大了?",
-    "exampleSentencePinyin": "Nǐ duō dà le?",
-    "exampleSentenceMeaning": "あなたは何歳ですか?"
+    "example": {
+      "sentence": "你多大了?",
+      "pinyin": "Nǐ duō dà le?",
+      "meaning": "あなたは何歳ですか?"
+    },
+    "typing": [
+      [
+        "d",
+        "u",
+        "o"
+      ],
+      [
+        "d",
+        "a"
+      ]
+    ]
   },
   {
     "id": "self-intro-018",
@@ -412,10 +894,19 @@
     "pinyin": "cóng",
     "meaning": "〜から",
     "category": "self-intro",
-    "hskLevel": 2,
-    "exampleSentence": "我从日本来。",
-    "exampleSentencePinyin": "Wǒ cóng Rìběn lái.",
-    "exampleSentenceMeaning": "私は日本から来ました。"
+    "example": {
+      "sentence": "我从日本来。",
+      "pinyin": "Wǒ cóng Rìběn lái.",
+      "meaning": "私は日本から来ました。"
+    },
+    "typing": [
+      [
+        "c",
+        "o",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "self-intro-019",
@@ -423,10 +914,18 @@
     "pinyin": "lái",
     "meaning": "来る",
     "category": "self-intro",
-    "hskLevel": 1,
-    "exampleSentence": "他明天来。",
-    "exampleSentencePinyin": "Tā míngtiān lái.",
-    "exampleSentenceMeaning": "彼は明日来ます。"
+    "example": {
+      "sentence": "他明天来。",
+      "pinyin": "Tā míngtiān lái.",
+      "meaning": "彼は明日来ます。"
+    },
+    "typing": [
+      [
+        "l",
+        "a",
+        "i"
+      ]
+    ]
   },
   {
     "id": "self-intro-020",
@@ -434,10 +933,23 @@
     "pinyin": "rènshi",
     "meaning": "知り合う",
     "category": "self-intro",
-    "hskLevel": 2,
-    "exampleSentence": "很高兴认识你。",
-    "exampleSentencePinyin": "Hěn gāoxìng rènshi nǐ.",
-    "exampleSentenceMeaning": "お会いできて嬉しいです。"
+    "example": {
+      "sentence": "很高兴认识你。",
+      "pinyin": "Hěn gāoxìng rènshi nǐ.",
+      "meaning": "お会いできて嬉しいです。"
+    },
+    "typing": [
+      [
+        "r",
+        "e",
+        "n"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ]
+    ]
   },
   {
     "id": "numbers-time-001",
@@ -445,10 +957,17 @@
     "pinyin": "yī",
     "meaning": "1",
     "category": "numbers-time",
-    "hskLevel": 1,
-    "exampleSentence": "一个人。",
-    "exampleSentencePinyin": "Yí ge rén.",
-    "exampleSentenceMeaning": "一人。"
+    "example": {
+      "sentence": "一个人。",
+      "pinyin": "Yí ge rén.",
+      "meaning": "一人。"
+    },
+    "typing": [
+      [
+        "y",
+        "i"
+      ]
+    ]
   },
   {
     "id": "numbers-time-002",
@@ -456,10 +975,17 @@
     "pinyin": "èr",
     "meaning": "2",
     "category": "numbers-time",
-    "hskLevel": 1,
-    "exampleSentence": "两点两分。",
-    "exampleSentencePinyin": "Liǎng diǎn liǎng fēn.",
-    "exampleSentenceMeaning": "2時2分。"
+    "example": {
+      "sentence": "两点两分。",
+      "pinyin": "Liǎng diǎn liǎng fēn.",
+      "meaning": "2時2分。"
+    },
+    "typing": [
+      [
+        "e",
+        "r"
+      ]
+    ]
   },
   {
     "id": "numbers-time-003",
@@ -467,10 +993,18 @@
     "pinyin": "sān",
     "meaning": "3",
     "category": "numbers-time",
-    "hskLevel": 1,
-    "exampleSentence": "三个苹果。",
-    "exampleSentencePinyin": "Sān ge píngguǒ.",
-    "exampleSentenceMeaning": "りんご3つ。"
+    "example": {
+      "sentence": "三个苹果。",
+      "pinyin": "Sān ge píngguǒ.",
+      "meaning": "りんご3つ。"
+    },
+    "typing": [
+      [
+        "s",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "numbers-time-004",
@@ -478,10 +1012,17 @@
     "pinyin": "sì",
     "meaning": "4",
     "category": "numbers-time",
-    "hskLevel": 1,
-    "exampleSentence": "四点见面。",
-    "exampleSentencePinyin": "Sì diǎn jiànmiàn.",
-    "exampleSentenceMeaning": "4時に会いましょう。"
+    "example": {
+      "sentence": "四点见面。",
+      "pinyin": "Sì diǎn jiànmiàn.",
+      "meaning": "4時に会いましょう。"
+    },
+    "typing": [
+      [
+        "s",
+        "i"
+      ]
+    ]
   },
   {
     "id": "numbers-time-005",
@@ -489,10 +1030,17 @@
     "pinyin": "wǔ",
     "meaning": "5",
     "category": "numbers-time",
-    "hskLevel": 1,
-    "exampleSentence": "五分钟后。",
-    "exampleSentencePinyin": "Wǔ fēnzhōng hòu.",
-    "exampleSentenceMeaning": "5分後。"
+    "example": {
+      "sentence": "五分钟后。",
+      "pinyin": "Wǔ fēnzhōng hòu.",
+      "meaning": "5分後。"
+    },
+    "typing": [
+      [
+        "w",
+        "u"
+      ]
+    ]
   },
   {
     "id": "numbers-time-006",
@@ -500,10 +1048,18 @@
     "pinyin": "liù",
     "meaning": "6",
     "category": "numbers-time",
-    "hskLevel": 1,
-    "exampleSentence": "六个月。",
-    "exampleSentencePinyin": "Liù ge yuè.",
-    "exampleSentenceMeaning": "6ヶ月。"
+    "example": {
+      "sentence": "六个月。",
+      "pinyin": "Liù ge yuè.",
+      "meaning": "6ヶ月。"
+    },
+    "typing": [
+      [
+        "l",
+        "i",
+        "u"
+      ]
+    ]
   },
   {
     "id": "numbers-time-007",
@@ -511,10 +1067,17 @@
     "pinyin": "qī",
     "meaning": "7",
     "category": "numbers-time",
-    "hskLevel": 1,
-    "exampleSentence": "七点起床。",
-    "exampleSentencePinyin": "Qī diǎn qǐchuáng.",
-    "exampleSentenceMeaning": "7時に起きます。"
+    "example": {
+      "sentence": "七点起床。",
+      "pinyin": "Qī diǎn qǐchuáng.",
+      "meaning": "7時に起きます。"
+    },
+    "typing": [
+      [
+        "q",
+        "i"
+      ]
+    ]
   },
   {
     "id": "numbers-time-008",
@@ -522,10 +1085,17 @@
     "pinyin": "bā",
     "meaning": "8",
     "category": "numbers-time",
-    "hskLevel": 1,
-    "exampleSentence": "八点上班。",
-    "exampleSentencePinyin": "Bā diǎn shàngbān.",
-    "exampleSentenceMeaning": "8時に出勤します。"
+    "example": {
+      "sentence": "八点上班。",
+      "pinyin": "Bā diǎn shàngbān.",
+      "meaning": "8時に出勤します。"
+    },
+    "typing": [
+      [
+        "b",
+        "a"
+      ]
+    ]
   },
   {
     "id": "numbers-time-009",
@@ -533,10 +1103,18 @@
     "pinyin": "jiǔ",
     "meaning": "9",
     "category": "numbers-time",
-    "hskLevel": 1,
-    "exampleSentence": "九点下班。",
-    "exampleSentencePinyin": "Jiǔ diǎn xiàbān.",
-    "exampleSentenceMeaning": "9時に退勤します。"
+    "example": {
+      "sentence": "九点下班。",
+      "pinyin": "Jiǔ diǎn xiàbān.",
+      "meaning": "9時に退勤します。"
+    },
+    "typing": [
+      [
+        "j",
+        "i",
+        "u"
+      ]
+    ]
   },
   {
     "id": "numbers-time-010",
@@ -544,10 +1122,18 @@
     "pinyin": "shí",
     "meaning": "10",
     "category": "numbers-time",
-    "hskLevel": 1,
-    "exampleSentence": "十分钟。",
-    "exampleSentencePinyin": "Shí fēnzhōng.",
-    "exampleSentenceMeaning": "10分間。"
+    "example": {
+      "sentence": "十分钟。",
+      "pinyin": "Shí fēnzhōng.",
+      "meaning": "10分間。"
+    },
+    "typing": [
+      [
+        "s",
+        "h",
+        "i"
+      ]
+    ]
   },
   {
     "id": "numbers-time-011",
@@ -555,10 +1141,18 @@
     "pinyin": "bǎi",
     "meaning": "百",
     "category": "numbers-time",
-    "hskLevel": 2,
-    "exampleSentence": "一百块钱。",
-    "exampleSentencePinyin": "Yìbǎi kuài qián.",
-    "exampleSentenceMeaning": "百元。"
+    "example": {
+      "sentence": "一百块钱。",
+      "pinyin": "Yìbǎi kuài qián.",
+      "meaning": "百元。"
+    },
+    "typing": [
+      [
+        "b",
+        "a",
+        "i"
+      ]
+    ]
   },
   {
     "id": "numbers-time-012",
@@ -566,10 +1160,19 @@
     "pinyin": "qiān",
     "meaning": "千",
     "category": "numbers-time",
-    "hskLevel": 2,
-    "exampleSentence": "一千个人。",
-    "exampleSentencePinyin": "Yìqiān ge rén.",
-    "exampleSentenceMeaning": "千人。"
+    "example": {
+      "sentence": "一千个人。",
+      "pinyin": "Yìqiān ge rén.",
+      "meaning": "千人。"
+    },
+    "typing": [
+      [
+        "q",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "numbers-time-013",
@@ -577,10 +1180,19 @@
     "pinyin": "diǎn",
     "meaning": "〜時",
     "category": "numbers-time",
-    "hskLevel": 1,
-    "exampleSentence": "现在几点?",
-    "exampleSentencePinyin": "Xiànzài jǐ diǎn?",
-    "exampleSentenceMeaning": "今何時ですか?"
+    "example": {
+      "sentence": "现在几点?",
+      "pinyin": "Xiànzài jǐ diǎn?",
+      "meaning": "今何時ですか?"
+    },
+    "typing": [
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "numbers-time-014",
@@ -588,10 +1200,18 @@
     "pinyin": "fēn",
     "meaning": "〜分",
     "category": "numbers-time",
-    "hskLevel": 2,
-    "exampleSentence": "三点十分。",
-    "exampleSentencePinyin": "Sān diǎn shí fēn.",
-    "exampleSentenceMeaning": "3時10分。"
+    "example": {
+      "sentence": "三点十分。",
+      "pinyin": "Sān diǎn shí fēn.",
+      "meaning": "3時10分。"
+    },
+    "typing": [
+      [
+        "f",
+        "e",
+        "n"
+      ]
+    ]
   },
   {
     "id": "numbers-time-015",
@@ -599,10 +1219,24 @@
     "pinyin": "jīntiān",
     "meaning": "今日",
     "category": "numbers-time",
-    "hskLevel": 1,
-    "exampleSentence": "今天天气很好。",
-    "exampleSentencePinyin": "Jīntiān tiānqì hěn hǎo.",
-    "exampleSentenceMeaning": "今日は天気がいいです。"
+    "example": {
+      "sentence": "今天天气很好。",
+      "pinyin": "Jīntiān tiānqì hěn hǎo.",
+      "meaning": "今日は天気がいいです。"
+    },
+    "typing": [
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "numbers-time-016",
@@ -610,10 +1244,25 @@
     "pinyin": "míngtiān",
     "meaning": "明日",
     "category": "numbers-time",
-    "hskLevel": 1,
-    "exampleSentence": "明天见。",
-    "exampleSentencePinyin": "Míngtiān jiàn.",
-    "exampleSentenceMeaning": "また明日。"
+    "example": {
+      "sentence": "明天见。",
+      "pinyin": "Míngtiān jiàn.",
+      "meaning": "また明日。"
+    },
+    "typing": [
+      [
+        "m",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "numbers-time-017",
@@ -621,10 +1270,24 @@
     "pinyin": "zuótiān",
     "meaning": "昨日",
     "category": "numbers-time",
-    "hskLevel": 1,
-    "exampleSentence": "昨天很忙。",
-    "exampleSentencePinyin": "Zuótiān hěn máng.",
-    "exampleSentenceMeaning": "昨日は忙しかったです。"
+    "example": {
+      "sentence": "昨天很忙。",
+      "pinyin": "Zuótiān hěn máng.",
+      "meaning": "昨日は忙しかったです。"
+    },
+    "typing": [
+      [
+        "z",
+        "u",
+        "o"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "numbers-time-018",
@@ -632,10 +1295,23 @@
     "pinyin": "xīngqī",
     "meaning": "曜日/週",
     "category": "numbers-time",
-    "hskLevel": 1,
-    "exampleSentence": "今天星期几?",
-    "exampleSentencePinyin": "Jīntiān xīngqī jǐ?",
-    "exampleSentenceMeaning": "今日は何曜日ですか?"
+    "example": {
+      "sentence": "今天星期几?",
+      "pinyin": "Jīntiān xīngqī jǐ?",
+      "meaning": "今日は何曜日ですか?"
+    },
+    "typing": [
+      [
+        "x",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "q",
+        "i"
+      ]
+    ]
   },
   {
     "id": "numbers-time-019",
@@ -643,10 +1319,27 @@
     "pinyin": "xīngqīyī",
     "meaning": "月曜日",
     "category": "numbers-time",
-    "hskLevel": 1,
-    "exampleSentence": "星期一有课。",
-    "exampleSentencePinyin": "Xīngqīyī yǒu kè.",
-    "exampleSentenceMeaning": "月曜日は授業があります。"
+    "example": {
+      "sentence": "星期一有课。",
+      "pinyin": "Xīngqīyī yǒu kè.",
+      "meaning": "月曜日は授業があります。"
+    },
+    "typing": [
+      [
+        "x",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "q",
+        "i"
+      ],
+      [
+        "y",
+        "i"
+      ]
+    ]
   },
   {
     "id": "numbers-time-020",
@@ -654,10 +1347,24 @@
     "pinyin": "xiànzài",
     "meaning": "今",
     "category": "numbers-time",
-    "hskLevel": 1,
-    "exampleSentence": "我现在很忙。",
-    "exampleSentencePinyin": "Wǒ xiànzài hěn máng.",
-    "exampleSentenceMeaning": "私は今忙しいです。"
+    "example": {
+      "sentence": "我现在很忙。",
+      "pinyin": "Wǒ xiànzài hěn máng.",
+      "meaning": "私は今忙しいです。"
+    },
+    "typing": [
+      [
+        "x",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "z",
+        "a",
+        "i"
+      ]
+    ]
   },
   {
     "id": "numbers-time-021",
@@ -665,10 +1372,19 @@
     "pinyin": "nián",
     "meaning": "年",
     "category": "numbers-time",
-    "hskLevel": 1,
-    "exampleSentence": "今年是二零二六年。",
-    "exampleSentencePinyin": "Jīnnián shì èr líng èr liù nián.",
-    "exampleSentenceMeaning": "今年は2026年です。"
+    "example": {
+      "sentence": "今年是二零二六年。",
+      "pinyin": "Jīnnián shì èr líng èr liù nián.",
+      "meaning": "今年は2026年です。"
+    },
+    "typing": [
+      [
+        "n",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "numbers-time-022",
@@ -676,10 +1392,18 @@
     "pinyin": "yuè",
     "meaning": "月",
     "category": "numbers-time",
-    "hskLevel": 1,
-    "exampleSentence": "九月开始上课。",
-    "exampleSentencePinyin": "Jiǔyuè kāishǐ shàngkè.",
-    "exampleSentenceMeaning": "9月から授業が始まります。"
+    "example": {
+      "sentence": "九月开始上课。",
+      "pinyin": "Jiǔyuè kāishǐ shàngkè.",
+      "meaning": "9月から授業が始まります。"
+    },
+    "typing": [
+      [
+        "y",
+        "u",
+        "e"
+      ]
+    ]
   },
   {
     "id": "numbers-time-023",
@@ -687,10 +1411,18 @@
     "pinyin": "hào",
     "meaning": "〜日",
     "category": "numbers-time",
-    "hskLevel": 1,
-    "exampleSentence": "今天几号?",
-    "exampleSentencePinyin": "Jīntiān jǐ hào?",
-    "exampleSentenceMeaning": "今日は何日ですか?"
+    "example": {
+      "sentence": "今天几号?",
+      "pinyin": "Jīntiān jǐ hào?",
+      "meaning": "今日は何日ですか?"
+    },
+    "typing": [
+      [
+        "h",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "numbers-time-024",
@@ -698,10 +1430,25 @@
     "pinyin": "zǎoshang",
     "meaning": "朝",
     "category": "numbers-time",
-    "hskLevel": 1,
-    "exampleSentence": "早上七点起床。",
-    "exampleSentencePinyin": "Zǎoshang qī diǎn qǐchuáng.",
-    "exampleSentenceMeaning": "朝7時に起きます。"
+    "example": {
+      "sentence": "早上七点起床。",
+      "pinyin": "Zǎoshang qī diǎn qǐchuáng.",
+      "meaning": "朝7時に起きます。"
+    },
+    "typing": [
+      [
+        "z",
+        "a",
+        "o"
+      ],
+      [
+        "s",
+        "h",
+        "a",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "numbers-time-025",
@@ -709,10 +1456,25 @@
     "pinyin": "wǎnshang",
     "meaning": "夜",
     "category": "numbers-time",
-    "hskLevel": 1,
-    "exampleSentence": "晚上十点睡觉。",
-    "exampleSentencePinyin": "Wǎnshang shí diǎn shuìjiào.",
-    "exampleSentenceMeaning": "夜10時に寝ます。"
+    "example": {
+      "sentence": "晚上十点睡觉。",
+      "pinyin": "Wǎnshang shí diǎn shuìjiào.",
+      "meaning": "夜10時に寝ます。"
+    },
+    "typing": [
+      [
+        "w",
+        "a",
+        "n"
+      ],
+      [
+        "s",
+        "h",
+        "a",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "travel-001",
@@ -720,10 +1482,22 @@
     "pinyin": "fēijī",
     "meaning": "飛行機",
     "category": "travel",
-    "hskLevel": 1,
-    "exampleSentence": "我坐飞机去中国。",
-    "exampleSentencePinyin": "Wǒ zuò fēijī qù Zhōngguó.",
-    "exampleSentenceMeaning": "私は飛行機で中国に行きます。"
+    "example": {
+      "sentence": "我坐飞机去中国。",
+      "pinyin": "Wǒ zuò fēijī qù Zhōngguó.",
+      "meaning": "私は飛行機で中国に行きます。"
+    },
+    "typing": [
+      [
+        "f",
+        "e",
+        "i"
+      ],
+      [
+        "j",
+        "i"
+      ]
+    ]
   },
   {
     "id": "travel-002",
@@ -731,10 +1505,23 @@
     "pinyin": "hùzhào",
     "meaning": "パスポート",
     "category": "travel",
-    "hskLevel": 2,
-    "exampleSentence": "请出示护照。",
-    "exampleSentencePinyin": "Qǐng chūshì hùzhào.",
-    "exampleSentenceMeaning": "パスポートを提示してください。"
+    "example": {
+      "sentence": "请出示护照。",
+      "pinyin": "Qǐng chūshì hùzhào.",
+      "meaning": "パスポートを提示してください。"
+    },
+    "typing": [
+      [
+        "h",
+        "u"
+      ],
+      [
+        "z",
+        "h",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "travel-003",
@@ -742,10 +1529,27 @@
     "pinyin": "chūzūchē",
     "meaning": "タクシー",
     "category": "travel",
-    "hskLevel": 1,
-    "exampleSentence": "我们坐出租车吧。",
-    "exampleSentencePinyin": "Wǒmen zuò chūzūchē ba.",
-    "exampleSentenceMeaning": "タクシーに乗りましょう。"
+    "example": {
+      "sentence": "我们坐出租车吧。",
+      "pinyin": "Wǒmen zuò chūzūchē ba.",
+      "meaning": "タクシーに乗りましょう。"
+    },
+    "typing": [
+      [
+        "c",
+        "h",
+        "u"
+      ],
+      [
+        "z",
+        "u"
+      ],
+      [
+        "c",
+        "h",
+        "e"
+      ]
+    ]
   },
   {
     "id": "travel-004",
@@ -753,10 +1557,24 @@
     "pinyin": "jiǔdiàn",
     "meaning": "ホテル",
     "category": "travel",
-    "hskLevel": 2,
-    "exampleSentence": "酒店在车站附近。",
-    "exampleSentencePinyin": "Jiǔdiàn zài chēzhàn fùjìn.",
-    "exampleSentenceMeaning": "ホテルは駅の近くにあります。"
+    "example": {
+      "sentence": "酒店在车站附近。",
+      "pinyin": "Jiǔdiàn zài chēzhàn fùjìn.",
+      "meaning": "ホテルは駅の近くにあります。"
+    },
+    "typing": [
+      [
+        "j",
+        "i",
+        "u"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "travel-005",
@@ -764,10 +1582,22 @@
     "pinyin": "dìtiě",
     "meaning": "地下鉄",
     "category": "travel",
-    "hskLevel": 2,
-    "exampleSentence": "我坐地铁上班。",
-    "exampleSentencePinyin": "Wǒ zuò dìtiě shàngbān.",
-    "exampleSentenceMeaning": "私は地下鉄で通勤します。"
+    "example": {
+      "sentence": "我坐地铁上班。",
+      "pinyin": "Wǒ zuò dìtiě shàngbān.",
+      "meaning": "私は地下鉄で通勤します。"
+    },
+    "typing": [
+      [
+        "d",
+        "i"
+      ],
+      [
+        "t",
+        "i",
+        "e"
+      ]
+    ]
   },
   {
     "id": "travel-006",
@@ -775,10 +1605,23 @@
     "pinyin": "huǒchē",
     "meaning": "電車/汽車",
     "category": "travel",
-    "hskLevel": 2,
-    "exampleSentence": "火车几点开?",
-    "exampleSentencePinyin": "Huǒchē jǐ diǎn kāi?",
-    "exampleSentenceMeaning": "電車は何時に出発しますか?"
+    "example": {
+      "sentence": "火车几点开?",
+      "pinyin": "Huǒchē jǐ diǎn kāi?",
+      "meaning": "電車は何時に出発しますか?"
+    },
+    "typing": [
+      [
+        "h",
+        "u",
+        "o"
+      ],
+      [
+        "c",
+        "h",
+        "e"
+      ]
+    ]
   },
   {
     "id": "travel-007",
@@ -786,10 +1629,24 @@
     "pinyin": "jīchǎng",
     "meaning": "空港",
     "category": "travel",
-    "hskLevel": 2,
-    "exampleSentence": "机场很大。",
-    "exampleSentencePinyin": "Jīchǎng hěn dà.",
-    "exampleSentenceMeaning": "空港はとても大きいです。"
+    "example": {
+      "sentence": "机场很大。",
+      "pinyin": "Jīchǎng hěn dà.",
+      "meaning": "空港はとても大きいです。"
+    },
+    "typing": [
+      [
+        "j",
+        "i"
+      ],
+      [
+        "c",
+        "h",
+        "a",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "travel-008",
@@ -797,10 +1654,24 @@
     "pinyin": "chēzhàn",
     "meaning": "駅",
     "category": "travel",
-    "hskLevel": 1,
-    "exampleSentence": "车站在哪里?",
-    "exampleSentencePinyin": "Chēzhàn zài nǎlǐ?",
-    "exampleSentenceMeaning": "駅はどこですか?"
+    "example": {
+      "sentence": "车站在哪里?",
+      "pinyin": "Chēzhàn zài nǎlǐ?",
+      "meaning": "駅はどこですか?"
+    },
+    "typing": [
+      [
+        "c",
+        "h",
+        "e"
+      ],
+      [
+        "z",
+        "h",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "travel-009",
@@ -808,10 +1679,19 @@
     "pinyin": "piào",
     "meaning": "切符/チケット",
     "category": "travel",
-    "hskLevel": 1,
-    "exampleSentence": "两张票多少钱?",
-    "exampleSentencePinyin": "Liǎng zhāng piào duōshao qián?",
-    "exampleSentenceMeaning": "チケット2枚でいくらですか?"
+    "example": {
+      "sentence": "两张票多少钱?",
+      "pinyin": "Liǎng zhāng piào duōshao qián?",
+      "meaning": "チケット2枚でいくらですか?"
+    },
+    "typing": [
+      [
+        "p",
+        "i",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "travel-010",
@@ -819,10 +1699,23 @@
     "pinyin": "xíngli",
     "meaning": "荷物",
     "category": "travel",
-    "hskLevel": 2,
-    "exampleSentence": "我的行李很重。",
-    "exampleSentencePinyin": "Wǒ de xíngli hěn zhòng.",
-    "exampleSentenceMeaning": "私の荷物はとても重いです。"
+    "example": {
+      "sentence": "我的行李很重。",
+      "pinyin": "Wǒ de xíngli hěn zhòng.",
+      "meaning": "私の荷物はとても重いです。"
+    },
+    "typing": [
+      [
+        "x",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "l",
+        "i"
+      ]
+    ]
   },
   {
     "id": "travel-011",
@@ -830,10 +1723,26 @@
     "pinyin": "qiānzhèng",
     "meaning": "ビザ",
     "category": "travel",
-    "hskLevel": 3,
-    "exampleSentence": "我需要办签证。",
-    "exampleSentencePinyin": "Wǒ xūyào bàn qiānzhèng.",
-    "exampleSentenceMeaning": "私はビザを申請する必要があります。"
+    "example": {
+      "sentence": "我需要办签证。",
+      "pinyin": "Wǒ xūyào bàn qiānzhèng.",
+      "meaning": "私はビザを申請する必要があります。"
+    },
+    "typing": [
+      [
+        "q",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "z",
+        "h",
+        "e",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "travel-012",
@@ -841,10 +1750,21 @@
     "pinyin": "dìtú",
     "meaning": "地図",
     "category": "travel",
-    "hskLevel": 2,
-    "exampleSentence": "给我看看地图。",
-    "exampleSentencePinyin": "Gěi wǒ kànkan dìtú.",
-    "exampleSentenceMeaning": "地図を見せてください。"
+    "example": {
+      "sentence": "给我看看地图。",
+      "pinyin": "Gěi wǒ kànkan dìtú.",
+      "meaning": "地図を見せてください。"
+    },
+    "typing": [
+      [
+        "d",
+        "i"
+      ],
+      [
+        "t",
+        "u"
+      ]
+    ]
   },
   {
     "id": "travel-013",
@@ -852,10 +1772,22 @@
     "pinyin": "lǚyóu",
     "meaning": "旅行(する)",
     "category": "travel",
-    "hskLevel": 2,
-    "exampleSentence": "我喜欢旅游。",
-    "exampleSentencePinyin": "Wǒ xǐhuan lǚyóu.",
-    "exampleSentenceMeaning": "私は旅行が好きです。"
+    "example": {
+      "sentence": "我喜欢旅游。",
+      "pinyin": "Wǒ xǐhuan lǚyóu.",
+      "meaning": "私は旅行が好きです。"
+    },
+    "typing": [
+      [
+        "l",
+        "v"
+      ],
+      [
+        "y",
+        "o",
+        "u"
+      ]
+    ]
   },
   {
     "id": "travel-014",
@@ -863,10 +1795,34 @@
     "pinyin": "gōnggòng qìchē",
     "meaning": "バス",
     "category": "travel",
-    "hskLevel": 2,
-    "exampleSentence": "坐公共汽车去学校。",
-    "exampleSentencePinyin": "Zuò gōnggòng qìchē qù xuéxiào.",
-    "exampleSentenceMeaning": "バスで学校に行きます。"
+    "example": {
+      "sentence": "坐公共汽车去学校。",
+      "pinyin": "Zuò gōnggòng qìchē qù xuéxiào.",
+      "meaning": "バスで学校に行きます。"
+    },
+    "typing": [
+      [
+        "g",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "g",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "q",
+        "i"
+      ],
+      [
+        "c",
+        "h",
+        "e"
+      ]
+    ]
   },
   {
     "id": "travel-015",
@@ -874,10 +1830,21 @@
     "pinyin": "sījī",
     "meaning": "運転手",
     "category": "travel",
-    "hskLevel": 3,
-    "exampleSentence": "司机,请到机场。",
-    "exampleSentencePinyin": "Sījī, qǐng dào jīchǎng.",
-    "exampleSentenceMeaning": "運転手さん、空港までお願いします。"
+    "example": {
+      "sentence": "司机,请到机场。",
+      "pinyin": "Sījī, qǐng dào jīchǎng.",
+      "meaning": "運転手さん、空港までお願いします。"
+    },
+    "typing": [
+      [
+        "s",
+        "i"
+      ],
+      [
+        "j",
+        "i"
+      ]
+    ]
   },
   {
     "id": "travel-016",
@@ -885,10 +1852,18 @@
     "pinyin": "zǒu",
     "meaning": "歩く/行く",
     "category": "travel",
-    "hskLevel": 1,
-    "exampleSentence": "我们走着去吧。",
-    "exampleSentencePinyin": "Wǒmen zǒuzhe qù ba.",
-    "exampleSentenceMeaning": "歩いて行きましょう。"
+    "example": {
+      "sentence": "我们走着去吧。",
+      "pinyin": "Wǒmen zǒuzhe qù ba.",
+      "meaning": "歩いて行きましょう。"
+    },
+    "typing": [
+      [
+        "z",
+        "o",
+        "u"
+      ]
+    ]
   },
   {
     "id": "travel-017",
@@ -896,10 +1871,18 @@
     "pinyin": "dào",
     "meaning": "着く/〜まで",
     "category": "travel",
-    "hskLevel": 1,
-    "exampleSentence": "我们到了。",
-    "exampleSentencePinyin": "Wǒmen dào le.",
-    "exampleSentenceMeaning": "着きました。"
+    "example": {
+      "sentence": "我们到了。",
+      "pinyin": "Wǒmen dào le.",
+      "meaning": "着きました。"
+    },
+    "typing": [
+      [
+        "d",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "travel-018",
@@ -907,10 +1890,24 @@
     "pinyin": "duō yuǎn",
     "meaning": "どのくらい遠い",
     "category": "travel",
-    "hskLevel": 2,
-    "exampleSentence": "这里离车站多远?",
-    "exampleSentencePinyin": "Zhèlǐ lí chēzhàn duō yuǎn?",
-    "exampleSentenceMeaning": "ここから駅までどのくらいの距離ですか?"
+    "example": {
+      "sentence": "这里离车站多远?",
+      "pinyin": "Zhèlǐ lí chēzhàn duō yuǎn?",
+      "meaning": "ここから駅までどのくらいの距離ですか?"
+    },
+    "typing": [
+      [
+        "d",
+        "u",
+        "o"
+      ],
+      [
+        "y",
+        "u",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "travel-019",
@@ -918,10 +1915,22 @@
     "pinyin": "fùjìn",
     "meaning": "近く",
     "category": "travel",
-    "hskLevel": 2,
-    "exampleSentence": "附近有超市吗?",
-    "exampleSentencePinyin": "Fùjìn yǒu chāoshì ma?",
-    "exampleSentenceMeaning": "近くにスーパーはありますか?"
+    "example": {
+      "sentence": "附近有超市吗?",
+      "pinyin": "Fùjìn yǒu chāoshì ma?",
+      "meaning": "近くにスーパーはありますか?"
+    },
+    "typing": [
+      [
+        "f",
+        "u"
+      ],
+      [
+        "j",
+        "i",
+        "n"
+      ]
+    ]
   },
   {
     "id": "travel-020",
@@ -929,10 +1938,22 @@
     "pinyin": "chūfā",
     "meaning": "出発する",
     "category": "travel",
-    "hskLevel": 2,
-    "exampleSentence": "我们几点出发?",
-    "exampleSentencePinyin": "Wǒmen jǐ diǎn chūfā?",
-    "exampleSentenceMeaning": "私たちは何時に出発しますか?"
+    "example": {
+      "sentence": "我们几点出发?",
+      "pinyin": "Wǒmen jǐ diǎn chūfā?",
+      "meaning": "私たちは何時に出発しますか?"
+    },
+    "typing": [
+      [
+        "c",
+        "h",
+        "u"
+      ],
+      [
+        "f",
+        "a"
+      ]
+    ]
   },
   {
     "id": "travel-021",
@@ -940,10 +1961,22 @@
     "pinyin": "dàodá",
     "meaning": "到着する",
     "category": "travel",
-    "hskLevel": 3,
-    "exampleSentence": "飞机什么时候到达?",
-    "exampleSentencePinyin": "Fēijī shénme shíhou dàodá?",
-    "exampleSentenceMeaning": "飛行機はいつ到着しますか?"
+    "example": {
+      "sentence": "飞机什么时候到达?",
+      "pinyin": "Fēijī shénme shíhou dàodá?",
+      "meaning": "飛行機はいつ到着しますか?"
+    },
+    "typing": [
+      [
+        "d",
+        "a",
+        "o"
+      ],
+      [
+        "d",
+        "a"
+      ]
+    ]
   },
   {
     "id": "travel-022",
@@ -951,10 +1984,23 @@
     "pinyin": "yùdìng",
     "meaning": "予約する",
     "category": "travel",
-    "hskLevel": 3,
-    "exampleSentence": "我想预订一个房间。",
-    "exampleSentencePinyin": "Wǒ xiǎng yùdìng yí ge fángjiān.",
-    "exampleSentenceMeaning": "部屋を1室予約したいです。"
+    "example": {
+      "sentence": "我想预订一个房间。",
+      "pinyin": "Wǒ xiǎng yùdìng yí ge fángjiān.",
+      "meaning": "部屋を1室予約したいです。"
+    },
+    "typing": [
+      [
+        "y",
+        "u"
+      ],
+      [
+        "d",
+        "i",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "travel-023",
@@ -962,10 +2008,26 @@
     "pinyin": "huànchéng",
     "meaning": "乗り換える",
     "category": "travel",
-    "hskLevel": 3,
-    "exampleSentence": "在这里换乘地铁。",
-    "exampleSentencePinyin": "Zài zhèlǐ huànchéng dìtiě.",
-    "exampleSentenceMeaning": "ここで地下鉄に乗り換えます。"
+    "example": {
+      "sentence": "在这里换乘地铁。",
+      "pinyin": "Zài zhèlǐ huànchéng dìtiě.",
+      "meaning": "ここで地下鉄に乗り換えます。"
+    },
+    "typing": [
+      [
+        "h",
+        "u",
+        "a",
+        "n"
+      ],
+      [
+        "c",
+        "h",
+        "e",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "travel-024",
@@ -973,10 +2035,31 @@
     "pinyin": "dānchéngpiào",
     "meaning": "片道切符",
     "category": "travel",
-    "hskLevel": 3,
-    "exampleSentence": "我要一张单程票。",
-    "exampleSentencePinyin": "Wǒ yào yì zhāng dānchéngpiào.",
-    "exampleSentenceMeaning": "片道切符を1枚ください。"
+    "example": {
+      "sentence": "我要一张单程票。",
+      "pinyin": "Wǒ yào yì zhāng dānchéngpiào.",
+      "meaning": "片道切符を1枚ください。"
+    },
+    "typing": [
+      [
+        "d",
+        "a",
+        "n"
+      ],
+      [
+        "c",
+        "h",
+        "e",
+        "n",
+        "g"
+      ],
+      [
+        "p",
+        "i",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "travel-025",
@@ -984,10 +2067,30 @@
     "pinyin": "wǎngfǎnpiào",
     "meaning": "往復切符",
     "category": "travel",
-    "hskLevel": 3,
-    "exampleSentence": "往返票比较便宜。",
-    "exampleSentencePinyin": "Wǎngfǎnpiào bǐjiào piányi.",
-    "exampleSentenceMeaning": "往復切符のほうが安いです。"
+    "example": {
+      "sentence": "往返票比较便宜。",
+      "pinyin": "Wǎngfǎnpiào bǐjiào piányi.",
+      "meaning": "往復切符のほうが安いです。"
+    },
+    "typing": [
+      [
+        "w",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "f",
+        "a",
+        "n"
+      ],
+      [
+        "p",
+        "i",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "food-001",
@@ -995,10 +2098,18 @@
     "pinyin": "chī",
     "meaning": "食べる",
     "category": "food",
-    "hskLevel": 1,
-    "exampleSentence": "我想吃中国菜。",
-    "exampleSentencePinyin": "Wǒ xiǎng chī Zhōngguócài.",
-    "exampleSentenceMeaning": "中華料理が食べたいです。"
+    "example": {
+      "sentence": "我想吃中国菜。",
+      "pinyin": "Wǒ xiǎng chī Zhōngguócài.",
+      "meaning": "中華料理が食べたいです。"
+    },
+    "typing": [
+      [
+        "c",
+        "h",
+        "i"
+      ]
+    ]
   },
   {
     "id": "food-002",
@@ -1006,10 +2117,17 @@
     "pinyin": "hē",
     "meaning": "飲む",
     "category": "food",
-    "hskLevel": 1,
-    "exampleSentence": "你喝什么?",
-    "exampleSentencePinyin": "Nǐ hē shénme?",
-    "exampleSentenceMeaning": "何を飲みますか?"
+    "example": {
+      "sentence": "你喝什么?",
+      "pinyin": "Nǐ hē shénme?",
+      "meaning": "何を飲みますか?"
+    },
+    "typing": [
+      [
+        "h",
+        "e"
+      ]
+    ]
   },
   {
     "id": "food-003",
@@ -1017,10 +2135,23 @@
     "pinyin": "càidān",
     "meaning": "メニュー",
     "category": "food",
-    "hskLevel": 2,
-    "exampleSentence": "请给我菜单。",
-    "exampleSentencePinyin": "Qǐng gěi wǒ càidān.",
-    "exampleSentenceMeaning": "メニューをください。"
+    "example": {
+      "sentence": "请给我菜单。",
+      "pinyin": "Qǐng gěi wǒ càidān.",
+      "meaning": "メニューをください。"
+    },
+    "typing": [
+      [
+        "c",
+        "a",
+        "i"
+      ],
+      [
+        "d",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "food-004",
@@ -1028,10 +2159,23 @@
     "pinyin": "hǎochī",
     "meaning": "おいしい(食べ物)",
     "category": "food",
-    "hskLevel": 1,
-    "exampleSentence": "这个菜很好吃。",
-    "exampleSentencePinyin": "Zhège cài hěn hǎochī.",
-    "exampleSentenceMeaning": "この料理はとてもおいしいです。"
+    "example": {
+      "sentence": "这个菜很好吃。",
+      "pinyin": "Zhège cài hěn hǎochī.",
+      "meaning": "この料理はとてもおいしいです。"
+    },
+    "typing": [
+      [
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "c",
+        "h",
+        "i"
+      ]
+    ]
   },
   {
     "id": "food-005",
@@ -1039,10 +2183,22 @@
     "pinyin": "hǎohē",
     "meaning": "おいしい(飲み物)",
     "category": "food",
-    "hskLevel": 2,
-    "exampleSentence": "这杯茶很好喝。",
-    "exampleSentencePinyin": "Zhè bēi chá hěn hǎohē.",
-    "exampleSentenceMeaning": "このお茶はとてもおいしいです。"
+    "example": {
+      "sentence": "这杯茶很好喝。",
+      "pinyin": "Zhè bēi chá hěn hǎohē.",
+      "meaning": "このお茶はとてもおいしいです。"
+    },
+    "typing": [
+      [
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "h",
+        "e"
+      ]
+    ]
   },
   {
     "id": "food-006",
@@ -1050,10 +2206,23 @@
     "pinyin": "mǎidān",
     "meaning": "会計する",
     "category": "food",
-    "hskLevel": 2,
-    "exampleSentence": "服务员,买单。",
-    "exampleSentencePinyin": "Fúwùyuán, mǎidān.",
-    "exampleSentenceMeaning": "店員さん、お会計お願いします。"
+    "example": {
+      "sentence": "服务员,买单。",
+      "pinyin": "Fúwùyuán, mǎidān.",
+      "meaning": "店員さん、お会計お願いします。"
+    },
+    "typing": [
+      [
+        "m",
+        "a",
+        "i"
+      ],
+      [
+        "d",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "food-007",
@@ -1061,10 +2230,22 @@
     "pinyin": "mǐfàn",
     "meaning": "ご飯",
     "category": "food",
-    "hskLevel": 1,
-    "exampleSentence": "我要一碗米饭。",
-    "exampleSentencePinyin": "Wǒ yào yì wǎn mǐfàn.",
-    "exampleSentenceMeaning": "ご飯を一杯ください。"
+    "example": {
+      "sentence": "我要一碗米饭。",
+      "pinyin": "Wǒ yào yì wǎn mǐfàn.",
+      "meaning": "ご飯を一杯ください。"
+    },
+    "typing": [
+      [
+        "m",
+        "i"
+      ],
+      [
+        "f",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "food-008",
@@ -1072,10 +2253,25 @@
     "pinyin": "miàntiáo",
     "meaning": "麺",
     "category": "food",
-    "hskLevel": 2,
-    "exampleSentence": "我喜欢吃面条。",
-    "exampleSentencePinyin": "Wǒ xǐhuan chī miàntiáo.",
-    "exampleSentenceMeaning": "私は麺類が好きです。"
+    "example": {
+      "sentence": "我喜欢吃面条。",
+      "pinyin": "Wǒ xǐhuan chī miàntiáo.",
+      "meaning": "私は麺類が好きです。"
+    },
+    "typing": [
+      [
+        "m",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "food-009",
@@ -1083,10 +2279,19 @@
     "pinyin": "shuǐ",
     "meaning": "水",
     "category": "food",
-    "hskLevel": 1,
-    "exampleSentence": "请给我一杯水。",
-    "exampleSentencePinyin": "Qǐng gěi wǒ yì bēi shuǐ.",
-    "exampleSentenceMeaning": "水を一杯ください。"
+    "example": {
+      "sentence": "请给我一杯水。",
+      "pinyin": "Qǐng gěi wǒ yì bēi shuǐ.",
+      "meaning": "水を一杯ください。"
+    },
+    "typing": [
+      [
+        "s",
+        "h",
+        "u",
+        "i"
+      ]
+    ]
   },
   {
     "id": "food-010",
@@ -1094,10 +2299,18 @@
     "pinyin": "chá",
     "meaning": "お茶",
     "category": "food",
-    "hskLevel": 1,
-    "exampleSentence": "我想喝茶。",
-    "exampleSentencePinyin": "Wǒ xiǎng hē chá.",
-    "exampleSentenceMeaning": "お茶が飲みたいです。"
+    "example": {
+      "sentence": "我想喝茶。",
+      "pinyin": "Wǒ xiǎng hē chá.",
+      "meaning": "お茶が飲みたいです。"
+    },
+    "typing": [
+      [
+        "c",
+        "h",
+        "a"
+      ]
+    ]
   },
   {
     "id": "food-011",
@@ -1105,10 +2318,22 @@
     "pinyin": "kāfēi",
     "meaning": "コーヒー",
     "category": "food",
-    "hskLevel": 1,
-    "exampleSentence": "我要一杯咖啡。",
-    "exampleSentencePinyin": "Wǒ yào yì bēi kāfēi.",
-    "exampleSentenceMeaning": "コーヒーを一杯ください。"
+    "example": {
+      "sentence": "我要一杯咖啡。",
+      "pinyin": "Wǒ yào yì bēi kāfēi.",
+      "meaning": "コーヒーを一杯ください。"
+    },
+    "typing": [
+      [
+        "k",
+        "a"
+      ],
+      [
+        "f",
+        "e",
+        "i"
+      ]
+    ]
   },
   {
     "id": "food-012",
@@ -1116,10 +2341,22 @@
     "pinyin": "píjiǔ",
     "meaning": "ビール",
     "category": "food",
-    "hskLevel": 2,
-    "exampleSentence": "来一瓶啤酒。",
-    "exampleSentencePinyin": "Lái yì píng píjiǔ.",
-    "exampleSentenceMeaning": "ビールを一本ください。"
+    "example": {
+      "sentence": "来一瓶啤酒。",
+      "pinyin": "Lái yì píng píjiǔ.",
+      "meaning": "ビールを一本ください。"
+    },
+    "typing": [
+      [
+        "p",
+        "i"
+      ],
+      [
+        "j",
+        "i",
+        "u"
+      ]
+    ]
   },
   {
     "id": "food-013",
@@ -1127,10 +2364,18 @@
     "pinyin": "cài",
     "meaning": "料理/野菜",
     "category": "food",
-    "hskLevel": 1,
-    "exampleSentence": "这道菜很有名。",
-    "exampleSentencePinyin": "Zhè dào cài hěn yǒumíng.",
-    "exampleSentenceMeaning": "この料理は有名です。"
+    "example": {
+      "sentence": "这道菜很有名。",
+      "pinyin": "Zhè dào cài hěn yǒumíng.",
+      "meaning": "この料理は有名です。"
+    },
+    "typing": [
+      [
+        "c",
+        "a",
+        "i"
+      ]
+    ]
   },
   {
     "id": "food-014",
@@ -1138,10 +2383,18 @@
     "pinyin": "ròu",
     "meaning": "肉",
     "category": "food",
-    "hskLevel": 1,
-    "exampleSentence": "我不吃肉。",
-    "exampleSentencePinyin": "Wǒ bù chī ròu.",
-    "exampleSentenceMeaning": "私は肉を食べません。"
+    "example": {
+      "sentence": "我不吃肉。",
+      "pinyin": "Wǒ bù chī ròu.",
+      "meaning": "私は肉を食べません。"
+    },
+    "typing": [
+      [
+        "r",
+        "o",
+        "u"
+      ]
+    ]
   },
   {
     "id": "food-015",
@@ -1149,10 +2402,17 @@
     "pinyin": "yú",
     "meaning": "魚",
     "category": "food",
-    "hskLevel": 1,
-    "exampleSentence": "这条鱼很新鲜。",
-    "exampleSentencePinyin": "Zhè tiáo yú hěn xīnxiān.",
-    "exampleSentenceMeaning": "この魚はとても新鮮です。"
+    "example": {
+      "sentence": "这条鱼很新鲜。",
+      "pinyin": "Zhè tiáo yú hěn xīnxiān.",
+      "meaning": "この魚はとても新鮮です。"
+    },
+    "typing": [
+      [
+        "y",
+        "u"
+      ]
+    ]
   },
   {
     "id": "food-016",
@@ -1160,10 +2420,23 @@
     "pinyin": "shūcài",
     "meaning": "野菜",
     "category": "food",
-    "hskLevel": 2,
-    "exampleSentence": "多吃蔬菜对身体好。",
-    "exampleSentencePinyin": "Duō chī shūcài duì shēntǐ hǎo.",
-    "exampleSentenceMeaning": "野菜をたくさん食べると体にいいです。"
+    "example": {
+      "sentence": "多吃蔬菜对身体好。",
+      "pinyin": "Duō chī shūcài duì shēntǐ hǎo.",
+      "meaning": "野菜をたくさん食べると体にいいです。"
+    },
+    "typing": [
+      [
+        "s",
+        "h",
+        "u"
+      ],
+      [
+        "c",
+        "a",
+        "i"
+      ]
+    ]
   },
   {
     "id": "food-017",
@@ -1171,10 +2444,24 @@
     "pinyin": "shuǐguǒ",
     "meaning": "果物",
     "category": "food",
-    "hskLevel": 1,
-    "exampleSentence": "我喜欢吃水果。",
-    "exampleSentencePinyin": "Wǒ xǐhuan chī shuǐguǒ.",
-    "exampleSentenceMeaning": "私は果物が好きです。"
+    "example": {
+      "sentence": "我喜欢吃水果。",
+      "pinyin": "Wǒ xǐhuan chī shuǐguǒ.",
+      "meaning": "私は果物が好きです。"
+    },
+    "typing": [
+      [
+        "s",
+        "h",
+        "u",
+        "i"
+      ],
+      [
+        "g",
+        "u",
+        "o"
+      ]
+    ]
   },
   {
     "id": "food-018",
@@ -1182,10 +2469,23 @@
     "pinyin": "zǎofàn",
     "meaning": "朝ごはん",
     "category": "food",
-    "hskLevel": 2,
-    "exampleSentence": "你吃早饭了吗?",
-    "exampleSentencePinyin": "Nǐ chī zǎofàn le ma?",
-    "exampleSentenceMeaning": "朝ごはんは食べましたか?"
+    "example": {
+      "sentence": "你吃早饭了吗?",
+      "pinyin": "Nǐ chī zǎofàn le ma?",
+      "meaning": "朝ごはんは食べましたか?"
+    },
+    "typing": [
+      [
+        "z",
+        "a",
+        "o"
+      ],
+      [
+        "f",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "food-019",
@@ -1193,10 +2493,22 @@
     "pinyin": "wǔfàn",
     "meaning": "昼ごはん",
     "category": "food",
-    "hskLevel": 2,
-    "exampleSentence": "我们一起吃午饭吧。",
-    "exampleSentencePinyin": "Wǒmen yìqǐ chī wǔfàn ba.",
-    "exampleSentenceMeaning": "一緒に昼ごはんを食べましょう。"
+    "example": {
+      "sentence": "我们一起吃午饭吧。",
+      "pinyin": "Wǒmen yìqǐ chī wǔfàn ba.",
+      "meaning": "一緒に昼ごはんを食べましょう。"
+    },
+    "typing": [
+      [
+        "w",
+        "u"
+      ],
+      [
+        "f",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "food-020",
@@ -1204,10 +2516,23 @@
     "pinyin": "wǎnfàn",
     "meaning": "晩ごはん",
     "category": "food",
-    "hskLevel": 2,
-    "exampleSentence": "晚饭想吃什么?",
-    "exampleSentencePinyin": "Wǎnfàn xiǎng chī shénme?",
-    "exampleSentenceMeaning": "晩ごはんは何が食べたいですか?"
+    "example": {
+      "sentence": "晚饭想吃什么?",
+      "pinyin": "Wǎnfàn xiǎng chī shénme?",
+      "meaning": "晩ごはんは何が食べたいですか?"
+    },
+    "typing": [
+      [
+        "w",
+        "a",
+        "n"
+      ],
+      [
+        "f",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "food-021",
@@ -1215,10 +2540,27 @@
     "pinyin": "fúwùyuán",
     "meaning": "店員",
     "category": "food",
-    "hskLevel": 2,
-    "exampleSentence": "服务员,点菜。",
-    "exampleSentencePinyin": "Fúwùyuán, diǎn cài.",
-    "exampleSentenceMeaning": "店員さん、注文お願いします。"
+    "example": {
+      "sentence": "服务员,点菜。",
+      "pinyin": "Fúwùyuán, diǎn cài.",
+      "meaning": "店員さん、注文お願いします。"
+    },
+    "typing": [
+      [
+        "f",
+        "u"
+      ],
+      [
+        "w",
+        "u"
+      ],
+      [
+        "y",
+        "u",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "food-022",
@@ -1226,10 +2568,24 @@
     "pinyin": "diǎn cài",
     "meaning": "料理を注文する",
     "category": "food",
-    "hskLevel": 2,
-    "exampleSentence": "我们点菜吧。",
-    "exampleSentencePinyin": "Wǒmen diǎn cài ba.",
-    "exampleSentenceMeaning": "注文しましょう。"
+    "example": {
+      "sentence": "我们点菜吧。",
+      "pinyin": "Wǒmen diǎn cài ba.",
+      "meaning": "注文しましょう。"
+    },
+    "typing": [
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "c",
+        "a",
+        "i"
+      ]
+    ]
   },
   {
     "id": "food-023",
@@ -1237,10 +2593,17 @@
     "pinyin": "là",
     "meaning": "辛い",
     "category": "food",
-    "hskLevel": 2,
-    "exampleSentence": "这个菜很辣。",
-    "exampleSentencePinyin": "Zhège cài hěn là.",
-    "exampleSentenceMeaning": "この料理はとても辛いです。"
+    "example": {
+      "sentence": "这个菜很辣。",
+      "pinyin": "Zhège cài hěn là.",
+      "meaning": "この料理はとても辛いです。"
+    },
+    "typing": [
+      [
+        "l",
+        "a"
+      ]
+    ]
   },
   {
     "id": "food-024",
@@ -1248,10 +2611,19 @@
     "pinyin": "tián",
     "meaning": "甘い",
     "category": "food",
-    "hskLevel": 2,
-    "exampleSentence": "这个蛋糕很甜。",
-    "exampleSentencePinyin": "Zhège dàngāo hěn tián.",
-    "exampleSentenceMeaning": "このケーキはとても甘いです。"
+    "example": {
+      "sentence": "这个蛋糕很甜。",
+      "pinyin": "Zhège dàngāo hěn tián.",
+      "meaning": "このケーキはとても甘いです。"
+    },
+    "typing": [
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "food-025",
@@ -1259,10 +2631,18 @@
     "pinyin": "bǎo",
     "meaning": "お腹いっぱい",
     "category": "food",
-    "hskLevel": 2,
-    "exampleSentence": "我吃饱了。",
-    "exampleSentencePinyin": "Wǒ chībǎo le.",
-    "exampleSentenceMeaning": "お腹いっぱいになりました。"
+    "example": {
+      "sentence": "我吃饱了。",
+      "pinyin": "Wǒ chībǎo le.",
+      "meaning": "お腹いっぱいになりました。"
+    },
+    "typing": [
+      [
+        "b",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "shopping-001",
@@ -1270,10 +2650,30 @@
     "pinyin": "duōshao qián",
     "meaning": "いくらですか",
     "category": "shopping",
-    "hskLevel": 1,
-    "exampleSentence": "这个多少钱?",
-    "exampleSentencePinyin": "Zhège duōshao qián?",
-    "exampleSentenceMeaning": "これはいくらですか?"
+    "example": {
+      "sentence": "这个多少钱?",
+      "pinyin": "Zhège duōshao qián?",
+      "meaning": "これはいくらですか?"
+    },
+    "typing": [
+      [
+        "d",
+        "u",
+        "o"
+      ],
+      [
+        "s",
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "q",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "shopping-002",
@@ -1281,10 +2681,23 @@
     "pinyin": "piányi",
     "meaning": "安い",
     "category": "shopping",
-    "hskLevel": 1,
-    "exampleSentence": "这个很便宜。",
-    "exampleSentencePinyin": "Zhège hěn piányi.",
-    "exampleSentenceMeaning": "これはとても安いです。"
+    "example": {
+      "sentence": "这个很便宜。",
+      "pinyin": "Zhège hěn piányi.",
+      "meaning": "これはとても安いです。"
+    },
+    "typing": [
+      [
+        "p",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "y",
+        "i"
+      ]
+    ]
   },
   {
     "id": "shopping-003",
@@ -1292,10 +2705,18 @@
     "pinyin": "guì",
     "meaning": "高い",
     "category": "shopping",
-    "hskLevel": 1,
-    "exampleSentence": "太贵了。",
-    "exampleSentencePinyin": "Tài guì le.",
-    "exampleSentenceMeaning": "高すぎます。"
+    "example": {
+      "sentence": "太贵了。",
+      "pinyin": "Tài guì le.",
+      "meaning": "高すぎます。"
+    },
+    "typing": [
+      [
+        "g",
+        "u",
+        "i"
+      ]
+    ]
   },
   {
     "id": "shopping-004",
@@ -1303,10 +2724,22 @@
     "pinyin": "yánsè",
     "meaning": "色",
     "category": "shopping",
-    "hskLevel": 2,
-    "exampleSentence": "有别的颜色吗?",
-    "exampleSentencePinyin": "Yǒu bié de yánsè ma?",
-    "exampleSentenceMeaning": "他の色はありますか?"
+    "example": {
+      "sentence": "有别的颜色吗?",
+      "pinyin": "Yǒu bié de yánsè ma?",
+      "meaning": "他の色はありますか?"
+    },
+    "typing": [
+      [
+        "y",
+        "a",
+        "n"
+      ],
+      [
+        "s",
+        "e"
+      ]
+    ]
   },
   {
     "id": "shopping-005",
@@ -1314,10 +2747,25 @@
     "pinyin": "shìchuān",
     "meaning": "試着する",
     "category": "shopping",
-    "hskLevel": 3,
-    "exampleSentence": "我可以试穿一下吗?",
-    "exampleSentencePinyin": "Wǒ kěyǐ shìchuān yíxià ma?",
-    "exampleSentenceMeaning": "試着してもいいですか?"
+    "example": {
+      "sentence": "我可以试穿一下吗?",
+      "pinyin": "Wǒ kěyǐ shìchuān yíxià ma?",
+      "meaning": "試着してもいいですか?"
+    },
+    "typing": [
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "c",
+        "h",
+        "u",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "shopping-006",
@@ -1325,10 +2773,18 @@
     "pinyin": "mǎi",
     "meaning": "買う",
     "category": "shopping",
-    "hskLevel": 1,
-    "exampleSentence": "我想买这个。",
-    "exampleSentencePinyin": "Wǒ xiǎng mǎi zhège.",
-    "exampleSentenceMeaning": "これを買いたいです。"
+    "example": {
+      "sentence": "我想买这个。",
+      "pinyin": "Wǒ xiǎng mǎi zhège.",
+      "meaning": "これを買いたいです。"
+    },
+    "typing": [
+      [
+        "m",
+        "a",
+        "i"
+      ]
+    ]
   },
   {
     "id": "shopping-007",
@@ -1336,10 +2792,18 @@
     "pinyin": "mài",
     "meaning": "売る",
     "category": "shopping",
-    "hskLevel": 2,
-    "exampleSentence": "这里卖水果。",
-    "exampleSentencePinyin": "Zhèlǐ mài shuǐguǒ.",
-    "exampleSentenceMeaning": "ここは果物を売っています。"
+    "example": {
+      "sentence": "这里卖水果。",
+      "pinyin": "Zhèlǐ mài shuǐguǒ.",
+      "meaning": "ここは果物を売っています。"
+    },
+    "typing": [
+      [
+        "m",
+        "a",
+        "i"
+      ]
+    ]
   },
   {
     "id": "shopping-008",
@@ -1347,10 +2811,26 @@
     "pinyin": "shāngdiàn",
     "meaning": "店",
     "category": "shopping",
-    "hskLevel": 1,
-    "exampleSentence": "附近有商店吗?",
-    "exampleSentencePinyin": "Fùjìn yǒu shāngdiàn ma?",
-    "exampleSentenceMeaning": "近くに店はありますか?"
+    "example": {
+      "sentence": "附近有商店吗?",
+      "pinyin": "Fùjìn yǒu shāngdiàn ma?",
+      "meaning": "近くに店はありますか?"
+    },
+    "typing": [
+      [
+        "s",
+        "h",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "shopping-009",
@@ -1358,10 +2838,24 @@
     "pinyin": "chāoshì",
     "meaning": "スーパー",
     "category": "shopping",
-    "hskLevel": 2,
-    "exampleSentence": "我去超市买东西。",
-    "exampleSentencePinyin": "Wǒ qù chāoshì mǎi dōngxi.",
-    "exampleSentenceMeaning": "スーパーへ買い物に行きます。"
+    "example": {
+      "sentence": "我去超市买东西。",
+      "pinyin": "Wǒ qù chāoshì mǎi dōngxi.",
+      "meaning": "スーパーへ買い物に行きます。"
+    },
+    "typing": [
+      [
+        "c",
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ]
+    ]
   },
   {
     "id": "shopping-010",
@@ -1369,10 +2863,19 @@
     "pinyin": "qián",
     "meaning": "お金",
     "category": "shopping",
-    "hskLevel": 1,
-    "exampleSentence": "我没有钱了。",
-    "exampleSentencePinyin": "Wǒ méiyǒu qián le.",
-    "exampleSentenceMeaning": "お金がなくなりました。"
+    "example": {
+      "sentence": "我没有钱了。",
+      "pinyin": "Wǒ méiyǒu qián le.",
+      "meaning": "お金がなくなりました。"
+    },
+    "typing": [
+      [
+        "q",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "shopping-011",
@@ -1380,10 +2883,19 @@
     "pinyin": "yuán",
     "meaning": "元(通貨単位)",
     "category": "shopping",
-    "hskLevel": 1,
-    "exampleSentence": "一共二十元。",
-    "exampleSentencePinyin": "Yígòng èrshí yuán.",
-    "exampleSentenceMeaning": "全部で20元です。"
+    "example": {
+      "sentence": "一共二十元。",
+      "pinyin": "Yígòng èrshí yuán.",
+      "meaning": "全部で20元です。"
+    },
+    "typing": [
+      [
+        "y",
+        "u",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "shopping-012",
@@ -1391,10 +2903,24 @@
     "pinyin": "xiànjīn",
     "meaning": "現金",
     "category": "shopping",
-    "hskLevel": 3,
-    "exampleSentence": "可以用现金吗?",
-    "exampleSentencePinyin": "Kěyǐ yòng xiànjīn ma?",
-    "exampleSentenceMeaning": "現金は使えますか?"
+    "example": {
+      "sentence": "可以用现金吗?",
+      "pinyin": "Kěyǐ yòng xiànjīn ma?",
+      "meaning": "現金は使えますか?"
+    },
+    "typing": [
+      [
+        "x",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "j",
+        "i",
+        "n"
+      ]
+    ]
   },
   {
     "id": "shopping-013",
@@ -1402,10 +2928,23 @@
     "pinyin": "shuākǎ",
     "meaning": "カードで払う",
     "category": "shopping",
-    "hskLevel": 3,
-    "exampleSentence": "我要刷卡。",
-    "exampleSentencePinyin": "Wǒ yào shuākǎ.",
-    "exampleSentenceMeaning": "カードで払います。"
+    "example": {
+      "sentence": "我要刷卡。",
+      "pinyin": "Wǒ yào shuākǎ.",
+      "meaning": "カードで払います。"
+    },
+    "typing": [
+      [
+        "s",
+        "h",
+        "u",
+        "a"
+      ],
+      [
+        "k",
+        "a"
+      ]
+    ]
   },
   {
     "id": "shopping-014",
@@ -1413,10 +2952,22 @@
     "pinyin": "dǎzhé",
     "meaning": "割引する",
     "category": "shopping",
-    "hskLevel": 3,
-    "exampleSentence": "现在打折吗?",
-    "exampleSentencePinyin": "Xiànzài dǎzhé ma?",
-    "exampleSentenceMeaning": "今割引していますか?"
+    "example": {
+      "sentence": "现在打折吗?",
+      "pinyin": "Xiànzài dǎzhé ma?",
+      "meaning": "今割引していますか?"
+    },
+    "typing": [
+      [
+        "d",
+        "a"
+      ],
+      [
+        "z",
+        "h",
+        "e"
+      ]
+    ]
   },
   {
     "id": "shopping-015",
@@ -1424,10 +2975,23 @@
     "pinyin": "dàxiǎo",
     "meaning": "サイズ",
     "category": "shopping",
-    "hskLevel": 3,
-    "exampleSentence": "大小正合适。",
-    "exampleSentencePinyin": "Dàxiǎo zhèng héshì.",
-    "exampleSentenceMeaning": "サイズがちょうどいいです。"
+    "example": {
+      "sentence": "大小正合适。",
+      "pinyin": "Dàxiǎo zhèng héshì.",
+      "meaning": "サイズがちょうどいいです。"
+    },
+    "typing": [
+      [
+        "d",
+        "a"
+      ],
+      [
+        "x",
+        "i",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "shopping-016",
@@ -1435,10 +2999,22 @@
     "pinyin": "hàomǎ",
     "meaning": "サイズ番号/番号",
     "category": "shopping",
-    "hskLevel": 3,
-    "exampleSentence": "有大一号的吗?",
-    "exampleSentencePinyin": "Yǒu dà yí hào de ma?",
-    "exampleSentenceMeaning": "1つ大きいサイズはありますか?"
+    "example": {
+      "sentence": "有大一号的吗?",
+      "pinyin": "Yǒu dà yí hào de ma?",
+      "meaning": "1つ大きいサイズはありますか?"
+    },
+    "typing": [
+      [
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "m",
+        "a"
+      ]
+    ]
   },
   {
     "id": "shopping-017",
@@ -1446,10 +3022,23 @@
     "pinyin": "shōujù",
     "meaning": "レシート",
     "category": "shopping",
-    "hskLevel": 3,
-    "exampleSentence": "请给我收据。",
-    "exampleSentencePinyin": "Qǐng gěi wǒ shōujù.",
-    "exampleSentenceMeaning": "レシートをください。"
+    "example": {
+      "sentence": "请给我收据。",
+      "pinyin": "Qǐng gěi wǒ shōujù.",
+      "meaning": "レシートをください。"
+    },
+    "typing": [
+      [
+        "s",
+        "h",
+        "o",
+        "u"
+      ],
+      [
+        "j",
+        "u"
+      ]
+    ]
   },
   {
     "id": "shopping-018",
@@ -1457,10 +3046,19 @@
     "pinyin": "huàn",
     "meaning": "交換する",
     "category": "shopping",
-    "hskLevel": 2,
-    "exampleSentence": "可以换一个吗?",
-    "exampleSentencePinyin": "Kěyǐ huàn yí ge ma?",
-    "exampleSentenceMeaning": "1つ交換できますか?"
+    "example": {
+      "sentence": "可以换一个吗?",
+      "pinyin": "Kěyǐ huàn yí ge ma?",
+      "meaning": "1つ交換できますか?"
+    },
+    "typing": [
+      [
+        "h",
+        "u",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "shopping-019",
@@ -1468,10 +3066,18 @@
     "pinyin": "tuì",
     "meaning": "返品する",
     "category": "shopping",
-    "hskLevel": 3,
-    "exampleSentence": "我想退这个。",
-    "exampleSentencePinyin": "Wǒ xiǎng tuì zhège.",
-    "exampleSentenceMeaning": "これを返品したいです。"
+    "example": {
+      "sentence": "我想退这个。",
+      "pinyin": "Wǒ xiǎng tuì zhège.",
+      "meaning": "これを返品したいです。"
+    },
+    "typing": [
+      [
+        "t",
+        "u",
+        "i"
+      ]
+    ]
   },
   {
     "id": "shopping-020",
@@ -1479,10 +3085,23 @@
     "pinyin": "yígòng",
     "meaning": "全部で",
     "category": "shopping",
-    "hskLevel": 2,
-    "exampleSentence": "一共多少钱?",
-    "exampleSentencePinyin": "Yígòng duōshao qián?",
-    "exampleSentenceMeaning": "全部でいくらですか?"
+    "example": {
+      "sentence": "一共多少钱?",
+      "pinyin": "Yígòng duōshao qián?",
+      "meaning": "全部でいくらですか?"
+    },
+    "typing": [
+      [
+        "y",
+        "i"
+      ],
+      [
+        "g",
+        "o",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "daily-life-001",
@@ -1490,10 +3109,23 @@
     "pinyin": "jiārén",
     "meaning": "家族",
     "category": "daily-life",
-    "hskLevel": 2,
-    "exampleSentence": "我很想家人。",
-    "exampleSentencePinyin": "Wǒ hěn xiǎng jiārén.",
-    "exampleSentenceMeaning": "家族にとても会いたいです。"
+    "example": {
+      "sentence": "我很想家人。",
+      "pinyin": "Wǒ hěn xiǎng jiārén.",
+      "meaning": "家族にとても会いたいです。"
+    },
+    "typing": [
+      [
+        "j",
+        "i",
+        "a"
+      ],
+      [
+        "r",
+        "e",
+        "n"
+      ]
+    ]
   },
   {
     "id": "daily-life-002",
@@ -1501,10 +3133,23 @@
     "pinyin": "tiānqì",
     "meaning": "天気",
     "category": "daily-life",
-    "hskLevel": 1,
-    "exampleSentence": "今天天气怎么样?",
-    "exampleSentencePinyin": "Jīntiān tiānqì zěnmeyàng?",
-    "exampleSentenceMeaning": "今日の天気はどうですか?"
+    "example": {
+      "sentence": "今天天气怎么样?",
+      "pinyin": "Jīntiān tiānqì zěnmeyàng?",
+      "meaning": "今日の天気はどうですか?"
+    },
+    "typing": [
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "q",
+        "i"
+      ]
+    ]
   },
   {
     "id": "daily-life-003",
@@ -1512,10 +3157,23 @@
     "pinyin": "xǐhuan",
     "meaning": "好き",
     "category": "daily-life",
-    "hskLevel": 1,
-    "exampleSentence": "我喜欢学汉语。",
-    "exampleSentencePinyin": "Wǒ xǐhuan xué Hànyǔ.",
-    "exampleSentenceMeaning": "私は中国語を勉強するのが好きです。"
+    "example": {
+      "sentence": "我喜欢学汉语。",
+      "pinyin": "Wǒ xǐhuan xué Hànyǔ.",
+      "meaning": "私は中国語を勉強するのが好きです。"
+    },
+    "typing": [
+      [
+        "x",
+        "i"
+      ],
+      [
+        "h",
+        "u",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "daily-life-004",
@@ -1523,10 +3181,19 @@
     "pinyin": "máng",
     "meaning": "忙しい",
     "category": "daily-life",
-    "hskLevel": 1,
-    "exampleSentence": "最近很忙。",
-    "exampleSentencePinyin": "Zuìjìn hěn máng.",
-    "exampleSentenceMeaning": "最近忙しいです。"
+    "example": {
+      "sentence": "最近很忙。",
+      "pinyin": "Zuìjìn hěn máng.",
+      "meaning": "最近忙しいです。"
+    },
+    "typing": [
+      [
+        "m",
+        "a",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "daily-life-005",
@@ -1534,10 +3201,22 @@
     "pinyin": "xuéxí",
     "meaning": "勉強する",
     "category": "daily-life",
-    "hskLevel": 1,
-    "exampleSentence": "我每天学习汉语。",
-    "exampleSentencePinyin": "Wǒ měitiān xuéxí Hànyǔ.",
-    "exampleSentenceMeaning": "私は毎日中国語を勉強します。"
+    "example": {
+      "sentence": "我每天学习汉语。",
+      "pinyin": "Wǒ měitiān xuéxí Hànyǔ.",
+      "meaning": "私は毎日中国語を勉強します。"
+    },
+    "typing": [
+      [
+        "x",
+        "u",
+        "e"
+      ],
+      [
+        "x",
+        "i"
+      ]
+    ]
   },
   {
     "id": "daily-life-006",
@@ -1545,10 +3224,25 @@
     "pinyin": "shuìjiào",
     "meaning": "寝る",
     "category": "daily-life",
-    "hskLevel": 1,
-    "exampleSentence": "我十一点睡觉。",
-    "exampleSentencePinyin": "Wǒ shíyī diǎn shuìjiào.",
-    "exampleSentenceMeaning": "私は11時に寝ます。"
+    "example": {
+      "sentence": "我十一点睡觉。",
+      "pinyin": "Wǒ shíyī diǎn shuìjiào.",
+      "meaning": "私は11時に寝ます。"
+    },
+    "typing": [
+      [
+        "s",
+        "h",
+        "u",
+        "i"
+      ],
+      [
+        "j",
+        "i",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "daily-life-007",
@@ -1556,10 +3250,25 @@
     "pinyin": "qǐchuáng",
     "meaning": "起きる",
     "category": "daily-life",
-    "hskLevel": 1,
-    "exampleSentence": "你几点起床?",
-    "exampleSentencePinyin": "Nǐ jǐ diǎn qǐchuáng?",
-    "exampleSentenceMeaning": "何時に起きますか?"
+    "example": {
+      "sentence": "你几点起床?",
+      "pinyin": "Nǐ jǐ diǎn qǐchuáng?",
+      "meaning": "何時に起きますか?"
+    },
+    "typing": [
+      [
+        "q",
+        "i"
+      ],
+      [
+        "c",
+        "h",
+        "u",
+        "a",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "daily-life-008",
@@ -1567,10 +3276,18 @@
     "pinyin": "kàn",
     "meaning": "見る",
     "category": "daily-life",
-    "hskLevel": 1,
-    "exampleSentence": "我在看电视。",
-    "exampleSentencePinyin": "Wǒ zài kàn diànshì.",
-    "exampleSentenceMeaning": "私はテレビを見ています。"
+    "example": {
+      "sentence": "我在看电视。",
+      "pinyin": "Wǒ zài kàn diànshì.",
+      "meaning": "私はテレビを見ています。"
+    },
+    "typing": [
+      [
+        "k",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "daily-life-009",
@@ -1578,10 +3295,19 @@
     "pinyin": "tīng",
     "meaning": "聞く",
     "category": "daily-life",
-    "hskLevel": 1,
-    "exampleSentence": "我喜欢听音乐。",
-    "exampleSentencePinyin": "Wǒ xǐhuan tīng yīnyuè.",
-    "exampleSentenceMeaning": "私は音楽を聞くのが好きです。"
+    "example": {
+      "sentence": "我喜欢听音乐。",
+      "pinyin": "Wǒ xǐhuan tīng yīnyuè.",
+      "meaning": "私は音楽を聞くのが好きです。"
+    },
+    "typing": [
+      [
+        "t",
+        "i",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "daily-life-010",
@@ -1589,10 +3315,19 @@
     "pinyin": "shuō",
     "meaning": "話す",
     "category": "daily-life",
-    "hskLevel": 1,
-    "exampleSentence": "他会说汉语。",
-    "exampleSentencePinyin": "Tā huì shuō Hànyǔ.",
-    "exampleSentenceMeaning": "彼は中国語が話せます。"
+    "example": {
+      "sentence": "他会说汉语。",
+      "pinyin": "Tā huì shuō Hànyǔ.",
+      "meaning": "彼は中国語が話せます。"
+    },
+    "typing": [
+      [
+        "s",
+        "h",
+        "u",
+        "o"
+      ]
+    ]
   },
   {
     "id": "daily-life-011",
@@ -1600,10 +3335,18 @@
     "pinyin": "xiě",
     "meaning": "書く",
     "category": "daily-life",
-    "hskLevel": 1,
-    "exampleSentence": "请写你的名字。",
-    "exampleSentencePinyin": "Qǐng xiě nǐ de míngzi.",
-    "exampleSentenceMeaning": "名前を書いてください。"
+    "example": {
+      "sentence": "请写你的名字。",
+      "pinyin": "Qǐng xiě nǐ de míngzi.",
+      "meaning": "名前を書いてください。"
+    },
+    "typing": [
+      [
+        "x",
+        "i",
+        "e"
+      ]
+    ]
   },
   {
     "id": "daily-life-012",
@@ -1611,10 +3354,17 @@
     "pinyin": "dú",
     "meaning": "読む",
     "category": "daily-life",
-    "hskLevel": 1,
-    "exampleSentence": "我在读书。",
-    "exampleSentencePinyin": "Wǒ zài dú shū.",
-    "exampleSentenceMeaning": "私は本を読んでいます。"
+    "example": {
+      "sentence": "我在读书。",
+      "pinyin": "Wǒ zài dú shū.",
+      "meaning": "私は本を読んでいます。"
+    },
+    "typing": [
+      [
+        "d",
+        "u"
+      ]
+    ]
   },
   {
     "id": "daily-life-013",
@@ -1622,10 +3372,23 @@
     "pinyin": "shǒujī",
     "meaning": "携帯電話",
     "category": "daily-life",
-    "hskLevel": 1,
-    "exampleSentence": "我的手机坏了。",
-    "exampleSentencePinyin": "Wǒ de shǒujī huài le.",
-    "exampleSentenceMeaning": "私の携帯電話が壊れました。"
+    "example": {
+      "sentence": "我的手机坏了。",
+      "pinyin": "Wǒ de shǒujī huài le.",
+      "meaning": "私の携帯電話が壊れました。"
+    },
+    "typing": [
+      [
+        "s",
+        "h",
+        "o",
+        "u"
+      ],
+      [
+        "j",
+        "i"
+      ]
+    ]
   },
   {
     "id": "daily-life-014",
@@ -1633,10 +3396,24 @@
     "pinyin": "diànnǎo",
     "meaning": "パソコン",
     "category": "daily-life",
-    "hskLevel": 1,
-    "exampleSentence": "我用电脑工作。",
-    "exampleSentencePinyin": "Wǒ yòng diànnǎo gōngzuò.",
-    "exampleSentenceMeaning": "私はパソコンで仕事をします。"
+    "example": {
+      "sentence": "我用电脑工作。",
+      "pinyin": "Wǒ yòng diànnǎo gōngzuò.",
+      "meaning": "私はパソコンで仕事をします。"
+    },
+    "typing": [
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "n",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "daily-life-015",
@@ -1644,10 +3421,24 @@
     "pinyin": "diànshì",
     "meaning": "テレビ",
     "category": "daily-life",
-    "hskLevel": 1,
-    "exampleSentence": "晚上看电视。",
-    "exampleSentencePinyin": "Wǎnshang kàn diànshì.",
-    "exampleSentenceMeaning": "夜にテレビを見ます。"
+    "example": {
+      "sentence": "晚上看电视。",
+      "pinyin": "Wǎnshang kàn diànshì.",
+      "meaning": "夜にテレビを見ます。"
+    },
+    "typing": [
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ]
+    ]
   },
   {
     "id": "daily-life-016",
@@ -1655,10 +3446,23 @@
     "pinyin": "yīnyuè",
     "meaning": "音楽",
     "category": "daily-life",
-    "hskLevel": 1,
-    "exampleSentence": "这是中国音乐。",
-    "exampleSentencePinyin": "Zhè shì Zhōngguó yīnyuè.",
-    "exampleSentenceMeaning": "これは中国の音楽です。"
+    "example": {
+      "sentence": "这是中国音乐。",
+      "pinyin": "Zhè shì Zhōngguó yīnyuè.",
+      "meaning": "これは中国の音楽です。"
+    },
+    "typing": [
+      [
+        "y",
+        "i",
+        "n"
+      ],
+      [
+        "y",
+        "u",
+        "e"
+      ]
+    ]
   },
   {
     "id": "daily-life-017",
@@ -1666,10 +3470,25 @@
     "pinyin": "diànyǐng",
     "meaning": "映画",
     "category": "daily-life",
-    "hskLevel": 1,
-    "exampleSentence": "我们去看电影吧。",
-    "exampleSentencePinyin": "Wǒmen qù kàn diànyǐng ba.",
-    "exampleSentenceMeaning": "映画を見に行きましょう。"
+    "example": {
+      "sentence": "我们去看电影吧。",
+      "pinyin": "Wǒmen qù kàn diànyǐng ba.",
+      "meaning": "映画を見に行きましょう。"
+    },
+    "typing": [
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "y",
+        "i",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "daily-life-018",
@@ -1677,10 +3496,24 @@
     "pinyin": "yùndòng",
     "meaning": "運動する",
     "category": "daily-life",
-    "hskLevel": 2,
-    "exampleSentence": "我每天运动。",
-    "exampleSentencePinyin": "Wǒ měitiān yùndòng.",
-    "exampleSentenceMeaning": "私は毎日運動します。"
+    "example": {
+      "sentence": "我每天运动。",
+      "pinyin": "Wǒ měitiān yùndòng.",
+      "meaning": "私は毎日運動します。"
+    },
+    "typing": [
+      [
+        "y",
+        "u",
+        "n"
+      ],
+      [
+        "d",
+        "o",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "daily-life-019",
@@ -1688,10 +3521,22 @@
     "pinyin": "xiūxi",
     "meaning": "休む",
     "category": "daily-life",
-    "hskLevel": 2,
-    "exampleSentence": "我们休息一下吧。",
-    "exampleSentencePinyin": "Wǒmen xiūxi yíxià ba.",
-    "exampleSentenceMeaning": "少し休みましょう。"
+    "example": {
+      "sentence": "我们休息一下吧。",
+      "pinyin": "Wǒmen xiūxi yíxià ba.",
+      "meaning": "少し休みましょう。"
+    },
+    "typing": [
+      [
+        "x",
+        "i",
+        "u"
+      ],
+      [
+        "x",
+        "i"
+      ]
+    ]
   },
   {
     "id": "daily-life-020",
@@ -1699,10 +3544,24 @@
     "pinyin": "gāoxìng",
     "meaning": "嬉しい",
     "category": "daily-life",
-    "hskLevel": 1,
-    "exampleSentence": "认识你很高兴。",
-    "exampleSentencePinyin": "Rènshi nǐ hěn gāoxìng.",
-    "exampleSentenceMeaning": "あなたに会えて嬉しいです。"
+    "example": {
+      "sentence": "认识你很高兴。",
+      "pinyin": "Rènshi nǐ hěn gāoxìng.",
+      "meaning": "あなたに会えて嬉しいです。"
+    },
+    "typing": [
+      [
+        "g",
+        "a",
+        "o"
+      ],
+      [
+        "x",
+        "i",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "daily-life-021",
@@ -1710,10 +3569,18 @@
     "pinyin": "lèi",
     "meaning": "疲れた",
     "category": "daily-life",
-    "hskLevel": 1,
-    "exampleSentence": "今天很累。",
-    "exampleSentencePinyin": "Jīntiān hěn lèi.",
-    "exampleSentenceMeaning": "今日はとても疲れました。"
+    "example": {
+      "sentence": "今天很累。",
+      "pinyin": "Jīntiān hěn lèi.",
+      "meaning": "今日はとても疲れました。"
+    },
+    "typing": [
+      [
+        "l",
+        "e",
+        "i"
+      ]
+    ]
   },
   {
     "id": "daily-life-022",
@@ -1721,10 +3588,19 @@
     "pinyin": "lěng",
     "meaning": "寒い",
     "category": "daily-life",
-    "hskLevel": 1,
-    "exampleSentence": "今天很冷。",
-    "exampleSentencePinyin": "Jīntiān hěn lěng.",
-    "exampleSentenceMeaning": "今日はとても寒いです。"
+    "example": {
+      "sentence": "今天很冷。",
+      "pinyin": "Jīntiān hěn lěng.",
+      "meaning": "今日はとても寒いです。"
+    },
+    "typing": [
+      [
+        "l",
+        "e",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "daily-life-023",
@@ -1732,10 +3608,17 @@
     "pinyin": "rè",
     "meaning": "暑い",
     "category": "daily-life",
-    "hskLevel": 1,
-    "exampleSentence": "夏天很热。",
-    "exampleSentencePinyin": "Xiàtiān hěn rè.",
-    "exampleSentenceMeaning": "夏はとても暑いです。"
+    "example": {
+      "sentence": "夏天很热。",
+      "pinyin": "Xiàtiān hěn rè.",
+      "meaning": "夏はとても暑いです。"
+    },
+    "typing": [
+      [
+        "r",
+        "e"
+      ]
+    ]
   },
   {
     "id": "daily-life-024",
@@ -1743,10 +3626,22 @@
     "pinyin": "shūfu",
     "meaning": "快適だ",
     "category": "daily-life",
-    "hskLevel": 2,
-    "exampleSentence": "这个椅子很舒服。",
-    "exampleSentencePinyin": "Zhège yǐzi hěn shūfu.",
-    "exampleSentenceMeaning": "この椅子はとても快適です。"
+    "example": {
+      "sentence": "这个椅子很舒服。",
+      "pinyin": "Zhège yǐzi hěn shūfu.",
+      "meaning": "この椅子はとても快適です。"
+    },
+    "typing": [
+      [
+        "s",
+        "h",
+        "u"
+      ],
+      [
+        "f",
+        "u"
+      ]
+    ]
   },
   {
     "id": "daily-life-025",
@@ -1754,10 +3649,28 @@
     "pinyin": "dǎ diànhuà",
     "meaning": "電話をかける",
     "category": "daily-life",
-    "hskLevel": 2,
-    "exampleSentence": "我给你打电话。",
-    "exampleSentencePinyin": "Wǒ gěi nǐ dǎ diànhuà.",
-    "exampleSentenceMeaning": "あなたに電話をかけます。"
+    "example": {
+      "sentence": "我给你打电话。",
+      "pinyin": "Wǒ gěi nǐ dǎ diànhuà.",
+      "meaning": "あなたに電話をかけます。"
+    },
+    "typing": [
+      [
+        "d",
+        "a"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "h",
+        "u",
+        "a"
+      ]
+    ]
   },
   {
     "id": "directions-001",
@@ -1765,10 +3678,22 @@
     "pinyin": "zhèlǐ",
     "meaning": "ここ",
     "category": "directions",
-    "hskLevel": 1,
-    "exampleSentence": "这里是车站。",
-    "exampleSentencePinyin": "Zhèlǐ shì chēzhàn.",
-    "exampleSentenceMeaning": "ここは駅です。"
+    "example": {
+      "sentence": "这里是车站。",
+      "pinyin": "Zhèlǐ shì chēzhàn.",
+      "meaning": "ここは駅です。"
+    },
+    "typing": [
+      [
+        "z",
+        "h",
+        "e"
+      ],
+      [
+        "l",
+        "i"
+      ]
+    ]
   },
   {
     "id": "directions-002",
@@ -1776,10 +3701,21 @@
     "pinyin": "nàlǐ",
     "meaning": "そこ/あそこ",
     "category": "directions",
-    "hskLevel": 1,
-    "exampleSentence": "那里有一家咖啡店。",
-    "exampleSentencePinyin": "Nàlǐ yǒu yì jiā kāfēidiàn.",
-    "exampleSentenceMeaning": "あそこにカフェが一軒あります。"
+    "example": {
+      "sentence": "那里有一家咖啡店。",
+      "pinyin": "Nàlǐ yǒu yì jiā kāfēidiàn.",
+      "meaning": "あそこにカフェが一軒あります。"
+    },
+    "typing": [
+      [
+        "n",
+        "a"
+      ],
+      [
+        "l",
+        "i"
+      ]
+    ]
   },
   {
     "id": "directions-003",
@@ -1787,10 +3723,21 @@
     "pinyin": "nǎlǐ",
     "meaning": "どこ",
     "category": "directions",
-    "hskLevel": 1,
-    "exampleSentence": "厕所在哪里?",
-    "exampleSentencePinyin": "Cèsuǒ zài nǎlǐ?",
-    "exampleSentenceMeaning": "トイレはどこですか?"
+    "example": {
+      "sentence": "厕所在哪里?",
+      "pinyin": "Cèsuǒ zài nǎlǐ?",
+      "meaning": "トイレはどこですか?"
+    },
+    "typing": [
+      [
+        "n",
+        "a"
+      ],
+      [
+        "l",
+        "i"
+      ]
+    ]
   },
   {
     "id": "directions-004",
@@ -1798,10 +3745,24 @@
     "pinyin": "zuǒbian",
     "meaning": "左側",
     "category": "directions",
-    "hskLevel": 2,
-    "exampleSentence": "邮局在左边。",
-    "exampleSentencePinyin": "Yóujú zài zuǒbian.",
-    "exampleSentenceMeaning": "郵便局は左側にあります。"
+    "example": {
+      "sentence": "邮局在左边。",
+      "pinyin": "Yóujú zài zuǒbian.",
+      "meaning": "郵便局は左側にあります。"
+    },
+    "typing": [
+      [
+        "z",
+        "u",
+        "o"
+      ],
+      [
+        "b",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "directions-005",
@@ -1809,10 +3770,24 @@
     "pinyin": "yòubian",
     "meaning": "右側",
     "category": "directions",
-    "hskLevel": 2,
-    "exampleSentence": "银行在右边。",
-    "exampleSentencePinyin": "Yínháng zài yòubian.",
-    "exampleSentenceMeaning": "銀行は右側にあります。"
+    "example": {
+      "sentence": "银行在右边。",
+      "pinyin": "Yínháng zài yòubian.",
+      "meaning": "銀行は右側にあります。"
+    },
+    "typing": [
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "b",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "directions-006",
@@ -1820,10 +3795,25 @@
     "pinyin": "qiánmiàn",
     "meaning": "前",
     "category": "directions",
-    "hskLevel": 2,
-    "exampleSentence": "前面就是学校。",
-    "exampleSentencePinyin": "Qiánmiàn jiù shì xuéxiào.",
-    "exampleSentenceMeaning": "前がすぐ学校です。"
+    "example": {
+      "sentence": "前面就是学校。",
+      "pinyin": "Qiánmiàn jiù shì xuéxiào.",
+      "meaning": "前がすぐ学校です。"
+    },
+    "typing": [
+      [
+        "q",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "m",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "directions-007",
@@ -1831,10 +3821,24 @@
     "pinyin": "hòumiàn",
     "meaning": "後ろ",
     "category": "directions",
-    "hskLevel": 2,
-    "exampleSentence": "公园在后面。",
-    "exampleSentencePinyin": "Gōngyuán zài hòumiàn.",
-    "exampleSentenceMeaning": "公園は後ろにあります。"
+    "example": {
+      "sentence": "公园在后面。",
+      "pinyin": "Gōngyuán zài hòumiàn.",
+      "meaning": "公園は後ろにあります。"
+    },
+    "typing": [
+      [
+        "h",
+        "o",
+        "u"
+      ],
+      [
+        "m",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "directions-008",
@@ -1842,10 +3846,26 @@
     "pinyin": "shàngmiàn",
     "meaning": "上",
     "category": "directions",
-    "hskLevel": 2,
-    "exampleSentence": "书在桌子上面。",
-    "exampleSentencePinyin": "Shū zài zhuōzi shàngmiàn.",
-    "exampleSentenceMeaning": "本は机の上にあります。"
+    "example": {
+      "sentence": "书在桌子上面。",
+      "pinyin": "Shū zài zhuōzi shàngmiàn.",
+      "meaning": "本は机の上にあります。"
+    },
+    "typing": [
+      [
+        "s",
+        "h",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "m",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "directions-009",
@@ -1853,10 +3873,24 @@
     "pinyin": "xiàmiàn",
     "meaning": "下",
     "category": "directions",
-    "hskLevel": 2,
-    "exampleSentence": "猫在桌子下面。",
-    "exampleSentencePinyin": "Māo zài zhuōzi xiàmiàn.",
-    "exampleSentenceMeaning": "猫は机の下にいます。"
+    "example": {
+      "sentence": "猫在桌子下面。",
+      "pinyin": "Māo zài zhuōzi xiàmiàn.",
+      "meaning": "猫は机の下にいます。"
+    },
+    "typing": [
+      [
+        "x",
+        "i",
+        "a"
+      ],
+      [
+        "m",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "directions-010",
@@ -1864,10 +3898,23 @@
     "pinyin": "lǐmiàn",
     "meaning": "中",
     "category": "directions",
-    "hskLevel": 2,
-    "exampleSentence": "房间里面很暖和。",
-    "exampleSentencePinyin": "Fángjiān lǐmiàn hěn nuǎnhuo.",
-    "exampleSentenceMeaning": "部屋の中はとても暖かいです。"
+    "example": {
+      "sentence": "房间里面很暖和。",
+      "pinyin": "Fángjiān lǐmiàn hěn nuǎnhuo.",
+      "meaning": "部屋の中はとても暖かいです。"
+    },
+    "typing": [
+      [
+        "l",
+        "i"
+      ],
+      [
+        "m",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "directions-011",
@@ -1875,10 +3922,24 @@
     "pinyin": "wàimiàn",
     "meaning": "外",
     "category": "directions",
-    "hskLevel": 2,
-    "exampleSentence": "外面在下雨。",
-    "exampleSentencePinyin": "Wàimiàn zài xià yǔ.",
-    "exampleSentenceMeaning": "外は雨が降っています。"
+    "example": {
+      "sentence": "外面在下雨。",
+      "pinyin": "Wàimiàn zài xià yǔ.",
+      "meaning": "外は雨が降っています。"
+    },
+    "typing": [
+      [
+        "w",
+        "a",
+        "i"
+      ],
+      [
+        "m",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "directions-012",
@@ -1886,10 +3947,25 @@
     "pinyin": "pángbiān",
     "meaning": "そば/隣",
     "category": "directions",
-    "hskLevel": 2,
-    "exampleSentence": "银行旁边有超市。",
-    "exampleSentencePinyin": "Yínháng pángbiān yǒu chāoshì.",
-    "exampleSentenceMeaning": "銀行の隣にスーパーがあります。"
+    "example": {
+      "sentence": "银行旁边有超市。",
+      "pinyin": "Yínháng pángbiān yǒu chāoshì.",
+      "meaning": "銀行の隣にスーパーがあります。"
+    },
+    "typing": [
+      [
+        "p",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "b",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "directions-013",
@@ -1897,10 +3973,27 @@
     "pinyin": "zěnme zǒu",
     "meaning": "どうやって行く",
     "category": "directions",
-    "hskLevel": 2,
-    "exampleSentence": "去车站怎么走?",
-    "exampleSentencePinyin": "Qù chēzhàn zěnme zǒu?",
-    "exampleSentenceMeaning": "駅へはどうやって行きますか?"
+    "example": {
+      "sentence": "去车站怎么走?",
+      "pinyin": "Qù chēzhàn zěnme zǒu?",
+      "meaning": "駅へはどうやって行きますか?"
+    },
+    "typing": [
+      [
+        "z",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "z",
+        "o",
+        "u"
+      ]
+    ]
   },
   {
     "id": "directions-014",
@@ -1908,10 +4001,27 @@
     "pinyin": "yìzhí zǒu",
     "meaning": "まっすぐ行く",
     "category": "directions",
-    "hskLevel": 2,
-    "exampleSentence": "一直走就到了。",
-    "exampleSentencePinyin": "Yìzhí zǒu jiù dào le.",
-    "exampleSentenceMeaning": "まっすぐ行けば着きます。"
+    "example": {
+      "sentence": "一直走就到了。",
+      "pinyin": "Yìzhí zǒu jiù dào le.",
+      "meaning": "まっすぐ行けば着きます。"
+    },
+    "typing": [
+      [
+        "y",
+        "i"
+      ],
+      [
+        "z",
+        "h",
+        "i"
+      ],
+      [
+        "z",
+        "o",
+        "u"
+      ]
+    ]
   },
   {
     "id": "directions-015",
@@ -1919,10 +4029,24 @@
     "pinyin": "guǎiwān",
     "meaning": "曲がる",
     "category": "directions",
-    "hskLevel": 3,
-    "exampleSentence": "在这里拐弯。",
-    "exampleSentencePinyin": "Zài zhèlǐ guǎiwān.",
-    "exampleSentenceMeaning": "ここで曲がってください。"
+    "example": {
+      "sentence": "在这里拐弯。",
+      "pinyin": "Zài zhèlǐ guǎiwān.",
+      "meaning": "ここで曲がってください。"
+    },
+    "typing": [
+      [
+        "g",
+        "u",
+        "a",
+        "i"
+      ],
+      [
+        "w",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "workplace-001",
@@ -1930,10 +4054,24 @@
     "pinyin": "tóngshì",
     "meaning": "同僚",
     "category": "workplace",
-    "hskLevel": 2,
-    "exampleSentence": "他是我的同事。",
-    "exampleSentencePinyin": "Tā shì wǒ de tóngshì.",
-    "exampleSentenceMeaning": "彼は私の同僚です。"
+    "example": {
+      "sentence": "他是我的同事。",
+      "pinyin": "Tā shì wǒ de tóngshì.",
+      "meaning": "彼は私の同僚です。"
+    },
+    "typing": [
+      [
+        "t",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ]
+    ]
   },
   {
     "id": "workplace-002",
@@ -1941,10 +4079,23 @@
     "pinyin": "lǎobǎn",
     "meaning": "上司、社長",
     "category": "workplace",
-    "hskLevel": 2,
-    "exampleSentence": "老板叫你去他办公室。",
-    "exampleSentencePinyin": "Lǎobǎn jiào nǐ qù tā bàngōngshì.",
-    "exampleSentenceMeaning": "上司があなたを呼んでいます。"
+    "example": {
+      "sentence": "老板叫你去他办公室。",
+      "pinyin": "Lǎobǎn jiào nǐ qù tā bàngōngshì.",
+      "meaning": "上司があなたを呼んでいます。"
+    },
+    "typing": [
+      [
+        "l",
+        "a",
+        "o"
+      ],
+      [
+        "b",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "workplace-003",
@@ -1952,10 +4103,22 @@
     "pinyin": "huìyì",
     "meaning": "会議",
     "category": "workplace",
-    "hskLevel": 2,
-    "exampleSentence": "今天下午有一个会议。",
-    "exampleSentencePinyin": "Jīntiān xiàwǔ yǒu yí ge huìyì.",
-    "exampleSentenceMeaning": "今日の午後に会議があります。"
+    "example": {
+      "sentence": "今天下午有一个会议。",
+      "pinyin": "Jīntiān xiàwǔ yǒu yí ge huìyì.",
+      "meaning": "今日の午後に会議があります。"
+    },
+    "typing": [
+      [
+        "h",
+        "u",
+        "i"
+      ],
+      [
+        "y",
+        "i"
+      ]
+    ]
   },
   {
     "id": "workplace-004",
@@ -1963,10 +4126,24 @@
     "pinyin": "xiàngmù",
     "meaning": "プロジェクト",
     "category": "workplace",
-    "hskLevel": 3,
-    "exampleSentence": "这个项目下个月结束。",
-    "exampleSentencePinyin": "Zhège xiàngmù xià ge yuè jiéshù.",
-    "exampleSentenceMeaning": "このプロジェクトは来月終わります。"
+    "example": {
+      "sentence": "这个项目下个月结束。",
+      "pinyin": "Zhège xiàngmù xià ge yuè jiéshù.",
+      "meaning": "このプロジェクトは来月終わります。"
+    },
+    "typing": [
+      [
+        "x",
+        "i",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "m",
+        "u"
+      ]
+    ]
   },
   {
     "id": "workplace-005",
@@ -1974,10 +4151,23 @@
     "pinyin": "jiābān",
     "meaning": "残業する",
     "category": "workplace",
-    "hskLevel": 2,
-    "exampleSentence": "我今天要加班。",
-    "exampleSentencePinyin": "Wǒ jīntiān yào jiābān.",
-    "exampleSentenceMeaning": "今日は残業しなければなりません。"
+    "example": {
+      "sentence": "我今天要加班。",
+      "pinyin": "Wǒ jīntiān yào jiābān.",
+      "meaning": "今日は残業しなければなりません。"
+    },
+    "typing": [
+      [
+        "j",
+        "i",
+        "a"
+      ],
+      [
+        "b",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "workplace-006",
@@ -1985,10 +4175,23 @@
     "pinyin": "xiàbān",
     "meaning": "退勤する",
     "category": "workplace",
-    "hskLevel": 1,
-    "exampleSentence": "你几点下班?",
-    "exampleSentencePinyin": "Nǐ jǐ diǎn xiàbān?",
-    "exampleSentenceMeaning": "何時に退勤しますか?"
+    "example": {
+      "sentence": "你几点下班?",
+      "pinyin": "Nǐ jǐ diǎn xiàbān?",
+      "meaning": "何時に退勤しますか?"
+    },
+    "typing": [
+      [
+        "x",
+        "i",
+        "a"
+      ],
+      [
+        "b",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "workplace-007",
@@ -1996,10 +4199,25 @@
     "pinyin": "shàngbān",
     "meaning": "出勤する",
     "category": "workplace",
-    "hskLevel": 1,
-    "exampleSentence": "我每天九点上班。",
-    "exampleSentencePinyin": "Wǒ měitiān jiǔ diǎn shàngbān.",
-    "exampleSentenceMeaning": "私は毎日9時に出勤します。"
+    "example": {
+      "sentence": "我每天九点上班。",
+      "pinyin": "Wǒ měitiān jiǔ diǎn shàngbān.",
+      "meaning": "私は毎日9時に出勤します。"
+    },
+    "typing": [
+      [
+        "s",
+        "h",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "b",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "workplace-008",
@@ -2007,10 +4225,24 @@
     "pinyin": "yóujiàn",
     "meaning": "メール",
     "category": "workplace",
-    "hskLevel": 2,
-    "exampleSentence": "我把邮件发给你了。",
-    "exampleSentencePinyin": "Wǒ bǎ yóujiàn fā gěi nǐ le.",
-    "exampleSentenceMeaning": "メールを送りました。"
+    "example": {
+      "sentence": "我把邮件发给你了。",
+      "pinyin": "Wǒ bǎ yóujiàn fā gěi nǐ le.",
+      "meaning": "メールを送りました。"
+    },
+    "typing": [
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "j",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "workplace-009",
@@ -2018,10 +4250,23 @@
     "pinyin": "bàogào",
     "meaning": "報告(書)",
     "category": "workplace",
-    "hskLevel": 3,
-    "exampleSentence": "麻烦你看一下这份报告。",
-    "exampleSentencePinyin": "Máfan nǐ kàn yíxià zhè fèn bàogào.",
-    "exampleSentenceMeaning": "この報告書を見てもらえますか。"
+    "example": {
+      "sentence": "麻烦你看一下这份报告。",
+      "pinyin": "Máfan nǐ kàn yíxià zhè fèn bàogào.",
+      "meaning": "この報告書を見てもらえますか。"
+    },
+    "typing": [
+      [
+        "b",
+        "a",
+        "o"
+      ],
+      [
+        "g",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "workplace-010",
@@ -2029,10 +4274,22 @@
     "pinyin": "xiūxi",
     "meaning": "休憩する",
     "category": "workplace",
-    "hskLevel": 1,
-    "exampleSentence": "我们先休息十分钟吧。",
-    "exampleSentencePinyin": "Wǒmen xiān xiūxi shí fēnzhōng ba.",
-    "exampleSentenceMeaning": "まず10分休憩しましょう。"
+    "example": {
+      "sentence": "我们先休息十分钟吧。",
+      "pinyin": "Wǒmen xiān xiūxi shí fēnzhōng ba.",
+      "meaning": "まず10分休憩しましょう。"
+    },
+    "typing": [
+      [
+        "x",
+        "i",
+        "u"
+      ],
+      [
+        "x",
+        "i"
+      ]
+    ]
   },
   {
     "id": "workplace-011",
@@ -2040,10 +4297,24 @@
     "pinyin": "chūchāi",
     "meaning": "出張する",
     "category": "workplace",
-    "hskLevel": 3,
-    "exampleSentence": "这周我要出差。",
-    "exampleSentencePinyin": "Zhè zhōu wǒ yào chūchāi.",
-    "exampleSentenceMeaning": "今週は出張します。"
+    "example": {
+      "sentence": "这周我要出差。",
+      "pinyin": "Zhè zhōu wǒ yào chūchāi.",
+      "meaning": "今週は出張します。"
+    },
+    "typing": [
+      [
+        "c",
+        "h",
+        "u"
+      ],
+      [
+        "c",
+        "h",
+        "a",
+        "i"
+      ]
+    ]
   },
   {
     "id": "workplace-012",
@@ -2051,10 +4322,21 @@
     "pinyin": "kèhù",
     "meaning": "顧客",
     "category": "workplace",
-    "hskLevel": 3,
-    "exampleSentence": "客户什么时候来?",
-    "exampleSentencePinyin": "Kèhù shénme shíhou lái?",
-    "exampleSentenceMeaning": "顧客はいつ来ますか?"
+    "example": {
+      "sentence": "客户什么时候来?",
+      "pinyin": "Kèhù shénme shíhou lái?",
+      "meaning": "顧客はいつ来ますか?"
+    },
+    "typing": [
+      [
+        "k",
+        "e"
+      ],
+      [
+        "h",
+        "u"
+      ]
+    ]
   },
   {
     "id": "workplace-013",
@@ -2062,10 +4344,22 @@
     "pinyin": "bùmén",
     "meaning": "部署",
     "category": "workplace",
-    "hskLevel": 3,
-    "exampleSentence": "我们不是一个部门的。",
-    "exampleSentencePinyin": "Wǒmen bú shì yí ge bùmén de.",
-    "exampleSentenceMeaning": "私たちは同じ部署ではありません。"
+    "example": {
+      "sentence": "我们不是一个部门的。",
+      "pinyin": "Wǒmen bú shì yí ge bùmén de.",
+      "meaning": "私たちは同じ部署ではありません。"
+    },
+    "typing": [
+      [
+        "b",
+        "u"
+      ],
+      [
+        "m",
+        "e",
+        "n"
+      ]
+    ]
   },
   {
     "id": "workplace-014",
@@ -2073,10 +4367,24 @@
     "pinyin": "qǐngjià",
     "meaning": "休暇を取る",
     "category": "workplace",
-    "hskLevel": 2,
-    "exampleSentence": "我明天想请假。",
-    "exampleSentencePinyin": "Wǒ míngtiān xiǎng qǐngjià.",
-    "exampleSentenceMeaning": "明日休みを取りたいです。"
+    "example": {
+      "sentence": "我明天想请假。",
+      "pinyin": "Wǒ míngtiān xiǎng qǐngjià.",
+      "meaning": "明日休みを取りたいです。"
+    },
+    "typing": [
+      [
+        "q",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "j",
+        "i",
+        "a"
+      ]
+    ]
   },
   {
     "id": "workplace-015",
@@ -2084,10 +4392,19 @@
     "pinyin": "máng",
     "meaning": "忙しい",
     "category": "workplace",
-    "hskLevel": 1,
-    "exampleSentence": "最近工作很忙。",
-    "exampleSentencePinyin": "Zuìjìn gōngzuò hěn máng.",
-    "exampleSentenceMeaning": "最近仕事がとても忙しいです。"
+    "example": {
+      "sentence": "最近工作很忙。",
+      "pinyin": "Zuìjìn gōngzuò hěn máng.",
+      "meaning": "最近仕事がとても忙しいです。"
+    },
+    "typing": [
+      [
+        "m",
+        "a",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "mealtime-001",
@@ -2095,10 +4412,23 @@
     "pinyin": "hǎochī",
     "meaning": "(食べ物が)おいしい",
     "category": "mealtime",
-    "hskLevel": 1,
-    "exampleSentence": "这个菜真好吃!",
-    "exampleSentencePinyin": "Zhège cài zhēn hǎochī!",
-    "exampleSentenceMeaning": "この料理は本当においしいです!"
+    "example": {
+      "sentence": "这个菜真好吃!",
+      "pinyin": "Zhège cài zhēn hǎochī!",
+      "meaning": "この料理は本当においしいです!"
+    },
+    "typing": [
+      [
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "c",
+        "h",
+        "i"
+      ]
+    ]
   },
   {
     "id": "mealtime-002",
@@ -2106,10 +4436,22 @@
     "pinyin": "hǎohē",
     "meaning": "(飲み物が)おいしい",
     "category": "mealtime",
-    "hskLevel": 1,
-    "exampleSentence": "这杯奶茶很好喝。",
-    "exampleSentencePinyin": "Zhè bēi nǎichá hěn hǎohē.",
-    "exampleSentenceMeaning": "このミルクティーはおいしいです。"
+    "example": {
+      "sentence": "这杯奶茶很好喝。",
+      "pinyin": "Zhè bēi nǎichá hěn hǎohē.",
+      "meaning": "このミルクティーはおいしいです。"
+    },
+    "typing": [
+      [
+        "h",
+        "a",
+        "o"
+      ],
+      [
+        "h",
+        "e"
+      ]
+    ]
   },
   {
     "id": "mealtime-003",
@@ -2117,10 +4459,18 @@
     "pinyin": "bǎo",
     "meaning": "お腹いっぱい",
     "category": "mealtime",
-    "hskLevel": 1,
-    "exampleSentence": "我吃饱了。",
-    "exampleSentencePinyin": "Wǒ chībǎo le.",
-    "exampleSentenceMeaning": "お腹いっぱいになりました。"
+    "example": {
+      "sentence": "我吃饱了。",
+      "pinyin": "Wǒ chībǎo le.",
+      "meaning": "お腹いっぱいになりました。"
+    },
+    "typing": [
+      [
+        "b",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "mealtime-004",
@@ -2128,10 +4478,16 @@
     "pinyin": "è",
     "meaning": "お腹が空いた",
     "category": "mealtime",
-    "hskLevel": 1,
-    "exampleSentence": "我有点饿了。",
-    "exampleSentencePinyin": "Wǒ yǒudiǎn è le.",
-    "exampleSentenceMeaning": "少しお腹が空きました。"
+    "example": {
+      "sentence": "我有点饿了。",
+      "pinyin": "Wǒ yǒudiǎn è le.",
+      "meaning": "少しお腹が空きました。"
+    },
+    "typing": [
+      [
+        "e"
+      ]
+    ]
   },
   {
     "id": "mealtime-005",
@@ -2139,10 +4495,23 @@
     "pinyin": "wèidao",
     "meaning": "味",
     "category": "mealtime",
-    "hskLevel": 2,
-    "exampleSentence": "味道怎么样?",
-    "exampleSentencePinyin": "Wèidao zěnmeyàng?",
-    "exampleSentenceMeaning": "味はどうですか?"
+    "example": {
+      "sentence": "味道怎么样?",
+      "pinyin": "Wèidao zěnmeyàng?",
+      "meaning": "味はどうですか?"
+    },
+    "typing": [
+      [
+        "w",
+        "e",
+        "i"
+      ],
+      [
+        "d",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "mealtime-006",
@@ -2150,10 +4519,19 @@
     "pinyin": "xián",
     "meaning": "しょっぱい",
     "category": "mealtime",
-    "hskLevel": 2,
-    "exampleSentence": "这个汤有点咸。",
-    "exampleSentencePinyin": "Zhège tāng yǒudiǎn xián.",
-    "exampleSentenceMeaning": "このスープは少ししょっぱいです。"
+    "example": {
+      "sentence": "这个汤有点咸。",
+      "pinyin": "Zhège tāng yǒudiǎn xián.",
+      "meaning": "このスープは少ししょっぱいです。"
+    },
+    "typing": [
+      [
+        "x",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "mealtime-007",
@@ -2161,10 +4539,19 @@
     "pinyin": "tián",
     "meaning": "甘い",
     "category": "mealtime",
-    "hskLevel": 2,
-    "exampleSentence": "这个蛋糕很甜。",
-    "exampleSentencePinyin": "Zhège dàngāo hěn tián.",
-    "exampleSentenceMeaning": "このケーキはとても甘いです。"
+    "example": {
+      "sentence": "这个蛋糕很甜。",
+      "pinyin": "Zhège dàngāo hěn tián.",
+      "meaning": "このケーキはとても甘いです。"
+    },
+    "typing": [
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "mealtime-008",
@@ -2172,10 +4559,17 @@
     "pinyin": "là",
     "meaning": "辛い",
     "category": "mealtime",
-    "hskLevel": 2,
-    "exampleSentence": "我不太能吃辣。",
-    "exampleSentencePinyin": "Wǒ bú tài néng chī là.",
-    "exampleSentenceMeaning": "私はあまり辛いものが得意ではありません。"
+    "example": {
+      "sentence": "我不太能吃辣。",
+      "pinyin": "Wǒ bú tài néng chī là.",
+      "meaning": "私はあまり辛いものが得意ではありません。"
+    },
+    "typing": [
+      [
+        "l",
+        "a"
+      ]
+    ]
   },
   {
     "id": "mealtime-009",
@@ -2183,10 +4577,19 @@
     "pinyin": "suān",
     "meaning": "酸っぱい",
     "category": "mealtime",
-    "hskLevel": 2,
-    "exampleSentence": "这个水果有点酸。",
-    "exampleSentencePinyin": "Zhège shuǐguǒ yǒudiǎn suān.",
-    "exampleSentenceMeaning": "この果物は少し酸っぱいです。"
+    "example": {
+      "sentence": "这个水果有点酸。",
+      "pinyin": "Zhège shuǐguǒ yǒudiǎn suān.",
+      "meaning": "この果物は少し酸っぱいです。"
+    },
+    "typing": [
+      [
+        "s",
+        "u",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "mealtime-010",
@@ -2194,10 +4597,24 @@
     "pinyin": "qīngdàn",
     "meaning": "あっさりしている",
     "category": "mealtime",
-    "hskLevel": 3,
-    "exampleSentence": "我喜欢吃清淡一点的菜。",
-    "exampleSentencePinyin": "Wǒ xǐhuan chī qīngdàn yìdiǎn de cài.",
-    "exampleSentenceMeaning": "私はあっさりした料理が好きです。"
+    "example": {
+      "sentence": "我喜欢吃清淡一点的菜。",
+      "pinyin": "Wǒ xǐhuan chī qīngdàn yìdiǎn de cài.",
+      "meaning": "私はあっさりした料理が好きです。"
+    },
+    "typing": [
+      [
+        "q",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "d",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "mealtime-011",
@@ -2205,10 +4622,23 @@
     "pinyin": "gānbēi",
     "meaning": "乾杯(する)",
     "category": "mealtime",
-    "hskLevel": 2,
-    "exampleSentence": "来,我们干杯!",
-    "exampleSentencePinyin": "Lái, wǒmen gānbēi!",
-    "exampleSentenceMeaning": "さあ、乾杯しましょう!"
+    "example": {
+      "sentence": "来,我们干杯!",
+      "pinyin": "Lái, wǒmen gānbēi!",
+      "meaning": "さあ、乾杯しましょう!"
+    },
+    "typing": [
+      [
+        "g",
+        "a",
+        "n"
+      ],
+      [
+        "b",
+        "e",
+        "i"
+      ]
+    ]
   },
   {
     "id": "mealtime-012",
@@ -2216,10 +4646,23 @@
     "pinyin": "kuàizi",
     "meaning": "箸",
     "category": "mealtime",
-    "hskLevel": 1,
-    "exampleSentence": "你会用筷子吗?",
-    "exampleSentencePinyin": "Nǐ huì yòng kuàizi ma?",
-    "exampleSentenceMeaning": "箸は使えますか?"
+    "example": {
+      "sentence": "你会用筷子吗?",
+      "pinyin": "Nǐ huì yòng kuàizi ma?",
+      "meaning": "箸は使えますか?"
+    },
+    "typing": [
+      [
+        "k",
+        "u",
+        "a",
+        "i"
+      ],
+      [
+        "z",
+        "i"
+      ]
+    ]
   },
   {
     "id": "mealtime-013",
@@ -2227,10 +4670,20 @@
     "pinyin": "cháng",
     "meaning": "味見する",
     "category": "mealtime",
-    "hskLevel": 2,
-    "exampleSentence": "你尝尝这个。",
-    "exampleSentencePinyin": "Nǐ chángchang zhège.",
-    "exampleSentenceMeaning": "これを味見してみてください。"
+    "example": {
+      "sentence": "你尝尝这个。",
+      "pinyin": "Nǐ chángchang zhège.",
+      "meaning": "これを味見してみてください。"
+    },
+    "typing": [
+      [
+        "c",
+        "h",
+        "a",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "mealtime-014",
@@ -2238,10 +4691,18 @@
     "pinyin": "cài",
     "meaning": "料理、おかず",
     "category": "mealtime",
-    "hskLevel": 1,
-    "exampleSentence": "今天的菜很丰富。",
-    "exampleSentencePinyin": "Jīntiān de cài hěn fēngfù.",
-    "exampleSentenceMeaning": "今日の料理は豊富です。"
+    "example": {
+      "sentence": "今天的菜很丰富。",
+      "pinyin": "Jīntiān de cài hěn fēngfù.",
+      "meaning": "今日の料理は豊富です。"
+    },
+    "typing": [
+      [
+        "c",
+        "a",
+        "i"
+      ]
+    ]
   },
   {
     "id": "mealtime-015",
@@ -2249,10 +4710,22 @@
     "pinyin": "mǐfàn",
     "meaning": "ご飯",
     "category": "mealtime",
-    "hskLevel": 1,
-    "exampleSentence": "再来一碗米饭。",
-    "exampleSentencePinyin": "Zài lái yì wǎn mǐfàn.",
-    "exampleSentenceMeaning": "ご飯をもう一杯ください。"
+    "example": {
+      "sentence": "再来一碗米饭。",
+      "pinyin": "Zài lái yì wǎn mǐfàn.",
+      "meaning": "ご飯をもう一杯ください。"
+    },
+    "typing": [
+      [
+        "m",
+        "i"
+      ],
+      [
+        "f",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "small-talk-001",
@@ -2260,10 +4733,22 @@
     "pinyin": "àihào",
     "meaning": "趣味",
     "category": "small-talk",
-    "hskLevel": 2,
-    "exampleSentence": "你平时有什么爱好?",
-    "exampleSentencePinyin": "Nǐ píngshí yǒu shénme àihào?",
-    "exampleSentenceMeaning": "普段どんな趣味がありますか?"
+    "example": {
+      "sentence": "你平时有什么爱好?",
+      "pinyin": "Nǐ píngshí yǒu shénme àihào?",
+      "meaning": "普段どんな趣味がありますか?"
+    },
+    "typing": [
+      [
+        "a",
+        "i"
+      ],
+      [
+        "h",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "small-talk-002",
@@ -2271,10 +4756,23 @@
     "pinyin": "zhōumò",
     "meaning": "週末",
     "category": "small-talk",
-    "hskLevel": 1,
-    "exampleSentence": "周末打算做什么?",
-    "exampleSentencePinyin": "Zhōumò dǎsuàn zuò shénme?",
-    "exampleSentenceMeaning": "週末は何をする予定ですか?"
+    "example": {
+      "sentence": "周末打算做什么?",
+      "pinyin": "Zhōumò dǎsuàn zuò shénme?",
+      "meaning": "週末は何をする予定ですか?"
+    },
+    "typing": [
+      [
+        "z",
+        "h",
+        "o",
+        "u"
+      ],
+      [
+        "m",
+        "o"
+      ]
+    ]
   },
   {
     "id": "small-talk-003",
@@ -2282,10 +4780,25 @@
     "pinyin": "diànyǐng",
     "meaning": "映画",
     "category": "small-talk",
-    "hskLevel": 1,
-    "exampleSentence": "最近有什么好看的电影吗?",
-    "exampleSentencePinyin": "Zuìjìn yǒu shénme hǎokàn de diànyǐng ma?",
-    "exampleSentenceMeaning": "最近何かいい映画はありますか?"
+    "example": {
+      "sentence": "最近有什么好看的电影吗?",
+      "pinyin": "Zuìjìn yǒu shénme hǎokàn de diànyǐng ma?",
+      "meaning": "最近何かいい映画はありますか?"
+    },
+    "typing": [
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "y",
+        "i",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "small-talk-004",
@@ -2293,10 +4806,23 @@
     "pinyin": "xīnwén",
     "meaning": "ニュース",
     "category": "small-talk",
-    "hskLevel": 2,
-    "exampleSentence": "你看新闻了吗?",
-    "exampleSentencePinyin": "Nǐ kàn xīnwén le ma?",
-    "exampleSentenceMeaning": "ニュースを見ましたか?"
+    "example": {
+      "sentence": "你看新闻了吗?",
+      "pinyin": "Nǐ kàn xīnwén le ma?",
+      "meaning": "ニュースを見ましたか?"
+    },
+    "typing": [
+      [
+        "x",
+        "i",
+        "n"
+      ],
+      [
+        "w",
+        "e",
+        "n"
+      ]
+    ]
   },
   {
     "id": "small-talk-005",
@@ -2304,10 +4830,24 @@
     "pinyin": "yùndòng",
     "meaning": "運動、スポーツ",
     "category": "small-talk",
-    "hskLevel": 2,
-    "exampleSentence": "你喜欢什么运动?",
-    "exampleSentencePinyin": "Nǐ xǐhuan shénme yùndòng?",
-    "exampleSentenceMeaning": "どんなスポーツが好きですか?"
+    "example": {
+      "sentence": "你喜欢什么运动?",
+      "pinyin": "Nǐ xǐhuan shénme yùndòng?",
+      "meaning": "どんなスポーツが好きですか?"
+    },
+    "typing": [
+      [
+        "y",
+        "u",
+        "n"
+      ],
+      [
+        "d",
+        "o",
+        "n",
+        "g"
+      ]
+    ]
   },
   {
     "id": "small-talk-006",
@@ -2315,10 +4855,22 @@
     "pinyin": "lǚyóu",
     "meaning": "旅行(する)",
     "category": "small-talk",
-    "hskLevel": 2,
-    "exampleSentence": "你喜欢旅游吗?",
-    "exampleSentencePinyin": "Nǐ xǐhuan lǚyóu ma?",
-    "exampleSentenceMeaning": "旅行は好きですか?"
+    "example": {
+      "sentence": "你喜欢旅游吗?",
+      "pinyin": "Nǐ xǐhuan lǚyóu ma?",
+      "meaning": "旅行は好きですか?"
+    },
+    "typing": [
+      [
+        "l",
+        "v"
+      ],
+      [
+        "y",
+        "o",
+        "u"
+      ]
+    ]
   },
   {
     "id": "small-talk-007",
@@ -2326,10 +4878,28 @@
     "pinyin": "diànshìjù",
     "meaning": "ドラマ",
     "category": "small-talk",
-    "hskLevel": 2,
-    "exampleSentence": "这部电视剧很有意思。",
-    "exampleSentencePinyin": "Zhè bù diànshìjù hěn yǒuyìsi.",
-    "exampleSentenceMeaning": "このドラマはとても面白いです。"
+    "example": {
+      "sentence": "这部电视剧很有意思。",
+      "pinyin": "Zhè bù diànshìjù hěn yǒuyìsi.",
+      "meaning": "このドラマはとても面白いです。"
+    },
+    "typing": [
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "j",
+        "u"
+      ]
+    ]
   },
   {
     "id": "small-talk-008",
@@ -2337,10 +4907,23 @@
     "pinyin": "yīnyuè",
     "meaning": "音楽",
     "category": "small-talk",
-    "hskLevel": 1,
-    "exampleSentence": "你喜欢听什么音乐?",
-    "exampleSentencePinyin": "Nǐ xǐhuan tīng shénme yīnyuè?",
-    "exampleSentenceMeaning": "どんな音楽を聴くのが好きですか?"
+    "example": {
+      "sentence": "你喜欢听什么音乐?",
+      "pinyin": "Nǐ xǐhuan tīng shénme yīnyuè?",
+      "meaning": "どんな音楽を聴くのが好きですか?"
+    },
+    "typing": [
+      [
+        "y",
+        "i",
+        "n"
+      ],
+      [
+        "y",
+        "u",
+        "e"
+      ]
+    ]
   },
   {
     "id": "small-talk-009",
@@ -2348,10 +4931,23 @@
     "pinyin": "zuìjìn",
     "meaning": "最近",
     "category": "small-talk",
-    "hskLevel": 1,
-    "exampleSentence": "你最近怎么样?",
-    "exampleSentencePinyin": "Nǐ zuìjìn zěnmeyàng?",
-    "exampleSentenceMeaning": "最近どうですか?"
+    "example": {
+      "sentence": "你最近怎么样?",
+      "pinyin": "Nǐ zuìjìn zěnmeyàng?",
+      "meaning": "最近どうですか?"
+    },
+    "typing": [
+      [
+        "z",
+        "u",
+        "i"
+      ],
+      [
+        "j",
+        "i",
+        "n"
+      ]
+    ]
   },
   {
     "id": "small-talk-010",
@@ -2359,10 +4955,25 @@
     "pinyin": "liáotiān",
     "meaning": "おしゃべりする",
     "category": "small-talk",
-    "hskLevel": 2,
-    "exampleSentence": "我们好久没聊天了。",
-    "exampleSentencePinyin": "Wǒmen hǎojiǔ méi liáotiān le.",
-    "exampleSentenceMeaning": "久しくおしゃべりしていませんね。"
+    "example": {
+      "sentence": "我们好久没聊天了。",
+      "pinyin": "Wǒmen hǎojiǔ méi liáotiān le.",
+      "meaning": "久しくおしゃべりしていませんね。"
+    },
+    "typing": [
+      [
+        "l",
+        "i",
+        "a",
+        "o"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
   },
   {
     "id": "small-talk-011",
@@ -2370,10 +4981,26 @@
     "pinyin": "yǒuyìsi",
     "meaning": "面白い",
     "category": "small-talk",
-    "hskLevel": 2,
-    "exampleSentence": "这件事很有意思。",
-    "exampleSentencePinyin": "Zhè jiàn shì hěn yǒuyìsi.",
-    "exampleSentenceMeaning": "この話はとても面白いです。"
+    "example": {
+      "sentence": "这件事很有意思。",
+      "pinyin": "Zhè jiàn shì hěn yǒuyìsi.",
+      "meaning": "この話はとても面白いです。"
+    },
+    "typing": [
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "s",
+        "i"
+      ]
+    ]
   },
   {
     "id": "small-talk-012",
@@ -2381,10 +5008,23 @@
     "pinyin": "wúliáo",
     "meaning": "退屈だ",
     "category": "small-talk",
-    "hskLevel": 2,
-    "exampleSentence": "我今天有点无聊。",
-    "exampleSentencePinyin": "Wǒ jīntiān yǒudiǎn wúliáo.",
-    "exampleSentenceMeaning": "今日はちょっと退屈です。"
+    "example": {
+      "sentence": "我今天有点无聊。",
+      "pinyin": "Wǒ jīntiān yǒudiǎn wúliáo.",
+      "meaning": "今日はちょっと退屈です。"
+    },
+    "typing": [
+      [
+        "w",
+        "u"
+      ],
+      [
+        "l",
+        "i",
+        "a",
+        "o"
+      ]
+    ]
   },
   {
     "id": "small-talk-013",
@@ -2392,10 +5032,24 @@
     "pinyin": "fàngjià",
     "meaning": "休みになる",
     "category": "small-talk",
-    "hskLevel": 2,
-    "exampleSentence": "你打算什么时候放假?",
-    "exampleSentencePinyin": "Nǐ dǎsuàn shénme shíhou fàngjià?",
-    "exampleSentenceMeaning": "いつ休みを取る予定ですか?"
+    "example": {
+      "sentence": "你打算什么时候放假?",
+      "pinyin": "Nǐ dǎsuàn shénme shíhou fàngjià?",
+      "meaning": "いつ休みを取る予定ですか?"
+    },
+    "typing": [
+      [
+        "f",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "j",
+        "i",
+        "a"
+      ]
+    ]
   },
   {
     "id": "small-talk-014",
@@ -2403,10 +5057,24 @@
     "pinyin": "chǒngwù",
     "meaning": "ペット",
     "category": "small-talk",
-    "hskLevel": 2,
-    "exampleSentence": "你养宠物吗?",
-    "exampleSentencePinyin": "Nǐ yǎng chǒngwù ma?",
-    "exampleSentenceMeaning": "ペットを飼っていますか?"
+    "example": {
+      "sentence": "你养宠物吗?",
+      "pinyin": "Nǐ yǎng chǒngwù ma?",
+      "meaning": "ペットを飼っていますか?"
+    },
+    "typing": [
+      [
+        "c",
+        "h",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "w",
+        "u"
+      ]
+    ]
   },
   {
     "id": "small-talk-015",
@@ -2414,9 +5082,22 @@
     "pinyin": "xíguàn",
     "meaning": "習慣",
     "category": "small-talk",
-    "hskLevel": 3,
-    "exampleSentence": "养成一个好习惯不容易。",
-    "exampleSentencePinyin": "Yǎngchéng yí ge hǎo xíguàn bù róngyì.",
-    "exampleSentenceMeaning": "良い習慣を身につけるのは簡単ではありません。"
+    "example": {
+      "sentence": "养成一个好习惯不容易。",
+      "pinyin": "Yǎngchéng yí ge hǎo xíguàn bù róngyì.",
+      "meaning": "良い習慣を身につけるのは簡単ではありません。"
+    },
+    "typing": [
+      [
+        "x",
+        "i"
+      ],
+      [
+        "g",
+        "u",
+        "a",
+        "n"
+      ]
+    ]
   }
 ]

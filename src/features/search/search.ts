@@ -4,7 +4,7 @@ const RESULT_LIMIT = 40;
 
 const FIELD_WEIGHTS = {
   meaning: 100,
-  exampleSentenceMeaning: 70,
+  exampleMeaning: 70,
   hanzi: 60,
   exampleSentence: 40,
   pinyin: 30,
@@ -42,11 +42,11 @@ export interface SearchResults {
 function scoreVocabItem(item: VocabItem, query: string, normalizedQuery: string, pinyinQuery: string): number {
   let score = 0;
   if (normalizeText(item.meaning).includes(normalizedQuery)) score += FIELD_WEIGHTS.meaning;
-  if (item.exampleSentenceMeaning && normalizeText(item.exampleSentenceMeaning).includes(normalizedQuery)) {
-    score += FIELD_WEIGHTS.exampleSentenceMeaning;
+  if (item.example && normalizeText(item.example.meaning).includes(normalizedQuery)) {
+    score += FIELD_WEIGHTS.exampleMeaning;
   }
   if (item.hanzi.includes(query)) score += FIELD_WEIGHTS.hanzi;
-  if (item.exampleSentence && item.exampleSentence.includes(query)) score += FIELD_WEIGHTS.exampleSentence;
+  if (item.example && item.example.sentence.includes(query)) score += FIELD_WEIGHTS.exampleSentence;
   if (normalizePinyin(item.pinyin).includes(pinyinQuery)) score += FIELD_WEIGHTS.pinyin;
   if (normalizeText(CATEGORY_LABELS[item.category]).includes(normalizedQuery)) score += FIELD_WEIGHTS.category;
   return score;

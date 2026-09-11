@@ -5217,5 +5217,381 @@
         "r"
       ]
     ]
+  },
+  {
+    "id": "workplace-016",
+    "hanzi": "懂",
+    "pinyin": "dǒng",
+    "meaning": "わかる、理解する",
+    "category": "workplace",
+    "example": {
+      "sentence": "你懂我的意思吗?",
+      "pinyin": "Nǐ dǒng wǒ de yìsi ma?",
+      "meaning": "私の言いたいことわかりますか?"
+    },
+    "typing": [
+      [
+        "d",
+        "o",
+        "n",
+        "g"
+      ]
+    ]
+  },
+  {
+    "id": "workplace-017",
+    "hanzi": "讨论",
+    "pinyin": "tǎolùn",
+    "meaning": "相談する、議論する",
+    "category": "workplace",
+    "example": {
+      "sentence": "我们讨论一下吧。",
+      "pinyin": "Wǒmen tǎolùn yíxià ba.",
+      "meaning": "ちょっと相談しましょう。"
+    },
+    "typing": [
+      [
+        "t",
+        "a",
+        "o"
+      ],
+      [
+        "l",
+        "u",
+        "n"
+      ]
+    ]
+  },
+  {
+    "id": "workplace-018",
+    "hanzi": "帮助",
+    "pinyin": "bāngzhù",
+    "meaning": "助け、手伝う",
+    "category": "workplace",
+    "example": {
+      "sentence": "谢谢你的帮助。",
+      "pinyin": "Xièxie nǐ de bāngzhù.",
+      "meaning": "手伝ってくれてありがとう。"
+    },
+    "typing": [
+      [
+        "b",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "z",
+        "h",
+        "u"
+      ]
+    ]
+  },
+  {
+    "id": "workplace-019",
+    "hanzi": "教",
+    "pinyin": "jiāo",
+    "meaning": "教える",
+    "category": "workplace",
+    "example": {
+      "sentence": "你能教我吗?",
+      "pinyin": "Nǐ néng jiāo wǒ ma?",
+      "meaning": "教えてもらえますか?"
+    },
+    "typing": [
+      [
+        "j",
+        "i",
+        "a",
+        "o"
+      ]
+    ]
+  },
+  {
+    "id": "workplace-020",
+    "hanzi": "问题",
+    "pinyin": "wèntí",
+    "meaning": "問題、質問",
+    "category": "workplace",
+    "example": {
+      "sentence": "我有个问题。",
+      "pinyin": "Wǒ yǒu ge wèntí.",
+      "meaning": "質問があります。"
+    },
+    "typing": [
+      [
+        "w",
+        "e",
+        "n"
+      ],
+      [
+        "t",
+        "i"
+      ]
+    ]
+  },
+  {
+    "id": "workplace-021",
+    "hanzi": "了解",
+    "pinyin": "liǎojiě",
+    "meaning": "理解する、把握する",
+    "category": "workplace",
+    "example": {
+      "sentence": "我了解了。",
+      "pinyin": "Wǒ liǎojiě le.",
+      "meaning": "理解しました。"
+    },
+    "typing": [
+      [
+        "l",
+        "i",
+        "a",
+        "o"
+      ],
+      [
+        "j",
+        "i",
+        "e"
+      ]
+    ]
+  },
+  {
+    "id": "workplace-022",
+    "hanzi": "同意",
+    "pinyin": "tóngyì",
+    "meaning": "同意する",
+    "category": "workplace",
+    "example": {
+      "sentence": "我同意你的看法。",
+      "pinyin": "Wǒ tóngyì nǐ de kànfǎ.",
+      "meaning": "あなたの意見に同意します。"
+    },
+    "typing": [
+      [
+        "t",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "y",
+        "i"
+      ]
+    ]
+  },
+  {
+    "id": "workplace-023",
+    "hanzi": "辛苦",
+    "pinyin": "xīnkǔ",
+    "meaning": "大変だ、お疲れ様",
+    "category": "workplace",
+    "example": {
+      "sentence": "今天辛苦了。",
+      "pinyin": "Jīntiān xīnkǔ le.",
+      "meaning": "今日はお疲れ様でした。"
+    },
+    "typing": [
+      [
+        "x",
+        "i",
+        "n"
+      ],
+      [
+        "k",
+        "u"
+      ]
+    ]
+  },
+  {
+    "id": "workplace-024",
+    "hanzi": "顺利",
+    "pinyin": "shùnlì",
+    "meaning": "順調だ",
+    "category": "workplace",
+    "example": {
+      "sentence": "工作很顺利。",
+      "pinyin": "Gōngzuò hěn shùnlì.",
+      "meaning": "仕事は順調です。"
+    },
+    "typing": [
+      [
+        "s",
+        "h",
+        "u",
+        "n"
+      ],
+      [
+        "l",
+        "i"
+      ]
+    ]
+  },
+  {
+    "id": "workplace-025",
+    "hanzi": "打扰",
+    "pinyin": "dǎrǎo",
+    "meaning": "お邪魔する",
+    "category": "workplace",
+    "example": {
+      "sentence": "打扰一下。",
+      "pinyin": "Dǎrǎo yíxià.",
+      "meaning": "ちょっとすみません(お邪魔します)。"
+    },
+    "typing": [
+      [
+        "d",
+        "a"
+      ],
+      [
+        "r",
+        "a",
+        "o"
+      ]
+    ]
+  },
+  {
+    "id": "small-talk-016",
+    "hanzi": "感觉",
+    "pinyin": "gǎnjué",
+    "meaning": "感じ、気分",
+    "category": "small-talk",
+    "example": {
+      "sentence": "我感觉很累。",
+      "pinyin": "Wǒ gǎnjué hěn lèi.",
+      "meaning": "疲れた感じがします。"
+    },
+    "typing": [
+      [
+        "g",
+        "a",
+        "n"
+      ],
+      [
+        "j",
+        "u",
+        "e"
+      ]
+    ]
+  },
+  {
+    "id": "small-talk-017",
+    "hanzi": "意思",
+    "pinyin": "yìsi",
+    "meaning": "意味",
+    "category": "small-talk",
+    "example": {
+      "sentence": "这是什么意思?",
+      "pinyin": "Zhè shì shénme yìsi?",
+      "meaning": "これはどういう意味ですか?"
+    },
+    "typing": [
+      [
+        "y",
+        "i"
+      ],
+      [
+        "s",
+        "i"
+      ]
+    ]
+  },
+  {
+    "id": "small-talk-018",
+    "hanzi": "当然",
+    "pinyin": "dāngrán",
+    "meaning": "もちろん",
+    "category": "small-talk",
+    "example": {
+      "sentence": "当然可以。",
+      "pinyin": "Dāngrán kěyǐ.",
+      "meaning": "もちろんいいですよ。"
+    },
+    "typing": [
+      [
+        "d",
+        "a",
+        "n",
+        "g"
+      ],
+      [
+        "r",
+        "a",
+        "n"
+      ]
+    ]
+  },
+  {
+    "id": "small-talk-019",
+    "hanzi": "一样",
+    "pinyin": "yíyàng",
+    "meaning": "同じ",
+    "category": "small-talk",
+    "example": {
+      "sentence": "我们想法一样。",
+      "pinyin": "Wǒmen xiǎngfǎ yíyàng.",
+      "meaning": "私たちの考えは同じです。"
+    },
+    "typing": [
+      [
+        "y",
+        "i"
+      ],
+      [
+        "y",
+        "a",
+        "n",
+        "g"
+      ]
+    ]
+  },
+  {
+    "id": "small-talk-020",
+    "hanzi": "中文",
+    "pinyin": "Zhōngwén",
+    "meaning": "中国語",
+    "category": "small-talk",
+    "example": {
+      "sentence": "我在学中文。",
+      "pinyin": "Wǒ zài xué Zhōngwén.",
+      "meaning": "中国語を勉強しています。"
+    },
+    "typing": [
+      [
+        "z",
+        "h",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "w",
+        "e",
+        "n"
+      ]
+    ]
+  },
+  {
+    "id": "small-talk-021",
+    "hanzi": "文化",
+    "pinyin": "wénhuà",
+    "meaning": "文化",
+    "category": "small-talk",
+    "example": {
+      "sentence": "我对中国文化很感兴趣。",
+      "pinyin": "Wǒ duì Zhōngguó wénhuà hěn gǎn xìngqù.",
+      "meaning": "中国文化に興味があります。"
+    },
+    "typing": [
+      [
+        "w",
+        "e",
+        "n"
+      ],
+      [
+        "h",
+        "u",
+        "a"
+      ]
+    ]
   }
 ]

@@ -150,5 +150,57 @@
       "small-talk-phrase-001",
       "small-talk-phrase-002"
     ]
+  },
+  {
+    "id": "morning-greeting",
+    "title": "朝、同僚に挨拶する",
+    "descriptionJa": "出勤時に同僚と朝の挨拶を交わし、週末や曜日の話で軽く雑談します。",
+    "hskLevel": 1,
+    "systemPrompt": "あなたは「職場の同僚」として中国語のみで応答するAIです。\n- HSK1レベルの平易な単語・短文のみ使用する\n- 必ず次の3行フォーマットで出力する:\n  [中国語の文]\n  ([ピンイン])\n  [日本語訳]\n- ユーザーの文法ミスは訂正せず、自然に会話を続ける\n- 1回の応答は1〜2文までとする",
+    "starterMessage": "早上好!周末过得怎么样?\n(Zǎoshang hǎo! Zhōumò guò de zěnmeyàng?)\nおはよう!週末どうだった?",
+    "suggestedPhraseIds": [
+      "workplace-phrase-021",
+      "workplace-phrase-022",
+      "workplace-phrase-023"
+    ]
+  },
+  {
+    "id": "coffee-break",
+    "title": "同僚をコーヒー休憩に誘う",
+    "descriptionJa": "仕事の合間に同僚をコーヒー休憩に誘い、軽く雑談します。",
+    "hskLevel": 2,
+    "systemPrompt": "あなたは「職場の同僚」として中国語のみで応答するAIです。\n- HSK2レベルの単語・短文を使用する\n- 必ず次の3行フォーマットで出力する:\n  [中国語の文]\n  ([ピンイン])\n  [日本語訳]\n- ユーザーの文法ミスは訂正せず、自然に会話を続ける\n- 1回の応答は1〜2文までとする",
+    "starterMessage": "要不要一起去喝杯咖啡?\n(Yào bu yào yìqǐ qù hē bēi kāfēi?)\n一緒にコーヒー飲みに行かない?",
+    "suggestedPhraseIds": [
+      "workplace-phrase-030",
+      "workplace-phrase-031",
+      "workplace-phrase-010"
+    ]
+  },
+  {
+    "id": "ask-chinese-word",
+    "title": "同僚に中国語を教えてもらう",
+    "descriptionJa": "中国人の同僚に、気になった中国語の表現や文化の違いについて質問します。",
+    "hskLevel": 2,
+    "systemPrompt": "あなたは「中国語ネイティブの同僚」として中国語のみで応答するAIです。\n- HSK2レベルの単語・短文を使用する\n- 必ず次の3行フォーマットで出力する:\n  [中国語の文]\n  ([ピンイン])\n  [日本語訳]\n- ユーザーの文法ミスは訂正せず、自然に会話を続ける\n- 1回の応答は1〜2文までとする",
+    "starterMessage": "你在学中文吗?有什么想问的吗?\n(Nǐ zài xué Zhōngwén ma? Yǒu shénme xiǎng wèn de ma?)\n中国語勉強してるの?何か聞きたいことある?",
+    "suggestedPhraseIds": [
+      "small-talk-phrase-029",
+      "small-talk-phrase-030",
+      "small-talk-phrase-031"
+    ]
+  },
+  {
+    "id": "end-of-day-chat",
+    "title": "退勤前に同僚と雑談する",
+    "descriptionJa": "一日の仕事を終えて、退勤前に同僚と軽くねぎらいの言葉を交わします。",
+    "hskLevel": 2,
+    "systemPrompt": "あなたは「職場の同僚」として中国語のみで応答するAIです。\n- HSK2レベルの単語・短文を使用する\n- 必ず次の3行フォーマットで出力する:\n  [中国語の文]\n  ([ピンイン])\n  [日本語訳]\n- ユーザーの文法ミスは訂正せず、自然に会話を続ける\n- 1回の応答は1〜2文までとする",
+    "starterMessage": "今天辛苦了,你打算几点下班?\n(Jīntiān xīnkǔ le, nǐ dǎsuàn jǐ diǎn xiàbān?)\n今日もお疲れ様、何時に退勤する予定?",
+    "suggestedPhraseIds": [
+      "workplace-phrase-032",
+      "workplace-phrase-033",
+      "phrase-184"
+    ]
   }
 ]

@@ -13,7 +13,10 @@ A Chinese learning app that runs entirely in the browser using Chrome's Built-in
 
 ## Requirements
 
-The translate and conversation-practice features depend on Chrome's Built-in AI APIs.
+The translate and conversation-practice features depend on Chrome's Built-in AI APIs, which are effectively desktop-Chrome-only today — iOS can't support it at all (Apple requires WebKit), and only a handful of high-end Android phones meet the hardware bar. Flashcards and search don't depend on it, so they stay fully usable on any device, online or offline; the app shows a fallback message on the translate/chat tabs when it detects an unsupported device.
+
+> [!NOTE]
+> Falling back to an in-browser LLM (e.g. [WebLLM](https://github.com/mlc-ai/web-llm)) so translation also works on mobile isn't planned for now — model download reliability and WebGPU support are still too inconsistent across phones. Worth revisiting once the tooling matures.
 
 - Chrome 138+ (Edge has a developer-preview version of some APIs)
 - Hardware requirements: 22GB+ free disk space, 4GB+ VRAM GPU, or 16GB+ RAM with 4+ CPU cores
@@ -27,10 +30,3 @@ If the hardware requirements are met but the feature still isn't available, try:
 5. For detailed status, check `chrome://on-device-internals`
 
 On first use, each API downloads its model/language pack (the Prompt API model is several GB and can take a few minutes).
-
-The flashcards and search features do not depend on Chrome Built-in AI, so they work in any browser without any of the above setup — and fully offline once the app has been loaded once (installable as a PWA).
-
-Mobile note: Chrome Built-in AI is effectively a desktop-Chrome-only feature today. iOS browsers (including Chrome, which is required by Apple to use WebKit) can't support it at all, and only a handful of high-end Android devices meet the hardware requirements. The app detects this and shows a fallback message for the translate/chat tabs, while flashcards and search remain fully usable on any device, online or offline.
-
-> [!NOTE]
-> **Roadmap**: Falling back to an in-browser LLM (e.g. [WebLLM](https://github.com/mlc-ai/web-llm)) on mobile so translation works without Chrome Built-in AI was attempted and reverted — model download reliability and WebGPU support were too inconsistent across phones. This remains a candidate for a future revisit once the underlying tooling matures.

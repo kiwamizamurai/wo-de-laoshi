@@ -66,8 +66,8 @@ function NavTabButton({ tab, label, active, onNavigate }: NavTabButtonProps) {
       style={{
         position: 'relative',
         zIndex: 1,
-        overflow: 'hidden',
         flex: 1,
+        minWidth: 'max-content',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
@@ -81,14 +81,16 @@ function NavTabButton({ tab, label, active, onNavigate }: NavTabButtonProps) {
         transition: 'color var(--dur-fast) var(--ease-standard)',
       }}
     >
-      {ripples.map((r) => (
-        <span
-          key={r.id}
-          className="nav-ripple"
-          style={{ left: `${r.x}px`, top: `${r.y}px`, width: `${r.size}px`, height: `${r.size}px` }}
-          onAnimationEnd={() => removeRipple(r.id)}
-        />
-      ))}
+      <span aria-hidden="true" style={{ position: 'absolute', inset: 0, overflow: 'hidden', pointerEvents: 'none' }}>
+        {ripples.map((r) => (
+          <span
+            key={r.id}
+            className="nav-ripple"
+            style={{ left: `${r.x}px`, top: `${r.y}px`, width: `${r.size}px`, height: `${r.size}px` }}
+            onAnimationEnd={() => removeRipple(r.id)}
+          />
+        ))}
+      </span>
       <span
         className="hanzi"
         style={{
@@ -100,7 +102,7 @@ function NavTabButton({ tab, label, active, onNavigate }: NavTabButtonProps) {
       >
         {tab.icon}
       </span>
-      <span style={{ fontSize: '0.75rem' }}>{label}</span>
+      <span style={{ fontSize: '0.75rem', whiteSpace: 'nowrap' }}>{label}</span>
     </button>
   );
 }

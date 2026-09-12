@@ -25,7 +25,7 @@ export function ReviewControls({ onGrade }: ReviewControlsProps) {
         <button
           key={grade}
           className="btn"
-          style={{ color, border: `1px solid ${color}` }}
+          style={{ color, border: `1px solid ${color}`, minWidth: 'max-content', whiteSpace: 'nowrap' }}
           onClick={() => onGrade(grade)}
         >
           {t.flashcards.grade[grade]}

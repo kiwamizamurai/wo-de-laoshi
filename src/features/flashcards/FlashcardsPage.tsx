@@ -98,6 +98,8 @@ export function FlashcardsPage() {
             onClick={() => setMode(m)}
             style={{
               flex: 1,
+              minWidth: 'max-content',
+              whiteSpace: 'nowrap',
               color: mode === m ? 'var(--color-primary)' : 'var(--color-text)',
               fontWeight: mode === m ? 700 : 600,
               borderColor: mode === m ? 'var(--color-primary)' : undefined,

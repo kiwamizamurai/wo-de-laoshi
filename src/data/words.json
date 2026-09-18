@@ -7363,5 +7363,233 @@
         "u"
       ]
     ]
+  },
+  {
+    "id": "reading-notes-012",
+    "hanzi": "想",
+    "pinyin": "xiǎng",
+    "meaning": {
+      "ja": "〜したい",
+      "en": "want to"
+    },
+    "category": "reading-notes",
+    "example": {
+      "sentence": "我想回家。",
+      "pinyin": "Wǒ xiǎng huí jiā.",
+      "meaning": {
+        "ja": "私は家に帰りたいです。",
+        "en": "I want to go home."
+      }
+    },
+    "typing": [
+      [
+        "x",
+        "i",
+        "a",
+        "n",
+        "g"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-013",
+    "hanzi": "可能",
+    "pinyin": "kěnéng",
+    "meaning": {
+      "ja": "たぶん、〜かもしれない",
+      "en": "maybe; probably"
+    },
+    "category": "reading-notes",
+    "example": {
+      "sentence": "可能要下雨呢。",
+      "pinyin": "Kěnéng yào xiàyǔ ne.",
+      "meaning": {
+        "ja": "たぶん雨が降るかもしれません。",
+        "en": "It might rain."
+      }
+    },
+    "typing": [
+      [
+        "k",
+        "e"
+      ],
+      [
+        "n",
+        "e",
+        "n",
+        "g"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-014",
+    "hanzi": "就",
+    "pinyin": "jiù",
+    "meaning": {
+      "ja": "それなら、そうしたら(条件の結果を強調)",
+      "en": "then (emphasizes the result of a condition)"
+    },
+    "category": "reading-notes",
+    "example": {
+      "sentence": "如果下雨,我就不去。",
+      "pinyin": "Rúguǒ xiàyǔ, wǒ jiù bú qù.",
+      "meaning": {
+        "ja": "もし雨が降ったら、私は行きません。",
+        "en": "If it rains, then I won't go."
+      }
+    },
+    "typing": [
+      [
+        "j",
+        "i",
+        "u"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-015",
+    "hanzi": "但是",
+    "pinyin": "dànshì",
+    "meaning": {
+      "ja": "しかし、でも",
+      "en": "but; however"
+    },
+    "category": "reading-notes",
+    "example": {
+      "sentence": "但是你没认出来这是我。",
+      "pinyin": "Dànshì nǐ méi rènchūlái zhè shì wǒ.",
+      "meaning": {
+        "ja": "でもあなたはこれが私だと気づきませんでした。",
+        "en": "But you didn't recognize that this was me."
+      }
+    },
+    "typing": [
+      [
+        "d",
+        "a",
+        "n"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-016",
+    "hanzi": "而且",
+    "pinyin": "érqiě",
+    "meaning": {
+      "ja": "しかも、その上",
+      "en": "moreover; furthermore"
+    },
+    "category": "reading-notes",
+    "example": {
+      "sentence": "而且,雨不小。",
+      "pinyin": "Érqiě, yǔ bù xiǎo.",
+      "meaning": {
+        "ja": "しかも、雨は小降りではありません。",
+        "en": "Moreover, the rain isn't light."
+      }
+    },
+    "typing": [
+      [
+        "e",
+        "r"
+      ],
+      [
+        "q",
+        "i",
+        "e"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-017",
+    "hanzi": "大概",
+    "pinyin": "dàgài",
+    "meaning": {
+      "ja": "だいたい、おそらく",
+      "en": "approximately; probably"
+    },
+    "category": "reading-notes",
+    "example": {
+      "sentence": "大概几点了?",
+      "pinyin": "Dàgài jǐ diǎn le?",
+      "meaning": {
+        "ja": "だいたい何時ですか?",
+        "en": "About what time is it?"
+      }
+    },
+    "typing": [
+      [
+        "d",
+        "a"
+      ],
+      [
+        "g",
+        "a",
+        "i"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-018",
+    "hanzi": "是啊",
+    "pinyin": "shì a",
+    "meaning": {
+      "ja": "そうだね、そうです",
+      "en": "that's right; yeah"
+    },
+    "category": "reading-notes",
+    "example": {
+      "sentence": "是啊,雨还挺大的。",
+      "pinyin": "Shì a, yǔ hái tǐng dà de.",
+      "meaning": {
+        "ja": "そうだね、雨はまだかなり強いよ。",
+        "en": "Yeah, the rain is still pretty heavy."
+      }
+    },
+    "typing": [
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "a"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-019",
+    "hanzi": "真的",
+    "pinyin": "zhēnde",
+    "meaning": {
+      "ja": "本当に、本当の",
+      "en": "really; truly"
+    },
+    "category": "reading-notes",
+    "example": {
+      "sentence": "真的吗?",
+      "pinyin": "Zhēnde ma?",
+      "meaning": {
+        "ja": "本当ですか?",
+        "en": "Really?"
+      }
+    },
+    "typing": [
+      [
+        "z",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "d",
+        "e"
+      ]
+    ]
   }
 ]

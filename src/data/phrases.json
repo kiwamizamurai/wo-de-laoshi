@@ -12247,5 +12247,402 @@
         "n"
       ]
     ]
+  },
+  {
+    "id": "reading-notes-phrase-008",
+    "hanzi": "在这里吃?",
+    "pinyin": "Zài zhèlǐ chī?",
+    "meaning": {
+      "ja": "ここで食べますか?",
+      "en": "Are we eating here?"
+    },
+    "category": "reading-notes",
+    "typing": [
+      [
+        "z",
+        "a",
+        "i"
+      ],
+      [
+        "z",
+        "h",
+        "e"
+      ],
+      [
+        "l",
+        "i"
+      ],
+      [
+        "c",
+        "h",
+        "i"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-phrase-009",
+    "hanzi": "你在哪里学中文?",
+    "pinyin": "Nǐ zài nǎlǐ xué Zhōngwén?",
+    "meaning": {
+      "ja": "どこで中国語を学んでいますか?",
+      "en": "Where do you study Chinese?"
+    },
+    "category": "reading-notes",
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "z",
+        "a",
+        "i"
+      ],
+      [
+        "n",
+        "a"
+      ],
+      [
+        "l",
+        "i"
+      ],
+      [
+        "x",
+        "u",
+        "e"
+      ],
+      [
+        "z",
+        "h",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "w",
+        "e",
+        "n"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-phrase-010",
+    "hanzi": "这是什么?",
+    "pinyin": "Zhè shì shénme?",
+    "meaning": {
+      "ja": "これは何ですか?",
+      "en": "What is this?"
+    },
+    "category": "reading-notes",
+    "typing": [
+      [
+        "z",
+        "h",
+        "e"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-phrase-011",
+    "hanzi": "他什么都不知道。",
+    "pinyin": "Tā shénme dōu bù zhīdào.",
+    "meaning": {
+      "ja": "彼は何も知りません。",
+      "en": "He doesn't know anything."
+    },
+    "category": "reading-notes",
+    "typing": [
+      [
+        "t",
+        "a"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "d",
+        "o",
+        "u"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "z",
+        "h",
+        "i"
+      ],
+      [
+        "d",
+        "a",
+        "o"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-phrase-012",
+    "hanzi": "冷不冷?",
+    "pinyin": "Lěng bù lěng?",
+    "meaning": {
+      "ja": "寒いですか、寒くないですか?",
+      "en": "Is it cold or not?"
+    },
+    "category": "reading-notes",
+    "typing": [
+      [
+        "l",
+        "e",
+        "n",
+        "g"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "l",
+        "e",
+        "n",
+        "g"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-phrase-013",
+    "hanzi": "我现在要睡觉了。",
+    "pinyin": "Wǒ xiànzài yào shuìjiào le.",
+    "meaning": {
+      "ja": "私は今から寝ます。",
+      "en": "I'm going to sleep now."
+    },
+    "category": "reading-notes",
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "x",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "z",
+        "a",
+        "i"
+      ],
+      [
+        "y",
+        "a",
+        "o"
+      ],
+      [
+        "s",
+        "h",
+        "u",
+        "i"
+      ],
+      [
+        "j",
+        "i",
+        "a",
+        "o"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-phrase-014",
+    "hanzi": "是啊,雨还挺大的。",
+    "pinyin": "Shì a, yǔ hái tǐng dà de.",
+    "meaning": {
+      "ja": "そうだね、雨はまだかなり強いよ。",
+      "en": "Yeah, the rain is still pretty heavy."
+    },
+    "category": "reading-notes",
+    "typing": [
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "a"
+      ],
+      [
+        "y",
+        "u"
+      ],
+      [
+        "h",
+        "a",
+        "i"
+      ],
+      [
+        "t",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "d",
+        "a"
+      ],
+      [
+        "d",
+        "e"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-phrase-015",
+    "hanzi": "不知道呢,今天下雨呢。",
+    "pinyin": "Bù zhīdào ne, jīntiān xiàyǔ ne.",
+    "meaning": {
+      "ja": "わからないな、今日は雨が降っているね。",
+      "en": "I don't know, it's raining today."
+    },
+    "category": "reading-notes",
+    "typing": [
+      [
+        "b",
+        "u"
+      ],
+      [
+        "z",
+        "h",
+        "i"
+      ],
+      [
+        "d",
+        "a",
+        "o"
+      ],
+      [
+        "n",
+        "e"
+      ],
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "x",
+        "i",
+        "a"
+      ],
+      [
+        "y",
+        "u"
+      ],
+      [
+        "n",
+        "e"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-phrase-016",
+    "hanzi": "而且,雨不小。",
+    "pinyin": "Érqiě, yǔ bù xiǎo.",
+    "meaning": {
+      "ja": "しかも、雨は小降りではありません。",
+      "en": "Moreover, the rain isn't light."
+    },
+    "category": "reading-notes",
+    "typing": [
+      [
+        "e",
+        "r"
+      ],
+      [
+        "q",
+        "i",
+        "e"
+      ],
+      [
+        "y",
+        "u"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "x",
+        "i",
+        "a",
+        "o"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-phrase-017",
+    "hanzi": "大概几点了?",
+    "pinyin": "Dàgài jǐ diǎn le?",
+    "meaning": {
+      "ja": "だいたい何時ですか?",
+      "en": "About what time is it?"
+    },
+    "category": "reading-notes",
+    "typing": [
+      [
+        "d",
+        "a"
+      ],
+      [
+        "g",
+        "a",
+        "i"
+      ],
+      [
+        "j",
+        "i"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
   }
 ]

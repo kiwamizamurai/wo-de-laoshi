@@ -1516,5 +1516,235 @@
         }
       }
     ]
+  },
+  {
+    "id": "modal-005",
+    "title": {
+      "ja": "「想」で願望を表す",
+      "en": "Using 想 to express a wish"
+    },
+    "englishGrammarRef": {
+      "ja": "want to",
+      "en": "want to"
+    },
+    "category": "modal",
+    "pattern": {
+      "ja": "想 + V",
+      "en": "想 + V"
+    },
+    "explanation": {
+      "ja": "「〜したい」という願望は動詞の前に「想」を置いて表します。「要」より柔らかく、個人的な望みのニュアンスです。",
+      "en": "To say ‘want to ~’, place 想 before the verb. It's softer than 要 and expresses a personal wish."
+    },
+    "examples": [
+      {
+        "hanzi": "我想回家。",
+        "pinyin": "Wǒ xiǎng huí jiā.",
+        "meaning": {
+          "ja": "私は家に帰りたいです。",
+          "en": "I want to go home."
+        }
+      },
+      {
+        "hanzi": "你想吃什么?",
+        "pinyin": "Nǐ xiǎng chī shénme?",
+        "meaning": {
+          "ja": "何を食べたいですか?",
+          "en": "What do you want to eat?"
+        }
+      },
+      {
+        "hanzi": "我想学中文。",
+        "pinyin": "Wǒ xiǎng xué Zhōngwén.",
+        "meaning": {
+          "ja": "私は中国語を学びたいです。",
+          "en": "I want to study Chinese."
+        }
+      }
+    ]
+  },
+  {
+    "id": "modal-006",
+    "title": {
+      "ja": "「可能」で推量を表す",
+      "en": "Using 可能 to express possibility"
+    },
+    "englishGrammarRef": {
+      "ja": "maybe / perhaps",
+      "en": "maybe / perhaps"
+    },
+    "category": "modal",
+    "pattern": {
+      "ja": "可能 (+会/要) + V",
+      "en": "可能 (+会/要) + V"
+    },
+    "explanation": {
+      "ja": "「たぶん〜かもしれない」という推量には「可能」を使います。許可を表す「可以(kěyǐ)」とは全くの別語なので混同しないようにしましょう。",
+      "en": "To say ‘maybe / perhaps ~’, use 可能 (kěnéng). It's a completely different word from 可以 (kěyǐ, ‘may’) — don't confuse the two."
+    },
+    "examples": [
+      {
+        "hanzi": "可能要下雨呢。",
+        "pinyin": "Kěnéng yào xiàyǔ ne.",
+        "meaning": {
+          "ja": "たぶん雨が降るかもしれません。",
+          "en": "It might rain."
+        }
+      },
+      {
+        "hanzi": "他可能不来了。",
+        "pinyin": "Tā kěnéng bù lái le.",
+        "meaning": {
+          "ja": "彼はたぶん来ないでしょう。",
+          "en": "He probably won't come."
+        }
+      },
+      {
+        "hanzi": "明天可能会很冷。",
+        "pinyin": "Míngtiān kěnéng huì hěn lěng.",
+        "meaning": {
+          "ja": "明日はたぶん寒くなるでしょう。",
+          "en": "It will probably be cold tomorrow."
+        }
+      }
+    ]
+  },
+  {
+    "id": "word-order-004",
+    "title": {
+      "ja": "「在+場所」で動作の場所を表す",
+      "en": "Using 在 + place to show where an action happens"
+    },
+    "englishGrammarRef": {
+      "ja": "at / in (preposition of place)",
+      "en": "at / in (preposition of place)"
+    },
+    "category": "word-order",
+    "pattern": {
+      "ja": "(S +) 在 + 場所 + V",
+      "en": "(S +) 在 + place + V"
+    },
+    "explanation": {
+      "ja": "「在」は動詞の前に置いて「〜で」という動作の場所を表す前置詞としても使います。進行形を作る「在+動詞」(tense-aspect-004)とは違う使い方なので混同しないようにしましょう。",
+      "en": "在 can also work as a preposition meaning ‘at/in ~’, placed before the verb to show where an action happens — a different use from 在 + verb for the progressive tense (tense-aspect-004)."
+    },
+    "examples": [
+      {
+        "hanzi": "在这里吃?",
+        "pinyin": "Zài zhèlǐ chī?",
+        "meaning": {
+          "ja": "ここで食べますか?",
+          "en": "Are we eating here?"
+        }
+      },
+      {
+        "hanzi": "我在家工作。",
+        "pinyin": "Wǒ zài jiā gōngzuò.",
+        "meaning": {
+          "ja": "私は家で働いています。",
+          "en": "I work at home."
+        }
+      },
+      {
+        "hanzi": "你在哪里学中文?",
+        "pinyin": "Nǐ zài nǎlǐ xué Zhōngwén?",
+        "meaning": {
+          "ja": "どこで中国語を学んでいますか?",
+          "en": "Where do you study Chinese?"
+        }
+      }
+    ]
+  },
+  {
+    "id": "word-order-005",
+    "title": {
+      "ja": "「这是」で「これは〜です」を表す",
+      "en": "Using 这是 to say ‘this is ~’"
+    },
+    "englishGrammarRef": {
+      "ja": "This is ~ / this, that",
+      "en": "This is ~ / this, that"
+    },
+    "category": "word-order",
+    "pattern": {
+      "ja": "这是/那是 + N",
+      "en": "这是/那是 + N"
+    },
+    "explanation": {
+      "ja": "「これは〜です」という基本の判断文は「这是+名詞」で作ります。名詞を伴わず単独で「これ/それ」と言う場合は「这个/那个」を使います。",
+      "en": "The basic ‘this is ~’ sentence is made with ‘这是 + noun’. When referring to ‘this/that’ on its own without a following noun, use 这个/那个 instead."
+    },
+    "examples": [
+      {
+        "hanzi": "这是我。",
+        "pinyin": "Zhè shì wǒ.",
+        "meaning": {
+          "ja": "これは私です。",
+          "en": "This is me."
+        }
+      },
+      {
+        "hanzi": "这是什么?",
+        "pinyin": "Zhè shì shénme?",
+        "meaning": {
+          "ja": "これは何ですか?",
+          "en": "What is this?"
+        }
+      },
+      {
+        "hanzi": "我要这个。",
+        "pinyin": "Wǒ yào zhège.",
+        "meaning": {
+          "ja": "これが欲しいです。",
+          "en": "I want this one."
+        }
+      }
+    ]
+  },
+  {
+    "id": "negation-003",
+    "title": {
+      "ja": "「什么都不/什么都没」で全部否定を表す",
+      "en": "Using 什么都不/什么都没 for total negation"
+    },
+    "englishGrammarRef": {
+      "ja": "not ~ anything (at all)",
+      "en": "not ~ anything (at all)"
+    },
+    "category": "negation",
+    "pattern": {
+      "ja": "什么都不 + V / 什么都没 + V",
+      "en": "什么都不 + V / 什么都没 + V"
+    },
+    "explanation": {
+      "ja": "「何も〜ない」という全部否定は、疑問詞「什么」に「都」を続け、「不」または「没」で否定します。現在・未来の否定には「不」、過去の否定には「没」を使う点はnegation-001と同じです。",
+      "en": "To say ‘not ~ anything at all’, follow the question word 什么 with 都 and negate with 不 or 没. Use 不 for present/future negation and 没 for past negation — the same distinction as negation-001."
+    },
+    "examples": [
+      {
+        "hanzi": "什么都不吃。",
+        "pinyin": "Shénme dōu bù chī.",
+        "meaning": {
+          "ja": "何も食べません。",
+          "en": "I don't eat anything."
+        }
+      },
+      {
+        "hanzi": "什么都没吃。",
+        "pinyin": "Shénme dōu méi chī.",
+        "meaning": {
+          "ja": "何も食べませんでした。",
+          "en": "I didn't eat anything."
+        }
+      },
+      {
+        "hanzi": "他什么都不知道。",
+        "pinyin": "Tā shénme dōu bù zhīdào.",
+        "meaning": {
+          "ja": "彼は何も知りません。",
+          "en": "He doesn't know anything."
+        }
+      }
+    ]
   }
 ]

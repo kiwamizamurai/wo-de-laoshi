@@ -1332,5 +1332,419 @@
         }
       }
     ]
+  },
+  {
+    "id": "word-order-003",
+    "title": {
+      "ja": "「(場所)+有+名詞」で存在・所有を表す",
+      "en": "Using (place) + 有 + noun to express existence or possession"
+    },
+    "englishGrammarRef": {
+      "ja": "There is/are ~ ; to have",
+      "en": "There is/are ~; to have"
+    },
+    "category": "word-order",
+    "pattern": {
+      "ja": "(場所) + 有 + N",
+      "en": "(place) + 有 + N"
+    },
+    "explanation": {
+      "ja": "「〜がある/いる」という存在は、場所を表す語の後ろに「有」を置いて名詞を続けます。主語を人にすれば「(人は)〜を持っている」という所有の意味にもなります。",
+      "en": "To say ‘there is/are ~’, place 有 after a location word, followed by the noun. If the subject is a person instead of a place, the same 有 expresses possession — ‘(someone) has ~’."
+    },
+    "examples": [
+      {
+        "hanzi": "房间里有很多人。",
+        "pinyin": "Fángjiān lǐ yǒu hěn duō rén.",
+        "meaning": {
+          "ja": "部屋にはたくさんの人がいます。",
+          "en": "There are many people in the room."
+        }
+      },
+      {
+        "hanzi": "我有伞。",
+        "pinyin": "Wǒ yǒu sǎn.",
+        "meaning": {
+          "ja": "私は傘を持っています。",
+          "en": "I have an umbrella."
+        }
+      },
+      {
+        "hanzi": "桌子上有一本书。",
+        "pinyin": "Zhuōzi shàng yǒu yì běn shū.",
+        "meaning": {
+          "ja": "机の上に本が一冊あります。",
+          "en": "There is a book on the desk."
+        }
+      }
+    ]
+  },
+  {
+    "id": "question-005",
+    "title": {
+      "ja": "「为什么」で理由を尋ねる",
+      "en": "Using 为什么 to ask for a reason"
+    },
+    "englishGrammarRef": {
+      "ja": "Why疑問文",
+      "en": "Why questions"
+    },
+    "category": "question",
+    "pattern": {
+      "ja": "S + 为什么 + V?",
+      "en": "S + 为什么 + V?"
+    },
+    "explanation": {
+      "ja": "「なぜ」と理由を尋ねる場合は、主語の直後に「为什么」を置きます。答えるときは「因为…」(なぜなら〜)で始めます。",
+      "en": "To ask ‘why’, place 为什么 right after the subject. Answer with 因为 (‘because ~’)."
+    },
+    "examples": [
+      {
+        "hanzi": "你今天为什么来公司?",
+        "pinyin": "Nǐ jīntiān wèishénme lái gōngsī?",
+        "meaning": {
+          "ja": "あなたは今日どうして会社に来たのですか?",
+          "en": "Why did you come to the office today?"
+        }
+      },
+      {
+        "hanzi": "你为什么不吃?",
+        "pinyin": "Nǐ wèishénme bù chī?",
+        "meaning": {
+          "ja": "どうして食べないのですか?",
+          "en": "Why aren't you eating?"
+        }
+      },
+      {
+        "hanzi": "他为什么哭了?",
+        "pinyin": "Tā wèishénme kū le?",
+        "meaning": {
+          "ja": "彼はどうして泣いたのですか?",
+          "en": "Why did he cry?"
+        }
+      }
+    ]
+  },
+  {
+    "id": "comparison-005",
+    "title": {
+      "ja": "「一点」「一点点」で程度をやわらげる",
+      "en": "Using 一点/一点点 to soften a degree"
+    },
+    "englishGrammarRef": {
+      "ja": "a little / a bit",
+      "en": "a little / a bit"
+    },
+    "category": "comparison",
+    "pattern": {
+      "ja": "(有) + 一点/一点点 + 形容詞・動詞",
+      "en": "(有) + 一点/一点点 + adjective/verb"
+    },
+    "explanation": {
+      "ja": "「少し」という程度の弱め方は、形容詞の前後に「一点」、さらに少ない量を示すなら「一点点」を添えて表します。形容詞の前に「有」を足すと「ちょっと〜だ」という口語表現になります。",
+      "en": "To soften a degree as ‘a little’, add 一点 (or the smaller-sounding 一点点) before or after an adjective/verb. Adding 有 before the adjective creates the colloquial ‘it's a bit ~’ pattern."
+    },
+    "examples": [
+      {
+        "hanzi": "今天有一点冷。",
+        "pinyin": "Jīntiān yǒu yìdiǎn lěng.",
+        "meaning": {
+          "ja": "今日は少し寒いです。",
+          "en": "It's a little cold today."
+        }
+      },
+      {
+        "hanzi": "便宜一点吧。",
+        "pinyin": "Piányi yìdiǎn ba.",
+        "meaning": {
+          "ja": "もう少し安くしてください。",
+          "en": "Please make it a bit cheaper."
+        }
+      },
+      {
+        "hanzi": "我会说一点点中文。",
+        "pinyin": "Wǒ huì shuō yìdiǎndiǎn Zhōngwén.",
+        "meaning": {
+          "ja": "私は中国語が少しだけ話せます。",
+          "en": "I can speak just a little Chinese."
+        }
+      }
+    ]
+  },
+  {
+    "id": "complement-004",
+    "title": {
+      "ja": "「为了」で目的を表す",
+      "en": "Using 为了 to express purpose"
+    },
+    "englishGrammarRef": {
+      "ja": "目的を表す表現(for / in order to)",
+      "en": "Purpose phrases (for / in order to)"
+    },
+    "category": "complement",
+    "pattern": {
+      "ja": "为了 + 目的, + 行動",
+      "en": "为了 + goal, + action"
+    },
+    "explanation": {
+      "ja": "「〜のために」という目的は、文頭で「为了+目的」を述べてから行動を続けます。動詞を2つ並べる連動文(complement-001)より目的をはっきり強調したいときに使います。",
+      "en": "To say ‘in order to ~ / for the purpose of ~’, state ‘为了 + goal’ at the start of the sentence, followed by the action. Use this when you want to emphasize the purpose more clearly than with the plain serial-verb construction (complement-001)."
+    },
+    "examples": [
+      {
+        "hanzi": "我是为了和朋友说中文才来的。",
+        "pinyin": "Wǒ shì wèile hé péngyou shuō Zhōngwén cái lái de.",
+        "meaning": {
+          "ja": "私は友達と中国語を話すために来たのです。",
+          "en": "I came in order to speak Chinese with a friend."
+        }
+      },
+      {
+        "hanzi": "为了学习中文,我每天看书。",
+        "pinyin": "Wèile xuéxí Zhōngwén, wǒ měitiān kàn shū.",
+        "meaning": {
+          "ja": "中国語を勉強するために、私は毎日本を読みます。",
+          "en": "I read every day in order to study Chinese."
+        }
+      },
+      {
+        "hanzi": "为了健康,他每天跑步。",
+        "pinyin": "Wèile jiànkāng, tā měitiān pǎobù.",
+        "meaning": {
+          "ja": "健康のために、彼は毎日走っています。",
+          "en": "He runs every day for the sake of his health."
+        }
+      }
+    ]
+  },
+  {
+    "id": "modal-005",
+    "title": {
+      "ja": "「想」で願望を表す",
+      "en": "Using 想 to express a wish"
+    },
+    "englishGrammarRef": {
+      "ja": "want to",
+      "en": "want to"
+    },
+    "category": "modal",
+    "pattern": {
+      "ja": "想 + V",
+      "en": "想 + V"
+    },
+    "explanation": {
+      "ja": "「〜したい」という願望は動詞の前に「想」を置いて表します。「要」より柔らかく、個人的な望みのニュアンスです。",
+      "en": "To say ‘want to ~’, place 想 before the verb. It's softer than 要 and expresses a personal wish."
+    },
+    "examples": [
+      {
+        "hanzi": "我想回家。",
+        "pinyin": "Wǒ xiǎng huí jiā.",
+        "meaning": {
+          "ja": "私は家に帰りたいです。",
+          "en": "I want to go home."
+        }
+      },
+      {
+        "hanzi": "你想吃什么?",
+        "pinyin": "Nǐ xiǎng chī shénme?",
+        "meaning": {
+          "ja": "何を食べたいですか?",
+          "en": "What do you want to eat?"
+        }
+      },
+      {
+        "hanzi": "我想学中文。",
+        "pinyin": "Wǒ xiǎng xué Zhōngwén.",
+        "meaning": {
+          "ja": "私は中国語を学びたいです。",
+          "en": "I want to study Chinese."
+        }
+      }
+    ]
+  },
+  {
+    "id": "modal-006",
+    "title": {
+      "ja": "「可能」で推量を表す",
+      "en": "Using 可能 to express possibility"
+    },
+    "englishGrammarRef": {
+      "ja": "maybe / perhaps",
+      "en": "maybe / perhaps"
+    },
+    "category": "modal",
+    "pattern": {
+      "ja": "可能 (+会/要) + V",
+      "en": "可能 (+会/要) + V"
+    },
+    "explanation": {
+      "ja": "「たぶん〜かもしれない」という推量には「可能」を使います。許可を表す「可以(kěyǐ)」とは全くの別語なので混同しないようにしましょう。",
+      "en": "To say ‘maybe / perhaps ~’, use 可能 (kěnéng). It's a completely different word from 可以 (kěyǐ, ‘may’) — don't confuse the two."
+    },
+    "examples": [
+      {
+        "hanzi": "可能要下雨呢。",
+        "pinyin": "Kěnéng yào xiàyǔ ne.",
+        "meaning": {
+          "ja": "たぶん雨が降るかもしれません。",
+          "en": "It might rain."
+        }
+      },
+      {
+        "hanzi": "他可能不来了。",
+        "pinyin": "Tā kěnéng bù lái le.",
+        "meaning": {
+          "ja": "彼はたぶん来ないでしょう。",
+          "en": "He probably won't come."
+        }
+      },
+      {
+        "hanzi": "明天可能会很冷。",
+        "pinyin": "Míngtiān kěnéng huì hěn lěng.",
+        "meaning": {
+          "ja": "明日はたぶん寒くなるでしょう。",
+          "en": "It will probably be cold tomorrow."
+        }
+      }
+    ]
+  },
+  {
+    "id": "word-order-004",
+    "title": {
+      "ja": "「在+場所」で動作の場所を表す",
+      "en": "Using 在 + place to show where an action happens"
+    },
+    "englishGrammarRef": {
+      "ja": "at / in (preposition of place)",
+      "en": "at / in (preposition of place)"
+    },
+    "category": "word-order",
+    "pattern": {
+      "ja": "(S +) 在 + 場所 + V",
+      "en": "(S +) 在 + place + V"
+    },
+    "explanation": {
+      "ja": "「在」は動詞の前に置いて「〜で」という動作の場所を表す前置詞としても使います。進行形を作る「在+動詞」(tense-aspect-004)とは違う使い方なので混同しないようにしましょう。",
+      "en": "在 can also work as a preposition meaning ‘at/in ~’, placed before the verb to show where an action happens — a different use from 在 + verb for the progressive tense (tense-aspect-004)."
+    },
+    "examples": [
+      {
+        "hanzi": "在这里吃?",
+        "pinyin": "Zài zhèlǐ chī?",
+        "meaning": {
+          "ja": "ここで食べますか?",
+          "en": "Are we eating here?"
+        }
+      },
+      {
+        "hanzi": "我在家工作。",
+        "pinyin": "Wǒ zài jiā gōngzuò.",
+        "meaning": {
+          "ja": "私は家で働いています。",
+          "en": "I work at home."
+        }
+      },
+      {
+        "hanzi": "你在哪里学中文?",
+        "pinyin": "Nǐ zài nǎlǐ xué Zhōngwén?",
+        "meaning": {
+          "ja": "どこで中国語を学んでいますか?",
+          "en": "Where do you study Chinese?"
+        }
+      }
+    ]
+  },
+  {
+    "id": "word-order-005",
+    "title": {
+      "ja": "「这是」で「これは〜です」を表す",
+      "en": "Using 这是 to say ‘this is ~’"
+    },
+    "englishGrammarRef": {
+      "ja": "This is ~ / this, that",
+      "en": "This is ~ / this, that"
+    },
+    "category": "word-order",
+    "pattern": {
+      "ja": "这是/那是 + N",
+      "en": "这是/那是 + N"
+    },
+    "explanation": {
+      "ja": "「これは〜です」という基本の判断文は「这是+名詞」で作ります。名詞を伴わず単独で「これ/それ」と言う場合は「这个/那个」を使います。",
+      "en": "The basic ‘this is ~’ sentence is made with ‘这是 + noun’. When referring to ‘this/that’ on its own without a following noun, use 这个/那个 instead."
+    },
+    "examples": [
+      {
+        "hanzi": "这是我。",
+        "pinyin": "Zhè shì wǒ.",
+        "meaning": {
+          "ja": "これは私です。",
+          "en": "This is me."
+        }
+      },
+      {
+        "hanzi": "这是什么?",
+        "pinyin": "Zhè shì shénme?",
+        "meaning": {
+          "ja": "これは何ですか?",
+          "en": "What is this?"
+        }
+      },
+      {
+        "hanzi": "我要这个。",
+        "pinyin": "Wǒ yào zhège.",
+        "meaning": {
+          "ja": "これが欲しいです。",
+          "en": "I want this one."
+        }
+      }
+    ]
+  },
+  {
+    "id": "negation-003",
+    "title": {
+      "ja": "「什么都不/什么都没」で全部否定を表す",
+      "en": "Using 什么都不/什么都没 for total negation"
+    },
+    "englishGrammarRef": {
+      "ja": "not ~ anything (at all)",
+      "en": "not ~ anything (at all)"
+    },
+    "category": "negation",
+    "pattern": {
+      "ja": "什么都不 + V / 什么都没 + V",
+      "en": "什么都不 + V / 什么都没 + V"
+    },
+    "explanation": {
+      "ja": "「何も〜ない」という全部否定は、疑問詞「什么」に「都」を続け、「不」または「没」で否定します。現在・未来の否定には「不」、過去の否定には「没」を使う点はnegation-001と同じです。",
+      "en": "To say ‘not ~ anything at all’, follow the question word 什么 with 都 and negate with 不 or 没. Use 不 for present/future negation and 没 for past negation — the same distinction as negation-001."
+    },
+    "examples": [
+      {
+        "hanzi": "什么都不吃。",
+        "pinyin": "Shénme dōu bù chī.",
+        "meaning": {
+          "ja": "何も食べません。",
+          "en": "I don't eat anything."
+        }
+      },
+      {
+        "hanzi": "什么都没吃。",
+        "pinyin": "Shénme dōu méi chī.",
+        "meaning": {
+          "ja": "何も食べませんでした。",
+          "en": "I didn't eat anything."
+        }
+      },
+      {
+        "hanzi": "他什么都不知道。",
+        "pinyin": "Tā shénme dōu bù zhīdào.",
+        "meaning": {
+          "ja": "彼は何も知りません。",
+          "en": "He doesn't know anything."
+        }
+      }
+    ]
   }
 ]

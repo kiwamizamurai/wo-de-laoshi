@@ -7045,5 +7045,551 @@
         "a"
       ]
     ]
+  },
+  {
+    "id": "reading-notes-001",
+    "hanzi": "为什么",
+    "pinyin": "wèishénme",
+    "meaning": {
+      "ja": "なぜ、どうして",
+      "en": "why"
+    },
+    "category": "reading-notes",
+    "example": {
+      "sentence": "你今天为什么来公司?",
+      "pinyin": "Nǐ jīntiān wèishénme lái gōngsī?",
+      "meaning": {
+        "ja": "あなたは今日どうして会社に来たのですか?",
+        "en": "Why did you come to the office today?"
+      }
+    },
+    "typing": [
+      [
+        "w",
+        "e",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-002",
+    "hanzi": "为了",
+    "pinyin": "wèile",
+    "meaning": {
+      "ja": "〜のために",
+      "en": "for the purpose of; in order to"
+    },
+    "category": "reading-notes",
+    "example": {
+      "sentence": "为了学习中文,我每天看书。",
+      "pinyin": "Wèile xuéxí Zhōngwén, wǒ měitiān kàn shū.",
+      "meaning": {
+        "ja": "中国語を勉強するために、私は毎日本を読みます。",
+        "en": "I read every day in order to study Chinese."
+      }
+    },
+    "typing": [
+      [
+        "w",
+        "e",
+        "i"
+      ],
+      [
+        "l",
+        "e"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-003",
+    "hanzi": "和",
+    "pinyin": "hé",
+    "meaning": {
+      "ja": "〜と、そして",
+      "en": "and; with"
+    },
+    "category": "reading-notes",
+    "example": {
+      "sentence": "我和你一起去。",
+      "pinyin": "Wǒ hé nǐ yìqǐ qù.",
+      "meaning": {
+        "ja": "私はあなたと一緒に行きます。",
+        "en": "I'll go together with you."
+      }
+    },
+    "typing": [
+      [
+        "h",
+        "e"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-004",
+    "hanzi": "因为",
+    "pinyin": "yīnwèi",
+    "meaning": {
+      "ja": "なぜなら、〜なので",
+      "en": "because"
+    },
+    "category": "reading-notes",
+    "example": {
+      "sentence": "因为今天下雨,所以我不去。",
+      "pinyin": "Yīnwèi jīntiān xiàyǔ, suǒyǐ wǒ bú qù.",
+      "meaning": {
+        "ja": "今日は雨が降っているので、私は行きません。",
+        "en": "Because it's raining today, I'm not going."
+      }
+    },
+    "typing": [
+      [
+        "y",
+        "i",
+        "n"
+      ],
+      [
+        "w",
+        "e",
+        "i"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-005",
+    "hanzi": "所以",
+    "pinyin": "suǒyǐ",
+    "meaning": {
+      "ja": "だから、それで",
+      "en": "so; therefore"
+    },
+    "category": "reading-notes",
+    "example": {
+      "sentence": "我太累了,所以我想回家。",
+      "pinyin": "Wǒ tài lèi le, suǒyǐ wǒ xiǎng huí jiā.",
+      "meaning": {
+        "ja": "私は疲れすぎたので、家に帰りたいです。",
+        "en": "I'm too tired, so I want to go home."
+      }
+    },
+    "typing": [
+      [
+        "s",
+        "u",
+        "o"
+      ],
+      [
+        "y",
+        "i"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-006",
+    "hanzi": "如果",
+    "pinyin": "rúguǒ",
+    "meaning": {
+      "ja": "もし〜なら",
+      "en": "if"
+    },
+    "category": "reading-notes",
+    "example": {
+      "sentence": "如果明天下雨的话,我就不去。",
+      "pinyin": "Rúguǒ míngtiān xiàyǔ de huà, wǒ jiù bú qù.",
+      "meaning": {
+        "ja": "もし明日雨が降ったら、私は行きません。",
+        "en": "If it rains tomorrow, I won't go."
+      }
+    },
+    "typing": [
+      [
+        "r",
+        "u"
+      ],
+      [
+        "g",
+        "u",
+        "o"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-007",
+    "hanzi": "太",
+    "pinyin": "tài",
+    "meaning": {
+      "ja": "〜すぎる",
+      "en": "too; excessively"
+    },
+    "category": "reading-notes",
+    "example": {
+      "sentence": "今天太热了。",
+      "pinyin": "Jīntiān tài rè le.",
+      "meaning": {
+        "ja": "今日は暑すぎます。",
+        "en": "It's too hot today."
+      }
+    },
+    "typing": [
+      [
+        "t",
+        "a",
+        "i"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-008",
+    "hanzi": "快",
+    "pinyin": "kuài",
+    "meaning": {
+      "ja": "(速度が)速い",
+      "en": "fast; quick"
+    },
+    "category": "reading-notes",
+    "example": {
+      "sentence": "你说得太快了。",
+      "pinyin": "Nǐ shuō de tài kuài le.",
+      "meaning": {
+        "ja": "あなたは話すのが速すぎます。",
+        "en": "You speak too fast."
+      }
+    },
+    "typing": [
+      [
+        "k",
+        "u",
+        "a",
+        "i"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-009",
+    "hanzi": "一点点",
+    "pinyin": "yìdiǎndiǎn",
+    "meaning": {
+      "ja": "少しずつ、ほんの少し",
+      "en": "little by little; just a tiny bit"
+    },
+    "category": "reading-notes",
+    "example": {
+      "sentence": "我会说一点点中文。",
+      "pinyin": "Wǒ huì shuō yìdiǎndiǎn Zhōngwén.",
+      "meaning": {
+        "ja": "私は中国語が少しだけ話せます。",
+        "en": "I can speak just a little Chinese."
+      }
+    },
+    "typing": [
+      [
+        "y",
+        "i"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-010",
+    "hanzi": "一点",
+    "pinyin": "yìdiǎn",
+    "meaning": {
+      "ja": "少し、ちょっと",
+      "en": "a little; a bit"
+    },
+    "category": "reading-notes",
+    "example": {
+      "sentence": "今天有一点冷。",
+      "pinyin": "Jīntiān yǒu yìdiǎn lěng.",
+      "meaning": {
+        "ja": "今日は少し寒いです。",
+        "en": "It's a little cold today."
+      }
+    },
+    "typing": [
+      [
+        "y",
+        "i"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-011",
+    "hanzi": "有",
+    "pinyin": "yǒu",
+    "meaning": {
+      "ja": "ある、いる、持っている",
+      "en": "there is/are; to have"
+    },
+    "category": "reading-notes",
+    "example": {
+      "sentence": "我有伞。",
+      "pinyin": "Wǒ yǒu sǎn.",
+      "meaning": {
+        "ja": "私は傘を持っています。",
+        "en": "I have an umbrella."
+      }
+    },
+    "typing": [
+      [
+        "y",
+        "o",
+        "u"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-012",
+    "hanzi": "想",
+    "pinyin": "xiǎng",
+    "meaning": {
+      "ja": "〜したい",
+      "en": "want to"
+    },
+    "category": "reading-notes",
+    "example": {
+      "sentence": "我想回家。",
+      "pinyin": "Wǒ xiǎng huí jiā.",
+      "meaning": {
+        "ja": "私は家に帰りたいです。",
+        "en": "I want to go home."
+      }
+    },
+    "typing": [
+      [
+        "x",
+        "i",
+        "a",
+        "n",
+        "g"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-013",
+    "hanzi": "可能",
+    "pinyin": "kěnéng",
+    "meaning": {
+      "ja": "たぶん、〜かもしれない",
+      "en": "maybe; probably"
+    },
+    "category": "reading-notes",
+    "example": {
+      "sentence": "可能要下雨呢。",
+      "pinyin": "Kěnéng yào xiàyǔ ne.",
+      "meaning": {
+        "ja": "たぶん雨が降るかもしれません。",
+        "en": "It might rain."
+      }
+    },
+    "typing": [
+      [
+        "k",
+        "e"
+      ],
+      [
+        "n",
+        "e",
+        "n",
+        "g"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-014",
+    "hanzi": "就",
+    "pinyin": "jiù",
+    "meaning": {
+      "ja": "それなら、そうしたら(条件の結果を強調)",
+      "en": "then (emphasizes the result of a condition)"
+    },
+    "category": "reading-notes",
+    "example": {
+      "sentence": "如果下雨,我就不去。",
+      "pinyin": "Rúguǒ xiàyǔ, wǒ jiù bú qù.",
+      "meaning": {
+        "ja": "もし雨が降ったら、私は行きません。",
+        "en": "If it rains, then I won't go."
+      }
+    },
+    "typing": [
+      [
+        "j",
+        "i",
+        "u"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-015",
+    "hanzi": "但是",
+    "pinyin": "dànshì",
+    "meaning": {
+      "ja": "しかし、でも",
+      "en": "but; however"
+    },
+    "category": "reading-notes",
+    "example": {
+      "sentence": "但是你没认出来这是我。",
+      "pinyin": "Dànshì nǐ méi rènchūlái zhè shì wǒ.",
+      "meaning": {
+        "ja": "でもあなたはこれが私だと気づきませんでした。",
+        "en": "But you didn't recognize that this was me."
+      }
+    },
+    "typing": [
+      [
+        "d",
+        "a",
+        "n"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-016",
+    "hanzi": "而且",
+    "pinyin": "érqiě",
+    "meaning": {
+      "ja": "しかも、その上",
+      "en": "moreover; furthermore"
+    },
+    "category": "reading-notes",
+    "example": {
+      "sentence": "而且,雨不小。",
+      "pinyin": "Érqiě, yǔ bù xiǎo.",
+      "meaning": {
+        "ja": "しかも、雨は小降りではありません。",
+        "en": "Moreover, the rain isn't light."
+      }
+    },
+    "typing": [
+      [
+        "e",
+        "r"
+      ],
+      [
+        "q",
+        "i",
+        "e"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-017",
+    "hanzi": "大概",
+    "pinyin": "dàgài",
+    "meaning": {
+      "ja": "だいたい、おそらく",
+      "en": "approximately; probably"
+    },
+    "category": "reading-notes",
+    "example": {
+      "sentence": "大概几点了?",
+      "pinyin": "Dàgài jǐ diǎn le?",
+      "meaning": {
+        "ja": "だいたい何時ですか?",
+        "en": "About what time is it?"
+      }
+    },
+    "typing": [
+      [
+        "d",
+        "a"
+      ],
+      [
+        "g",
+        "a",
+        "i"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-018",
+    "hanzi": "是啊",
+    "pinyin": "shì a",
+    "meaning": {
+      "ja": "そうだね、そうです",
+      "en": "that's right; yeah"
+    },
+    "category": "reading-notes",
+    "example": {
+      "sentence": "是啊,雨还挺大的。",
+      "pinyin": "Shì a, yǔ hái tǐng dà de.",
+      "meaning": {
+        "ja": "そうだね、雨はまだかなり強いよ。",
+        "en": "Yeah, the rain is still pretty heavy."
+      }
+    },
+    "typing": [
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "a"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-019",
+    "hanzi": "真的",
+    "pinyin": "zhēnde",
+    "meaning": {
+      "ja": "本当に、本当の",
+      "en": "really; truly"
+    },
+    "category": "reading-notes",
+    "example": {
+      "sentence": "真的吗?",
+      "pinyin": "Zhēnde ma?",
+      "meaning": {
+        "ja": "本当ですか?",
+        "en": "Really?"
+      }
+    },
+    "typing": [
+      [
+        "z",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "d",
+        "e"
+      ]
+    ]
   }
 ]

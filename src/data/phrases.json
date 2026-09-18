@@ -11837,5 +11837,415 @@
         "o"
       ]
     ]
+  },
+  {
+    "id": "reading-notes-phrase-001",
+    "hanzi": "你今天为什么来公司?",
+    "pinyin": "Nǐ jīntiān wèishénme lái gōngsī?",
+    "meaning": {
+      "ja": "あなたは今日どうして会社に来たのですか?",
+      "en": "Why did you come to the office today?"
+    },
+    "category": "reading-notes",
+    "typing": [
+      [
+        "n",
+        "i"
+      ],
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "w",
+        "e",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "l",
+        "a",
+        "i"
+      ],
+      [
+        "g",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "s",
+        "i"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-phrase-002",
+    "hanzi": "我是为了和朋友说中文才来的。",
+    "pinyin": "Wǒ shì wèile hé péngyou shuō Zhōngwén cái lái de.",
+    "meaning": {
+      "ja": "私は友達と中国語を話すために来たのです。",
+      "en": "I came in order to speak Chinese with a friend."
+    },
+    "category": "reading-notes",
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "s",
+        "h",
+        "i"
+      ],
+      [
+        "w",
+        "e",
+        "i"
+      ],
+      [
+        "l",
+        "e"
+      ],
+      [
+        "h",
+        "e"
+      ],
+      [
+        "p",
+        "e",
+        "n",
+        "g"
+      ],
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "s",
+        "h",
+        "u",
+        "o"
+      ],
+      [
+        "z",
+        "h",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "w",
+        "e",
+        "n"
+      ],
+      [
+        "c",
+        "a",
+        "i"
+      ],
+      [
+        "l",
+        "a",
+        "i"
+      ],
+      [
+        "d",
+        "e"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-phrase-003",
+    "hanzi": "为什么今天不热?",
+    "pinyin": "Wèishénme jīntiān bú rè?",
+    "meaning": {
+      "ja": "どうして今日は暑くないのですか?",
+      "en": "Why isn't it hot today?"
+    },
+    "category": "reading-notes",
+    "typing": [
+      [
+        "w",
+        "e",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "e",
+        "n"
+      ],
+      [
+        "m",
+        "e"
+      ],
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "r",
+        "e"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-phrase-004",
+    "hanzi": "因为今天下雨,所以我不去。",
+    "pinyin": "Yīnwèi jīntiān xiàyǔ, suǒyǐ wǒ bú qù.",
+    "meaning": {
+      "ja": "今日は雨が降っているので、私は行きません。",
+      "en": "Because it's raining today, I'm not going."
+    },
+    "category": "reading-notes",
+    "typing": [
+      [
+        "y",
+        "i",
+        "n"
+      ],
+      [
+        "w",
+        "e",
+        "i"
+      ],
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "x",
+        "i",
+        "a"
+      ],
+      [
+        "y",
+        "u"
+      ],
+      [
+        "s",
+        "u",
+        "o"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "q",
+        "u"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-phrase-005",
+    "hanzi": "如果明天下雨的话,我就不去。",
+    "pinyin": "Rúguǒ míngtiān xiàyǔ de huà, wǒ jiù bú qù.",
+    "meaning": {
+      "ja": "もし明日雨が降ったら、私は行きません。",
+      "en": "If it rains tomorrow, I won't go."
+    },
+    "category": "reading-notes",
+    "typing": [
+      [
+        "r",
+        "u"
+      ],
+      [
+        "g",
+        "u",
+        "o"
+      ],
+      [
+        "m",
+        "i",
+        "n",
+        "g"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "x",
+        "i",
+        "a"
+      ],
+      [
+        "y",
+        "u"
+      ],
+      [
+        "d",
+        "e"
+      ],
+      [
+        "h",
+        "u",
+        "a"
+      ],
+      [
+        "w",
+        "o"
+      ],
+      [
+        "j",
+        "i",
+        "u"
+      ],
+      [
+        "b",
+        "u"
+      ],
+      [
+        "q",
+        "u"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-phrase-006",
+    "hanzi": "今天有一点冷。",
+    "pinyin": "Jīntiān yǒu yìdiǎn lěng.",
+    "meaning": {
+      "ja": "今日は少し寒いです。",
+      "en": "It's a little cold today."
+    },
+    "category": "reading-notes",
+    "typing": [
+      [
+        "j",
+        "i",
+        "n"
+      ],
+      [
+        "t",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "y",
+        "o",
+        "u"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "l",
+        "e",
+        "n",
+        "g"
+      ]
+    ]
+  },
+  {
+    "id": "reading-notes-phrase-007",
+    "hanzi": "我会说一点点中文。",
+    "pinyin": "Wǒ huì shuō yìdiǎndiǎn Zhōngwén.",
+    "meaning": {
+      "ja": "私は中国語が少しだけ話せます。",
+      "en": "I can speak just a little Chinese."
+    },
+    "category": "reading-notes",
+    "typing": [
+      [
+        "w",
+        "o"
+      ],
+      [
+        "h",
+        "u",
+        "i"
+      ],
+      [
+        "s",
+        "h",
+        "u",
+        "o"
+      ],
+      [
+        "y",
+        "i"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "d",
+        "i",
+        "a",
+        "n"
+      ],
+      [
+        "z",
+        "h",
+        "o",
+        "n",
+        "g"
+      ],
+      [
+        "w",
+        "e",
+        "n"
+      ]
+    ]
   }
 ]
